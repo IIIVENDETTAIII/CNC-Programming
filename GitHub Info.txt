@@ -1,6 +1,6 @@
 Для сброса сохраненных паролей >>> Powershell / CMD >>> git config --global --unset credential.helper
 
-Для проверки: git config --global credential.helper если ничего не выводит значит удалились
+Для проверки: git config --global credential.helper >>> если ничего не выводит значит удалились
 
 
 1️⃣ Что делает
