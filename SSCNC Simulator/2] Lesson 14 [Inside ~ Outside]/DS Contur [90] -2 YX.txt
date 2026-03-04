@@ -1,0 +1,139 @@
+(Name: Outside - Inside, Ramazan, Aluminium, 200x100x30 , Tool 16, RPM 1600, Feed Rate 160, Length Tool 120, G54 Z Axis -449.999)
+
+O0003 (200X100 R40)
+G17 G21 G49 G80 G90
+M06 T02
+
+G54
+G00 X-20 Y-20
+M03 S1600
+M08
+
+G00 Z50
+G00 Z5
+
+(First)
+G01 Z-2 F500
+
+G42 D16 X0 Y-6 F160
+
+X206
+Y106
+X-6
+G02 X-6 Y60
+G01 Y0
+
+G40 X-20 Y-20 (Save position)
+
+(Second)
+G01 Z-4 F500
+
+G42 D16 X0 Y-4 F160
+
+X204
+Y104
+X-4
+G02 X-4 Y60
+G01 Y0
+
+G40 X-20 Y-20 (Save position)
+
+(Third)
+G01 Z-6 F500
+
+G42 D16 X0 Y-2 F160
+
+X202
+Y102
+X-2
+G02 X-2 Y60
+G01 Y0
+
+G40 X-20 Y-20 (Save position)
+
+(4)
+G01 Z-8 F500
+
+G42 D16 X0 Y0 F160
+
+X200
+Y100
+X0
+G02 X0 Y60
+G01 Y0
+
+G40 X-20 Y-20 (Save position)
+
+(5)
+G01 Z-10 F500
+
+G42 D16 X0 Y0 F160
+
+X198
+Y98
+X2
+G02 X2 Y60
+G01 Y2
+
+G40 X-20 Y-20 (Save position)
+
+(6)
+G01 Z-12 F500
+
+G42 D16 X0 Y0 F160
+
+X196
+Y96
+X4
+G02 X4 Y60
+G01 Y4
+
+G40 X-20 Y-20 (Save position)
+
+(7)
+G01 Z-14 F500
+
+G42 D16 X0 Y0 F160
+
+X194
+Y94
+X6
+G02 X6 Y60
+G01 Y6
+
+G40 X-20 Y-20 (Save position)
+
+(6)
+G01 Z-16 F500
+
+G42 D16 X0 Y0 F160
+
+X192
+Y92
+X8
+G02 X8 Y60
+G01 Y8
+
+G40 X-20 Y-20 (Save position)
+
+(7 Cut scrap corners)
+G01 Z-16 F500
+
+G42 D16 X0 Y0 F160
+
+X196
+Y96
+X4
+G02 X4 Y60
+G01 Y4
+
+G40 X-20 Y-20 (Save position)
+
+
+G0 Z50
+M09
+M05
+M30
+
+(Commit: Нужно добавить с Radius не доходя до конца угла до следующего угла используя G02 и G03 по часовой или против часовой стрелки);
+(G02 По часовой стрелке и G03 Против часовой стрелки);

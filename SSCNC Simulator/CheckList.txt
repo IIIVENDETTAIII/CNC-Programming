@@ -1,0 +1,16 @@
+Запуск программы: (Открыть сохраненные конфиги нужной папки)
+
+1] File > Open Code (Видеть какие характеристики инструментов и рабочей области в комментарии)
+
+2] Machine Operation > Tool Management > Выставить нужные параметры Tool > Length / Diameter / RPM / Feed / Tool Type / Flutes / Insert Material
+
+3] Workpiece > Stock Size and WCS > Выставить нужные параметры заготовки для G54
+
+4] Workpiece > Clamp > Vise > Locate up and down > Виды Clamp Types - Виды зажимов и положение заготовки
+
+5] Machine operation > Select Z Axis Gauge (100mm) > Коснуться до включения диода и сохранить для G54 'Part Zero Set' > Далее убрать и спуститься на (100mm) по Z и повторить
+
+6] Можно просто прикоснуться концом работающего сверла до верхней части заготовки и после перейти в Раздел с Tool > Найти свой Tool (На пример 1-Spindle) >
+	> Перейти в раздел 'Geometry' и нажать на кнопку TOOL OFFSET MESUR если покажет на пример с целыми числами, можно просто округлить в 000
+
+После настройки 0, перезапускать Workpiece

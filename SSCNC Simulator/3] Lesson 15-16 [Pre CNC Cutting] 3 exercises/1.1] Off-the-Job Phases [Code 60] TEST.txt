@@ -1,0 +1,32 @@
+%
+O0001
+
+(Name: Ramazan Huseinov, Aluminium, 'XYZ - 150x100x10', T02 - End Mill / Slot Drill, Diameter 10mm, Corner Radius: 0, Flutes: 2 or 4, Length Offset H02, Deep 3mm)
+
+G21
+G17 G90 G40 G49 G80
+G54
+
+T02 M06
+M03 S2000
+G0 G43 H02 Z15
+
+G00 X5 Y5
+G01 Z-3 F200
+G01 X145 Y5 F300
+G01 X145 Y95
+G01 X5 Y5
+G00 Z15
+
+G00 X47.5 Y75
+G01 Z-3 F200
+G01 X102.5 F300
+G00 Z15
+
+G00 X90 Y30
+G01 Z-3 F200
+G01 X120 Y70 F300
+
+G00 Z50
+M30
+%
