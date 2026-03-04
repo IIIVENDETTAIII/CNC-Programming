@@ -20,7 +20,7 @@ G01 X-40 Y0 ;
 G00 G40 X-80 Y0 ;
 G00 Z50 ;
 
-(--- Internal contour with bridge ---)
+(--- Internal contour with bridge 222 ---)
 G00 X-25 Y-20 ;
 G00 Z2 ;
 G01 Z-10 F100 ;
