@@ -7,7 +7,7 @@ G90 G00 G54 X0 Y0 ;
 G00 G43 Z50 H01 ;
 M03 S1200 ;
 
-(--- External contour ---)
+(--- External contour 111 ---)
 G00 X-80 Y0 ;
 M08 ;
 G00 Z-10 ;
