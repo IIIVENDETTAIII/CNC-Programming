@@ -17,3 +17,78 @@ git config	Изменяет или показывает настройки Git
 --global	Применяет настройку ко всем репозиториям на этом ПК
 --unset	Убирает указанную настройку
 credential.helper	Настройка, отвечающая за хранение логинов/паролей
+
+
+
+======================================================================================
+ EXIT EXIT EXIT EXIT EXIT EXIT EXIT EXIT EXIT EXIT EXIT EXIT EXIT EXIT EXIT EXIT EXIT 
+======================================================================================
+
+# Выход из GitHub CLI Terminal в VS Code
+gh auth logout
+
+# Очистить сохраненные токены
+gh auth status
+
+# Если нужно полностью удалить учетные данные
+# Windows (PowerShell):
+Remove-Item $env:APPDATA\GitHub  -Recurse -Force
+
+======================================================================================
+
+# Windows (PowerShell): через GIT CREDENTIALS (Самый безопасный)
+git config --global --unset user.name
+git config --global --unset user.email
+git config --global --unset credential.helper
+
+# Удалить сохраненные пароли:
+# Settings → Credentials Manager (Управление учетными данными)
+# Найти → github.com → Удалить
+
+======================================================================================
+
+Создайте скрипт для быстрого выхода:
+
+Windows (logout.ps1):
+-------------------------------------------
+
+
+# Выход из всех сервисов
+Write-Host "Выход из GitHub..."
+gh auth logout
+
+Write-Host "Очистка Git конфигурации..."
+git config --global --unset user.name
+git config --global --unset user.email
+
+Write-Host "Очистка сохраненных данных..."
+$credPath = "$env:APPDATA\GitHub"
+if (Test-Path $credPath) {
+    Remove-Item $credPath -Recurse -Force
+}
+
+Write-Host "✅ Все аккаунты удалены!"
+
+
+-------------------------------------------
+PowerShell -ExecutionPolicy Bypass -File logout.ps1
+
+
+
+=================================================================================
+ CHECKLIST CHECKLIST CHECKLIST CHECKLIST CHECKLIST CHECKLIST CHECKLIST CHECKLIST
+=================================================================================
+
+
+gh auth logout # ☑ Выход из GitHub
+Sign Out # ☑ Выход из VS Code профиля 
+git config --unset # ☑ Удаление Git credentials
+git config --global --list # ☑ Проверка: (не должно быть личных данных)
+
+
+=====================================================================================
+ AUTHORIZATION AUTHORIZATION AUTHORIZATION AUTHORIZATION AUTHORIZATION AUTHORIZATION
+=====================================================================================
+
+# Terminal в VS Code (Ctrl + `)
+gh auth login
