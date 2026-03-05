@@ -1,6 +1,6 @@
 ====================================================================
 LESSON 3: WORK OFFSETS & COMPENSATION THEORY
-CNC Programming Fundamentals
+CNC Programming Fundamentals 
 ====================================================================
 
 1. MACHINE vs WORK COORDINATE SYSTEMS
