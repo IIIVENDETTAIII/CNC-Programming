@@ -98,8 +98,7 @@ powershell -ExecutionPolicy Bypass -File ".\github-login-and-check.ps1" -UserNam
  AUTHORIZATION WITH TERMINAL VS CODE + SCRIPT AUTHORIZATION WITH TERMINAL VS CODE + SCRIPT
 ===========================================================================================
 
-Set-Location -LiteralPath "c:\Users\RamazanHuseinov(Stud\Desktop\Ramazan Huseinov [CNC]"
-
+Set-Location -LiteralPath "c:\Users\RamazanHuseinov(Stud\Desktop\Ramazan Huseinov [CNC]\GITHUB"
 
 powershell -ExecutionPolicy Bypass -File ".\github-logout-and-check.ps1"
 powershell -ExecutionPolicy Bypass -File ".\github-login-and-check.ps1"
