@@ -19,7 +19,6 @@ git config	Изменяет или показывает настройки Git
 credential.helper	Настройка, отвечающая за хранение логинов/паролей
 
 
-
 ======================================================================================
  EXIT EXIT EXIT EXIT EXIT EXIT EXIT EXIT EXIT EXIT EXIT EXIT EXIT EXIT EXIT EXIT EXIT 
 ======================================================================================
@@ -90,5 +89,18 @@ git config --global --list # ☑ Проверка: (не должно быть �
  AUTHORIZATION AUTHORIZATION AUTHORIZATION AUTHORIZATION AUTHORIZATION AUTHORIZATION
 =====================================================================================
 
-# Terminal в VS Code (Ctrl + `)
+# Terminal в VS Code
 gh auth login
+
+powershell -ExecutionPolicy Bypass -File ".\github-login-and-check.ps1" -UserName "iiivendettaiii" -UserEmail "ramazanargon@gmail.com"
+
+===========================================================================================
+ AUTHORIZATION WITH TERMINAL VS CODE + SCRIPT AUTHORIZATION WITH TERMINAL VS CODE + SCRIPT
+===========================================================================================
+
+Set-Location -LiteralPath "c:\Users\RamazanHuseinov(Stud\Desktop\Ramazan Huseinov [CNC]"
+
+
+powershell -ExecutionPolicy Bypass -File ".\github-logout-and-check.ps1"
+powershell -ExecutionPolicy Bypass -File ".\github-login-and-check.ps1"
+powershell -ExecutionPolicy Bypass -File ".\github-auth-check.ps1"
