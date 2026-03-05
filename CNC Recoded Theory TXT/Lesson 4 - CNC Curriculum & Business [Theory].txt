@@ -1,0 +1,258 @@
+====================================================================
+LESSON 4: CNC CURRICULUM & BUSINESS FUNDAMENTALS
+Foundation & Organizational Knowledge
+====================================================================
+
+1. UNDERSTANDING CNC CURRICULUM STRUCTURE
+ENGLISH:
+The CNC curriculum is designed to be comprehensive and covers both technical CNC programming knowledge and business/organizational concepts. Students progress from basic theory and simulation to practical machine operation. Assessment is continuous throughout the course with both theoretical tests and practical demonstrations on actual CNC machines.
+
+РУССКИЙ:
+Программа ЧПУ разработана как всеобъемлющая и охватывает как техническое знание программирования ЧПУ, так и бизнес/организационные концепции. Студенты переходят от базовой теории и моделирования к практической работе на реальных станках ЧПУ. Оценка ведется постоянно на протяжении всего курса с теоретическими тестами и практическими демонстрациями на реальных станках.
+
+---
+
+2. CNC TRAINING ASSESSMENT METHODS
+ENGLISH:
+CNC certification requires:
+- Written assessments covering G-codes, M-codes, machine concepts, and calculations
+- Practical assessments on the CNC simulator proving ability to write and run programs
+- Practical machine work demonstrating safe operation and correct offset setting
+- Unit assessments covering specific topics from lessons
+- Final comprehensive exam testing all knowledge areas
+
+Students must demonstrate competency in both English language explanations and practical application of concepts.
+
+РУССКИЙ:
+Сертификация ЧПУ требует:
+- Письменные оценки, охватывающие G-коды, M-коды, концепции машин и расчеты
+- Практические оценки на симуляторе ЧПУ, доказывающие способность писать и запускать программы
+- Практическая работа на машине, демонстрирующая безопасную работу и правильное установку смещения
+- Оценки отдельных единиц, охватывающие определенные темы из уроков
+- Финальный комплексный экзамен, тестирующий все знания
+
+Студенты должны продемонстрировать компетентность в объяснениях на английском языке и практическом применении концепций.
+
+---
+
+3. BUSINESS ORGANIZATIONS - FUNCTIONAL AREAS
+ENGLISH:
+A typical business organization includes several functional areas:
+
+SUPPORT FUNCTIONS:
+- Human Resources: Responsible for recruiting, training, employee welfare
+- Finance: Handles accounting, budgeting, financial planning
+- Administration: Office management, scheduling, record-keeping
+
+OPERATIONAL FUNCTIONS:
+- Sales & Marketing: Customer acquisition, market research, communication
+- Engineering & Design: Product design, technical specifications, CAM programming
+- Manufacturing/Production: Actual machine operation, quality control, assembly
+- Distribution & Logistics: Shipping, inventory management, delivery
+
+Each area has specific job roles and responsibilities that work together to achieve company goals.
+
+РУССКИЙ:
+Типичная бизнес-организация включает несколько функциональных областей:
+
+ВСПОМОГАТЕЛЬНЫЕ ФУНКЦИИ:
+- Человеческие ресурсы: отвечает за найм, обучение, благополучие сотрудников
+- Финансы: управляет бухгалтерией, бюджетированием, финансовым планированием
+- Администрирование: управление офисом, планирование, ведение документации
+
+ОПЕРАЦИОННЫЕ ФУНКЦИИ:
+- Продажи и маркетинг: приобретение клиентов, исследование рынка, коммуникация
+- Инженерия и проектирование: проектирование продуктов, технические спецификации, программирование CAM
+- Производство: фактическая работа на машине, контроль качества, сборка
+- Распределение и логистика: доставка, управление запасами, доставка
+
+Каждая область имеет специфические роли работы и обязанности, которые работают вместе для достижения целей компании.
+
+---
+
+4. JOB ROLES IN MANUFACTURING
+ENGLISH:
+Support Functions:
+- HR Manager: Hires and trains staff, manages employee benefits
+- Finance Manager: Controls company budget and expenses
+- Office Administrator: Organizes office operations
+
+Sales & Marketing:
+- Sales Manager: Manages customer relationships and orders
+- Marketing Specialist: Promotes company and products
+- Customer Service Representative: Handles customer inquiries
+
+Engineering & Manufacturing:
+- Process Engineer: Designs manufacturing processes
+- CNC Programmer: Writes programs for CNC machines
+- CNC Machine Operator: Runs CNC machines
+- Quality Technician: Checks product quality
+- Assembly Technician: Assembles finished components
+
+Planning & Distribution:
+- Logistics Coordinator: Manages inventory and shipping
+
+РУССКИЙ:
+Вспомогательные функции:
+- Менеджер по персоналу: нанимает и обучает персонал, управляет льготами сотрудников
+- Финансовый менеджер: контролирует бюджет компании и расходы
+- Офис-администратор: организует операции в офисе
+
+Продажи и маркетинг:
+- Менеджер по продажам: управляет отношениями с клиентами и заказами
+- Специалист по маркетингу: продвигает компанию и продукты
+- Представитель обслуживания клиентов: обрабатывает запросы клиентов
+
+Инженерия и производство:
+- Технолог: проектирует производственные процессы
+- Программист ЧПУ: пишет программы для станков ЧПУ
+- Оператор станка ЧПУ: управляет станками ЧПУ
+- Специалист по контролю качества: проверяет качество продукта
+- Техник сборки: собирает готовые компоненты
+
+Планирование и распределение:
+- Координатор логистики: управляет запасами и доставкой
+
+---
+
+5. STAKEHOLDER EXPECTATIONS
+ENGLISH:
+Stakeholders are individuals or groups with interest in the business. Each has different expectations:
+
+OWNERS/SHAREHOLDERS: Expect profit, return on investment, business growth
+CUSTOMERS: Expect quality products, competitive prices, reliable delivery, good service
+EMPLOYEES: Expect fair wages, safe working conditions, job security, training opportunities
+SUPPLIERS: Expect payment on time, reliable orders, professional relationships
+GOVERNMENT: Expects compliance with laws, tax payments, safety regulations
+COMMUNITY: Expects environmental responsibility, job creation, local investment
+
+Managing these sometimes conflicting expectations requires balance and good communication.
+
+РУССКИЙ:
+Заинтересованные стороны - это люди или группы, заинтересованные в бизнесе. Каждый имеет разные ожидания:
+
+СОБСТВЕННИКИ/АКЦИОНЕРЫ: Ожидают прибыли, возврата инвестиций, роста бизнеса
+КЛИЕНТЫ: Ожидают качественных продуктов, конкурентных цен, надежной доставки, хорошего сервиса
+СОТРУДНИКИ: Ожидают справедливой заработной платы, безопасных условий труда, гарантий работы, возможностей обучения
+ПОСТАВЩИКИ: Ожидают своевременного платежа, надежных заказов, профессиональных отношений
+ПРАВИТЕЛЬСТВО: Ожидает соблюдения законов, уплаты налогов, безопасности
+СООБЩЕСТВО: Ожидает экологической ответственности, создания рабочих мест, местных инвестиций
+
+Управление этими иногда конфликтующими ожиданиями требует баланса и хорошей коммуникации.
+
+---
+
+6. INTERNAL FACTORS CAUSING CHANGE IN BUSINESS
+ENGLISH:
+FINANCE CHANGES: Budget constraints, investment in new equipment, cost reduction initiatives
+EFFICIENCY IMPROVEMENTS: New manufacturing processes, automation, lean manufacturing principles
+QUALITY ENHANCEMENTS: New quality standards, better inspection procedures, error reduction
+SKILL DEVELOPMENT: Training programs, employee development, new certifications
+
+These changes are planned and controlled by management to improve company performance and competitiveness.
+
+РУССКИЙ:
+ФИНАНСОВЫЕ ИЗМЕНЕНИЯ: Бюджетные ограничения, инвестиции в новое оборудование, инициативы по снижению затрат
+УЛУЧШЕНИЯ ЭФФЕКТИВНОСТИ: Новые производственные процессы, автоматизация, принципы бережливого производства
+УЛУЧШЕНИЯ КАЧЕСТВА: Новые стандарты качества, улучшенные процедуры проверки, снижение ошибок
+РАЗВИТИЕ НАВЫКОВ: Программы обучения, развитие сотрудников, новые сертификации
+
+Эти изменения планируются и контролируются менеджментом для улучшения производительности и конкурентоспособности компании.
+
+---
+
+7. EXTERNAL FACTORS CAUSING CHANGE IN BUSINESS
+ENGLISH:
+LEGISLATION: New laws affecting workplace safety, environmental regulations, tax laws
+TECHNOLOGY ADVANCES: New CNC machines, software updates, Industry 4.0, automation
+MARKET FORCES: Competition, customer demand changes, new market opportunities, price fluctuations
+SOCIAL CHANGES: Workforce demographics, cultural shifts, environmental awareness
+ECONOMIC CONDITIONS: Recession, inflation, currency changes, supply chain disruptions
+
+External factors force businesses to adapt and innovate to remain competitive and compliant.
+
+РУССКИЙ:
+ЗАКОНОДАТЕЛЬСТВО: Новые законы, регулирующие безопасность на рабочем месте, экологические нормы, налоговые законы
+ТЕХНОЛОГИЧЕСКИЕ ДОСТИЖЕНИЯ: Новые станки ЧПУ, обновления программного обеспечения, Индустрия 4.0, автоматизация
+РЫНОЧНЫЕ СИЛЫ: Конкуренция, изменения спроса клиентов, новые рыночные возможности, колебания цен
+СОЦИАЛЬНЫЕ ИЗМЕНЕНИЯ: Демография рабочей силы, культурные сдвиги, экологическое сознание
+ЭКОНОМИЧЕСКИЕ УСЛОВИЯ: Рецессия, инфляция, изменения валют, нарушения цепи поставок
+
+Внешние факторы заставляют предприятия адаптироваться и инновационно развиваться, чтобы оставаться конкурентоспособными и соответствующими требованиям.
+
+---
+
+8. COMMUNICATION IN BUSINESS
+ENGLISH:
+TWO-WAY COMMUNICATION: Most effective form where both sender and receiver can exchange information, ask questions, and clarify misunderstandings. Examples: meetings, discussions, face-to-face conversations.
+
+FORMAL COMMUNICATION: Official, structured communication within company hierarchy. Examples: official emails, reports, meeting minutes, procedures.
+
+INFORMAL COMMUNICATION: Casual, social communication between colleagues. Examples: coffee break conversations, casual emails, quick questions.
+
+WRITTEN COMMUNICATION: Permanent record, allows time to compose message carefully. Examples: emails, reports, memos.
+
+SPOKEN COMMUNICATION: Immediate feedback, allows for tone and emphasis. Examples: phone calls, meetings, presentations.
+
+РУССКИЙ:
+ДВУСТОРОННЯЯ КОММУНИКАЦИЯ: Наиболее эффективная форма, где отправитель и получатель могут обмениваться информацией, задавать вопросы и уточнять недоразумения. Примеры: встречи, обсуждения, личные разговоры.
+
+ФОРМАЛЬНАЯ КОММУНИКАЦИЯ: Официальная, структурированная коммуникация в иерархии компании. Примеры: официальные электронные письма, отчеты, протоколы встреч, процедуры.
+
+НЕФОРМАЛЬНАЯ КОММУНИКАЦИЯ: Случайная, социальная коммуникация между коллегами. Примеры: разговоры на кофе-брейке, случайные письма, быстрые вопросы.
+
+ПИСЬМЕННАЯ КОММУНИКАЦИЯ: Постоянная запись, позволяет время для тщательного составления сообщения. Примеры: электронные письма, отчеты, служебные записки.
+
+УСТНАЯ КОММУНИКАЦИЯ: Немедленная обратная связь, позволяет тон и акцент. Примеры: телефонные звонки, встречи, презентации.
+
+---
+
+9. BUSINESS DOCUMENTATION & RECORDS
+ENGLISH:
+GANTT CHARTS: Visual timeline showing project schedule, milestones, and dependencies
+BILL OF MATERIALS (BOM): List of all components needed to manufacture a product with quantities
+TECHNICAL DRAWINGS: Specifications for products including dimensions, tolerances, materials
+JOB CARDS: Work instructions for specific manufacturing tasks with setup and operation details
+EMAILS: Internal and external communication documentation
+WORK ORDERS: Instructions to production team specifying what to manufacture
+QUALITY REPORTS: Documentation of quality checks and test results
+TIME SHEETS: Recording hours worked for payroll and project tracking
+
+These documents ensure clear communication, accountability, and traceability of all operations.
+
+РУССКИЙ:
+ДИАГРАММЫ ГАНТА: Визуальная шкала времени, показывающая расписание проекта, вехи и зависимости
+СПЕЦИФИКАЦИЯ МАТЕРИАЛОВ (BOM): Список всех компонентов, необходимых для производства продукта с количествами
+ТЕХНИЧЕСКИЕ ЧЕРТЕЖИ: Спецификации для продуктов, включая размеры, допуски, материалы
+РАБОЧИЕ КАРТОЧКИ: Инструкции по работе для конкретных производственных задач с деталями настройки и работы
+ПИСЬМА: Документация внутренней и внешней коммуникации
+РАБОЧИЕ ПРИКАЗЫ: Инструкции производственной команде, указывающие что производить
+ОТЧЕТЫ О КАЧЕСТВЕ: Документация проверок качества и результатов испытаний
+ТАБЕЛИ РАБОЧЕГО ВРЕМЕНИ: Запись отработанных часов для расчета зарплаты и отслеживания проекта
+
+Эти документы обеспечивают четкую коммуникацию, подотчетность и отслеживаемость всех операций.
+
+---
+
+10. ORGANIZATIONAL CHART & REPORTING STRUCTURE
+ENGLISH:
+A typical manufacturing company has a hierarchical structure:
+- Director/General Manager at the top
+- Department Managers (HR, Finance, Operations) reporting to Director
+- Team Leaders reporting to Department Managers
+- Individual team members (operators, technicians, engineers) reporting to Team Leaders
+
+This structure ensures clear communication flow, responsibility assignment, and decision-making authority. Each person knows their role and who they report to. Clear communication down and up the hierarchy prevents confusion and improves efficiency.
+
+РУССКИЙ:
+Типичная производственная компания имеет иерархическую структуру:
+- Директор/Генеральный менеджер в верхней части
+- Менеджеры отделов (HR, Финансы, Операции), подчиняющиеся директору
+- Руководители команд, подчиняющиеся менеджерам подразделений
+- Отдельные члены команды (операторы, техники, инженеры), подчиняющиеся руководителям команд
+
+Эта структура обеспечивает четкий поток коммуникации, назначение ответственности и полномочия по принятию решений. Каждый человек знает свою роль и кому они подчиняются. Четкая коммуникация вверх и вниз по иерархии предотвращает путаницу и улучшает эффективность.
+
+====================================================================
+END OF LESSON 4 THEORY
+====================================================================

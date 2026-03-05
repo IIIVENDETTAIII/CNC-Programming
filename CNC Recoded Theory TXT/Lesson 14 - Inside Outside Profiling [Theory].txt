@@ -1,0 +1,92 @@
+====================================================================
+LESSON 14: INSIDE vs OUTSIDE PROFILING & SAFETY
+Contour milling, compensation, cutter diameter selection
+====================================================================
+
+1. INSIDE/OUTSIDE DEFINITIONS
+ENGLISH:
+- **Outside profile**: tool path runs outside the part boundary; use for
+  external contours. Cutter diameter is added to the program coordinates with
+  G41/G42 (left/right compensation).
+- **Inside profile**: tool path runs inside an internal pocket or bore; cutter
+  diameter subtracted accordingly. Tool compensation still required but sign
+  reversed.
+- Program a nominal path (center of cutter) and let the controller adjust.
+
+РУССКИЙ:
+- **Наружный контур**: путь инструмента идёт снаружи границы детали; для
+  внешних контуров. Диаметр фрезы добавляется к координатам программы с G41/G42
+  (компенсация слева/справа).
+- **Внутренний контур**: путь идёт внутри кармана или отверстия; диаметр
+  фрезы вычитается. Компенсация инструмента всё равно нужна, но с обратным
+  знаком.
+- Программируйте номинальный путь (центр фрезы) и позвольте контроллеру
+  скорректировать.
+
+---
+
+2. COMPENSATION & PROGRAMMING
+ENGLISH:
+- Start with `G0 X... Y...` to bring cutter to start point with compensation off.
+- Use `G41` or `G42` right before cutting move; program radius or diameter (`D`)
+  if required by machine.
+- Example: to machine the outside of a 50 mm square with a 10 mm cutter
+    - Program: X25 Y0 then G41; cut to X25 Y50.
+    - Controller offsets 5 mm (radius) on each move.
+- Cancel compensation with `G40` when retracting to clear or at program end.
+- Always specify cutter number first (`T1 M6`), set offsets, then G41/G42 on
+  move following an incremental or absolute position move. Otherwise machine will
+  complain.
+
+РУССКИЙ:
+- Начинайте с `G0 X... Y...`, чтобы подвести фрезу к началу с компенсацией
+  выключенной.
+- Используйте `G41` или `G42` непосредственно перед режущим движением; задайте
+  радиус или диаметр (`D`) если требует станок.
+- Пример: обработать наружный контур квадрата 50 мм фрезой 10 мм
+    - В программе: X25 Y0 затем G41; резать до X25 Y50.
+    - Контроллер добавит 5 мм радиуса к каждому движению.
+- Отменяйте компенсацию `G40` при отводе или в конце программы.
+- Всегда указывайте номер инструмента первым (`T1 M6`), установите смещения,
+  затем G41/G42 на движение после перемещения в абсолютных или относительных
+  координатах. Иначе станок выдаст ошибку.
+
+---
+
+3. CUTTER DIAMETER & STEP‑OVER
+ENGLISH:
+- Choose cutter diameter considering feature size and rigidity; small internal
+  pockets need smaller cutters.
+- For spiral or multiple passes, radial step‑over is usually 10‑30 % of cutter
+  diameter to maintain good surface finish.
+- For outside profiling, if part is 2 mm wide, cutter must be ≤ 1.8 mm plus
+  allowance for compensation.
+
+РУССКИЙ:
+- Выбирайте диаметр фрезы с учётом размера детали и жёсткости; маленькие
+  карманы требуют маленьких фрез.
+- Для спиральных или множественных проходов радиальный шаг обычно 10‑30 %
+  диаметра фрезы для хорошей чистоты поверхности.
+- Для наружного профилирования, если деталь 2 мм в ширину, фреза должна быть
+  ≤ 1.8 мм плюс запас на компенсацию.
+
+---
+
+4. SAFETY & CHECKS
+ENGLISH:
+- Always verify whether a profile is inside or outside before activating
+  compensation; wrong sign leads to gouging or missing the part.
+- Use single‑block test to check compensation logic on the first segment.
+- When cutting near holes, ensure tool doesn’t climb into the hole due to
+  incorrect compensation or wrong lead‑in/out.
+
+РУССКИЙ:
+- Всегда проверяйте, внутренний это контур или наружный, прежде чем включать
+  компенсацию; неправильный знак приводит к врезанию или к пропуску детали.
+- Проверьте логику компенсации на первом отрезке в режиме single‑block.
+- При резке возле отверстий убедитесь, что фреза не залезет внутрь из‑за
+  неверной компенсации или неправильного захода/выхода.
+
+====================================================================
+END OF LESSON 14 THEORY
+====================================================================

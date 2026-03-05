@@ -1,0 +1,159 @@
+====================================================================
+LESSON 8: CNC PROGRAM BASICS & MATERIAL/TOOL SELECTION
+Создание программы: чертёж, материал, инструмент
+====================================================================
+
+1. DRAWINGS ARE MANDATORY
+ENGLISH:
+- A drawing (2D sketch) is the **starting point** for any program. Without it you
+  cannot assign coordinates (X, Y) or know what to make.
+- Engineering drawings use symbols instead of words; you must "learn the
+  language" (ISO, ANSI/ASA, European, American standards).
+- Tolerances, material notes and feature geometry are all read from the drawing.
+- If no material is shown, ask – different steels, aluminium and titanium dictate
+  very different speeds/feeds.
+
+РУССКИЙ:
+- Чертёж (двумерный эскиз) – **основа** любой программы. Без него невозможно
+  задать координаты (X, Y) и понять, что изготавливать.
+- Инженерные чертежи передают всё с помощью символов; нужно "выучить
+  язык" (стандарты ISO, ANSI/ASA и т.д.).
+- Допуски, указания по материалу и геометрия деталей читаются из чертежа.
+- Если материал не указан, спросите – разные стали, алюминий, титан требуют
+  разные скорости и подачи.
+
+---
+
+2. RAW MATERIAL CHOICE
+ENGLISH:
+- The workpiece material affects cutting speed (Vc), tool choice and coolant.
+- Examples: aerospace parts use high‑strength alloys; medical implants specify
+  grade in the drawing. Aluminium allows very high Vc; stainless steel is slow.
+- Incorrect material → wrong tooling, broken cutters, poor surface finish.
+
+РУССКИЙ:
+- Материал заготовки влияет на скорость резания (Vc), выбор инструмента и
+  охлаждение.
+- Примеры: авиационные детали – высокопрочные сплавы; медицинские – материал
+  указывают прямо на чертеже. Алюминий допускает очень высокие Vc; нержавейка –
+  медленно резать.
+- Неправильный материал → неверный инструмент, сломанные фрезы, плохая
+  поверхность.
+
+---
+
+3. TOOL SELECTION LOGIC
+ENGLISH:
+- Diameter must fit the feature: slot width, pocket size, etc. Smaller than the
+  cut!
+- Flute count:
+  * 2‑flute = plenty of chip space → **plunging** operations & slots.
+  * 3‑flute = general purpose, better feed rate.
+  * 4‑flute = side/shoulder milling, smooth finish, not for plunging.
+- Tool types: flat end mill, spot drill, ball nose, chamfer, drill, reamer,
+  countersink, tapping, etc. Each has a distinct use.
+- Helix angle (usually 45°–60°) affects chip evacuation and plunge behaviour.
+- Shank style: Weldon (flat) or threaded. Weldon easier to clamp but must match
+  collet size; threaded screws into holder.
+
+РУССКИЙ:
+- Диаметр должен быть меньше размера функции: ширины канавки, кармана.
+- Число канавок:
+  * 2 канавки – много места для стружки → **погружение** и пазовые фрезы.
+  * 3 канавки – универсальная, хорошая подача.
+  * 4 канавки – фрезы для боковой обработки, гладкая поверхность, не для
+    погружения.
+- Виды фрез: концевые, центровочные, шаровые, фасонные, сверла, развертки,
+  зенкеры, метчики и т.д. Каждый – для своей операции.
+- Угол спирали (Helix) обычно 45–60°; влияет на эвакуацию стружки и
+  способность погружаться.
+- Тип хвостовика: Weldon (с плоской частью) или резьбовой. Weldon проще
+  зажать, но диаметр должен точно соответствовать патрону; резьбовой
+  заворачивается в держатель.
+
+---
+
+4. WORK HOLDING & WCS NAMES
+ENGLISH:
+- A vice or fixture is given an address (G54, G55, G56 …). Program tells the
+  machine which vice to use by calling that WCS.
+- Example: clamp blank in vice #1 and set offsets → G54. Put a second blank in
+  vice #2 → G55. The program does not "know" which vice is which unless you
+  give it an address.
+- You may name offsets arbitrarily; only the matching number in program matters.
+- Centre‑clamping vs corner‑clamping: Centre (positive X/Y values) is easiest
+  for programming; corner clamping keeps all coordinates positive.
+- Work envelope ≈ 400×200×200 mm; actual safe travel per side ~200 mm. Always
+  stay inside or you will get an X‑overtravel alarm.
+
+РУССКИЙ:
+- Тиски или приспособление получают адрес (G54, G55, G56 …). Программа
+  указывает станку, какой тиск использовать, вызвав соответствующее WCS.
+- Пример: зажмите заготовку в тисках № 1 и выставьте смещение → G54. Вторую
+  заготовку в тисках № 2 → G55. Станок не "видит" тиски, пока вы не дадите
+  им адрес.
+- Нумерацию смещений можно выбирать произвольно; важно лишь совпадение
+  номера в программе и в таблице смещений.
+- Зажим по центру удобнее для программирования; по углу – тогда все X/Y
+  координаты положительные.
+- Рабочая область ≈ 400×200×200 мм, эффективный ход в каждом направлении ~200 мм.
+  Всегда работайте внутри – при выходе получите ошибку X‑overtravel.
+
+---
+
+5. OFFSET PROCEDURES
+ENGLISH:
+- Edge finder: spin at 500‑750 RPM; when tip aligns with edge axis the
+  floating indicator stops wobbling. Record point and subtract half the
+  diameter (6 mm → feed 3 mm back). Store value with "Part Zero Set".
+- DTI (Dial Test Indicator): use for curved/cylindrical surfaces where edge
+  finder won't touch properly; reads X/Y centre automatically, no diameter
+  compensation needed.
+- Tool height (Z) offset: measure each tool in a height‑setting block, store
+  H‑value. Apply with `G43 Hxx` before cutting. H values stay constant unless
+  tool is changed or cleaned.
+- In simulator you can simply set WCS X/Y to 0 manually; real machine requires
+  probing or edge finder touches.
+- Always check WCS after touching – the stored value is the difference between
+  machine datum and part datum. `G54 X0 Y0` will take you to the part origin.
+
+РУССКИЙ:
+- Край‑указатель: вращать 500‑750 об/мин; когда кончик выравнивается с краем,
+  «шарик» прекращает колебаться. Зафиксируйте позицию и откатитесь на половину
+  диаметра (6 мм → назад на 3 мм). Сохраните значение кнопкой «Part Zero Set».
+- Индикатор (DTI): используется для криволинейных поверхностей, где
+  край‑указатель не удерживается; показывает центр X/Y без компенсации
+  диаметра.
+- Смещение по высоте: измеряется для каждого инструмента на высотном
+  конусе, значение сохраняется под H‑кодом. Применяется через `G43 Hxx` перед
+  резанием. H‑значения остаются постоянными, пока инструмент не меняют или не
+  очищают.
+- В симуляторе можно просто установить WCS X/Y в 0; на реальном станке нужна
+  проба кромки или DTI.
+- Всегда проверяйте WCS после касания – это разница между датумом станка и
+  датумом детали. Команда `G54 X0 Y0` ведёт к нулю детали.
+
+---
+
+6. PROGRAM SAFETY & HOME MOVES
+ENGLISH:
+- Use `G53` or `G28` with incremental prefix `G91` to return to machine home
+  before tool change. Example: `G91 G28 Z0` then `G90` to restore absolute
+  mode.
+- Safe height conventions: Z‑50 or Z‑100 above workpiece as clearance before
+  rapid travel. Choose value based on edge‑finder block height (usually 50 mm).
+- Remove tool from spindle only after it is at home position and spindle stopped.
+
+РУССКИЙ:
+- Для возврата в нулевое положение станка перед сменой инструмента используйте
+  `G53` или `G28` с префиксом `G91`. Пример: `G91 G28 Z0` затем `G90` для
+  возврата абсолютного режима.
+- Безопасная высота: Z‑50 или Z‑100 мм над заготовкой как зазор перед
+  быстрым перемещением. Выбирайте в зависимости от высоты оправки (обычно
+  50 мм).
+- Сменять инструмент разрешается только после того, как он в безопасном
+  положении и шпиндель остановлен.
+
+====================================================================
+END OF LESSON 8 THEORY
+====================================================================

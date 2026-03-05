@@ -1,0 +1,941 @@
+====================================================================
+CNC PROGRAMMING EXAM REVIEW GUIDE
+Quick Reference Checklist & Study Plan
+====================================================================
+
+PART 1: EXAM DOMAINS (What You'll Be Tested On)
+====================================================================
+
+DOMAIN 1: MACHINE COORDINATE SYSTEMS & SETUP (25%)
+ENGLISH:
+Topics:
+□ Machine coordinate system (MCS) vs Work coordinate system (WCS)
+□ MCS: Fixed by manufacturer, cannot change
+□ WCS: Set by programmer for each workpiece
+□ Edge finder tool - when used, how used, 6mm compensation
+□ Dial Test Indicator (DTI) - alternative method for center finding
+□ Finding X coordinate: Horizontal axis, left-right movement
+□ Finding Y coordinate: Vertical axis (table), front-back movement  
+□ Finding Z coordinate: Vertical machine axis (spindle), up-down
+□ Perpendicularity compensation with six square
+□ G54 through G59 offset codes (6 possible work offsets)
+□ Work offset setting: Part zero point selection
+□ Offset application timing: When and how points are set
+
+РУССКИЙ:
+Темы:
+□ Координатная система станка (MCS) vs система координат заготовки (WCS)
+□ MCS: Фиксирована производителем, не может изменяться
+□ WCS: Устанавливается программистом для каждой заготовки
+□ Edge finder – когда использовать, как использовать, компенсация 6 мм
+□ Dial Test Indicator (DTI) – альтернативный метод поиска центра
+□ Поиск координаты X: горизонтальная ось, движение влево-вправо
+□ Поиск координаты Y: вертикальная ось (стол), движение вперёд-назад
+□ Поиск координаты Z: вертикальная ось станка (шпиндель), движение вверх-вниз
+□ Компенсация перпендикулярности с квадратом
+□ Коды смещения G54–G59 (6 возможных рабочих смещений)
+□ Установка рабочего смещения: выбор нулевой точки детали
+□ Время применения смещения: когда и как устанавливаются точки
+
+---
+
+DOMAIN 2: SPEEDS, FEEDS & CALCULATIONS (20%)
+ENGLISH:
+Topics:
+□ Spindle speed formula: N = (Vc × 1000) / (π × D)
+□ Understand each variable: N (RPM), Vc (cutting speed), D (tool diameter)
+□ Cutting speed (Vc) values by material:
+   - Aluminum: 250-400 m/min
+   - Steel: 100-200 m/min (much slower)
+   - Cast iron: 80-150 m/min (same as steel)
+   - Stainless steel: 80-150 m/min
+   - Brass: 300+ m/min
+   - Copper: 200-300 m/min
+□ Feed rate formula: F = N × Z × FPT
+□ Feed per tooth (FPT) concept: Feed per each cutting flute
+□ Flute count impact: 2-flute vs 3-flute vs 4-flute difference
+□ When to use each flute count (2 for plunging, 4 for side milling)
+□ Material Removal Rate (MRR): Productivity measure
+□ Tool coatings: TiN, TiAlN, Cobalt (improve speed 10-20%)
+□ Cutting speed adjustments by operation (facing, slotting, shoulder)
+
+РУССКИЙ:
+Темы:
+□ Формула скорости шпинделя: N = (Vc × 1000) / (π × D)
+□ Понимание каждой переменной: N (об/мин), Vc (скорость резания), D (диаметр инструмента)
+□ Значения скорости резания (Vc) по материалам:
+   - Алюминий: 250–400 м/мин
+   - Сталь: 100–200 м/мин (намного медленнее)
+   - Чугун: 80–150 м/мин (как сталь)
+   - Нержавейка: 80–150 м/мин
+   - Латунь: 300+ м/мин
+   - Медь: 200–300 м/мин
+□ Формула подачи: F = N × Z × FPT
+□ Концепция подачи на зуб (FPT): подача на каждую режущую канавку
+□ Влияние количества канавок: различия 2-зубцовой vs 3-зубцовой vs 4-зубцовой
+□ Когда использовать каждое количество зубцов (2 для погружения, 4 для боковой фрезеровки)
+□ Скорость удаления материала (MRR): мера производительности
+□ Покрытия инструмента: TiN, TiAlN, Cobalt (улучшают скорость на 10–20%)
+□ Корректировка скорости резания по операциям (торцевание, паз, плечо)
+
+---
+
+DOMAIN 3: PROGRAM STRUCTURE & G-CODES (25%)
+ENGLISH:
+Topics:
+□ Complete program structure template (10 stages)
+□ Program numbering: O prefix (O00001-O99999 format)
+□ Safety codes at startup:
+   - G17 (XY plane selection)
+   - G20 or G21 (Inch or Metric units)
+   - G40 (Cancel diameter offset)
+   - G49 (Cancel height offset)
+   - G80 (Cancel cycles)
+   - G90 (Absolute positioning mode)
+□ Tool selection: T codes (T01, T02, etc.)
+□ Work offset selection: G54-G59 codes
+□ Tool length offset: H codes with G43 application
+□ Movement codes:
+   - G00 (Rapid positioning, fastest)
+   - G01 (Linear interpolation, controlled feed)
+   - G02 (Clockwise arc)
+   - G03 (Counter-clockwise arc)
+□ Spindle control:
+   - S code: Spindle speed in RPM
+   - M03: Start spindle clockwise
+   - M04: Start spindle counter-clockwise
+   - M05: Stop spindle
+□ Coolant control:
+   - M08: Coolant on
+   - M09: Coolant off
+□ Program end:
+   - M02: End program (spindle continues)
+   - M30: End program (spindle stops, reset)
+
+РУССКИЙ:
+Темы:
+□ Полная структура программы (10 этапов)
+□ Нумерация программ: префикс O (формат O00001–O99999)
+□ Коды безопасности при запуске:
+   - G17 (выбор плоскости XY)
+   - G20 или G21 (дюймы или метрические единицы)
+   - G40 (отмена компенсации диаметра)
+   - G49 (отмена компенсации высоты)
+   - G80 (отмена циклов)
+   - G90 (режим абсолютного позиционирования)
+□ Выбор инструмента: коды T (T01, T02 и т.д.)
+□ Выбор рабочего смещения: коды G54–G59
+□ Смещение по длине инструмента: коды H с применением G43
+□ Коды движения:
+   - G00 (быстрое позиционирование, самое быстрое)
+   - G01 (линейная интерполяция, контролируемая подача)
+   - G02 (окружность по часовой)
+   - G03 (окружность против часовой)
+□ Управление шпинделем:
+   - S код: скорость шпинделя в об/мин
+   - M03: запуск шпинделя по часовой
+   - M04: запуск шпинделя против часовой
+   - M05: остановка шпинделя
+□ Управление охлаждением:
+   - M08: охлаждение включено
+   - M09: охлаждение выключено
+□ Конец программы:
+   - M02: конец программы (шпиндель продолжает вращение)
+   - M30: конец программы (шпиндель останавливается, сброс)
+
+---
+
+DOMAIN 4: MACHINE OPERATION & SAFETY (15%)
+ENGLISH:
+Topics:
+□ X/Y/Z axes identification and positive directions
+□ Workspace envelope concept (size limitations)
+□ Work holding devices (vice, clamps, step blocks)
+□ Power-up procedure
+□ Pre-operation checklist (10 critical checks)
+□ Emergency stop button (large red button kills all motion)
+□ Door interlock (prevents operation when door open)
+□ Common hazards during operation
+□ Rapid override button and percentage selection
+□ Program verification workflow
+□ Dry-run procedure with Z-axis offset safety
+□ Graphics mode simulation purpose
+□ Safe feed rate percentages (5-10% for first pass)
+□ Z-offset safety height (50mm above workpiece)
+□ Direction of tool rotation (CW M03 vs CCW M04)
+□ Spindle speed startup (allow ramp-up before cutting)
+
+РУССКИЙ:
+Темы:
+□ Идентификация осей X/Y/Z и положительные направления
+□ Концепция рабочей зоны (ограничения размера)
+□ Устройства закрепления заготовки (тиски, зажимы, прокладки)
+□ Процедура включения питания
+□ Контрольный список перед работой (10 критических проверок)
+□ Кнопка аварийной остановки (красная кнопка останавливает всё движение)
+□ Блокировка двери (предотвращает работу при открытой двери)
+□ Распространённые опасности при работе
+□ Кнопка переоткрытия и процент выбора
+□ Процедура проверки программы
+□ Сухой прогон с безопасностью смещения по оси Z
+□ Назначение графического режима моделирования
+□ Безопасные проценты подачи (5–10% для первого прохода)
+□ Безопасная высота Z-смещения (50 мм выше заготовки)
+□ Направление вращения инструмента (CW M03 vs CCW M04)
+□ Запуск скорости шпинделя (дайте время на раскручивание перед резанием)
+
+---
+
+DOMAIN 5: CUTTING TOOLS & TOOL MANAGEMENT (10%)
+ENGLISH:
+Topics:
+□ Tool nomenclature: Shank, cutting portion, flutes, helix angle
+□ Tool types: 
+   - Flat end mill (general purpose)
+   - Spot drill (for starting holes)
+   - Ball nose (for 3D curves)
+   - Side mill, form tool, etc.
+□ Flute selection logic (2, 3, or 4 flutes)
+□ Axial depth of cut (Z-axis depth per pass)
+□ Radial depth of cut (step-over, horizontal depth)
+□ Tool length constraints
+□ Tool cutting length limitations (prevents crashes)
+□ Multi-pass strategy for deep cuts
+□ Tool coatings and their benefits
+□ Tool mounting procedure
+□ Tool offset (height) application
+
+РУССКИЙ:
+Темы:
+□ Номенклатура инструмента: хвостовик, режущая часть, канавки, угол спирали
+□ Типы инструмента:
+   - Торцевая фреза (универсальная)
+   - Центровочная фреза (для начала отверстий)
+   - Шаровая фреза (для 3D кривых)
+   - Боковая фреза, фреза-форма и т.д.
+□ Логика выбора количества канавок (2, 3 или 4)
+□ Осевая глубина резания (глубина по оси Z за проход)
+□ Радиальная глубина резания (шаг по радиусу, горизонтальная глубина)
+□ Ограничения длины инструмента
+□ Ограничения активной длины инструмента (предотвращает столкновения)
+□ Стратегия многопроходной обработки для глубоких резов
+□ Покрытия инструмента и их преимущества
+□ Процедура установки инструмента
+□ Применение смещения инструмента (высота)
+
+---
+
+DOMAIN 6: ADVANCED TOPICS (5%)
+ENGLISH:
+Topics:
+□ Cutter compensation (G40, G41, G42)
+□ G41: Inside cutting pattern (tool moves left of programmed path)
+□ G42: Outside cutting pattern (tool moves right of programmed path)
+□ Radius compensation direction logic
+□ Sub-programs: M98 call with M99 return
+□ M98 P22 L20: Call program O22, repeat 20 times
+□ Program numbering strategy
+□ Repetitive operation efficiency
+□ Inside vs outside cutting differences
+
+РУССКИЙ:
+Темы:
+□ Компенсация радиуса режущего инструмента (G40, G41, G42)
+□ G41: внутренний контур (инструмент смещается влево от программного пути)
+□ G42: внешний контур (инструмент смещается вправо от программного пути)
+□ Логика компенсации радиуса по направлению
+□ Подпрограммы: вызов M98 с возвратом M99
+□ M98 P22 L20: вызвать программу O22, повторить 20 раз
+□ Стратегия нумерации программ
+□ Эффективность повторяющихся операций
+□ Различия внутреннего и внешнего контура
+
+---
+
+DOMAIN 7: HEALTH & SAFETY (5%)
+ENGLISH:
+Topics:
+□ Manual handling: Proper lifting technique (10 critical points)
+□ Ergonomics: Sitting, standing, and workstation setup
+□ Spine anatomy and vulnerability (90% injuries in lumbar region)
+□ Disc structure and herniation risks
+□ Lifting hazards and prevention
+□ Long-term health consequences of poor mechanics
+□ Proper body mechanics daily
+□ Stretching and mobility importance
+
+РУССКИЙ:
+Темы:
+□ Ручной подъём грузов: правильная техника подъёма (10 критических моментов)
+□ Эргономика: сидячая, стоячая и организация рабочего места
+□ Анатомия позвоночника и уязвимость (90% травм в поясничном отделе)
+□ Структура диска и риск грыжи
+□ Опасности при подъёме и профилактика
+□ Долгосрочные последствия плохой механики тела
+□ Правильная механика тела каждый день
+□ Важность растяжки и подвижности
+
+---
+
+DOMAIN 8: BUSINESS & ORGANIZATIONAL (Theoretical 5%)
+ENGLISH:
+Topics:
+□ CNC manufacturer business structure
+□ Functional areas: Support (HR, Finance, Admin) vs Operations 
+  (Sales, Marketing, Engineering, Manufacturing, Distribution)
+□ Job roles in each department
+□ Stakeholder types and their expectations:
+   - Customers: Quality, on-time delivery, good price
+   - Employees: Fair pay, safe environment, development
+   - Owners: Profitability, growth, market position
+   - Suppliers: Fair payment terms, reliable volume
+   - Government: Regulatory compliance, tax payment
+   - Community: Employment, environmental responsibility
+□ Internal change factors: Finance, efficiency, quality, workforce development
+□ External change factors: Legislation, technology, market forces, social changes, 
+  economic conditions
+□ Communication types: Formal (written) and informal (talk)
+□ Business documents: Gantt charts, BOM, technical drawings, job cards, quality 
+  reports, work orders, time sheets
+
+РУССКИЙ:
+Темы:
+□ Структура бизнеса производителя CNC
+□ Функциональные области: Поддержка (HR, финансы, администрация) vs 
+  Операции (продажи, маркетинг, инженерия, производство, распределение)
+□ Роли в каждом отделе
+□ Типы заинтересованных сторон и их ожидания:
+   - Клиенты: Качество, вовремя, хорошая цена
+   - Сотрудники: Справедливая оплата, безопасность, развитие
+   - Владельцы: Прибыль, рост, рыночная позиция
+   - Поставщики: Справедливые условия, надёжный объём
+   - Правительство: Соответствие законам, уплата налогов
+   - Сообщество: Занятость, экологическая ответственность
+□ Внутренние факторы изменения: финансы, эффективность, качество, развитие персонала
+□ Внешние факторы изменения: законодательство, технология, рыночные силы, социальные 
+  изменения, экономические условия
+□ Типы общения: формальное (письменное) и неформальное (разговорное)
+□ Бизнес-документы: диаграммы Ганта, BOM (спецификация), технические чертежи, 
+  карточки работ, отчёты качества, наряды, временные листы
+
+====================================================================
+PART 2: CRITICAL FORMULAS (Memorize These)
+====================================================================
+
+FORMULA 1: SPINDLE SPEED CALCULATION
+ENGLISH:
+N = (Vc × 1000) / (π × D)
+
+Where:
+- N = Spindle speed in RPM
+- Vc = Cutting speed for material (m/min) [CHECK MATERIAL TABLE]
+- D = Tool diameter in millimeters
+- π = 3.14159 (constant)
+
+EXAMPLE:
+Material: Aluminum (Vc = 300 m/min)
+Tool: 10mm end mill
+N = (300 × 1000) / (3.14159 × 10)
+N = 300,000 / 31.4159
+N = 9,549 RPM → Set 9,500 RPM on machine
+
+РУССКИЙ:
+N = (Vc × 1000) / (π × D)
+
+Где:
+- N = Скорость шпинделя в об/мин
+- Vc = Скорость резания для материала (м/мин) [СМОТРЕТЬ ТАБЛИЦУ МАТЕРИАЛОВ]
+- D = Диаметр инструмента в миллиметрах
+- π = 3.14159 (константа)
+
+ПРИМЕР:
+Материал: алюминий (Vc = 300 м/мин)
+Инструмент: торцевая фреза 10 мм
+N = (300 × 1000) / (3.14159 × 10)
+N = 300,000 / 31.4159
+N = 9,549 об/мин → установить 9,500 об/мин на станке
+
+PRACTICE PROBLEMS / ЗАДАЧИ НА ПРАКТИКУ:
+1. Steel, 8mm tool: Vc=150, N = ? / Сталь, 8 мм, Vc=150, N = ?
+2. Aluminum, 12mm tool: Vc=350, N = ? / Алюм, 12 мм, Vc=350, N = ?
+3. Cast iron, 6mm tool: Vc=100, N = ? / Чугун, 6 мм, Vc=100, N = ?
+
+---
+
+FORMULA 2: FEED RATE CALCULATION
+ENGLISH:
+F = N × Z × FPT
+
+Where:
+- F = Feed rate in mm/min (what you enter in CNC program)
+- N = Spindle speed in RPM [FROM FORMULA 1]
+- Z = Number of cutting flutes/teeth on tool
+- FPT = Feed per tooth in mm (typical 0.05-0.2 depending on tool/material)
+
+EXAMPLE:
+Spindle speed: 9,500 RPM
+Flutes: 2-flute tool
+Feed per tooth: 0.1 mm
+F = 9,500 × 2 × 0.1 = 1,900 mm/min → Set 1,900 mm/min in program
+
+РУССКИЙ:
+F = N × Z × FPT
+
+Где:
+- F = Подача в мм/мин (что вы вводите в программу CNC)
+- N = Скорость шпинделя в об/мин [ИЗ ФОРМУЛЫ 1]
+- Z = Количество режущих канавок на инструменте
+- FPT = Подача на зуб в мм (обычно 0.05–0.2 в зависимости от инструмента/материала)
+
+ПРИМЕР:
+Скорость шпинделя: 9,500 об/мин
+Канавки: 2-зубцовой инструмент
+Подача на зуб: 0.1 мм
+F = 9,500 × 2 × 0.1 = 1,900 мм/мин → установить 1,900 мм/мин в программе
+
+PRACTICE PROBLEMS / ЗАДАЧИ:
+1. 8,000 RPM, 4-flute, 0.15mm FPT: F = ?
+2. 5,000 RPM, 2-flute, 0.1mm FPT: F = ?
+3. 12,000 RPM, 3-flute, 0.08mm FPT: F = ?
+
+---
+
+FORMULA 3: MATERIAL REMOVAL RATE (MRR)
+ENGLISH:
+MRR = Axial D × Radial D × Feed (mm³/min)
+Or: MRR = (Ap × Ae × F) / 1000 in cm³/min
+(This shows productivity/efficiency)
+
+Where:
+- Ap = Axial depth (Z-direction depth per pass)
+- Ae = Radial depth (X/Y horizontal step-over)
+- F = Feed rate
+
+INTERPRETATION:
+- Higher MRR = More material removed = Higher productivity
+- Tool coatings increase speed → Increase MRR 10-20%
+- But only if machine spindle and rigidity support it
+
+РУССКИЙ:
+MRR = Осевая глубина × Радиальная глубина × Подача (мм³/мин)
+Или: MRR = (Ap × Ae × F) / 1000 в см³/мин
+(показывает производительность/эффективность)
+
+Где:
+- Ap = Осевая глубина (глубина по оси Z за проход)
+- Ae = Радиальная глубина (шаг по X/Y)
+- F = Подача
+
+ИНТЕРПРЕТАЦИЯ:
+- Выше MRR = больше удалено материала = выше производительность
+- Покрытия инструмента увеличивают скорость → увеличивают MRR на 10–20%
+- Но только если шпиндель и жёсткость станка это поддерживают
+
+---
+
+CUTTING SPEED REFERENCE TABLE / ТАБЛИЦА ЭТАЛОННЫХ СКОРОСТЕЙ РЕЗАНИЯ:
+Material / Материал        | Cutting Speed Vc (m/min) | Скорость резания Vc (м/мин)
+================================================================
+Aluminum / Алюминий        | 250-400 (FAST/БЫСТРО)
+Brass / Латунь             | 300+ 
+Copper / Медь              | 200-300
+Steel / Сталь              | 100-200 (CAREFUL/ОСТОРОЖНО)
+Stainless Steel / Нержавейка | 80-150 (CAREFUL/ОСТОРОЖНО)
+Cast Iron / Чугун           | 80-150 (CAREFUL/ОСТОРОЖНО)
+Cobalt Tools / Кобальт     | Add 10-20% / Добавить 10–20%
+TiAlN Coating / Покрытие   | Add 10-20% / Добавить 10–20%
+
+KEY MEMORY AID / ПАМЯТКА:
+"Aluminum fast, steel slow, stainless slow-slow"
+"Алюминий быстро, сталь медленно, нержавейка ещё медленнее"
+
+---
+
+FLUTE SELECTION LOGIC / ЛОГИКА ВЫБОРА КАНАВОК:
+
+2-FLUTE / 2-ЗУБЦОВОЙ:
+EN: Used for plunging, more chip evacuation space, larger flutes = lower feed rate, 
+    typically FPT = 0.05-0.1mm
+RU: Используется для погружения, больше пространства для вывода стружки, 
+    большие канавки = низкая подача, обычно FPT = 0.05–0.1 мм
+
+3-FLUTE / 3-ЗУБЦОВОЙ:
+EN: Balanced option, can do side milling and plunging, medium FPT = 0.08-0.15mm
+RU: Сбалансированный вариант, подходит для боковой фрезеровки и погружения, 
+    средняя FPT = 0.08–0.15 мм
+
+4-FLUTE / 4-ЗУБЦОВОЙ:
+EN: Used for continuous side milling, more flutes = higher feed rate, 
+    finer finish = FPT = 0.10-0.2mm, NOT good for plunging
+RU: Для длительной боковой фрезеровки, больше зубцов = выше подача, 
+    тонкая отделка = FPT = 0.10–0.2 мм, НЕ подходит для погружения
+
+KEY DECISION / КЛЮЧЕВОЕ РЕШЕНИЕ:
+"2 for plunging, 4 for side milling" / "2 для погружения, 4 для боковой фрезеровки"
+
+---
+
+G-CODE REFERENCE (Test List) / СПРАВОЧНИК G-КОДОВ:
+
+G-Codes (Motion) / G-коды (движение):
+G00 = Rapid / Быстрое позиционирование (fastest, no cutting / быстро, без реза)
+G01 = Linear feed / Линейная подача (controlled speed, cutting / контролируемо)
+G02 = Clockwise arc / Окружность по часовой (CW when viewing above)
+G03 = Counter-clockwise arc / Окружность против часовой (CCW)
+G17 = XY plane / плоскость XY (most common / обычный)
+G20 = Inch units / единицы дюймы
+G21 = Metric units / метрические (standard in most countries / стандарт)
+G40 = Cancel diameter offset / отмена компенсации (STARTUP CODE / КОД ЗАПУСКА)
+G43 = Apply tool length offset / применить смещение (with H code)
+G49 = Cancel tool length offset / отмена смещения (STARTUP CODE)
+G54-G59 = Work offset codes / рабочее смещение (select which offset / выбрать)
+G80 = Cancel automatic cycles / отмена циклов (STARTUP CODE)
+G90 = Absolute positioning mode / абсолютное (STARTUP CODE - most important / главный)
+
+M-Codes (Miscellaneous) / M-коды (прочие):
+M02 = End program / конец (spindle keeps running / шпиндель крутится)
+M03 = Start spindle clockwise / запуск по часовой (CW)
+M04 = Start spindle counter-clockwise / запуск против часовой (CCW)
+M05 = Stop spindle / остановка
+M08 = Coolant on / охлаждение вкл
+M09 = Coolant off / охлаждение выкл
+M98 = Call sub-program / вызвать подпрограмму (with P for number, L for repeat)
+M99 = Return from sub-program / возврат из подпрограммы
+M30 = End program / конец (reset everything / сброс всего)
+
+---
+
+PROGRAM STRUCTURE TEMPLATE / СТРУКТУРА ПРОГРАММЫ:
+(This exact order is critical / Этот точный порядок критичен)
+
+O0001 / номер программы
+(My Program Name) / (название программы)
+G17 G20 G90 / Safety codes (plane, units, mode) / Коды безопасности
+G40 G49 G80 / Cancel offsets and cycles / отмена смещений
+T01 M06 / Tool selection / выбор инструмента
+G54 / Work offset / рабочее смещение
+S1500 M03 / Spindle speed & start / скорость и запуск
+G43 H01 Z50 F100 / Apply offset, rapid to safe height / применить, быстро вверх
+(Start cutting operations here) / (начало резания)
+G00 X10 Y10 / Rapid to position / быстро на позицию
+G01 Z-5 F200 / Feed down to depth / подача вниз
+G01 X20 / Linear cutting moves / линейный рез
+(...more cutting moves...)
+G01 Z50 / Retract to safe height / вернуться вверх
+M05 / Stop spindle / остановка
+M30 / End program / конец
+
+KEY POINTS / КЛЮЧЕВЫЕ МОМЕНТЫ:
+- Safety codes FIRST / коды безопасности ПЕРВЫМИ
+- Tool change SECOND / смена инструмента ВТОРОЙ
+- Offset codes THIRD / коды смещений ТРЕТЬЕЙ
+- Spindle start FOURTH / запуск шпинделя ЧЕТВЁРТЫЙ
+- Movement commands AFTER all setup / движение ПОСЛЕ всей подготовки
+
+====================================================================
+PART 3: STUDY RECOMMENDATIONS BY TOPIC (8 WEEKS) / РЕКОМЕНДАЦИИ ПО УЧЁБЕ
+====================================================================
+
+WEEK 1: MACHINE SETUP (Foundations) / НЕДЕЛЯ 1: НАЛАДКА СТАНКА
+ENGLISH:
+Study:
+□ Machine coordinate system vs work coordinate system
+□ Edge finder method: Steps 1-6
+□ Work offset setting procedure
+□ G54-G59 offset codes
+Practical:
+□ Use simulator to practice finding offsets 10 times
+□ Do edge finder with machine until confident
+□ Understand why this matters (every program starts here)
+
+РУССКИЙ:
+Учите:
+□ Координатная система станка vs заготовки
+□ Метод edge finder: шаги 1–6
+□ Процедура установки смещения
+□ Коды G54–G59
+Практика:
+□ Используйте симулятор для практики поиска 10 раз
+□ Работайте с edge finder до уверенности
+□ Поймите, почему это важно (всё начинается отсюда)
+
+---
+
+WEEK 2: CALCULATIONS (Math Skills) / НЕДЕЛЯ 2: РАСЧЕТЫ
+ENGLISH:
+Study:
+□ Spindle speed formula with 5 worked examples
+□ Feed rate formula with 5 worked examples
+□ Cutting speed table (memorize material categories)
+□ FPT by flute count
+Practical:
+□ Solve 10 calculation problems without calculator (mental math)
+□ Solve 10 more with calculator (focus on formula setup)
+□ Check answers against pattern (does it make sense?)
+
+РУССКИЙ:
+Учите:
+□ Формула скорости шпинделя с 5 примерами
+□ Формула подачи с 5 примерами
+□ Таблица скоростей (запомните материалы)
+□ FPT по каналам
+Практика:
+□ Решите 10 задач без калькулятора
+□ Ещё 10 с калькулятором
+□ Проверьте, имеет ли смысл
+
+---
+
+WEEK 3: PROGRAM STRUCTURE (G-Code Knowledge) / НЕДЕЛЯ 3: СТРУКТУРА
+ENGLISH:
+Study:
+□ Complete program template
+□ Safety codes and their purpose
+□ Movement codes G00, G01, G02, G03
+□ M codes for spindle and coolant
+□ Offset codes in program
+Practical:
+□ Write 3 simple programs from scratch
+□ Explain each line's purpose
+□ Run in simulator, watch what happens
+□ Modify programs and predict results
+
+РУССКИЙ:
+Учите:
+□ Полный шаблон программы
+□ Коды безопасности и их назначение
+□ Коды движения G00, G01, G02, G03
+□ M коды для шпинделя и охлаждения
+□ Коды смещения в программе
+Практика:
+□ Примените 3 программы с нуля
+□ Объясните назначение каждой строки
+□ Запустите в симуляторе
+□ Модифицируйте и предскажите результат
+
+---
+
+WEEK 4: SIMULATOR PRACTICE (Applied Skills) / НЕДЕЛЯ 4: СИМУЛЯТОР
+ENGLISH:
+Practical:
+□ Run 5 complete programs in simulator
+□ Modify feed rate and spindle speed, observe effects
+□ Practice dry-run procedure with Z-offset
+□ Identify errors and fix them
+□ Complete 2D rectangular parts successfully
+
+РУССКИЙ:
+Практика:
+□ Запустите 5 полных программ
+□ Модифицируйте подачу и скорость, смотрите результаты
+□ Практикуйте сухой прогон с Z смещением
+□ Найдите ошибки и исправьте
+□ Завершите 2D детали успешно
+
+---
+
+WEEK 5: SAFETY & SPECIALIZED CODES / НЕДЕЛЯ 5: БЕЗОПАСНОСТЬ
+ENGLISH:
+Study:
+□ Emergency procedures
+□ Pre-operation checklist
+□ Cutter compensation (G41/G42)
+□ Sub-programs (M98/M99)
+□ Manual handling proper technique
+Practical:
+□ Demonstrate safety checklist physically
+□ Write program using G41 and G42
+□ Write program using sub-program structure
+□ Explain lifting technique to partner
+
+РУССКИЙ:
+Учите:
+□ Экстренные процедуры
+□ Контрольный список перед работой
+□ Компенсация радиуса (G41/G42)
+□ Подпрограммы (M98/M99)
+□ Правильная техника подъёма
+Практика:
+□ Продемонстрируйте контрольный список
+□ Напишите программу с G41 и G42
+□ Напишите программу с подпрограммой
+□ Объясните технику подъёма партнёру
+
+---
+
+WEEK 6: BUSINESS & HEALTH KNOWLEDGE / НЕДЕЛЯ 6: БИЗНЕС И ЗДОРОВЬЕ
+ENGLISH:
+Study:
+□ Organizational structure
+□ Stakeholder expectations
+□ Change factors (internal/external)
+□ Manual handling and ergonomics
+□ Long-term health concepts
+Reading:
+□ Read business theory document completely
+□ Read manual handling document
+□ Take notes on unfamiliar concepts
+□ Prepare to discuss in English and Russian
+
+РУССКИЙ:
+Учите:
+□ Организационная структура
+□ Ожидания заинтересованных сторон
+□ Факторы изменения
+□ Подъём грузов и эргономика
+□ Концепции здоровья
+Чтение:
+□ Прочитайте бизнес-документ полностью
+□ Прочитайте подъём грузов полностью
+□ Делайте заметки
+□ Подготовьтесь обсуждать на обоих языках
+
+---
+
+WEEK 7: COMPREHENSIVE REVIEW / НЕДЕЛЯ 7: ОБЗОР
+ENGLISH:
+Assessment:
+□ Take practice exam covering all domains
+□ Check your answers, identify weak areas
+□ Re-study weak areas for 2-3 days
+□ Take second practice exam
+□ Score should improve noticeably
+
+РУССКИЙ:
+Оценка:
+□ Сделайте пробный экзамен со всеми темами
+□ Проверьте ответы, найдите слабые места
+□ Переучите слабые места
+□ Сделайте второй пробный экзамен
+□ Оценка должна улучшиться заметно
+
+---
+
+WEEK 8: FINAL PREPARATION & MOCK EXAM / НЕДЕЛЯ 8: ФИНАЛ
+ENGLISH:
+□ Solve calculation problems (timed: 20 min for 5 problems)
+□ Write programs (timed: 30 min for 1 program)
+□ Answer theory questions (bilingual if possible)
+□ Full mock exam under test conditions
+□ Record score as baseline
+
+РУССКИЙ:
+□ Решите задачи по расчёту (20 мин на 5 задач)
+□ Напишите программы (30 мин на 1 программу)
+□ Ответьте на теорию (двуязычный если можно)
+□ Полный пробный экзамен в условиях экзамена
+□ Запишите оценку как базовую
+
+====================================================================
+PART 4: COMMON EXAM QUESTION TYPES / ТИПИЧНЫЕ ВОПРОСЫ ЭКЗАМЕНА
+====================================================================
+
+TYPE 1: CALCULATION PROBLEMS / ТИП 1: РАСЧЁТНЫЕ ЗАДАЧИ
+ENGLISH:
+Q: "You have aluminum (Vc=300 m/min), 10mm tool, 2 flutes, 0.1mm FPT. 
+    Calculate spindle speed and feed rate."
+A: N = (300 × 1000)/(3.14 × 10) = 9,549 RPM
+   F = 9,549 × 2 × 0.1 = 1,909 mm/min
+
+РУССКИЙ:
+В: "Алюминий (Vc=300 м/мин), 10 мм, 2 канавки, 0.1 мм FPT. 
+    Рассчитайте скорость и подачу."
+О: N = (300 × 1000)/(3.14 × 10) = 9,549 об/мин
+   F = 9,549 × 2 × 0.1 = 1,909 мм/мин
+
+PRACTICE / ПРАКТИКА:
+Solve 10+, timed, without calculator / Решите 10+ без калькулятора на время
+
+---
+
+TYPE 2: G-CODE INTERPRETATION / ТИП 2: ИНТЕРПРЕТАЦИЯ G-КОДОВ
+ENGLISH:
+Q: "What does G43 H01 Z50 F100 do?"
+A: "G43 applies tool length offset H01, rapids to Z50 (safe height), 
+    feed rate 100 mm/min"
+
+РУССКИЙ:
+В: "Что делает G43 H01 Z50 F100?"
+О: "G43 применяет смещение H01, быстро на Z50 (безопасная высота),
+    подача 100 мм/мин"
+
+PRACTICE / ПРАКТИКА:
+Identify purpose of each code in given program / Определите назначение каждого кода
+
+---
+
+TYPE 3: PROGRAM WRITING (Practical) / ТИП 3: НАПИСАНИЕ ПРОГРАММЫ
+ENGLISH:
+Q: "Write a program to face a 50mm × 50mm aluminum block, 5mm deep"
+A: Requires complete program with setup, movement, finishing
+
+РУССКИЙ:
+В: "Напишите программу для торцевания 50х50 мм алюминия на 5 мм"
+О: Требуется полная программа с подготовкой и движением
+
+PRACTICE / ПРАКТИКА:
+Write 10 simple programs, run in simulator / Напишите 10 программ и запустите
+
+---
+
+TYPE 4: SAFETY KNOWLEDGE / ТИП 4: ЗНАНИЕ БЕЗОПАСНОСТИ
+ENGLISH:
+Q: "What is the purpose of G40 and G80 codes in program startup?"
+A: "G40 cancels diameter offset, G80 cancels any active cycles - safety codes"
+
+РУССКИЙ:
+В: "Какое назначение G40 и G80 при запуске?"
+О: "G40 отменяет компенсацию, G80 отменяет циклы – коды безопасности"
+
+PRACTICE / ПРАКТИКА:
+Explain purpose of each safety code / Объясните назначение каждого кода
+
+---
+
+TYPE 5: THEORY QUESTIONS / ТИП 5: ТЕОРЕТИЧЕСКИЕ ВОПРОСЫ
+ENGLISH:
+Q: "Why is flute count important in feed rate calculation?"
+A: "More flutes = higher feed rate. Number of flutes × RPM determines how many 
+    cutting edges engage per minute"
+
+РУССКИЙ:
+В: "Почему количество канавок важно для подачи?"
+О: "Больше канавок = выше подача. Количество × об/мин = сколько режущих кромок
+    в минуту"
+
+PRACTICE / ПРАКТИКА:
+Explain concepts in English and Russian / Объясните на обоих языках
+
+---
+
+TYPE 6: FORMULA APPLICATION (No Numbers) / ТИП 6: ПРИМЕНЕНИЕ ФОРМУЛ
+ENGLISH:
+Q: "If cutting speed increases but tool diameter stays same, does spindle 
+    speed increase or decrease?"
+A: N = (Vc × 1000)/(π × D) - if Vc increases, N increases (same denominator)
+
+РУССКИЙ:
+В: "Если скорость резания растёт, а диаметр нет, то об/мин растёт или падает?"
+О: N = (Vc × 1000)/(π × D) – если Vc растёт, то N растёт
+
+PRACTICE / ПРАКТИКА:
+Reasoning about formula relationships / Рассуждайте о связях формул
+
+---
+
+TYPE 7: PRACTICAL DECISION MAKING / ТИП 7: ПРАКТИЧЕСКИЕ РЕШЕНИЯ
+ENGLISH:
+Q: "You're cutting steel with a 4-flute tool. Feed rate seems jerky. 
+    What might be wrong?"
+A: Could be: feed rate too high, cutting speed too high, tool dull, depth too deep
+   Need to evaluate and adjust feed/speed
+
+РУССКИЙ:
+В: "Режете сталь 4-зубцовой фрезой. Подача рывками. Что не так?"
+О: Может быть: подача высока, скорость высока, фреза тупая, глубина большая
+   Нужно проверить и отрегулировать
+
+PRACTICE / ПРАКТИКА:
+Troubleshoot common problems / Решайте типичные задачи
+
+====================================================================
+PART 5: BILINGUAL PREPARATION (English & Russian) / ДВУЯЗЫЧНАЯ ПОДГОТОВКА
+====================================================================
+
+ENGLISH:
+1. Read program in English
+2. Explain what it does in Russian
+3. Read theory in Russian
+4. Explain concept in English
+5. This forces active translation vs passive reading
+
+РУССКИЙ:
+1. Прочитайте программу на английском
+2. Объясните, что она делает, по-русски
+3. Прочитайте теорию по-русски
+4. Объясните концепцию на английском
+5. Это заставляет активно переводить, а не просто читать
+
+====================================================================
+PART 6: EXAM DAY CHECKLIST / ЭКЗАМЕН - КОНТРОЛЬНЫЙ СПИСОК
+====================================================================
+
+BEFORE EXAM / ПЕРЕД ЭКЗАМЕНОМ:
+□ Get 8 hours sleep the night before / 8 часов сна
+□ Eat reasonable breakfast (not too heavy) / нормальный завтрак
+□ Drink water (mental state improves) / пить воду
+□ Review formulas one final time (30 min) / повторить формулы
+□ ONLY review - don't try to learn new / только повторить
+□ Arrive 15 minutes early / приехать на 15 мин раньше
+□ Use restroom before starting / туалет
+□ Have pencils, paper, calculator ready / карандаши и калькулятор готовы
+
+DURING EXAM / ВО ВРЕМЯ ЭКЗАМЕНА:
+□ Read questions carefully TWICE / читайте вопрос дважды
+□ For calculations: Show all work / показывайте все расчёты
+□ For programs: Comment each section / комментируйте каждую часть
+□ For theory: Answer in complete sentences / полные предложения
+□ If stuck: Skip it, come back later / пропустите и вернитесь
+□ Manage time: Budget per question / распределите время
+□ Check work: Save 5 minutes to review / проверьте в конце
+
+AFTER EXAM / ПОСЛЕ ЭКЗАМЕНА:
+□ Don't try to remember exact questions / не помните вопросы
+□ Don't second-guess yourself / не сомневайтесь в себе
+□ Rest knowing you prepared well / отдохните
+□ Wait for results / ждите результатов
+
+====================================================================
+FINAL ADVICE / ФИНАЛЬНЫЙ СОВЕТ
+====================================================================
+
+ENGLISH:
+✓ Practice calculations until automatic (don't need to think)
+✓ Write programs regularly (muscle memory for logic)
+✓ Use simulator for EVERY program before machine work
+✓ Ask questions when confused (better now than on exam)
+✓ Study consistently (little daily better than cramming)
+✓ Explain concepts to others (forces understanding)
+✓ Maintain health habits (stretching, sleep, hydration affect performance)
+✓ Remember the "why" behind each concept (helps retention)
+✓ Bilingual practice helps with actual job (machines are international)
+✓ Safety is never optional (good habits = health long-term)
+
+YOU CAN DO THIS!
+The concepts are logical and learnable.
+The formulas are straightforward.
+The programs follow templates.
+You have the theory materials.
+Practice makes permanent.
+
+РУССКИЙ:
+✓ Практикуйте расчёты до автоматизма (не думайте)
+✓ Регулярно пишите программы (мышечная память)
+✓ Используйте симулятор перед каждой машиной
+✓ Спрашивайте, если не понимаете (лучше сейчас)
+✓ Учитесь каждый день (лучше чем зубрить)
+✓ Объясняйте другим (это учит)
+✓ Заботьтесь о здоровье (растяжка, сон влияют на результат)
+✓ Помните "почему" (помогает запомнить)
+✓ Двуязычная практика помогает в работе
+✓ Безопасность без компромиссов (здоровье на всю жизнь)
+
+ВЫ МОЖЕТЕ ЭТО СДЕЛАТЬ!
+Концепции логичны и обучаемы.
+Формулы простые.
+Программы следуют шаблонам.
+У вас есть материалы.
+Практика делает постоянным.
+
+====================================================================
+END OF CNC EXAM REVIEW GUIDE
+====================================================================
+
+For further review, consult / Для дополнительного повторения:
+- [COMPLETE] CNC Programming Theory - All Lessons Combined.txt
+- Lesson 3-7 individual theory documents
+- Lessons 8-15 & Special individual theory documents
+- Manual Handling & Ergonomics - Complete Theory.txt
+
+Good luck with your studies! / Удачи в учёбе!
+====================================================================

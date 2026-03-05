@@ -1,0 +1,163 @@
+====================================================================
+LESSON 3: WORK OFFSETS & COMPENSATION THEORY
+CNC Programming Fundamentals
+====================================================================
+
+1. MACHINE vs WORK COORDINATE SYSTEMS
+ENGLISH:
+Every CNC machine has a fixed Machine Coordinate System (MCS) with an absolute zero point. However, before starting any machining operation on a workpiece, we must establish a Work Coordinate System (WCS) at the position where we want to start our program. The WCS is the reference point from which all our program coordinates are measured. The difference between MCS and WCS is called the Work Offset.
+
+РУССКИЙ:
+Каждый станок ЧПУ имеет фиксированную систему координат станка (MCS) с абсолютной нулевой точкой. Однако перед началом любой операции обработки на заготовке мы должны установить систему рабочих координат (WCS) в позиции, где мы хотим начать нашу программу. WCS - это точка отсчета, от которой измеряются все координаты нашей программы. Разница между MCS и WCS называется рабочее смещение (Work Offset).
+
+---
+
+2. EDGE FINDER TOOL - PURPOSE AND USE
+ENGLISH:
+The Edge Finder is a precision measuring device used to locate the exact position of a workpiece edge relative to the machine's zero point. It consists of a small eccentric tip (typically 6mm diameter) that wobbles when rotating. When the tip touches the edge of the workpiece and becomes aligned with the spindle axis, you have found the exact edge position. After touching the edge with the Edge Finder, subtract 3mm from the edge position to account for the 6mm diameter of the tool.
+
+РУССКИЙ:
+Поиск кромок (Edge Finder) - это устройство точного измерения, используемое для определения точного положения кромки заготовки относительно нулевой точки станка. Он состоит из небольшого эксцентричного наконечника (обычно диаметр 6 мм), который колеблется при вращении. Когда наконечник касается кромки заготовки и выравнивается с осью шпинделя, вы нашли точное положение кромки. После касания кромки поиском кромок вычтите 3 мм из положения кромки, чтобы учесть диаметр инструмента 6 мм.
+
+---
+
+3. DIAL TEST INDICATOR (DTI) - ALTERNATIVE TO EDGE FINDER
+ENGLISH:
+A Dial Test Indicator is an alternative to the Edge Finder that is particularly useful for finding center points of circular features and checking perpendicularity. The DTI has a probe that shows measurement readings on a dial face. Unlike the Edge Finder which you must manually offset by 3mm, the DTI allows direct measurement of exact dimensions. DTIs are the easiest solution for locating center points of circular pockets or cylindrical features where flat surface measurement is impossible.
+
+РУССКИЙ:
+Индикатор часовой тип (DTI - Dial Test Indicator) - альтернатива поиску кромок, особенно полезная для поиска центральных точек круглых отверстий и проверки перпендикулярности. DTI имеет датчик, который показывает показания измерений на циферблате. В отличие от поиска кромок, который вы должны вручную смещать на 3 мм, DTI позволяет прямое измерение точных размеров. DTI - самое простое решение для определения центральных точек круглых карманов или цилиндрических деталей, где невозможно измерение плоской поверхности.
+
+---
+
+4. SETTING X AND Y AXIS WORK OFFSET (WCS)
+ENGLISH:
+To set the Work Offset for X and Y axes using an Edge Finder:
+- Mount the Edge Finder in the spindle and rotate it slowly (500-750 RPM maximum)
+- Touch the Edge Finder against the X-axis edge of the workpiece
+- When the wobbling stops and the tip aligns with the spindle center, record the X value shown on the machine display
+- Subtract 3mm to find the actual zero point (compensation for 6mm tool diameter)
+- Repeat the same process for the Y-axis
+- Enter these calculated values into the Work Offset table using the "Part Zero Set" button
+- The machine will automatically compensate for this offset every time you use G54 (or other offset codes)
+
+РУССКИЙ:
+Чтобы установить рабочее смещение для осей X и Y с помощью поиска кромок:
+- Установите поиск кромок в шпиндель и вращайте медленно (максимум 500-750 об/мин)
+- Прикоснитесь к поиску кромок к кромке оси X заготовки
+- Когда колебание останавливается и наконечник совпадает с центром шпинделя, запишите значение X, показанное на дисплее станка
+- Вычтите 3 мм, чтобы найти фактическую нулевую точку (компенсация для инструмента диаметром 6 мм)
+- Повторите тот же процесс для оси Y
+- Введите эти рассчитанные значения в таблицу рабочего смещения, используя кнопку "Part Zero Set"
+- Станок будет автоматически компенсировать это смещение каждый раз, когда вы используете G54 (или другие коды смещения)
+
+---
+
+5. SETTING OFFSET IN THE MIDDLE OF THE WORKPIECE
+ENGLISH:
+If you want to set the origin point (0,0) in the middle of the workpiece instead of at a corner:
+- Touch the Edge Finder to one edge of the X-axis and record the value (e.g., 106.4mm)
+- Touch the opposite edge and record that value (e.g., 53.2mm)
+- Divide the first value by 2 to find the center point
+- Go back to that center point and press Part Zero Set
+- Repeat the same process for the Y-axis
+- This ensures your origin is precisely at the center regardless of the workpiece size variations
+
+РУССКИЙ:
+Если вы хотите установить исходную точку (0,0) в центре заготовки вместо угла:
+- Прикоснитесь к поиску кромок к одному краю оси X и запишите значение (например, 106,4 мм)
+- Прикоснитесь к противоположному краю и запишите это значение (например, 53,2 мм)
+- Разделите первое значение на 2, чтобы найти центральную точку
+- Вернитесь к этой центральной точке и нажмите Part Zero Set
+- Повторите тот же процесс для оси Y
+- Это обеспечивает точное расположение вашей исходной точки в центре, независимо от различий размера заготовки
+
+---
+
+6. WORK OFFSET STORAGE - G54 THROUGH G59
+ENGLISH:
+CNC machines allow multiple work offset entries. Common offsets are:
+- G54: Primary work offset (default, most commonly used)
+- G55: Secondary offset (different position on same workpiece)
+- G56: Third offset
+- G57: Fourth offset
+- G58: Fifth offset
+- G59: Sixth offset
+
+Each offset stores the X, Y distance from the Machine Coordinate System to the Work Coordinate System. When you call G54 X0 Y0 in your program, the machine automatically moves to the position stored in the G54 offset table, not to the actual machine zero point.
+
+РУССКИЙ:
+Станки ЧПУ позволяют несколько записей рабочего смещения. Общие смещения:
+- G54: Основное рабочее смещение (по умолчанию, наиболее часто используется)
+- G55: Вторичное смещение (другая позиция на той же заготовке)
+- G56: Третье смещение
+- G57: Четвертое смещение
+- G58: Пятое смещение
+- G59: Шестое смещение
+
+Каждое смещение хранит расстояние X, Y от системы координат станка к системе рабочих координат. Когда вы вызываете G54 X0 Y0 в своей программе, станок автоматически движется к позиции, хранящейся в таблице смещения G54, а не к фактической нулевой точке станка.
+
+---
+
+7. PERPENDICULARITY CHECK - SIX SQUARE
+ENGLISH:
+In reality, not all workpiece surfaces are perfectly parallel or perpendicular due to manufacturing tolerances. Before setting offsets:
+- Use a Six Square (precision square tool) to check perpendicularity between surfaces
+- If one side shows different Y values than the opposite side, surfaces are not parallel
+- To compensate: keep the same Y value on both sides of the workpiece even if they differ from the measured values
+- The center point will automatically be correct because you're using symmetrical positioning
+
+РУССКИЙ:
+На практике не все поверхности заготовки идеально параллельны или перпендикулярны из-за допусков производства. Перед установкой смещений:
+- Используйте шестигранный квадрат (инструмент точного квадрата) для проверки перпендикулярности между поверхностями
+- Если одна сторона показывает разные значения Y, чем противоположная сторона, поверхности не параллельны
+- Для компенсации: сохраняйте одинаковое значение Y с обеих сторон заготовки, даже если они отличаются от измеренных значений
+- Центральная точка будет автоматически правильной, потому что вы используете симметричное позиционирование
+
+---
+
+8. PRACTICAL MACHINE SETUP STRATEGY
+ENGLISH:
+Recommended procedure for setting up a workpiece on the CNC machine:
+1. Load the workpiece into the vice securely
+2. Manually move the spindle to rough location
+3. Mount the Edge Finder (or DTI) in the spindle
+4. Rotate at 500-750 RPM
+5. Touch X-axis edge, record value, subtract 3mm, go to that point, press Part Zero Set for X
+6. Touch Y-axis edge, record value, subtract 3mm, go to that point, press Part Zero Set for Y
+7. For Z-axis offset (height compensation), this will be covered in later lessons
+8. Verify all offset values before running any program
+
+РУССКИЙ:
+Рекомендуемая процедура установки заготовки на станке ЧПУ:
+1. Загрузите заготовку в тиски надежно
+2. Вручную переместите шпиндель на грубую позицию
+3. Установите поиск кромок (или DTI) в шпиндель
+4. Вращайте на 500-750 об/мин
+5. Коснитесь края оси X, запишите значение, вычтите 3 мм, перейдите к этой точке, нажмите Part Zero Set для X
+6. Коснитесь края оси Y, запишите значение, вычтите 3 мм, перейдите к этой точке, нажмите Part Zero Set для Y
+7. Для смещения оси Z (высокая компенсация), это будет рассмотрено в более поздних уроках
+8. Проверьте все значения смещения перед запуском любой программы
+
+---
+
+9. IMPORTANCE OF ACCURATE OFFSETS
+ENGLISH:
+Setting accurate Work Offsets is critical because:
+- Incorrect offsets will cause the tool to cut at wrong positions
+- You waste material if the tool misses the intended cutting area
+- You risk breaking tools or damaging the machine if offsets are too far off
+- Every workpiece variation (due to tolerance) must be accounted for with a new offset
+- Multiple offsets (G54-G59) allow you to cut different features at different positions on the same workpiece
+
+РУССКИЙ:
+Установка точных рабочих смещений критична потому, что:
+- Неправильные смещения приведут к тому, что инструмент будет резать в неправильных положениях
+- Вы тратите материал, если инструмент пропускает предполагаемую область резки
+- Вы рискуете сломать инструменты или повредить станок, если смещения слишком далеко
+- Каждое изменение заготовки (из-за допуска) должно быть учтено очередью смещения
+- Несколько смещений (G54-G59) позволяют вам вырезать различные детали в разных позициях на той же заготовке
+
+====================================================================
+END OF LESSON 3 THEORY
+====================================================================

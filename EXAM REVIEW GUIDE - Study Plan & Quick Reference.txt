@@ -1,0 +1,547 @@
+====================================================================
+CNC PROGRAMMING EXAM REVIEW GUIDE
+Quick Reference Checklist & Study Plan
+====================================================================
+
+PART 1: EXAM DOMAINS (What You'll Be Tested On)
+====================================================================
+
+DOMAIN 1: MACHINE COORDINATE SYSTEMS & SETUP (25%)
+Topics:
+□ Machine coordinate system (MCS) vs Work coordinate system (WCS)
+□ MCS: Fixed by manufacturer, cannot change
+□ WCS: Set by programmer for each workpiece
+□ Edge finder tool - when used, how used, 6mm compensation
+□ Dial Test Indicator (DTI) - alternative method for center finding
+□ Finding X coordinate: Horizontal axis, left-right movement
+□ Finding Y coordinate: Vertical axis (table), front-back movement  
+□ Finding Z coordinate: Vertical machine axis (spindle), up-down
+□ Perpendicularity compensation with six square
+□ G54 through G59 offset codes (6 possible work offsets)
+□ Work offset setting: Part zero point selection
+□ Offset application timing: When and how points are set
+
+DOMAIN 2: SPEEDS, FEEDS & CALCULATIONS (20%)
+Topics:
+□ Spindle speed formula: N = (Vc × 1000) / (π × D)
+□ Understand each variable: N (RPM), Vc (cutting speed), D (tool diameter)
+□ Cutting speed (Vc) values by material:
+   - Aluminum: 250-400 m/min
+   - Steel: 100-200 m/min (much slower)
+   - Cast iron: 80-150 m/min (same as steel)
+   - Stainless steel: 80-150 m/min
+   - Brass: 300+ m/min
+   - Copper: 200-300 m/min
+□ Feed rate formula: F = N × Z × FPT
+□ Feed per tooth (FPT) concept: Feed per each cutting flute
+□ Flute count impact: 2-flute vs 3-flute vs 4-flute difference
+□ When to use each flute count (2 for plunging, 4 for side milling)
+□ Material Removal Rate (MRR): Productivity measure
+□ Tool coatings: TiN, TiAlN, Cobalt (improve speed 10-20%)
+□ Cutting speed adjustments by operation (facing, slotting, shoulder)
+
+DOMAIN 3: PROGRAM STRUCTURE & G-CODES (25%)
+Topics:
+□ Complete program structure template (10 stages)
+□ Program numbering: O prefix (O00001-O99999 format)
+□ Safety codes at startup:
+   - G17 (XY plane selection)
+   - G20 or G21 (Inch or Metric units)
+   - G40 (Cancel diameter offset)
+   - G49 (Cancel height offset)
+   - G80 (Cancel cycles)
+   - G90 (Absolute positioning mode)
+□ Tool selection: T codes (T01, T02, etc.)
+□ Work offset selection: G54-G59 codes
+□ Tool length offset: H codes with G43 application
+□ Movement codes:
+   - G00 (Rapid positioning, fastest)
+   - G01 (Linear interpolation, controlled feed)
+   - G02 (Clockwise arc)
+   - G03 (Counter-clockwise arc)
+□ Spindle control:
+   - S code: Spindle speed in RPM
+   - M03: Start spindle clockwise
+   - M04: Start spindle counter-clockwise
+   - M05: Stop spindle
+□ Coolant control:
+   - M08: Coolant on
+   - M09: Coolant off
+□ Program end:
+   - M02: End program (spindle continues)
+   - M30: End program (spindle stops, reset)
+
+DOMAIN 4: MACHINE OPERATION & SAFETY (15%)
+Topics:
+□ X/Y/Z axes identification and positive directions
+□ Workspace envelope concept (size limitations)
+□ Work holding devices (vice, clamps, step blocks)
+□ Power-up procedure
+□ Pre-operation checklist (10 critical checks)
+□ Emergency stop button (large red button kills all motion)
+□ Door interlock (prevents operation when door open)
+□ Common hazards during operation
+□ Rapid override button and percentage selection
+□ Program verification workflow
+□ Dry-run procedure with Z-axis offset safety
+□ Graphics mode simulation purpose
+□ Safe feed rate percentages (5-10% for first pass)
+□ Z-offset safety height (50mm above workpiece)
+□ Direction of tool rotation (CW M03 vs CCW M04)
+□ Spindle speed startup (allow ramp-up before cutting)
+
+DOMAIN 5: CUTTING TOOLS & TOOL MANAGEMENT (10%)
+Topics:
+□ Tool nomenclature: Shank, cutting portion, flutes, helix angle
+□ Tool types: 
+   - Flat end mill (general purpose)
+   - Spot drill (for starting holes)
+   - Ball nose (for 3D curves)
+   - Side mill, form tool, etc.
+□ Flute selection logic (2, 3, or 4 flutes)
+□ Axial depth of cut (Z-axis depth per pass)
+□ Radial depth of cut (step-over, horizontal depth)
+□ Tool length constraints
+□ Tool cutting length limitations (prevents crashes)
+□ Multi-pass strategy for deep cuts
+□ Tool coatings and their benefits
+□ Tool mounting procedure
+□ Tool offset (height) application
+
+DOMAIN 6: ADVANCED TOPICS (5%)
+Topics:
+□ Cutter compensation (G40, G41, G42)
+□ G41: Inside cutting pattern (tool moves left of programmed path)
+□ G42: Outside cutting pattern (tool moves right of programmed path)
+□ Radius compensation direction logic
+□ Sub-programs: M98 call with M99 return
+□ M98 P22 L20: Call program O22, repeat 20 times
+□ Program numbering strategy
+□ Repetitive operation efficiency
+□ Inside vs outside cutting differences
+
+DOMAIN 7: HEALTH & SAFETY (5%)
+Topics:
+□ Manual handling: Proper lifting technique (10 critical points)
+□ Ergonomics: Sitting, standing, and workstation setup
+□ Spine anatomy and vulnerability (90% injuries in lumbar region)
+□ Disc structure and herniation risks
+□ Lifting hazards and prevention
+□ Long-term health consequences of poor mechanics
+□ Proper body mechanics daily
+□ Stretching and mobility importance
+
+DOMAIN 8: BUSINESS & ORGANIZATIONAL (Theoretical 5%)
+Topics:
+□ CNC manufacturer business structure
+□ Functional areas: Support (HR, Finance, Admin) vs Operations (Sales, Marketing, Engineering, Manufacturing, Distribution)
+□ Job roles in each department
+□ Stakeholder types and their expectations:
+   - Customers: Quality, on-time delivery, good price
+   - Employees: Fair pay, safe environment, development
+   - Owners: Profitability, growth, market position
+   - Suppliers: Fair payment terms, reliable volume
+   - Government: Regulatory compliance, tax payment
+   - Community: Employment, environmental responsibility
+□ Internal change factors: Finance, efficiency, quality, workforce development
+□ External change factors: Legislation, technology, market forces, social changes, economic conditions
+□ Communication types: Formal (written) and informal (talk)
+□ Business documents: Gantt charts, BOM, technical drawings, job cards, quality reports, work orders, time sheets
+
+====================================================================
+PART 2: CRITICAL FORMULAS (Memorize These)
+====================================================================
+
+FORMULA 1: SPINDLE SPEED CALCULATION
+N = (Vc × 1000) / (π × D)
+
+Where:
+- N = Spindle speed in RPM
+- Vc = Cutting speed for material (m/min) [CHECK MATERIAL TABLE]
+- D = Tool diameter in millimeters
+- π = 3.14159 (constant)
+
+EXAMPLE:
+Material: Aluminum (Vc = 300 m/min)
+Tool: 10mm end mill
+N = (300 × 1000) / (3.14159 × 10)
+N = 300,000 / 31.4159
+N = 9,549 RPM → Set 9,500 RPM on machine
+
+PRACTICE PROBLEMS:
+1. Steel, 8mm tool: Vc=150, N = (150 × 1000)/(3.14×8) = ?
+2. Aluminum, 12mm tool: Vc=350, N = ?
+3. Cast iron, 6mm tool: Vc=100, N = ?
+
+---
+
+FORMULA 2: FEED RATE CALCULATION
+F = N × Z × FPT
+
+Where:
+- F = Feed rate in mm/min (what you enter in CNC program)
+- N = Spindle speed in RPM [FROM FORMULA 1]
+- Z = Number of cutting flutes/teeth on tool
+- FPT = Feed per tooth in mm (typical 0.05-0.2 depending on tool/material)
+
+EXAMPLE:
+Spindle speed: 9,500 RPM
+Flutes: 2-flute tool
+Feed per tooth: 0.1 mm
+F = 9,500 × 2 × 0.1
+F = 1,900 mm/min → Set 1,900 mm/min feed rate in program
+
+PRACTICE PROBLEMS:
+1. 8,000 RPM, 4-flute, 0.15mm FPT: F = ?
+2. 5,000 RPM, 2-flute, 0.1mm FPT: F = ?
+3. 12,000 RPM, 3-flute, 0.08mm FPT: F = ?
+
+---
+
+FORMULA 3: MATERIAL REMOVAL RATE (MRR)
+MRR = Axial D × Radial D × Feed (mm³/min)
+Or: MRR = (Ap × Ae × F) / 1000 in cm³/min
+(This shows productivity/efficiency)
+
+Where:
+- Ap = Axial depth (Z-direction depth per pass)
+- Ae = Radial depth (X/Y horizontal step-over)
+- F = Feed rate
+
+INTERPRETATION:
+- Higher MRR = More material removed = Higher productivity
+- Tool coatings increase speed → Increase MRR 10-20%
+- But only if machine spindle and rigidity support it
+
+---
+
+CUTTING SPEED REFERENCE TABLE (Memorize or Reference):
+Material          | Cutting Speed Vc (m/min)
+===============================================
+Aluminum          | 250-400 (FAST - highest in table)
+Brass             | 300+ (similar to aluminum)
+Copper            | 200-300
+Steel             | 100-200 (Careful - slow!)
+Stainless Steel   | 80-150 (Careful - even slower)
+Cast Iron         | 80-150 (Careful - similar to stainless)
+Cobalt Tools      | Add 10-20% to normal speeds
+TiAlN Coating     | Add 10-20% to normal speeds
+
+KEY MEMORY AID:
+"Aluminum fast, steel slow, stainless slow-slow"
+
+---
+
+FLUTE SELECTION LOGIC:
+2-FLUTE:
+- Used for plunging (going straight down into material)
+- More chip evacuation space
+- Larger flutes = lower feed rate
+- Typically FPT = 0.05-0.1mm
+
+3-FLUTE:
+- Balanced option
+- Can do side milling and plunging
+- Medium FPT = 0.08-0.15mm
+
+4-FLUTE:
+- Used for continuous side milling
+- More flutes = higher feed rate
+- Finer finish = FPT = 0.10-0.2mm
+- NOT good for plunging (no space for chips)
+
+KEY DECISION:
+"2 for plunging, 4 for side milling" - this is testable
+
+---
+
+G-CODE REFERENCE (Test List):
+G-Codes (Motion):
+G00 = Rapid positioning (fastest, no cutting)
+G01 = Linear feed (controlled speed, cutting)
+G02 = Clockwise arc (CW when looking from above)
+G03 = Counter-clockwise arc
+G17 = XY plane (most common)
+G20 = Inch units
+G21 = Metric units (standard in most countries)
+G40 = Cancel diameter offset (STARTUP CODE)
+G43 = Apply tool length offset with H code
+G49 = Cancel tool length offset (STARTUP CODE)
+G54-G59 = Work offset codes (select which offset to use)
+G80 = Cancel automatic cycles (STARTUP CODE)
+G90 = Absolute positioning mode (STARTUP CODE - most important)
+
+M-Codes (Miscellaneous):
+M02 = End program (spindle keeps running)
+M03 = Start spindle clockwise (CW)
+M04 = Start spindle counter-clockwise (CCW)
+M05 = Stop spindle
+M08 = Coolant on
+M09 = Coolant off
+M98 = Call sub-program (with P code for program number, L for repeat count)
+M99 = Return from sub-program
+M30 = End program (reset everything)
+
+---
+
+PROGRAM STRUCTURE TEMPLATE:
+(This exact order is critical)
+
+O0001           ← Program number
+(My Program Name)  ← Comment
+G17 G20 G90     ← Safety codes (plane, units, position mode)
+G40 G49 G80     ← Cancel offsets and cycles
+T01 M06         ← Tool selection and change
+G54             ← Work offset selection
+S1500 M03       ← Spindle speed and start rotation
+G43 H01 Z50 F100 ← Apply offset, rapid to safe height
+(Start cutting operations here)
+G00 X10 Y10     ← Rapid to start position
+G01 Z-5 F200    ← Feed down to depth at feed rate
+G01 X20         ← Linear cutting moves
+(... more cutting moves ...)
+G01 Z50         ← Rapid back to safe height
+M05             ← Stop spindle
+M02             ← End program
+
+KEY POINTS:
+- Safety codes FIRST
+- Tool change SECOND
+- Offset codes THIRD (G54, G43)
+- Spindle start FOURTH
+- Movement commands AFTER all setup
+
+====================================================================
+PART 3: STUDY RECOMMENDATIONS BY TOPIC
+====================================================================
+
+WEEK 1: MACHINE SETUP (Foundations)
+Study:
+□ Machine coordinate system vs work coordinate system
+□ Edge finder method: Steps 1-6
+□ Work offset setting procedure
+□ G54-G59 offset codes
+Practical:
+□ Use simulator to practice finding offsets 10 times
+□ Do edge finder with machine until confident
+□ Understand why this matters (every program starts here)
+
+WEEK 2: CALCULATIONS (Math Skills)
+Study:
+□ Spindle speed formula with 5 worked examples
+□ Feed rate formula with 5 worked examples
+□ Cutting speed table (memorize material categories)
+□ FPT by flute count
+Practical:
+□ Solve 10 calculation problems without calculator (mental math)
+□ Solve 10 more with calculator (focus on formula setup)
+□ Check answers against pattern (does it make sense?)
+
+WEEK 3: PROGRAM STRUCTURE (G-Code Knowledge)
+Study:
+□ Complete program template
+□ Safety codes and their purpose
+□ Movement codes G00, G01, G02, G03
+□ M codes for spindle and coolant
+□ Offset codes in program
+Practical:
+□ Write 3 simple programs from scratch
+□ Explain each line's purpose
+□ Run in simulator, watch what happens
+□ Modify programs and predict results
+
+WEEK 4: SIMULATOR PRACTICE (Applied Skills)
+Practical:
+□ Run 5 complete programs in simulator
+□ Modify feed rate and spindle speed, observe effects
+□ Practice dry-run procedure with Z-offset
+□ Identify errors and fix them
+□ Complete 2D rectangular parts successfully
+
+WEEK 5: SAFETY & SPECIALIZED CODES
+Study:
+□ Emergency procedures
+□ Pre-operation checklist
+□ Cutter compensation (G41/G42)
+□ Sub-programs (M98/M99)
+□ Manual handling proper technique
+Practical:
+□ Demonstrate safety checklist physically
+□ Write program using G41 and G42
+□ Write program using sub-program structure
+□ Explain lifting technique to partner
+
+WEEK 6: BUSINESS & HEALTH KNOWLEDGE
+Study:
+□ Organizational structure
+□ Stakeholder expectations
+□ Change factors (internal/external)
+□ Manual handling and ergonomics
+□ Long-term health concepts
+Reading:
+□ Read business theory document completely
+□ Read manual handling document
+□ Take notes on any unfamiliar concepts
+□ Prepare to discuss in English and Russian
+
+WEEK 7: COMPREHENSIVE REVIEW
+Assessment:
+□ Take practice exam covering all domains
+□ Check your answers, identify weak areas
+□ Re-study weak areas for 2-3 days
+□ Take second practice exam
+□ Score should improve noticeably
+
+WEEK 8: FINAL PREPARATION & MOCK EXAM
+□ Solve calculation problems (timed: 20 min for 5 problems)
+□ Write programs (timed: 30 min for 1 program)
+□ Answer theory questions (bilingual if possible)
+□ Full mock exam under test conditions
+□ Record score as baseline
+
+====================================================================
+PART 4: COMMON EXAM QUESTION TYPES
+====================================================================
+
+TYPE 1: CALCULATION PROBLEMS
+Q: "You have aluminum (Vc=300 m/min), 10mm tool, 2 flutes, 0.1mm FPT. Calculate spindle speed and feed rate."
+A: N = (300 × 1000)/(3.14 × 10) = 9,549 RPM
+   F = 9,549 × 2 × 0.1 = 1,909 mm/min
+
+PRACTICE: Solve 10+, timed, without calculator
+
+TYPE 2: G-CODE INTERPRETATION
+Q: "What does G43 H01 Z50 F100 do?"
+A: "G43 applies tool length offset H01, rapids to Z50 (safe height), feed rate 100 mm/min"
+
+PRACTICE: Identify purpose of each code in given program
+
+TYPE 3: PROGRAM WRITING (Practical)
+Q: "Write a program to face a 50mm × 50mm aluminum block, 5mm deep"
+A: Requires complete program with setup, movement, finishing
+
+PRACTICE: Write 10 simple programs, run in simulator
+
+TYPE 4: SAFETY KNOWLEDGE
+Q: "What is the purpose of G40 and G80 codes in program startup?"
+A: "G40 cancels diameter offset, G80 cancels any active cycles - safety codes"
+
+PRACTICE: Explain purpose of each safety code
+
+TYPE 5: THEORY QUESTIONS
+Q: "Why is flute count important in feed rate calculation?"
+A: "More flutes = higher feed rate. Number of flutes × RPM determines how many cutting edges engage per minute"
+
+PRACTICE: Explain concepts in English and Russian
+
+TYPE 6: FORMULA APPLICATION (No Numbers)
+Q: "If cutting speed increases but tool diameter stays same, does spindle speed increase or decrease?"
+A: N = (Vc × 1000)/(π × D) - if Vc increases, N increases (same denominator)
+
+PRACTICE: Reasoning about formula relationships
+
+TYPE 7: PRACTICAL DECISION MAKING
+Q: "You're cutting steel with a 4-flute tool. Feed rate seems jerky. What might be wrong?"
+A: Could be: feed rate too high, cutting speed too high, tool dull, depth too deep
+   Need to evaluate and adjust feed/speed
+
+PRACTICE: Troubleshoot common problems
+
+====================================================================
+PART 5: BILINGUAL PREPARATION (English & Russian)
+====================================================================
+
+KEY TERMS TO KNOW IN BOTH LANGUAGES:
+
+English → Russian:
+Spindle speed → Частота вращения шпинделя
+Cutting speed → Скорость резания
+Feed rate → Подача
+Tool diameter → Диаметр инструмента
+Work coordinate system → Рабочая система координат
+Machine coordinate system → Координатная система станка
+Offset → Смещение
+Flute → Канавка/Зубец
+Depth of cut → Глубина резания
+Rapid positioning → Быстрое позиционирование
+Linear feed → Линейная подача
+Clockwise → По часовой стрелке
+Counter-clockwise → Против часовой стрелки
+Tool length offset → Смещение длины инструмента
+Cutter compensation → Компенсация радиуса режущего инструмента
+Sub-program → Подпрограмма
+Safety checklist → Контрольный список безопасности
+Manual handling → Ручной подъем грузов
+Ergonomics → Эргономика
+Emergency stop → Аварийная остановка
+
+BILINGUAL PRACTICE:
+1. Read program in English
+2. Explain what it does in Russian
+3. Read theory in Russian
+4. Explain concept in English
+5. This forces active translation vs passive reading
+
+====================================================================
+PART 6: EXAM DAY CHECKLIST
+====================================================================
+
+BEFORE EXAM:
+□ Get 8 hours sleep the night before
+□ Eat reasonable breakfast (not too heavy)
+□ Drink water (mental state improves with hydration)
+□ Review formulas one final time (30 min)
+□ ONLY review - don't try to learn new concepts
+□ Arrive 15 minutes early
+□ Use restroom before starting
+□ Have pencils, paper, calculator ready
+
+DURING EXAM:
+□ Read questions carefully TWICE
+□ For calculations: Show all work (partial credit if calculation wrong but method right)
+□ For programs: Comment each section so examiner follows your logic
+□ For theory: Answer in complete sentences (not just single words)
+□ If stuck on question: Skip it, come back later (don't waste 10 min on one question)
+□ Manage time: Budget time per question type
+□ Check work: Save 5 minutes to review answers
+
+AFTER EXAM:
+□ Don't try to remember exact questions
+□ Don't second-guess yourself
+□ Rest knowing you prepared well
+□ Wait for results
+
+====================================================================
+FINAL ADVICE
+====================================================================
+
+✓ Practice calculations until automatic (don't need to think)
+✓ Write programs regularly (muscle memory for logic)
+✓ Use simulator for EVERY program before machine work
+✓ Ask questions when confused (better now than on exam)
+✓ Study consistently (little daily better than cramming)
+✓ Explain concepts to others (forces understanding, not just memorization)
+✓ Maintain health habits (stretching, sleep, hydration affect test performance)
+✓ Remember the "why" behind each concept (helps retention)
+✓ Bilingual practice helps with actual job (real machines are international)
+✓ Safety is never optional (good habits now = health long-term)
+
+YOU CAN DO THIS!
+
+The concepts are logical and learnable.
+The formulas are straightforward.
+The programs follow templates.
+You have the theory materials.
+Practice makes permanent.
+
+====================================================================
+END OF EXAM REVIEW GUIDE
+====================================================================
+
+For further review, consult:
+- [COMPLETE] CNC Programming Theory - All Lessons Combined.txt (comprehensive reference)
+- Lesson 3-7 individual theory documents (detailed topic focus)
+- Lessons 8-15 & Special Consolidated Summary.txt (additional topics)
+- Manual Handling & Ergonomics - Complete Theory.txt (health & safety topics)
+
+Good luck with your studies!

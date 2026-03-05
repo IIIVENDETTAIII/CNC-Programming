@@ -1,0 +1,96 @@
+====================================================================
+LESSON 18 PART A: SUBPROGRAMS & PROGRAM MANAGEMENT
+Calling routines, program numbers, memory
+====================================================================
+
+1. PROGRAM NUMBERING & MEMORY
+ENGLISH:
+- Programs start with `O` followed by up to five digits (`O00001`).
+  Leading zeros are optional in the machine but are common for consistency.
+- Memory can hold many programs; select an active program via the list menu
+  (`LIST PROGRAM` then highlight and `SELECT PROGRAM`).
+- To load a new program, pick an unused number or overwrite an existing one.
+  The machine will prompt when replacing stored programs.
+- You can save a program from USB into memory; avoid duplicate numbers or the
+  machine will ask to replace.
+- Keeping program number the same on the USB, in the editor, and in the control
+  reduces confusion, but it is not strictly required.
+- Numbers are arbitrary; some operators avoid "unlucky" digits (13, 420, 786)
+  for superstition, but the CNC does not care.
+
+РУССКИЙ:
+- Программы начинаются с `O` и до пяти цифр (`O00001`). Нули впереди могут быть
+  опущены на станке, но обычно используются для единообразия.
+- Память может содержать много программ; выбрать активную можно через меню
+  списка (`LIST PROGRAM`, затем выделить и `SELECT PROGRAM`).
+- Чтобы загрузить новую программу, выберите незанятый номер или перезапишите
+  существующий. Станок спросит перед заменой сохранённых программ.
+- Можно сохранить программу с USB в память; избегайте одинаковых номеров, иначе
+  придётся подтвердить замену.
+- Сохранение одинакового номера на USB, в редакторе и в контроллере снижает
+  путаницу, но не обязательно.
+- Номера произвольны; некоторые операторы избегают "несчастливых" цифр (13,
+  420, 786) по суевериям, но для станка это не имеет значения.
+
+---
+
+2. EDITING AND DELETING PROGRAMS
+ENGLISH:
+- Enter `EDIT` mode to modify a program; changes apply to the active number.
+- Use `DELETE` or `FULL MEMORY DELETE` to remove programs selectively.
+- When pasting text into the simulator, copying from the folder does not remove
+  the source file – the behavior seen by some users is due to the editor they use
+  (e.g. Notepad) automatically clearing the file when saving.
+
+РУССКИЙ:
+- Войдите в режим `EDIT`, чтобы править программу; изменения сохраняются под
+  активным номером.
+- Используйте `DELETE` или `FULL MEMORY DELETE` для удаления программ выборочно.
+- При вставке текста в симулятор источник (файл на компьютере) не удаляется –
+  кажущаяся пропажа связана с редактором (например, Notepad), который
+  очищает файл при сохранении.
+
+---
+
+3. SUBPROGRAMS (CALLS & RETURNS)
+ENGLISH:
+- `M98` calls a subprogram. Specify the number after the call (e.g. `M98 P22`).
+  The subprogram should end with `M99`.
+- `P` parameter gives the program number to execute; `L` parameter gives the
+  repeat count (e.g. `M98 P22 L20` runs subprogram 22 twenty times).
+- Subprogram numbers can be arbitrary; main program may be 1, subroutines 2,3,4.
+- Calling the wrong subprogram will produce incorrect toolpath, so manage
+  numbers carefully.
+
+РУССКИЙ:
+- `M98` вызывает подпрограмму. Укажите номер после вызова (например, `M98 P22`).
+  Подпрограмма должна заканчиваться `M99`.
+- Параметр `P` задаёт номер программы, `L` – количество повторов (например,
+  `M98 P22 L20` запускает подпрограмму 22 двадцать раз).
+- Номера подпрограмм произвольны; основная программа может быть 1, подпрограммы
+  – 2, 3, 4.
+- Неправильный вызов подпрограммы приведёт к неверной траектории, поэтому
+  следите за номерами.
+
+---
+
+4. PROGRAM HEADER/FOOTER & SAFETY CODES (review)
+ENGLISH:
+- Header typically contains: `%`, program number, comments, safety codes
+  (`G54`, `G90`, `G20/21`, `T# M06`, `S` speed, `M03`, etc.).
+- Always include a safety retract in the footer (`G0 Z...`, `M05`, `M09`, `G91
+  G28 Z0`, `M30`).
+- For subprograms use similar headers but omit `%` and program finish codes; they
+  return automatically on `M99`.
+
+РУССКИЙ:
+- Заголовок обычно содержит: `%`, номер программы, комментарии, коды безопасности
+  (`G54`, `G90`, `G20/21`, `T# M06`, `S` шпиндель, `M03` и т.д.).
+- Всегда добавляйте безопасный уход в конце (`G0 Z...`, `M05`, `M09`, `G91 G28
+  Z0`, `M30`).
+- Для подпрограмм используйте аналогичные заголовки, но без `%` и кодов окончания –
+  они возвращаются автоматически по `M99`.
+
+====================================================================
+END OF LESSON 18 PART A THEORY
+====================================================================

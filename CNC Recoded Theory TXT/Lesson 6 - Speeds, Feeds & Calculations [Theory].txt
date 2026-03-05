@@ -1,0 +1,258 @@
+====================================================================
+LESSON 6: SPEEDS, FEEDS & CUTTING CALCULATIONS
+Mathematics of CNC Machining
+====================================================================
+
+1. SPINDLE SPEED (RPM) FORMULA - FUNDAMENTAL CALCULATION
+ENGLISH:
+The spindle speed determines how fast the cutting tool rotates. It is calculated based on the cutting speed (surface speed) of the material and the tool diameter.
+
+FORMULA: N = (Vc × 1000) / (π × D)
+
+WHERE:
+- N = Spindle Speed in RPM (revolutions per minute)
+- Vc = Cutting Speed in meters per minute (m/min) - depends on material
+- D = Tool Diameter in millimeters (mm)
+- π = 3.14159
+- The 1000 converts from meters to millimeters
+
+EXAMPLE:
+Material: Aluminum, Vc = 300 m/min
+Tool: 10mm diameter end mill
+N = (300 × 1000) / (3.14159 × 10) = 9,549 RPM (approximately 9,500 RPM)
+
+РУССКИЙ:
+Скорость шпинделя определяет, как быстро вращается режущий инструмент. Она рассчитывается на основе скорости резания (поверхностной скорости) материала и диаметра инструмента.
+
+ФОРМУЛА: N = (Vc × 1000) / (π × D)
+
+ГДЕ:
+- N = Скорость жпинделя в об/мин (обороты в минуту)
+- Vc = Скорость резания в метрах в минуту (м/мин) - зависит от материала
+- D = Диаметр инструмента в миллиметрах (мм)
+- π = 3.14159
+- 1000 преобразует метры в миллиметры
+
+ПРИМЕР:
+Материал: Алюминий, Vc = 300 м/мин
+Инструмент: шпиндель диаметром 10 мм
+N = (300 × 1000) / (3.14159 × 10) = 9,549 об/мин (примерно 9,500 об/мин)
+
+---
+
+2. CUTTING SPEED (Vc) - MATERIAL DEPENDENT
+ENGLISH:
+Cutting Speed is a material property that indicates how fast the tool can safely cut through the material without breaking or overheating. Different materials have different cutting speeds:
+
+TYPICAL CUTTING SPEEDS:
+- Aluminum: 250-400 m/min (fast, easily machinable)
+- Brass: 200-250 m/min
+- Cast Iron: 80-150 m/min (slow, hard material)
+- Mild Steel: 100-200 m/min (moderate speed)
+- Stainless Steel: 80-150 m/min (slow, generates heat)
+- Plastics: 150-300 m/min
+
+These values come from material suppliers and machining handbooks. Higher Vc means faster spindle speed, shorter tool life expectancy. Lower Vc means slower spindle speed, longer tool life.
+
+РУССКИЙ:
+Скорость резания - это свойство материала, которое указывает, как быстро инструмент может безопасно резать материал без поломки или перегрева. Разные материалы имеют разные скорости резания:
+
+ТИПИЧНЫЕ СКОРОСТИ РЕЗАНИЯ:
+- Алюминий: 250-400 м/мин (быстро, легко обрабатывается)
+- Латунь: 200-250 м/мин
+- Чугун: 80-150 м/мин (медленно, твердый материал)
+- Мягкая сталь: 100-200 м/мин (умеренная скорость)
+- Нержавеющая сталь: 80-150 м/мин (медленно, выделяет тепло)
+- Пластики: 150-300 м/мин
+
+Эти значения поступают от поставщиков материалов и справочников по обработке. Более высокое Vc означает более быструю скорость шпинделя, более короткий срок службы инструмента. Более низкое Vc означает более медленную скорость шпинделя, более длительный срок службы инструмента.
+
+---
+
+3. FEED RATE (F) - SPEED OF TOOL MOVEMENT
+ENGLISH:
+Feed rate is the speed at which the tool moves through the material (in inches or millimeters per minute). It depends on:
+- Tool diameter
+- Spindle speed (RPM)
+- Number of cutting edges (flutes) on the tool
+- Feed per tooth (FPT) - how much material each tooth removes
+
+FORMULA: F = N × Z × FPT
+
+WHERE:
+- F = Feed rate in mm/min
+- N = Spindle speed in RPM
+- Z = Number of flutes (cutting edges)
+- FPT = Feed per tooth in mm (typically 0.05-0.15mm for small tools)
+
+EXAMPLE:
+N = 9,500 RPM
+Z = 2 flutes (slot drill)
+FPT = 0.1 mm/tooth
+F = 9,500 × 2 × 0.1 = 1,900 mm/min
+
+РУССКИЙ:
+Скорость подачи - это скорость, с которой инструмент движется через материал (в дюймах или миллиметрах в минуту). Это зависит от:
+- Диаметра инструмента
+- Скорости шпинделя (об/мин)
+- Количества режущих кромок (зубцов) на инструменте
+- Подачи на зуб (FPT) - сколько материала удаляет каждый зуб
+
+ФОРМУЛА: F = N × Z × FPT
+
+ГДЕ:
+- F = Скорость подачи в мм/мин
+- N = Скорость шпинделя в об/мин
+- Z = Количество зубцов (режущих кромок)
+- FPT = Подача на зуб в мм (обычно 0,05-0,15 мм для маленьких инструментов)
+
+ПРИМЕР:
+N = 9,500 об/мин
+Z = 2 флейтты (шпиндель шпинделя)
+FPT = 0,1 мм/зуб
+F = 9,500 × 2 × 0,1 = 1,900 мм/мин
+
+---
+
+4. TOOL FLUTES (TEETH) - IMPACT ON FEED RATE
+ENGLISH:
+The number of flutes on a cutting tool directly affects feed rate:
+- 2 FLUTES (slot drills for plunging): Feed = N × 2 × FPT, lower feed rate but good chip clearance
+- 3 FLUTES: Feed = N × 3 × FPT, medium feed rate, good for side milling
+- 4 FLUTES: Feed = N × 4 × FPT, highest feed rate, best for continuous side milling
+
+PRACTICAL EFFECT:
+If all other parameters are equal:
+- 2-flute tool: F = 1,900 mm/min
+- 3-flute tool: F = 2,850 mm/min (1.5× faster)
+- 4-flute tool: F = 3,800 mm/min (2× faster)
+
+However, 2-flute tools must be used for plunging operations (cutting straight down) because the large gap between teeth allows chips to escape. Tools with more flutes should not plunge directly without special helical motion software.
+
+РУССКИЙ:
+Количество зубцов режущего инструмента напрямую влияет на скорость подачи:
+- 2 ЗУБА (шпинделевые сверла для погружения): F = N × 2 × FPT, более низкая скорость подачи, но хороший отвод стружки
+- 3 ЗУБА: F = N × 3 × FPT, средняя скорость подачи, хороша для боковой фрезеровки
+- 4 ЗУБА: F = N × 4 × FPT, самая высокая скорость подачи, лучше всего для непрерывной боковой фрезеровки
+
+ПРАКТИЧЕСКИЙ ЭФФЕКТ:
+Если все остальные параметры равны:
+- 2-зубчатый инструмент: F = 1,900 мм/мин
+- 3-зубчатый инструмент: F = 2,850 мм/мин (в 1,5 раза быстрее)
+- 4-зубчатый инструмент: F = 3,800 мм/мин (в 2 раза быстрее)
+
+Однако 2-зубчатые инструменты должны использоваться для операций погружения (резка прямо вниз), потому что большой промежуток между зубцами позволяет стружке выходить. Инструменты с большим количеством зубцов не должны погружаться прямо без специального спирального программного обеспечения движения.
+
+---
+
+5. MATERIAL REMOVAL RATE (MRR)
+ENGLISH:
+Material Removal Rate is the volume of material removed per minute. It determines how long a job takes and machine productivity.
+
+MRR = Axial Depth × Radial Depth × Feed Rate
+
+This shows that to increase productivity:
+1. Increase feed rate (if tool and material allow)
+2. Increase depth of cut (axial and radial) - but tool and machine must withstand increased forces
+3. Optimize tool choice for maximum material removal capability
+
+For cost-effective manufacturing, balancing speed (productivity) with tool life and quality is critical.
+
+РУССКИЙ:
+Интенсивность удаления материала - это объем материала, удаляемого в минуту. Это определяет, как долго работает задача и производительность станка.
+
+MRR = Аксиальная глубина × Радиальная глубина × Скорость подачи
+
+Это показывает, что для увеличения производительности:
+1. Увеличить скорость подачи (если инструмент и материал позволяют)
+2. Увеличить глубину резания (аксиальную и радиальную) - но инструмент и машина должны выдерживать увеличенные силы
+3. Оптимизировать выбор инструмента для максимального удаления материала
+
+Для экономически эффективного производства критически важно сбалансировать скорость (производительность) со сроком службы инструмента и качеством.
+
+---
+
+6. TOOL COATINGS & SURFACE FINISHES
+ENGLISH:
+Modern cutting tools often have coatings to improve performance:
+
+TITANIUM NITRIDE (TiN): Golden color, reduces friction, increases tool life, suitable for steel
+TITANIUM ALUMINUM NITRIDE (TiAlN): Even harder, higher cutting speeds, better for difficult materials
+COBALT: Increases tool life for tough materials
+
+CUTTING SPEED IMPACT:
+- Coated tools can operate at 10-20% higher speeds than uncoated tools
+- Reduces heat generation
+- Extends tool replacement intervals
+- Improves surface finish quality
+
+However, high-quality coolant flow is still essential for all tool types. Coolant removes heat, carries away chips, and extends tool life.
+
+РУССКИЙ:
+Современные режущие инструменты часто имеют покрытия для улучшения производительности:
+
+НИТРИД ТИТАНА (TiN): Золотистый цвет, уменьшает трение, продлевает срок службы инструмента, подходит для стали
+НИТРИД ТИТАНА АЛЮМИНИЯ (TiAlN): Еще тверже, более высокие скорости резания, лучше для сложных материалов
+КОБАЛЬТ: Увеличивает срок службы инструмента для прочных материалов
+
+ВЛИЯНИЕ НА СКОРОСТЬ РЕЗАНИЯ:
+- Покрытые инструменты могут работать на 10-20% более высоких скоростях, чем некрытые инструменты
+- Снижает выделение тепла
+- Продлевает интервалы замены инструмента
+- Улучшает качество поверхности finish
+
+Однако высокое качество потока охладителя по-прежнему необходимо для всех типов инструментов. Хладагент удаляет тепло, уносит стружку и продлевает срок службы инструмента.
+
+---
+
+7. CUTTING SPEED VARIATIONS FOR DIFFERENT OPERATIONS
+ENGLISH:
+FACING (flat surface roughing): Typically use 1200-1500 RPM for 10-50mm diameter face mills on steel
+SHOULDER/SIDE CUTTING (outside edges): Slightly higher speeds like 1500-1800 RPM
+SLOTTING (cutting internal slots): Reduced speeds due to restricted chip clearance, typically 5-10% lower than shoulder cutting
+POCKET MILLING (internal pockets): Medium speeds, depends on pocket walls
+
+The key principle: any time the tool cannot freely expel chips or has restricted movement, reduce the spindle speed by 10-20% compared to unobstructed cutting.
+
+РУССКИЙ:
+ОБЛИЦОВКА (шероховатая плоская поверхность): Обычно используется 1200-1500 об/мин для фасформирующих фрез диаметром 10-50 мм на стали
+РЕЗАНИЕ ПЛЕЧА/БОКОВ (наружные края): Немного более высокие скорости, такие как 1500-1800 об/мин
+ПРОРЕЗАНИЕ ПАЗОВ (вырезание внутренних пазов): Уменьшенные скорости из-за ограниченного отвода стружки, обычно на 5-10% ниже, чем при резании плеча
+ФРЕЗЕРОВАНИЕ КАРМАНА (внутренние карманы): средние скорости, зависит от стен кармана
+
+Ключевой принцип: любой раз, когда инструмент не может свободно удалять стружку или имеет ограниченное движение, уменьшите скорость шпинделя на 10-20% по сравнению с беспрепятственной резкой.
+
+---
+
+8. SPEED & FEED RELATIONSHIPS - PRACTICAL SUMMARY
+ENGLISH:
+Key relationships to remember:
+- FASTER spindle speed = more heat, thinner chips, better surface finish, shorter tool life
+- SLOWER spindle speed = less heat, thicker chips, rougher finish, longer tool life
+- HIGHER feed rate = faster production, more strain on tool and machine
+- LOWER feed rate = slower production, less strain, better surface finish
+
+OPTIMIZATION STRATEGY:
+For aluminum: Use fast speeds (9,000+ RPM) and moderate feeds (0.1-0.2 mm/tooth)
+For steel: Use moderate speeds (5,000-8,000 RPM) and careful feed selection
+For cast iron: Use very slow speeds (2,000-4,000 RPM) due to material hardness
+
+Always start conservative (slower speeds) and increase gradually while monitoring tool performance, noise, and vibration.
+
+РУССКИЙ:
+Ключевые отношения для запомнения:
+- БОЛЕЕ БЫСТРАЯ скорость шпинделя = больше тепла, более тонкие стружки, лучшее качество поверхности, более короткий срок службы инструмента
+- БОЛЕЕ МЕДЛЕННАЯ скорость шпинделя = меньше тепла, более толстые стружки, более грубая отделка, более длительный срок службы инструмента
+- БОЛЕЕ ВЫСОКАЯ скорость подачи = более быстрое производство, большее напряжение на инструменте и станке
+- БОЛЕЕ НИЗКАЯ скорость подачи = более медленное производство, меньше напряжения, лучшее качество поверхности
+
+СТРАТЕГИЯ ОПТИМИЗАЦИИ:
+Для алюминия: используйте быстрые скорости (9000+ об/мин) и умеренные подачи (0,1-0,2 мм/зуб)
+Для стали: используйте умеренные скорости (5000-8000 об/мин) и осторожный выбор подачи
+Для чугуна: используйте очень низкие скорости (2000-4000 об/мин) из-за твердости материала
+
+Всегда начинайте консервативно (более медленные скорости) и постепенно увеличивайте, отслеживая производительность инструмента, шум и вибрацию.
+
+====================================================================
+END OF LESSON 6 THEORY
+====================================================================

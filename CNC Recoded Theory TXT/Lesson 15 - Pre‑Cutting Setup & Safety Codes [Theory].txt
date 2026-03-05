@@ -1,0 +1,85 @@
+====================================================================
+LESSON 15: PRE-CUTTING SETUP & SAFETY CODES
+Workholding, clearances, G‑codes review
+====================================================================
+
+1. WORKHOLDING
+ENGLISH:
+- Ensure stock is firmly clamped; loose work leads to chatter and tool breakage.
+- Use parallels, soft jaws or fixtures to avoid marring the top surface.
+- Check that clamps are outside the cutter path when programming; include
+  within model if necessary to avoid collisions.
+
+РУССКИЙ:
+- Убедитесь, что заготовка крепко зажата; шатание вызывает дрожание и
+  поломку инструмента.
+- Используйте прокладки, мягкие губки или приспособления, чтобы не повредить
+  верхнюю поверхность.
+- Проверьте, чтобы зажимы были за пределами траектории резания при
+  программировании; вносите их в модель при необходимости, чтобы избежать
+  столкновений.
+
+---
+
+2. SAFE CLEARANCES & OFFSETS
+ENGLISH:
+- Always program a safety plane (`Z+` value) above the highest feature or clamp
+  - typical 50–100 mm depending on job.
+- Use `G0` rapid moves to clearance height before traversing corners.
+- Review and adjust all work offsets (`G54`–`G59`) for each job; don’t rely on
+  last program’s values.
+
+РУССКИЙ:
+- Всегда программируйте безопасную плоскость (`Z+`) выше самой высокой
+  точки или зажима – 50–100 мм в зависимости от детали.
+- Используйте быстрые перемещения `G0` на высоту очистки перед переходами у
+  углов.
+- Проверьте и установите все смещения заготовки (`G54`–`G59`) для каждой
+  работы; не полагайтесь на значения из предыдущей программы.
+
+---
+
+3. COMMON SAFETY CODES (M‑CODES)
+ENGLISH:
+- `M03`/`M04` spindle on CW/CCW. Always start spindle after tool change and
+  before feed.
+- `M05` spindle stop; followed by `M09` coolant off if wet cutting.
+- `M01` optional stop used during setup; use `M00` for hard stop if required.
+- `M06` tool change; sequential number must match offset register set earlier.
+- `M30` end of program. May be followed by `M06` if next program starts with tool
+  change.
+
+РУССКИЙ:
+- `M03`/`M04` включение шпинделя по/против часовой. Всегда запускайте
+  шпиндель после смены инструмента и перед подачей.
+- `M05` останов шпинделя; за ним `M09` отключение СО при мокрой резке.
+- `M01` опциональная пауза при наладке; `M00` – жёсткая остановка.
+- `M06` смена инструмента; номер должен соответствовать ранее установленному
+  регистру смещения.
+- `M30` конец программы. Может следовать `M06`, если следующая программа
+  начинается со смены инструмента.
+
+---
+
+4. SAFETY PRE‑CHECKLIST
+ENGLISH:
+- Check coolant level and direction of hoses.
+- Verify tool length and diameter offsets in the offset table.
+- Confirm tool number on turret matches program `T` code.
+- Ensure spindle speed and feed rate are set to conservative values for first
+  cut (reduce by 50 % until comfortable).
+- Stand clear while first block executes; keep hands away from moving parts.
+
+РУССКИЙ:
+- Проверьте уровень СО и направление рукавов.
+- Убедитесь в смещениях по длине и диаметру инструмента в таблице смещений.
+- Подтвердите, что номер инструмента в револьвере совпадает с кодом `T` в
+  программе.
+- Установите обороты шпинделя и подачу на консервативные значения для
+  первого прохода (уменьшите на 50 % до уверенности).
+- Находитесь в стороне при исполнении первого блока; держитесь подальше от
+  движущихся частей.
+
+====================================================================
+END OF LESSON 15 THEORY
+====================================================================

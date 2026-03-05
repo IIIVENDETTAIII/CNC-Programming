@@ -1,0 +1,98 @@
+====================================================================
+LESSON 13: PROGRAM VERIFICATION & DEPTH STRATEGIES
+Safe dry‑runs, axial vs radial depth
+====================================================================
+
+1. Z‑AXIS OFFSET & TOOL LENGTH
+ENGLISH:
+- `G43 Hxx` applies the height offset stored earlier; always use before cutting.
+- Use `G40` to cancel diameter compensation when moving away from workpiece.
+- `G91 G28 Z0` (with subsequent `G90`) is safest way to return to home before
+  tool change or after finish.
+- Safe Z‑height: pick a value 50 mm above part; if tool wrongly plunges, the
+  single‑block test will catch it before hitting stock.
+
+РУССКИЙ:
+- `G43 Hxx` применяет ранее сохранённое смещение по длине инструмента; всегда
+  используйте перед резкой.
+- `G40` отменяет компенсацию диаметра, когда вы отводите инструмент от заготовки.
+- `G91 G28 Z0` (с последующим `G90`) – самый безопасный возврат в ноль станка
+  до смены инструмента или по завершении.
+- Безопасная высота Z: выберите значение 50 мм над заготовкой; если инструмент
+  неправильно погрузится, режим single‑block остановит движение до удара.
+
+---
+
+2. AXIAL & RADIAL DEPTH (STEP‑DOWN / STEP‑OVER)
+ENGLISH:
+- **Axial depth** (step‑down) = vertical Z distance removed per pass; keep within
+  tool cutting length and machine power capability (e.g. 1–2 mm per pass is safe).
+- **Radial depth** (step‑over) = horizontal X/Y distance into material; also
+  limited by tool rigidity and spindle torque.
+- Two cutting strategies for same final result:
+    1. Deep vertical cuts (axial first) with small radial step‑over.
+    2. Shallow vertical cuts with large radial step‑over ("spiral" around part).
+  Both produce identical finished part but cycle time differs.
+- Choose the combination based on material, tool strength and machine limits.
+- For novices, keep axial ≤ 2 mm and radial ≤ 20–40 % of tool diameter; use
+  multiple passes accordingly.
+
+РУССКИЙ:
+- **Осевая глубина** (step‑down) = вертикальное расстояние по Z за проход;
+  ограничивается длиной режущей части инструмента и мощностью станка (например,
+  1–2 мм за проход – безопасно).
+- **Радиальная глубина** (step‑over) = горизонтальное влияние инструмента в
+  X/Y; также ограничена жёсткостью инструмента и моментом шпинделя.
+- Две стратегии для одного результата:
+    1. Глубокие вертикальные резы (ось сначала) с небольшим шагом по радиусу.
+    2. Мелкие вертикальные резы с большим шагом по радиусу ("спираль вокруг
+       детали").
+  Обе дают одинаковую деталь, но время цикла различается.
+- Выбирайте комбинацию исходя из материала, прочности инструмента и
+  ограничений станка.
+- Для новичков: осевая ≤ 2 мм, радиальная ≤ 20–40 % диаметра инструмента; делайте
+  несколько проходов.
+
+---
+
+3. SAFE OPERATION & DRY RUNS
+ENGLISH:
+- Always perform a dry run (air cut) with Z‑offset lowered (e.g. Z‑50) and
+  feed rate reduced to 5‑10 % to verify the path before actual machining.
+- Run first block or two in single‑block mode to ensure feeds, spindle and
+  coolant are correct before continuous execution.
+- Use graphics mode for further verification; look for overtravel alarms (X/Y
+  exceeding envelope).
+
+РУССКИЙ:
+- Всегда выполняйте сухой прогон (без резания) с пониженным Z‑смещением (например,
+  Z‑50) и сниженной подачей 5‑10 %, чтобы проверить траекторию до реальной
+  обработки.
+- Запустите первые блоки или два в режиме single‑block, чтобы убедиться, что
+  подачи, шпиндель и охлаждение заданы верно.
+- Используйте графический режим для дополнительной проверки; смотрите, чтобы не
+  было ошибок выхода за пределы (X/Y за пределом рабочей зоны).
+
+---
+
+4. PROGRAM STRUCTURE REMINDERS
+ENGLISH:
+- Header (first ~10 blocks): program number, comments, safety codes, tool change,
+  home move, spindle start. These are virtually identical for every program.
+- Body: movement commands implementing drawing geometry; can be linear, circular
+  or rely on G41/G42 for compensation.
+- Footer (~6 blocks): move to safe height, coolant/spindle off, return to home,
+  `M30` end.
+
+РУССКИЙ:
+- Заголовок (первые ~10 блоков): номер программы, комментарии, коды безопасности,
+  смена инструмента, переход в ноль, запуск шпинделя. Практически одинаков для
+  любой программы.
+- Основная часть: команды перемещения, реализующие геометрию чертежа; могут
+  быть линейными, круговыми или с компенсацией G41/G42.
+- Заключение (~6 блоков): подъем на безопасную высоту, выключение
+  охлаждения/шпинделя, возврат в ноль, `M30` конец.
+
+====================================================================
+END OF LESSON 13 THEORY
+====================================================================
