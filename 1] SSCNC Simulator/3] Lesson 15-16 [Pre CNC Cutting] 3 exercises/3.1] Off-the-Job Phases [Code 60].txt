@@ -1,5 +1,6 @@
 %
 O0031
+
 (=========================================================================================================)
 (Off-the-Job Phases – Code 60 exercise)
 (Name: Ramazan Huseinov, Aluminium, 'XYZ - 150x100x10', T02 - End Mill / Slot Drill, Diameter 10mm, Flutes: 2 or 4, Length Offset H02, Deep 3mm)

@@ -1,0 +1,376 @@
+yesterday exactly stopped at this point if there is no G 42 the portion of the tool might be over here Use G40 It knows there is 20 mil it goes for the table value and it will get adjusted And as I said earlier from now onwards from after this point know what to write So what's the point number two you please tell me what's point number two zero1 it's easier to one way it's easy to one You're putting the material one value of X minus 4 sink minus 40 Y - 30 fine anything else that's it We don't want to put the feed rate over here the same will be carrying forward for the next minus one and point number two zero one zero one X.40 Y - Excellence Forcing 130 coming back to 6 Zero1 X - 4 CY0 So have you all done up to this particular point Have you all done this one Yes what's the next point what we need to do next Yeah we need to lift it up before that we need to cancel the cutter radius compensation We need to cancel the cutter previous compensation we are increased component Portion of the tool might be over here safely i'm going to take back some safe distance say X minus AT the same thing So Z0 X - Y0 but I'm going to include 340 over there i'm just canceling the from no more words I don't need any cut of radius compensation i'm just cancelling the cutter radius compensation is that OK to do it in the same line as moving it away only it should not work with G02 and 3 with linear moment but I was just thinking like does it start moving away from the material first and then cancel the radius or do they do it simultaneously will do simultaneously it goes only 70 billion with respect to the dynamic but like will there will there be any chance that it cuts into the material while canceling cancelling the put already it's when they bring it away There is a possibility to use D41 my cutting second OK so I start now in this show you know which D0 G40 X - What it happens how is rotating over here What we need to do next Say that again mother fuck So now the question of the tool is that X - 80 still the spindle is rotating it is in X minus at what we need to do next And we've finished cotton yeah we've finished cotton so we need to stop too yeah we need to stop the tool stop the flow float So first we can stop the cutting fluid M0 M0970 The next thing is song said we need to stop the spindle But before stopping the spindle always make sure that it is in some safe height Let us say two cases The first case the spindle is still rotating by chance it heated the work piece or vice what will happen by any chance it will depend on cut the material yeah it will cut the material still the damage is only for the material not for the Let us say we have stopped the tool now it is hitting the work piece what will happen before the tool and work piece will damage so after stopping coolant clearly you can see what is happening sometimes the schoolants will be spilled over everywhere first stop the coolant now still the tool will be rotating Take the tool back to be some safe titan say Z-50 or ZM dot whatever Z00 Z15 I'm taking some safe flight How still it will be rotated now you can stop the screened outside now you can stop the spindle I so the next slide continues over here I'm going to put N 05 for this line it comes over here and there was there's 100 can you put it on the end of the last one already have to put it under yeah can you put that It does I don't have any space OK no but it has to be it has to be a
+that has to be a
+yeah you should not you should both M09 and M05 in the same line yeah that it has to be a
+G 00 or Z3 yeah can can the M05 be written after that it will have to be below and now again we can take back the tool to the Home Quest G91 G28 and that you some safe And then we can finish the program What is the code for program of the important program M00 no M02 M02 program N and 3 10 M13 M30 so finish the program with M30 that that's it and then the BASIC program the percentage plus 5 The percentage which concludes that we have completed the program So the program has three segments The first segment is the header that includes program address user data safety codes and bringing the tool safely change the tool to the origin point and then the next next segment the main body it depends upon your drawing and the last segment is after finishing it take back the tool safety to the home person Same way how you work in the manual machines But we are here we are converting that into programs It always starts with percentage ends with percentage but modern day machines even if you remove percentages that's fine still it is working but always it has to start with the alphabet O followed by zero one the number goes up to 99999 and then the user data even though it is not mandatory a good programmer always provides the use of data within the brackets just the comments just to convey the information to other operators or the superior or the manager or other programs Followed by that we need to include the safety codes the safety codes are which plane you going to work like XY plane or YZ plane and are you going to work in metric arrange mode cancelling the data various compensation cancelling the right compensation and we need to two ways of writing the programs either you have to select absolute method or incremental method in this program we have selected absolute method then bring the tool home question change the tone will control to the home question and select some safe hike says some Z-50 then turn on the spindle and cut it all over and take it back to these X-50 take it to the home portion stop the further that's it the initial 810 lines and the final 56 lines are going to be same for all the programs While doing the two dimensional components I want you to write the program manually in hand 1st in the note of paper and then you can type it in the notebook So what will happen is these initial days you practice writing by hands you would not forget these codes Later you can just copy and paste the OK myself I at least for 4 or 5 programs just try to write the contents and it will be easy for OK just go through the programs if you find any difficulty any questions please ask me we have some theories with respect to these programs we cover that and we will go back to the assessment contents programs Do you find any difficulty in any of the lines please let me know Putting the back I will hit you Why is he white there to do why minus 30 Y minus del Z so this side is going to be 80 is this 80 million and this is 60 mil so there is the the axis axis measurements they say 15 minus you should say 4DB sorry sorry about that yeah thank you thanks for 40 and 40 minus 40 this is 40 - 30 generated by the software now always thoughts with MOS right even if you miss the percentage as missing star but some other misses need to enter with percentages Second can I see this one It has to start with O followed by the numbers the program address would be always starts with O followed by the numbers with maximum it can go to 5 digits of nine for our machines 99999 so here the number is 16209 and next if you see everything is commands but here it started with the bracket The project title is World's Car The date and time you can see the date with 17925 and the time OK my blood 30 minutes I mean what was the and Cam file and who is the programmer and and where it is generated the file We ask aluminium And the units is what great aluminium 2024 and tool one is flat milk of that saves the values in H1 and D tool to pull diameter tool two is ball nose smell H2D2 full diameter then if you look safety codes the first it started with G-21 Next you can see 17G4049 G90 we even we have G80 over here so safety codes and after the safety there is a tool and this particular G187 with respect to precision and accuracy of this particular program So when Mastercam generates it includes Steam 187 we do not worry about that and next if you closely look at this one G90G54 normally we used to start with exactly X0Y0 first we will come back to origin point and then we will start the program but MasterCard saves the time instead of going to X0Y0 directly going to X-15 and 80 i'm a spinner so this is how the Mastercam generates we look at this particular code This young code is along with this G But we will go by step by step first we will go to the origin point then we will turn on the spindle but master cap simultaneously it will write the G codes and M codes the M codes and G codes can be combined for both the two imports are combined together it gives an send me that the automatically the; will be and look at it see here there is no prefix New moments like G OH-1 or Zero the same G00 carries over to this particular Minus If you look into our codes I might have written G00G43Z50H1 right but there is rapid movement Before this particular and you can see the and moments XYZ movement Speed and you cannot find any G codes because it is a modal commands continuously we will be carrying forward for the next lines and in the left side we can see the sequence numbers It goes on like when you are running the program this is how it goes very quickly you cannot see any numbers you go very fast Come for the last take back that pool to the home portion Sending Z2 home question so we use as of now we are using G91 G28 because our simulator won't accept this G43 I'm sending G53Y0 that brings closer to operator You don't want to jog it again that makes the workplace closer to the operator The pool will automatically and then M30 and percentage OK 9 / 9000 individual instructions yeah it's not 9000 it is multiple 9000 so it might be 40,000 50,000 lines might be the first 90,000 completed eligible man how does that work if you have that are the same number You need to say you need to mention the operation which operation with respect to the Z - 2 or Z - 2 Or find this particular M line Z - 4 with this line 10M of power point like this So here it goes with the increment of 10 still we want if you want we can go with the increment of one So 7080 9100 we can change that to 7170 273 like that we can change the numbers memo no 21 20 10 like the syntaxes where there were a nice play this machine because we used to write MO6 both are fine So we'd understand even if you swap M06 T01 or T01 M06 both are fine as long as you have them in the same time Even if you mr zeros the prefix zeros you can say T1 M6 that is also fine M6 T1 and just M3 it switches on the annotation at Max speed at Max machine possible speed or because there was number of S in that program it wasn't tree and tree left alone you thought yes that is not it won't work is the speed was above it he was on the same line but it just carried down and it's also the syntax is also vice versa it's the speed and see not all these functions By this time OK you might be knowing all the functions and this particular functions axis rotations and vectors UB W and IJK I will cover this later OK UVW and IJK while while doing turning operations I will teach you what is ubw IJK once you are comfortable with this two dimensional programs I will teach what is IJK as of now I do not want to get confused with R and IJK so you can make a note of it and ignore this just just the OK this got it before this time you don't want to put it the first line yeah then you have to write it yes yes free what's it's called miscellaneous course since we are using XYZ for the axis they are selected O for the program number there is no particular reason for any algorithms just randomly we have selected the alphabets first they started with G medium so randomly they have selected all the alphabets since it is a pause P they selected it for G04 pause for 10 seconds and this particular yes the spindle speed normally we will We are confused with the formula and the formula Normally it will be used as N The notation for calculating the spindle speed is N that is asked for physics OK so by the end the symbol M over here is sequence number even you can even if you want quickly you can type it in the yesterday I have started a program Aaron's modified as Fuck pardon I did modified that How the fuck did you do Don't know that I thank you and straight into his one starting to write the answers there Yeah said they were still going to take any order career plan Did you feel mad if I fucked you You have to All the things are different this time we can put it in the machine we can run the so next week we gonna learn this simulator software on this batch I will teach you how to use this software So we'll be using this software for a week or two weeks that's it then after that you'll become something like intermediate level They'll be from you from here to the intermediate level then we can use the softwares from Mastercam that simulation will be fine OK and if you feel OK we are going very fast please let me know I am going to slow please let me know we can slow it down or we can speed it up on your own face we cannot want to slow one just it is a second week I don't want to push the alerts I can I don't want to give more more dye drawings more content to write the program So normally what I will do is after releasing the best program I have few drawings I will give it to them I will ask them to do the programs for ghost since just a second disappeared I don't Monday so next week we'll post a question So he put that in there about the industry would you have a giant that I could bring home right over the weekend no even if you want OK the same program you can try it by incremental method OK OK Try the program by incremental It's exactly like hey cortana
+
+
+
+Также мне нужно выучить то что напишу ниже для подготовки к экзаменам помоги выучить и чтобы мог ответить на английским и понимать на русском: 
+
+
+
+Geographical Business:
+Geographical operations refer to activities or actions that take place within different geographical boundaries, such as local, national, or international levels. These levels represent varying scopes and extents of operation:
+1.	-Local Operations:
+•	These operations are confined within a specific locality, such as a city, town, or region. They cater to the needs or concerns of that particular area. Examples include local businesses, community events, and city-level governance.
+2.	National Operations:
+•	National operations cover activities that occur within the boundaries of a specific country or nation. These can encompass government policies, national businesses, infrastructure development, and legal frameworks that apply nationwide.
+3.	International Operations:
+•	International operations involve activities that transcend national boundaries and involve multiple countries or regions. These operations may include multinational corporations, global trade, diplomatic relations, international aid, treaties, and agreements between nations.
+Organizations, businesses, governments, and non-governmental entities often operate across these different geographical levels to address specific needs, challenges, or opportunities presented at each level. The scale and complexity of operations can vary significantly depending on the geographic scope.
+Examples
+Here are some examples of operations at different geographical levels:
+1.	Local Operations:
+•	Local farmers' markets: These markets operate within a specific town or neighborhood, offering locally grown produce and goods to the community.
+•	City waste management: Local municipalities manage waste collection and recycling programs within city limits.
+•	Neighborhood watch programs: Communities organize local groups to enhance security and safety within their neighborhood.
+2.	National Operations:
+•	National healthcare systems: Countries have healthcare systems that operate nationally, providing medical services, insurance coverage, and public health initiatives.
+•	National elections: Electoral processes and voting take place at a national level to elect government officials.
+•	National transportation networks: Governments oversee and maintain transportation infrastructure like highways, railways, and airports that connect regions within a country.
+3.	International Operations:
+•	Multinational corporations: Companies like Coca-Cola, Apple, or Toyota operate in multiple countries, with production, sales, and distribution networks spanning various continents.
+1.2 Characteristics of and job roles within different functional areas: 
+Support 
+Sales and marketing 
+Engineering 
+Manufacturing
+ Quality.
+some key characteristics and common job roles within different functional areas in a business setting:
+1.	Support:
+•	Characteristics:
+•	Customer-centric: Focuses on addressing customer needs, queries, and concerns promptly and effectively.
+•	Problem-solving: Requires the ability to troubleshoot issues and provide solutions to customers' problems.
+•	Communication skills: Strong communication skills are vital to effectively assist customers and convey information clearly.
+•	Job Roles:
+•	Customer Support Representative: Provides assistance to customers via various channels (phone, email, chat) to resolve issues and answer inquiries.
+•	Technical Support Specialist: Offers specialized assistance for technical problems or product-related issues.
+•	Help Desk Analyst: Supports internal users within an organization, providing technical assistance and troubleshooting for software or hardware problems.
+2.	Sales and Marketing:
+•	Characteristics:
+•	Market-oriented: Focuses on understanding consumer needs and market trends to develop effective strategies.
+•	Relationship-building: Involves building and nurturing relationships with clients and customers.
+•	Creativity: Requires innovative approaches to promote products or services and differentiate them in the market.
+•	Job Roles:
+•	Sales Representative: Engages with potential clients or customers to sell products or services.
+•	Marketing Manager: Plans and executes marketing campaigns, analyzes market trends, and develops marketing strategies.
+•	Digital Marketing Specialist: Utilizes digital channels like social media, SEO, and content marketing to promote products/services online.
+3.	Engineering:
+•	Characteristics:
+•	Problem-solving and analytical skills: Involves designing solutions and systems based on technical expertise and analysis.
+•	Innovation-driven: Focuses on creating new technologies, products, or processes.
+•	Technical expertise: Requires specialized knowledge in various fields like mechanical, electrical, software, etc.
+•	Job Roles:
+•	Mechanical Engineer: Designs and develops mechanical systems or products.
+•	Software Engineer: Creates and maintains software applications and systems.
+•	Civil Engineer: Plans and oversees the construction of infrastructure projects like roads, buildings, or bridges.
+4.	Manufacturing:
+•	Characteristics:
+•	 optimizing production processes to maximize output and minimize costs.
+•	Quality control: Ensures products meet specified standards and comply with regulations.
+•	Operational expertise: Requires knowledge of manufacturing processes and equipment.
+•	Job Roles:
+•	Production Manager: Oversees the manufacturing process, ensuring efficient production and resource allocation.
+•	Assembly Line Worker: Performs tasks in the assembly of products within a manufacturing plant.
+•	Quality Assurance Inspector: Monitors and checks products to ensure they meet quality standards.
+5.	Quality:
+•	Characteristics:
+•	Attention to detail: Focuses on maintaining and improving product or service quality.
+•	Process improvement: Involves analyzing processes to identify areas for enhancement and efficiency.
+•	Compliance and standards: Ensures adherence to regulatory requirements and quality standards.
+•	Job Roles:
+•	Quality Control Analyst: Conducts tests and inspections to verify product quality.
+•	Quality Assurance Manager: Develops and implements quality assurance policies and procedures.
+•	Compliance Officer: Ensures that the organization complies with relevant regulations and standards.
+Each functional area plays a crucial role in contributing to the overall success of a business by focusing on specific aspects that collectively drive the company towards its objectives.
+
+	Existing clients/users 
+	Potential clients/users 
+	Board of Directors 
+	External shareholders 
+	Standards bodies 
+	Regulator for that industry
+Stakeholders in a business encompass a wide range of individuals and entities, each with their unique expectations and interests. Here's an overview of the expectations of different types of stakeholders:
+1.	Existing Clients/Users:
+•	Quality and Service Continuity: Existing clients expect consistent quality in products/services and a continuation of good service standards.
+•	Customer Support and Engagement: They may expect responsive and effective customer support and opportunities for engagement to address concerns or provide feedback.
+•	Value and Satisfaction: Clients seek ongoing value for the products/services they've invested in and a continued positive experience.
+2.	Potential Clients/Users:
+•	Information and Transparency: Potential clients seek information about the product/service, its benefits, and its value proposition. They expect transparency regarding what the business offers.
+•	Trial or Demonstrations: They might expect opportunities for trials, demonstrations, or detailed information to evaluate the suitability and quality of the product/service.
+3.	Board of Directors:
+•	Strategic Direction: The board focuses on setting the company's long-term strategy and vision. They expect management to present plans that align with these objectives.
+•	Risk Management: Directors prioritize understanding and mitigating risks that could affect the company's stability and success.
+•	Ethical Conduct and Governance: They expect high ethical standards, effective governance practices, and compliance with regulations.
+4.	External Shareholders:
+•	Financial Returns: Shareholders expect returns on their investment, including dividends, stock value appreciation, and profit growth.
+•	Transparency and Communication: They seek transparent and timely communication regarding the company's financial performance, strategy, and decision-making.
+•	Short-Term Gains and Market Performance: Some external shareholders may prioritize short-term gains and positive market performance.
+5.	Standards Bodies:
+•	Adherence to Industry Standards: Standards bodies expect businesses to adhere to industry-specific quality, safety, and operational standards.
+•	Compliance and Certification: They might expect businesses to obtain certifications or comply with specific standards to ensure quality and safety.
+•	Contributions to Advancing Standards: In some cases, standards bodies may look for businesses to contribute to the development or improvement of industry standards.
+6.	Regulators for the Industry:
+•	Legal Compliance: Regulators expect businesses to comply with laws, regulations, and standards specific to their industry.
+•	Ethical and Responsible Practices: They might emphasize ethical conduct, responsible business practices, and social responsibility.
+•	Consumer Protection: Regulators often aim to protect consumers' interests by ensuring fair trade practices, product safety, and fair pricing.
+Meeting the diverse expectations of these stakeholders often requires businesses to adopt a multifaceted approach that balances the interests of various groups while aligning with the company's overall objectives and values. Effective communication, ethical conduct, and a commitment to delivering value play pivotal roles in managing stakeholder expectations.
+
+
+1.	Customers' Expectations:
+•	Value for Money: Customers generally seek value in the products or services they purchase. They expect fair pricing that aligns with the perceived value they receive. They may not explicitly concern themselves with the profitability of a business; instead, they prioritize getting quality products or services for the price they pay.
+•	Quality and Satisfaction: Customers often prioritize the quality, reliability, and overall satisfaction derived from a product or service. They expect that the business remains profitable without compromising on the quality they have come to expect.
+•	Customer Service and Experience: Expectations revolve around excellent customer service, timely support, and a positive overall experience. Customers might not necessarily connect profitability with their service expectations but will expect businesses to invest in customer satisfaction initiatives.
+•	Innovation and Improvement: Customers appreciate businesses that continually innovate and improve their offerings. They expect new features, enhancements, or better products/services without drastic price increases.
+2.	Regulators' Expectations:
+•	Compliance with Laws and Standards: Regulators, such as government agencies, expect businesses to comply with legal and industry standards. Profitability should not be achieved at the expense of violating regulations or compromising public safety.
+•	Transparency and Reporting: Regulators often demand transparency in financial reporting. They expect accurate and transparent financial statements, disclosing profits, losses, and accounting practices following established regulations.
+•	Fair Competition: Regulators emphasize fair competition within markets. They monitor and might intervene if a business's profitability comes at the expense of unfair practices, such as anti-competitive behavior or monopolistic tendencies.
+•	Sustainable Practices: Increasingly, regulators focus on businesses' sustainability practices, including environmental impact and social responsibility. Profitability must align with sustainable practices, promoting long-term viability without causing significant harm to the environment or society.
+Differences and Balancing Act:
+While customers primarily seek value, quality, and service, regulators concentrate on legality, fairness, and sustainability. Balancing these diverse expectations can be challenging for businesses. Profitability is vital for a company's growth and sustainability, but achieving it should not compromise customer satisfaction, quality, fair practices, or regulatory compliance.
+Businesses need to find a balance that ensures profitability while meeting customer needs, adhering to regulations, and contributing positively to society. Companies that effectively navigate these expectations often prioritize ethical and sustainable business practices while delivering value to customers to maintain a healthy long-term relationship with both customers and regulators.
+
+1.	External Shareholders' Expectations:
+•	Return on Investment (ROI): Shareholders, whether individual investors or institutional funds, typically seek a return on their investment. They are often focused on short-term gains, expecting dividends, capital appreciation, or increased stock value in the near future.
+•	Market Performance: Shareholders may place considerable emphasis on quarterly financial results and short-term market performance. They might expect the company to meet or exceed earnings forecasts or industry benchmarks within shorter time frames.
+•	Dividends and Profits: Shareholders may prioritize immediate dividends or profits, expecting the company to generate consistent and growing returns on their investment.
+•	Market Position and Growth: While interested in short-term profits, shareholders also value the company's competitive position and growth prospects. They might expect strategies that balance short-term profitability with sustainable growth to secure future returns.
+2.	Board of Directors' Expectations:
+•	Long-Term Strategy: The board of directors is responsible for setting the company's strategic direction. They often focus on the long-term success and sustainability of the business. While acknowledging short-term profitability, they prioritize strategies that contribute to the company's long-term growth and stability.
+•	Risk Management: Directors are concerned with mitigating risks and ensuring the company's resilience against market fluctuations. They might view overly aggressive short-term profit-seeking strategies as potentially risky or detrimental to the company's long-term health.
+•	Corporate Governance and Ethics: Boards emphasize adherence to ethical standards and corporate governance practices. They might prioritize ethical behavior and sustainable business practices over short-term profit maximization.
+•	Stakeholder Interests: Directors consider the interests of various stakeholders, including employees, customers, and the broader community, beyond just shareholders. They aim to balance the needs of all stakeholders while delivering sustainable value.
+Differences and Balancing Act:
+The differences in expectations between shareholders and the board often revolve around the timeframe for evaluating success and the approach to achieving profitability. Shareholders often focus on immediate returns and market performance, while the board prioritizes a more strategic, long-term view that encompasses sustainability and ethical practices.
+Balancing these expectations requires effective communication and alignment between the board, management, and shareholders. While short-term profitability is crucial for shareholder satisfaction, the board seeks to ensure that profitability aligns with the company's long-term goals, values, and sustainability. Striking a balance between short-term gains and long-term sustainability is essential for maintaining a healthy and successful business in the eyes of both external shareholders and the board of directors.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The effect of change on engineering businesses can be significant and multifaceted, impacting various aspects of their operations, strategies, and outlook. Change can stem from technological advancements, market shifts, regulatory updates, economic fluctuations, or evolving consumer demands. Here are some key effects of change on engineering businesses:
+1.	Technological Advancements:
+•	Innovation Opportunities: Changes in technology often open new avenues for innovation and product development. Engineering businesses need to adapt and leverage emerging technologies to stay competitive and meet evolving market demands.
+•	Investment in R&D: To remain at the forefront, engineering firms might need to invest significantly in research and development to keep up with technological advancements and maintain a competitive edge.
+2.	Market Shifts and Consumer Demands:
+•	Adapting Product Offerings: Changes in consumer preferences and market trends may necessitate engineering businesses to adapt their product portfolios or develop new products that cater to shifting demands.
+•	Customization and Personalization: Increased demand for customization may require engineering firms to offer more personalized solutions to meet diverse customer needs.
+3.	Regulatory and Compliance Changes:
+•	Compliance Requirements: Changes in regulations, environmental standards, or safety protocols can impact engineering designs and manufacturing processes. Businesses need to ensure compliance while maintaining operational efficiency.
+•	Adapting to New Standards: Engineering businesses may need to redesign products or modify existing processes to meet updated standards and regulations.
+4.	Economic and Global Factors:
+•	Supply Chain Challenges: Economic fluctuations, trade policies, or geopolitical changes can disrupt supply chains, affecting procurement of materials and components. Businesses may need to diversify suppliers or alter logistics strategies to mitigate risks.
+•	Globalization and Expansion: Changes in global markets might prompt engineering firms to expand operations into new regions or countries to access new markets or reduce dependency on specific markets.
+5.	Workforce Dynamics:
+•	Skill Adaptation and Training: Technological advancements may require the workforce to upskill or reskill to handle new tools, software, or methodologies. Continuous training and development become crucial.
+•	Remote Work and Collaboration: Changes in work dynamics, such as remote work trends, may impact how engineering teams collaborate and communicate, requiring adaptations in workflow and project management.
+6.	Sustainability and Environmental Considerations:
+•	Green Engineering Practices: Increasing emphasis on sustainability and environmental responsibility may lead engineering firms to develop eco-friendly products or adopt green engineering practices.
+•	Circular Economy Initiatives: Changes may prompt businesses to reevaluate their production processes and adopt circular economy principles to reduce waste and optimize resource use.
+In summary, change can be both a challenge and an opportunity for engineering businesses. Adapting to changes effectively often requires agility, innovation, strategic planning, and a willingness to embrace new technologies and approaches. Companies that can navigate change successfully tend to remain competitive and resilient in a rapidly evolving business landscape.
+
+Characteristics of factors causing change in engineering businesses:
+ Internal (finance, efficiency, quality, skills) 
+External (legislation, technology, market forces).
+The factors causing change in engineering businesses can be categorized into internal and external factors, each with distinct characteristics:
+Internal Factors:
+Finance:
+Capital Availability: Changes in the availability of funds or access to investment capital can influence business decisions, affecting expansions, R&D initiatives, or infrastructure upgrades.
+•	Budget Constraints: Financial constraints or budgetary considerations may drive changes in resource allocation and investment priorities within the organization.
+2.	Efficiency:
+•	Process Optimization: The drive for increased efficiency can lead to changes in operational processes, workflows, or production methods to reduce costs and improve productivity.
+•	Lean Principles: Adoption of lean manufacturing or lean engineering principles to minimize waste and enhance efficiency can drive significant changes in how engineering businesses operate.
+3.	Quality:
+•	Continuous Improvement: Changes in quality standards or a focus on continuous improvement can lead to adjustments in manufacturing processes, quality control methods, or product design to meet higher quality benchmarks.
+•	Customer Feedback: Feedback from customers regarding product quality or service can drive changes in engineering processes and product enhancements.
+4.	Skills:
+•	Training and Development: Changes in required skills due to technological advancements or industry shifts may necessitate training programs or hiring practices to ensure the workforce remains skilled and adaptable.
+•	Skill Gaps: Identifying skill gaps within the workforce can prompt retraining efforts or hiring strategies to bridge these gaps and maintain competitiveness.
+External Factors:
+1.	Legislation and Regulations:
+•	Compliance Requirements: Changes in laws or regulations, such as environmental standards or safety protocols, can force engineering businesses to adapt designs, manufacturing processes, or operational practices to comply with new legal requirements.
+•	Policy Changes: Government policies, taxation, or trade regulations can impact business operations, influencing decision-making and strategies.
+2.	Technology:
+•	Innovations and Advancements: Rapid technological advancements can disrupt industries, prompting engineering firms to adopt new technologies or modify existing processes to stay competitive.
+•	Automation and Digitalization: Embracing automation, digital transformation, or Industry 4.0 concepts might necessitate changes in equipment, software, and workforce skillsets.
+3.	Market Forces:
+•	Consumer Demands: Changes in consumer preferences, market trends, or shifts in demand for certain products or services can drive modifications in engineering designs and production.
+•	Competitive Landscape: Actions of competitors, new market entrants, or disruptions caused by industry changes can influence business strategies and necessitate adaptations to remain competitive.
+These internal and external factors can individually or collectively drive change within engineering businesses. Successful adaptation to these dynamic forces often requires proactive planning, strategic decision-making, and a flexible approach to meet evolving demands and capitalize on emerging opportunities.
+
+Example: Efficiency Improvement Initiatives
+Internal Factor: Efficiency improvement is a critical internal factor that engineering businesses often focus on to enhance productivity, reduce costs, and streamline operations.
+Change Caused: Let's consider an engineering firm specializing in manufacturing industrial machinery. The company identifies areas for efficiency improvement within its production processes:
+1.	Process Optimization: The engineering firm realizes that certain manufacturing steps are time-consuming and result in a bottleneck in the production line. Engineers and operations managers collaborate to re-evaluate and optimize these processes.
+2.	Implementation of Lean Principles: The company decides to implement lean manufacturing principles to minimize waste and increase efficiency. They initiate practices such as value stream mapping, 5S methodology (Sort, Set in order, Shine, Standardize, Sustain), and continuous improvement initiatives like Kaizen.
+3.	Investment in Automation: Recognizing the potential for automation to streamline operations, the business invests in advanced machinery and robotics for repetitive tasks, reducing manual labor and cycle times.
+4.	Training and Reskilling: To support these changes, the company offers training programs to employees, enabling them to operate new equipment, understand lean principles, and participate in process improvement initiatives.
+Effects of Change:
+•	Increased Productivity: The efficiency improvements lead to increased throughput and reduced production time, allowing the company to fulfill orders more quickly and possibly take on additional contracts without increasing resources significantly.
+•	Cost Savings: Streamlining processes and reducing waste results in cost savings due to decreased material wastage, optimized inventory levels, and more efficient resource utilization.
+•	Enhanced Quality: Efficiency improvements often go hand in hand with quality enhancements. By identifying and rectifying bottlenecks or error-prone processes, the business can improve product quality and consistency.
+•	Competitive Advantage: The company gains a competitive edge by offering faster delivery times, cost-effective products, and potentially more innovative solutions due to increased focus on R&D with saved resources.
+Conclusion: Efficiency improvement initiatives within an engineering business can drive substantial change, positively impacting productivity, cost-effectiveness, quality, and competitiveness. Such internal-driven changes often lead to a more agile and competitive business better positioned to meet market demands and achieve long-term success.
+Example of how finance-related internal factors can cause change within an engineering business:
+Scenario: Financial Constraints Prompting Strategic Changes
+Internal Factor: Financial constraints or limitations can significantly impact decision-making and operational strategies within an engineering firm.
+Change Caused: Let's consider an engineering consultancy firm facing financial challenges due to reduced project revenues and increased operating costs:
+1.	Budgetary Constraints: The firm experiences a decline in project contracts or delays in client payments, resulting in a cash flow shortage. This situation limits the company's ability to invest in new projects, research, or equipment upgrades.
+2.	Cost Reduction Measures: Faced with financial constraints, the firm decides to implement cost-cutting measures to maintain profitability. This includes reducing discretionary spending, renegotiating contracts with suppliers for better terms, and optimizing operational expenses.
+3.	Strategic Focus: Due to budget limitations, the company reevaluates its strategic priorities. It might decide to concentrate efforts on high-profit margin services or shift focus to industries or geographic areas with higher growth potential.
+4.	Efficiency and Resource Allocation: The firm rethinks resource allocation, prioritizing projects that offer higher returns and align more closely with the company's core competencies. This might involve reallocating human resources and expertise to capitalize on more lucrative opportunities.
+Effects of Change:
+•	Financial Stability: Implementing cost reduction measures helps the company weather the financial downturn, improving cash flow and stabilizing the business in the short term.
+•	Strategic Realignment: The shift in strategic focus allows the firm to target more profitable markets or services, potentially leading to increased revenue streams and improved financial health in the long run.
+•	Operational Optimization: By reassessing resource allocation and focusing on efficiency, the company becomes more agile and better equipped to manage future financial challenges.
+•	Client and Project Selection: With a more cautious approach to project selection, the firm may become more discerning, choosing projects that offer higher profitability or align more closely with the company's expertise and values.
+Conclusion: Financial constraints often necessitate strategic changes within engineering businesses, leading to a more focused approach, operational optimization, and a reevaluation of priorities. These changes aim to improve financial stability, optimize resource utilization, and position the firm for sustainable growth amid challenging economic conditions.
+Effects of change
+: • On industry 
+• On businesses
+ • On employees
+
+Effects of Change on Industry:
+1.	Innovation and Evolution: Change often drives innovation and evolution within industries, leading to the development of new technologies, methodologies, and practices.
+2.	Competitive Landscape: Industry-wide changes can alter the competitive landscape, affecting market dynamics, pricing strategies, and the emergence of new competitors.
+3.	Market Growth or Contraction: Changes can lead to market expansion by creating new opportunities or contraction by rendering certain products or services obsolete.
+4.	Regulatory Impact: Changes in regulations or standards can influence industry practices, requiring compliance adjustments that affect operational processes and costs.
+Effects of Change on Businesses:
+1.	Adaptation and Survival: Businesses must adapt to changes to survive and remain relevant. Failure to adapt can result in decreased market share or eventual closure.
+2.	Strategic Shifts: Change often prompts businesses to reassess their strategies, possibly leading to the exploration of new markets, diversification of products/services, or adoption of new business models.
+3.	Operational Modifications: Businesses may undergo operational modifications to accommodate changes, such as restructuring, process reengineering, or technological upgrades.
+4.	Financial Impact: Changes can affect financial stability, requiring businesses to manage resources more effectively, reevaluate budgets, and make strategic investments.
+Effects of Change on Employees:
+1.	Skills and Training: Changes often necessitate new skills or knowledge. Employees may require training and up skilling to adapt to new technologies or processes.
+2.	Job Roles and Redundancy: Changes can lead to the creation of new job roles while making certain existing roles redundant. Employees may face the need for role redefinition or potential layoffs.
+3.	Workplace Culture: Changes can impact workplace dynamics and culture. Employees may experience increased stress, uncertainty, or resistance to change, affecting morale and productivity.
+4.	Career Growth Opportunities: Change can create opportunities for career growth, innovation, and professional development for employees who adapt well to the changes.
+In summary, change affects industries by driving innovation and altering competition, while businesses undergo strategic and operational adjustments to thrive in evolving environments. Employees experience shifts in skills, job roles, and workplace dynamics, necessitating adaptation and offering opportunities for growth amidst change. Successful navigation of change often involves proactive planning, effective communication, and a willingness to embrace new approaches.
+Top of Form 
+
+
+
+
+
+
+
+
+
+
+
+
+также вот это нужно выучить: 
+
+
+
+Principles of communication:
+ • Two way process
+ • Types of communication (oral, written, non-verbal) 
+• Formal/informal
+1.	Two-Way Process: Communication involves both sending and receiving information. It's not just about transmitting messages but also actively listening and understanding responses. This two-way flow is crucial for effective communication.
+2.	Types of Communication:
+•	Oral Communication: This includes spoken words, conversations, presentations, and speeches.
+•	Written Communication: Involves conveying messages through written words, such as emails, letters, reports, memos, etc.
+•	Non-Verbal Communication: This encompasses body language, facial expressions, gestures, tone of voice, eye contact, etc. Non-verbal cues often complement and influence the spoken or written message.
+3.	Formal and Informal Communication:
+•	Formal Communication: Follows predefined channels and structures within an organization or specific setting. It adheres to established protocols, such as official meetings, reports, formal letters, etc. It is systematic and often documented.
+•	Informal Communication: Occurs spontaneously without following specific rules or structures. It includes casual conversations, gossip, chatting with colleagues, etc. Informal communication is often more relaxed and can spread information rapidly through social networks.
+Types of, purpose and conventions for completion of business documentation: 
+• Gantt charts
+ • Bill of Materials (BoM) 
+• Technical Reports
+ • Job cards 
+• Emails. 
+1.	Gantt Charts:
+•	Purpose: Gantt charts are visual project management tools used to schedule, organize, and track tasks over specific timeframes. They illustrate project timelines, dependencies, and progress.
+•	Conventions: Typically, Gantt charts include tasks listed on the vertical axis and a timeline on the horizontal axis. Bars represent tasks, showing their start and end dates. Conventions involve using different colours or patterns to signify task status, dependencies, milestones, and critical paths.
+2.	Bill of Materials (BoM):
+•	Purpose: BoM is a comprehensive list of raw materials, components, parts, and assemblies required to manufacture a product. It details quantities, descriptions, and sometimes suppliers.
+•	Conventions: Conventions for BoM include structured formats with item numbers, descriptions, units of measure, quantities needed, and sometimes cost information. It should be clear and easily understandable to facilitate procurement and production processes.
+3.	Technical Reports:
+•	Purpose: Technical reports present findings, analyses, or recommendations based on research, experiments, or investigations. They convey technical information to specific audiences.
+•	Conventions: Technical reports follow a structured format, including an introduction, methodology, results, discussion, conclusions, and recommendations. They often include technical data, charts, graphs, and citations following specific referencing styles .
+4.	Job Cards:
+•	Purpose: Job cards or work orders outline tasks, instructions, or procedures for completing a specific job or task within an organization.
+•	Conventions: Job cards typically include details such as job/task description, instructions, materials required, estimated time, personnel assigned, deadlines, and sometimes quality check or approval sections. They may also include space for updates or notes during the job's progress.
+5.	Emails:
+•	Purpose: Emails serve various purposes in business, including communication, coordination, documentation, and more.
+•	Conventions: Email conventions involve clear subject lines, a proper salutation, concise and clear body text, appropriate tone, and a professional closing. Emails should be formatted for easy readability and often include attachments or links for additional information.
+Characteristics of ICT software applications: 
+• Word processing 
+• Spreadsheets 
+• Databases 
+• Presentation 
+• CAD 
+• CAM 
+• Mobile apps
+1.	Word Processing:
+•	Features: Word processing software (e.g., Microsoft Word, Google Docs) enables the creation, editing, formatting, and printing of textual documents.
+•	Characteristics:
+•	Text manipulation: Formatting options for fonts, sizes, styles, colors, alignment, etc.
+•	Editing tools: Spell check, grammar check, copy-paste, find and replace, etc.
+•	Collaboration: Real-time collaboration, comments, track changes, and version control.
+•	Templates: Pre-designed formats for different document types (letters, reports, resumes).
+•	Integration: Ability to include images, tables, and other media.
+2.	Spreadsheets:
+•	Features: Spreadsheet software (e.g., Microsoft Excel, Google Sheets) facilitates numerical data organization, analysis, and calculations.
+•	Characteristics:
+•	Calculation capabilities: Formulas, functions, and tools for data analysis.
+•	Data visualization: Charts, graphs, and pivot tables for visual representation.
+•	Data manipulation: Sorting, filtering, and organizing data.
+•	Macros and automation: Tools to automate repetitive tasks.
+•	Collaboration: Simultaneous editing, data sharing, and commenting.
+3.	Databases:
+•	Features: Database software (e.g., Microsoft Access, MySQL, Oracle) manages structured data and supports data retrieval and manipulation.
+•	Characteristics:
+•	Data organization: Tables, relationships, queries, forms, and reports.
+•	Querying: Structured Query Language (SQL) for data retrieval and manipulation.
+•	Security: Access control, data encryption, and user permissions.
+•	Scalability: Ability to handle large volumes of data efficiently.
+•	Backup and recovery: Procedures to protect and restore data.
+4.	Presentation:
+•	Features: Presentation software (e.g., Microsoft PowerPoint, Google Slides) creates visual slideshows for information presentation.
+•	Characteristics:
+•	Slide creation: Templates, themes, and layouts for slides.
+•	Multimedia integration: Images, videos, audio, and animations.
+•	Transitions and effects: Visual effects between slides or elements.
+•	Collaboration: Real-time collaboration and sharing of presentations.
+•	Speaker notes: Sections for additional information for presenters.
+5.	CAD (Computer-Aided Design):
+•	Features: CAD software (e.g., AutoCAD, SolidWorks) creates 2D or 3D designs, technical drawings, and models.
+•	Characteristics:
+•	Design tools: Tools for precise drawing, modelling, and drafting.
+•	2D/3D modelling: Creation of detailed designs and models.
+•	Measurement and annotation: Adding dimensions, annotations, and specifications.
+•	Rendering: Generating realistic images or simulations of designs.
+•	Collaboration: Sharing and collaborating on designs among teams.
+6.	CAM (Computer-Aided Manufacturing):
+•	Features: CAM software (e.g., Mastercam, Siemens NX CAM) converts CAD designs into instructions for manufacturing machinery.
+•	Characteristics:
+•	Toolpath generation: Generating paths for machining operations (milling, turning, etc.).
+•	Machining simulation: Simulating the manufacturing process to identify issues.
+•	Optimization: Optimizing toolpaths for efficiency and precision.
+•	Integration: Connecting with CNC machines and other manufacturing equipment.
+•	Automation: Automating processes to improve manufacturing productivity.
+7.	Mobile Apps:
+•	Features: Mobile applications are software programs designed to run on mobile devices (smartphones, tablets).
+•	Characteristics:
+•	Platform-specific or cross-platform: Developed for Android, iOS, or both.
+•	User interface (UI) and user experience (UX): Intuitive design for easy navigation and use on smaller screens.
+•	Functionality: Various purposes like productivity, entertainment, social networking, etc.
+•	Connectivity: Integration with device features (camera, GPS, sensors) and online services.
+•	Updates and maintenance: Regular updates, bug fixes, and improvements.
+
+
+
