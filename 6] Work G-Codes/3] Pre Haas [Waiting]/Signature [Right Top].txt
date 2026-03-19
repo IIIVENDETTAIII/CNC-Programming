@@ -13,36 +13,42 @@ G00 G43 H02 Z50
 M08
 
 (=============== LETTER R ===============)
-G00 X127.755 Y81.805
+G00 X124.015 Y72.460
 G01 Z-0.5 F55.0;
 (Vertical line - left side of R)
-G01 X127.755 Y91.805 F130.0;
+G01 X124.015 Y82.460 F130.0;
 (Horizontal line - top of R)
-G01 X131.755 Y91.805
+G01 X128.015 Y82.460
 (Arc - curve of top circle)
-G02 X132.755 Y89.805 R1.5
-G02 X131.755 Y87.805 R1.5
+G02 X129.015 Y80.460 R1.5
+G02 X128.015 Y78.460 R1.5
 (Diagonal line - leg of R)
-G01 X127.755 Y87.805
-G01 X132.755 Y81.805
+G01 X124.015 Y78.460
+G01 X129.015 Y72.460
 
 (=============== LETTER H ===============)
 G00 Z5
-G00 X137.755 Y81.805
+G00 X134.015 Y72.460
 G01 Z-0.5 F55.0;
 (First vertical line - left side of H)
-G01 X137.755 Y91.805 F130.0;
+G01 X134.015 Y82.460 F130.0;
 (Move to center of left stroke)
 G00 Z5
-G00 X137.755 Y85.805
+G00 X134.015 Y76.460
 (Middle bar of H)
 G01 Z-0.5 F55.0;
-G01 X143.755 Y85.805 F130.0;
+G01 X140.015 Y76.460 F130.0;
 (Right vertical line - top to bottom)
 G00 Z5
-G00 X143.755 Y91.805
+G00 X140.015 Y82.460
 G01 Z-0.5 F55.0;
-G01 X143.755 Y81.805 F130.0;
+G01 X140.015 Y72.460 F130.0;
+
+(=============== CIRCLE AROUND RH ===============)
+G00 Z5
+G00 X145.015 Y77.460
+G01 Z-0.5 F55.0;
+G02 X145.015 Y77.460 I-13.0 J0 F130.0;
 
 (=============== RETRACT & END ===============)
 G00 Z10
