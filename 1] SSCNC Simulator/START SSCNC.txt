@@ -1,6 +1,6 @@
 Запуск программы: (Открыть сохраненные конфиги нужной папки)
 
-1] File > Open Code (Видеть какие характеристики инструментов и рабочей области в комментарии)
+1] Нажать EDIT: File > Open Code (Видеть какие характеристики инструментов и рабочей области в комментарии)
 
 2] Machine Operation > Tool Management > Выставить нужные параметры Tool > Length / Diameter / RPM / Feed / Tool Type / Flutes / Insert Material
 
