@@ -1,18 +1,18 @@
 %
 O0002
 
-(===========================================)
-(T02)
+(===========================)
+(T02 - H02)
 (FACE MILL PROGRAM ~ ALUMINIUM 150X 100Y 20Z - R.H)
-(Type: Face Mill > Diameter: 66mm > RPM: 1200 > Deep: 0.25mm > Flutes: 5-6)
-(===========================================)
+(Type: Face Mill > Diameter: 66mm > RPM: 1200 > Flutes: 6 > Deep: 0.25mm)
+(===========================)
 
 G90 G17 G21 G40 G49 G80 G94;
 G91 G28 Z0;
 
 M06 T02;
 
-G54
+G54;
 G00 G90 X0 Y0;
 M03 S1200;
 G00 G43 H02 Z50;
