@@ -94,7 +94,7 @@ gh auth login
 
 powershell -ExecutionPolicy Bypass -File ".\github-login-and-check.ps1" -UserName "iiivendettaiii" -UserEmail "ramazanargon@gmail.com"
 
-===========================================================================================
+=========================================================================================== 
  AUTHORIZATION WITH TERMINAL VS CODE + SCRIPT AUTHORIZATION WITH TERMINAL VS CODE + SCRIPT
 ===========================================================================================
 
