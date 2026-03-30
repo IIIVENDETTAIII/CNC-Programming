@@ -102,4 +102,4 @@ Set-Location -LiteralPath "c:\Users\RamazanHuseinov(Stud\Desktop\Ramazan Huseino
 
 powershell -ExecutionPolicy Bypass -File ".\github-login-and-check.ps1"
 powershell -ExecutionPolicy Bypass -File ".\github-logout-and-check.ps1"
-powershell -ExecutionPolicy Bypass -File ".\github-auth-check.ps1"  
+powershell -ExecutionPolicy Bypass -File ".\github-auth-check.ps1" 
