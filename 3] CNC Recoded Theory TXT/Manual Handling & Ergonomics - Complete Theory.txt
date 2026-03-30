@@ -9,53 +9,51 @@ DEFINITION:
 Manual handling includes: lifting, carrying, pushing, pulling, holding, or moving loads by hand or body force.
 
 SCOPE:
-- Work-related: Jobs requiring lifting (production, logistics, warehousing)
-- Lifestyle-related: Home activities (shopping, gardening, exercise)
-- Sports-related: Training and athletic activities
+Work-related: Jobs requiring lifting (production, logistics, warehousing)
+Lifestyle-related: Home activities (shopping, gardening, exercise)
+Sports-related: Training and athletic activities
 
 STATISTICS (UK & Ireland):
-- Over 30% of workplace injuries involve manual handling
-- Lower back is most commonly injured (90% of manual handling injuries)
-- Costs: Medical treatment, lost productivity, compensation, staff replacement
+Over 30% of workplace injuries involve manual handling
+Lower back is most commonly injured (90% of manual handling injuries)
+Costs: Medical treatment, lost productivity, compensation, staff replacement
 
 IMPORTANCE:
 Today's habits affect tomorrow's health
-- Age 20-30: Build or damage your body with current behavior
-- Age 40-50: Experience consequences of earlier choices
-- Age 60+: Limited by what you did in your 40s and 50s
-
----
+Age 20-30: Build or damage your body with current behavior
+Age 40-50: Experience consequences of earlier choices
+Age 60+: Limited by what you did in your 40s and 50s
 
 PART 2: SPINE ANATOMY & VULNERABILITY
 ====================================================================
 FIVE SPINAL SECTIONS (33 vertebrae total):
 
 CERVICAL SPINE (C1-C7): Neck area
-- 7 vertebrae support head (4-5kg weight)
-- Allows head turning, nodding, tilting
-- Injuries: 8% of manual handling injuries (relatively well-protected)
-- Modern hazard: Phone use, laptop work for hours (forward head posture)
+7 vertebrae support head (4-5kg weight)
+Allows head turning, nodding, tilting
+Injuries: 8% of manual handling injuries (relatively well-protected)
+Modern hazard: Phone use, laptop work for hours (forward head posture)
 
 THORACIC SPINE (T1-T12): Mid-back
-- 12 vertebrae, ribs attached for protection
-- Protects heart and lungs
-- Limited bending (ribs restrict motion)
-- Injuries: Only 2% (well-protected by structure)
+12 vertebrae, ribs attached for protection
+Protects heart and lungs
+Limited bending (ribs restrict motion)
+Injuries: Only 2% (well-protected by structure)
 
 LUMBAR SPINE (L1-L5): Lower back
-- 5 large vertebrae bear most body weight
-- Allows significant flexing and bending
-- Bears weight during all activities
-- Injuries: 90% of manual handling injuries (MOST VULNERABLE)
+5 large vertebrae bear most body weight
+Allows significant flexing and bending
+Bears weight during all activities
+Injuries: 90% of manual handling injuries (MOST VULNERABLE)
 
 SACRUM (S1-S5): Base of spine
-- Fused bones, no individual vertebrae
-- Connects to pelvis
-- No shock absorbers here
+Fused bones, no individual vertebrae
+Connects to pelvis
+No shock absorbers here
 
 COCCYX: Tail bone
-- Fused, vestigial structure
-- No protection, easily injured if fall on buttocks
+Fused, vestigial structure
+No protection, easily injured if fall on buttocks
 
 WHY LOWER BACK SO VULNERABLE:
 1. Bears heavy load (entire upper body weight)
@@ -64,142 +62,136 @@ WHY LOWER BACK SO VULNERABLE:
 4. High disc stress during flexing
 5. Cumulative stress from daily activities
 
----
-
 PART 3: DISC STRUCTURE & INJURY MECHANISMS
 ====================================================================
 INTERVERTEBRAL DISC STRUCTURE:
 
 ANNULUS: Outer ring
-- Tough, fibrous material
-- Contains nucleus
-- Acts as shock absorber ring
-- Tears cause herniation
+Tough, fibrous material
+Contains nucleus
+Acts as shock absorber ring
+Tears cause herniation
 
 NUCLEUS: Inner gel-like substance
-- Provides cushioning and flexibility
-- Allows vertical spine compression and decompression
-- Creates separation between vertebrae
-- Maintains disc height
+Provides cushioning and flexibility
+Allows vertical spine compression and decompression
+Creates separation between vertebrae
+Maintains disc height
 
 DISC FUNCTION:
-- Absorbs vertical shock and impact
-- Allows spinal motion and flexibility
-- Separates vertebrae preventing bone-on-bone contact
-- Provides space for nerve roots to exit
+Absorbs vertical shock and impact
+Allows spinal motion and flexibility
+Separates vertebrae preventing bone-on-bone contact
+Provides space for nerve roots to exit
 
 DISC LIMITATIONS:
-- Poor blood supply (nutrition by diffusion through movement)
-- Requires regular motion to stay healthy
-- Dehydrates with sitting (discs lose height over day)
-- Cannot repair quickly (slow healing due to blood supply)
+Poor blood supply (nutrition by diffusion through movement)
+Requires regular motion to stay healthy
+Dehydrates with sitting (discs lose height over day)
+Cannot repair quickly (slow healing due to blood supply)
 
 INJURY MECHANISM - CUMULATIVE DAMAGE:
 Repetitive movement + poor technique = Micro-damage
-- Each poor lift: Small tear in annulus (microscopic)
-- Each bend without proper form: Tiny disc stress
-- After 100x: Small damage accumulates
-- After 1,000x: Noticeable disc weakness
-- After 10,000x: Herniation risk
+Each poor lift: Small tear in annulus (microscopic)
+Each bend without proper form: Tiny disc stress
+After 100x: Small damage accumulates
+After 1,000x: Noticeable disc weakness
+After 10,000x: Herniation risk
 
 HERNIA/HERNIATION:
-- Nucleus pushes through torn annulus
-- Bulges toward nerve root causing pain
-- Not acute injury usually - result of years of poor mechanics
-- Once damaged, disc never fully recovers
-- Pain can recur for rest of life
-
----
+Nucleus pushes through torn annulus
+Bulges toward nerve root causing pain
+Not acute injury usually - result of years of poor mechanics
+Once damaged, disc never fully recovers
+Pain can recur for rest of life
 
 PART 4: MUSCLE & JOINT ANATOMY
 ====================================================================
 SKELETAL MUSCLES: Attached to bones, allow movement
-- 206 bones in human body
-- 50% of bones in hands and feet (delicate)
-- 3 types: Skeletal (voluntary), smooth (internal), cardiac (heart)
+206 bones in human body
+50% of bones in hands and feet (delicate)
+3 types: Skeletal (voluntary), smooth (internal), cardiac (heart)
 
 MUSCULAR SYSTEM:
-- Muscles attached to bone by tendons
-- Allows body movement
-- Provides body stability and protection
+Muscles attached to bone by tendons
+Allows body movement
+Provides body stability and protection
 
 JOINT LUBRICATION - SYNOVIAL FLUID:
-- "Oil" that reduces friction between bones
-- Protein-based fluid in joint capsule
-- Cracking sound = bubble formation in fluid (harmless)
-- Proper stretching = better joint lubrication
-- Lack of stretching = stiff joints
+"Oil" that reduces friction between bones
+Protein-based fluid in joint capsule
+Cracking sound = bubble formation in fluid (harmless)
+Proper stretching = better joint lubrication
+Lack of stretching = stiff joints
 
 TENDON vs LIGAMENT:
-- TENDON: Connects muscle to bone (transmits force)
-- LIGAMENT: Connects bone to bone (holds joints stable)
-- LIGAMENT INJURIES: Harder to repair than bone fractures
-- Example: ACL tear (anterior cruciate ligament in knee) - serious sports injury
-
----
+TENDON: Connects muscle to bone (transmits force)
+LIGAMENT: Connects bone to bone (holds joints stable)
+LIGAMENT INJURIES: Harder to repair than bone fractures
+Example: ACL tear (anterior cruciate ligament in knee) - serious sports injury
 
 PART 5: LIFTING TECHNIQUE & PROPER MECHANICS
 ====================================================================
 THE 10 CRITICAL POINTS OF PROPER LIFTING:
 
 1. ASSESS THE LOAD:
-   - How heavy is it?
-   - Is there a handle?
-   - Is it balanced or unbalanced?
-   - Are there sharp edges?
+How heavy is it?
+Is there a handle?
+Is it balanced or unbalanced?
+Are there sharp edges?
    
 2. PLAN THE MOVE:
-   - Know where you're going
-   - Check the path for obstacles
-   - Plan how you'll carry (one hand, two hands, overhead?)
+Know where you're going
+Check the path for obstacles
+Plan how you'll carry (one hand, two hands, overhead?)
    
 3. POSITION YOUR BODY:
-   - Feet shoulder-width apart
-   - One foot slightly forward for balance
-   - Weight distributed evenly
-   - This position = stable base
+Feet shoulder-width apart
+One foot slightly forward for balance
+Weight distributed evenly
+This position = stable base
    
 4. SQUAT, DON'T BEND:
-   - Bend knees, not waist
-   - Back should remain straight
-   - Squat down like sitting on chair
-   - This protects lower back
+Bend knees, not waist
+Back should remain straight
+Squat down like sitting on chair
+This protects lower back
    
 5. SECURE YOUR GRIP:
-   - Firm grip with both hands
-   - Fingers, not just palm
-   - Balanced grip (equal on both sides)
-   - Test grip before lifting
+Firm grip with both hands
+Fingers, not just palm
+Balanced grip (equal on both sides)
+Test grip before lifting
    
 6. KEEP ELBOWS IN:
-   - Elbows close to your body
-   - If elbows out = more back strain
-   - Imagine holding armful of paper
-   - This decreases back load significantly
+Elbows close to your body
+If elbows out = more back strain
+Imagine holding armful of paper
+This decreases back load significantly
    
 7. ENGAGE YOUR CORE:
-   - Tighten abdominal muscles
-   - Like bracing for impact
-   - Provides spinal support
-   - Protects lower back
+Tighten abdominal muscles
+Like bracing for impact
+Provides spinal support
+Protects lower back
    
 8. LIFT BY YOUR LEGS:
-   - Use powerful leg muscles (strongest in body)
-   - Not your back (weakest for this task)
-   - Legs 3× stronger than back for lifting
-   - Let legs do the work
+Use powerful leg muscles (strongest in body)
+Not your back (weakest for this task)
+Legs 3× stronger than back for lifting
+Let legs do the work
    
 9. KEEP LOAD CLOSE:
-   - Load close to body = less back stress
-   - 10kg close = feels like 10kg
-   - 10kg far away = feels like 15kg
-   - Physics of leverage - closer is always better
+Load close to body = less back stress
+10kg close = feels like 10kg
+10kg far away = feels like 15kg
+Physics of leverage - closer is always better
    
 10. TURN WITH YOUR FEET:
-    - Don't twist at waist
-    - Move your feet instead
-    - Twisting + heavy load = disc damage
-    - This is how back injuries happen
+Don't twist at waist
+Move your feet instead
+Twisting + heavy load = disc damage
+This is how back injuries happen
 
 RUSSIAN TRANSLATION (КЛЮЧЕВЫЕ МОМЕНТЫ):
 1. Оцените груз (вес, захватывающие элементы)
@@ -213,86 +205,82 @@ RUSSIAN TRANSLATION (КЛЮЧЕВЫЕ МОМЕНТЫ):
 9. Держать груз близко (ближе = меньше напряжения на спину)
 10. Поворот ногами (не крутите талией)
 
----
-
 PART 6: WORKPLACE HAZARDS & MANUAL HANDLING RISKS
 ====================================================================
 COMMON HAZARDS:
 
 LACK OF MOBILITY:
-- Tight hamstrings (back legs)
-- Tight hip flexors (front hips)
-- Tight lower back muscles
-- Result: Poor bending mechanics
+Tight hamstrings (back legs)
+Tight hip flexors (front hips)
+Tight lower back muscles
+Result: Poor bending mechanics
 
 RUSHED TASKS:
-- Time pressure forces poor form
-- Skipping proper lifting technique
-- "No time" for stretching or proper position
-- Reality: Rushing usually takes same time, poor form causes injury
+Time pressure forces poor form
+Skipping proper lifting technique
+"No time" for stretching or proper position
+Reality: Rushing usually takes same time, poor form causes injury
 
 POOR PLANNING:
-- Not knowing path before carrying
-- Tripping over obstacles
-- Not asking for help
-- Not using mechanical aids available
+Not knowing path before carrying
+Tripping over obstacles
+Not asking for help
+Not using mechanical aids available
 
 REPETITIVE STRAIN:
-- Same motion 100+ times daily
-- No variation in movement
-- No rest breaks
-- Micro-damage accumulates
+Same motion 100+ times daily
+No variation in movement
+No rest breaks
+Micro-damage accumulates
 
 STATIC POSITIONS:
-- Standing in same position all day
-- Sitting hunched over computer
-- No postural change for hours
-- Muscles become tight and weak
+Standing in same position all day
+Sitting hunched over computer
+No postural change for hours
+Muscles become tight and weak
 
 AWKWARD ANGLES:
-- Reaching above head frequently
-- Bending to ground level repeatedly
-- Twisting while holding load
-- One-sided repetitive loading
-
----
+Reaching above head frequently
+Bending to ground level repeatedly
+Twisting while holding load
+One-sided repetitive loading
 
 PART 7: HAZARD IDENTIFICATION & DYNAMIC RISK ASSESSMENT
 ====================================================================
 HAZARDS BY CATEGORY:
 
 LOAD HAZARDS:
-- Heavy (cannot comfortably hold)
-- Awkward shape (no good grip)
-- Unbalanced weight
-- No handles for grip
-- Sharp or rough edges
-- Shifting contents
+Heavy (cannot comfortably hold)
+Awkward shape (no good grip)
+Unbalanced weight
+No handles for grip
+Sharp or rough edges
+Shifting contents
 
 INDIVIDUAL HAZARDS:
-- Lack of strength or fitness
-- Previous injuries
-- Pregnancy (increased risk)
-- Fatigue or illness
-- Lack of training or knowledge
-- Overconfidence without skill
+Lack of strength or fitness
+Previous injuries
+Pregnancy (increased risk)
+Fatigue or illness
+Lack of training or knowledge
+Overconfidence without skill
 
 ENVIRONMENTAL HAZARDS:
-- Confined spaces (limited movement)
-- Wet floors (slipping hazard)
-- Poor lighting (hard to see obstacles)
-- Clutter or obstacles in path
-- Vibration from machinery
-- Temperature extremes
-- Noise distracting operator
+Confined spaces (limited movement)
+Wet floors (slipping hazard)
+Poor lighting (hard to see obstacles)
+Clutter or obstacles in path
+Vibration from machinery
+Temperature extremes
+Noise distracting operator
 
 TASK HAZARDS:
-- Frequent repetition (1000+ times daily)
-- High frequency (little rest between)
-- Task duration (hours without break)
-- Excessive force required
-- Lack of control
-- Distance to carry
+Frequent repetition (1000+ times daily)
+High frequency (little rest between)
+Task duration (hours without break)
+Excessive force required
+Lack of control
+Distance to carry
 
 DYNAMIC RISK ASSESSMENT:
 Risk = Likelihood × Severity
@@ -306,97 +294,91 @@ BEFORE EVERY LIFT:
 
 If answer to any is "no" → Change the plan
 
----
-
 PART 8: MECHANICAL AIDS & EQUIPMENT
 ====================================================================
 ALTERNATIVE TO MANUAL LIFT:
 
 TROLLEY/CART:
-- For horizontal movement
-- Reduces need to carry
-- Requires clear pathways
-- Much easier than hand carrying
+For horizontal movement
+Reduces need to carry
+Requires clear pathways
+Much easier than hand carrying
 
 DOLLY:
-- Wheeled platform
-- For heavy box transport
-- One person with dolly easier than two carrying
+Wheeled platform
+For heavy box transport
+One person with dolly easier than two carrying
 
 HOIST/CRANE:
-- For very heavy loads
-- Mechanical or electric powered
-- Overhead mounted or stand-alone
-- Most safe option for dangerous loads
+For very heavy loads
+Mechanical or electric powered
+Overhead mounted or stand-alone
+Most safe option for dangerous loads
 
 HAND TRUCK:
-- Two-wheel cart with handle
-- For moving boxes stacked vertically
-- Tilts load backward to roll (physics helps)
-- Significantly reduces back strain
+Two-wheel cart with handle
+For moving boxes stacked vertically
+Tilts load backward to roll (physics helps)
+Significantly reduces back strain
 
 LIFT TABLE:
-- Hydraulic or pneumatic lift surfaces
-- Adjusts work height to ergonomic level
-- Reduces bending and reaching
-- Ideal for assembly work stations
+Hydraulic or pneumatic lift surfaces
+Adjusts work height to ergonomic level
+Reduces bending and reaching
+Ideal for assembly work stations
 
 PALLET JACK:
-- Moves pallets with minimal manual effort
-- Electric or manual versions
-- Reduces repetitive lifting
+Moves pallets with minimal manual effort
+Electric or manual versions
+Reduces repetitive lifting
 
 WORK PRINCIPLE:
-- Always use mechanical aid BEFORE manual lifting
-- Mechanical aid better than asking someone for help
-- Help acceptable but not ideal (injury spreads)
-- Manual lift only if no other option exists
+Always use mechanical aid BEFORE manual lifting
+Mechanical aid better than asking someone for help
+Help acceptable but not ideal (injury spreads)
+Manual lift only if no other option exists
 
 COMMON EXCUSE: "Too lazy to get the trolley"
 CONSEQUENCE: Injury, chronic pain for life
 CALCULATION: 2 minutes to get trolley < Surgery + rehab time
 
----
-
 PART 9: PROPER BODY MECHANICS IN DAILY LIFE
 ====================================================================
 SITTING POSTURE:
-✓ CORRECT: Sit fully back in chair, feet flat on floor, thighs parallel to ground
-✓ Monitor at eye level
-✓ Back supported by chair back
-✓ Shoulders relaxed, not hunched
-✓ Elbows at 90 degrees
+CORRECT: Sit fully back in chair, feet flat on floor, thighs parallel to ground
+Monitor at eye level
+Back supported by chair back
+Shoulders relaxed, not hunched
+Elbows at 90 degrees
 ✗ WRONG: Hunched forward, legs crossed, monitor too high/low
 
 STANDING POSTURE:
-✓ CORRECT: Weight evenly distributed on both feet, knees slightly soft
-✓ Shoulders relaxed back
-✓ Core engaged lightly
-✓ Head upright, looking straight ahead
-✓ Change position frequently
+CORRECT: Weight evenly distributed on both feet, knees slightly soft
+Shoulders relaxed back
+Core engaged lightly
+Head upright, looking straight ahead
+Change position frequently
 ✗ WRONG: Leaning on one side, locked knees, slouched shoulders
 
 SCREEN TIME HAZARD (Phone/Computer):
-- Most modern stress on C7 vertebra (neck)
-- Phone held low = extreme forward head posture
-- "Tech neck" = chronic neck pain
-- Solution: Keep phone at eye level, take breaks every 30 minutes
-- Look at distant objects to rest eyes
+Most modern stress on C7 vertebra (neck)
+Phone held low = extreme forward head posture
+"Tech neck" = chronic neck pain
+Solution: Keep phone at eye level, take breaks every 30 minutes
+Look at distant objects to rest eyes
 
 WALKING:
-- Maintain upright posture
-- Even weight distribution
-- Avoid hunching or leaning
-- Heel-toe gait (roll foot for shock absorption)
+Maintain upright posture
+Even weight distribution
+Avoid hunching or leaning
+Heel-toe gait (roll foot for shock absorption)
 
 SITTING AT COMPUTER (8+ hours daily):
-- Most occupational hazard is actually sitting, not manual labor
-- Sustained sitting = muscle contraction around organs
-- Organs must work harder (heart, lungs)
-- Long-term health impact equals standing labor
-- Solution: Change posture frequently, stand 5 minutes per hour
-
----
+Most occupational hazard is actually sitting, not manual labor
+Sustained sitting = muscle contraction around organs
+Organs must work harder (heart, lungs)
+Long-term health impact equals standing labor
+Solution: Change posture frequently, stand 5 minutes per hour
 
 PART 10: EXERCISES & MOBILITY TRAINING
 ====================================================================
@@ -407,31 +389,31 @@ Stretching and mobility = more important than strength
 
 CRITICAL AREAS REQUIRING FLEXIBILITY:
 HAMSTRINGS (back of legs):
-- Tight hamstrings → Hamstring tightness → Lower back tightness → Pain
-- Everything is connected
-- Most common issue in sedentary workers
+Tight hamstrings → Hamstring tightness → Lower back tightness → Pain
+Everything is connected
+Most common issue in sedentary workers
 
 HIP FLEXORS (front of hips):
-- Tight from sitting all day
-- Affects posture and bending mechanics
-- Prevents proper squat position
-- Core activation difficult with tight hips
+Tight from sitting all day
+Affects posture and bending mechanics
+Prevents proper squat position
+Core activation difficult with tight hips
 
 GLUTES (buttock muscles):
-- Most powerful muscles in body
-- Should be primary movers
-- Tightness indicates weakness
-- Need activation and strengthening
+Most powerful muscles in body
+Should be primary movers
+Tightness indicates weakness
+Need activation and strengthening
 
 LOWER BACK MUSCLES:
-- Protective function
-- Can be tight or weak (often both)
-- Need controlled flexibility and stability
+Protective function
+Can be tight or weak (often both)
+Need controlled flexibility and stability
 
 SHOULDER MUSCLES:
-- Tension accumulates from stress
-- Forward posture tightens chest
-- Need balance between chest and back stretching
+Tension accumulates from stress
+Forward posture tightens chest
+Need balance between chest and back stretching
 
 STRETCHING ROUTINE (5-10 minutes):
 1. Shoulder rolls (10 forward, 10 backward)
@@ -447,8 +429,6 @@ TIMING: Before work, after work, or before bed
 DURATION: 20-30 seconds per stretch
 BENEFIT: Prevents injury, improves mobility, reduces pain
 
----
-
 PART 11: LONG-TERM HEALTH CONSEQUENCES
 ====================================================================
 IGNORED MINOR PAIN = SERIOUS FUTURE PROBLEMS
@@ -461,17 +441,15 @@ Year 4-5: Significant mobility loss, difficulty bending, sitting
 Year 6+: Permanent restrictions, possible surgery
 
 COMMON SURGERIES RESULTING FROM POOR MECHANICS:
-- Disc replacement (expensive, not always successful)
-- Spinal fusion (fuses two vertebrae, reduces mobility)
-- Joint replacement (knees, hips at younger-than-normal age)
-- Nerve decompression (if herniated disc presses on nerves)
+Disc replacement (expensive, not always successful)
+Spinal fusion (fuses two vertebrae, reduces mobility)
+Joint replacement (knees, hips at younger-than-normal age)
+Nerve decompression (if herniated disc presses on nerves)
 
 PREVENTION STRATEGY:
 Address pain early before it becomes chronic
 Minor pain = signal to change behavior
 Don't ignore; evaluate what caused it and fix
-
----
 
 PART 12: LEGAL & ORGANIZATIONAL RESPONSIBILITIES
 ====================================================================
@@ -481,29 +459,29 @@ Regulation by Health & Safety Authority
 Chapter 4, Part 2 covers manual handling
 
 EMPLOYER RESPONSIBILITIES:
-- Suitable and sufficient risk assessment
-- Avoid manual handling where possible
-- Reduce risks where handling necessary
-- Provide proper training (every 3 years minimum)
-- Provide mechanical aids
-- Ensure safe working conditions
-- Report incidents and injuries
-- Maintain safe equipment
+Suitable and sufficient risk assessment
+Avoid manual handling where possible
+Reduce risks where handling necessary
+Provide proper training (every 3 years minimum)
+Provide mechanical aids
+Ensure safe working conditions
+Report incidents and injuries
+Maintain safe equipment
 
 EMPLOYEE RESPONSIBILITIES:
-- Take reasonable care of own safety and others' safety
-- Use equipment and aids properly
-- Follow training and procedures
-- Report unsafe conditions
-- Don't work under influence of substances
-- Report injuries early
+Take reasonable care of own safety and others' safety
+Use equipment and aids properly
+Follow training and procedures
+Report unsafe conditions
+Don't work under influence of substances
+Report injuries early
 
 EMPLOYER LIABILITY:
 If injury occurs and employer failed to provide:
-- Proper training
-- Risk assessment
-- Mechanical aids
-- Safe environment
+Proper training
+Risk assessment
+Mechanical aids
+Safe environment
 → Employer is legally responsible and liable for damages
 
 EMPLOYEE LEGAL PROTECTION:
@@ -511,8 +489,6 @@ Workers' compensation if injured
 Medical coverage for work-related injury
 Protection from retaliation for reporting hazards
 Right to refuse unsafe work
-
----
 
 PART 13: CORE STRENGTHENING & FITNESS
 ====================================================================
@@ -535,33 +511,31 @@ DURATION: 15-20 minutes
 PROGRESSION: Increase hold time or difficulty weekly
 
 ADDITIONAL BENEFITS:
-- Improves posture
-- Reduces low back pain
-- Increases sporting performance
-- Improves balance
-- Improves confidence in movement
-
----
+Improves posture
+Reduces low back pain
+Increases sporting performance
+Improves balance
+Improves confidence in movement
 
 PART 14: DAILY HABITS FOR LONG-TERM HEALTH
 ====================================================================
 TIER 1 - CRITICAL (Non-negotiable):
-- Stay hydrated (2-3 liters water daily minimum)
-- Maintain healthy weight (excess weight stresses back)
-- Get 7-9 hours sleep (muscle recovery, pain perception increases with fatigue)
-- Proper nutrition (discs need nutrients from healthy diet)
+Stay hydrated (2-3 liters water daily minimum)
+Maintain healthy weight (excess weight stresses back)
+Get 7-9 hours sleep (muscle recovery, pain perception increases with fatigue)
+Proper nutrition (discs need nutrients from healthy diet)
 
 TIER 2 - IMPORTANT (Do regularly):
-- Stretch 5 minutes daily (or 30 minutes 3× weekly)
-- Move regularly (don't sit >1 hour continuously)
-- Maintain fitness (walking, swimming, cycling)
-- Proper lifting technique (every single time)
+Stretch 5 minutes daily (or 30 minutes 3× weekly)
+Move regularly (don't sit >1 hour continuously)
+Maintain fitness (walking, swimming, cycling)
+Proper lifting technique (every single time)
 
 TIER 3 - HELPFUL (When possible):
-- Massage or self-massage
-- Physical therapy exercises
-- Yoga or pilates
-- Professional coaching for sports
+Massage or self-massage
+Physical therapy exercises
+Yoga or pilates
+Professional coaching for sports
 
 AT-RISK BEHAVIORS TO AVOID:
 ✗ Smoking (impairs healing, increases pain perception)
@@ -571,76 +545,72 @@ AT-RISK BEHAVIORS TO AVOID:
 ✗ Repetitive motion without breaks (overuse injuries)
 ✗ Always lifting "just one more thing" (cumulative damage)
 
----
-
 PART 15: SPECIAL POPULATIONS & MODIFICATIONS
 ====================================================================
 PREGNANT WORKERS:
-- Center of gravity shifts forward
-- Increased back stress
-- Hormones soften ligaments
-- Reduced mobility
-- ADAPTATIONS: Reduce lifting limits, provide support belt, frequent position changes
+Center of gravity shifts forward
+Increased back stress
+Hormones soften ligaments
+Reduced mobility
+ADAPTATIONS: Reduce lifting limits, provide support belt, frequent position changes
 
 OLDER WORKERS:
-- Discs lose hydration over time
-- Flexibility decreases
-- Recovery takes longer
-- Previous injuries affect mobility
-- ADAPTATIONS: Mechanical aids essential, more frequent breaks, lighter loads
+Discs lose hydration over time
+Flexibility decreases
+Recovery takes longer
+Previous injuries affect mobility
+ADAPTATIONS: Mechanical aids essential, more frequent breaks, lighter loads
 
 WORKERS WITH PREVIOUS INJURIES:
-- Injured area remains vulnerable
-- Compensation patterns create secondary injuries
-- May need permanent restrictions
-- ADAPTATIONS: Clear communication about limitations, alternative tasks
+Injured area remains vulnerable
+Compensation patterns create secondary injuries
+May need permanent restrictions
+ADAPTATIONS: Clear communication about limitations, alternative tasks
 
 WORKERS WITH CHRONIC CONDITIONS:
-- Arthritis, diabetes, autoimmune conditions
-- Affect mobility and healing
-- Fatigue may be factor
-- ADAPTATIONS: Flexible scheduling, ergonomic equipment, regular rest
-
----
+Arthritis, diabetes, autoimmune conditions
+Affect mobility and healing
+Fatigue may be factor
+ADAPTATIONS: Flexible scheduling, ergonomic equipment, regular rest
 
 ====================================================================
 SUMMARY: PRINCIPLES FOR LIFELONG HEALTH
 ====================================================================
 
 1. YOUR BACK IS NOT INVINCIBLE
-   - Today's habits affect tomorrow's health
-   - Damage accumulates silently
-   - Prevention infinitely cheaper than treatment
+Today's habits affect tomorrow's health
+Damage accumulates silently
+Prevention infinitely cheaper than treatment
 
 2. PROPER TECHNIQUE = NON-NEGOTIABLE
-   - Applies to work, home, sports, daily life
-   - Same principles everywhere
-   - Consistency matters
+Applies to work, home, sports, daily life
+Same principles everywhere
+Consistency matters
 
 3. MECHANICAL AIDS BEFORE MANUAL EFFORT
-   - Always use tools/equipment first
-   - Asking for help acceptable but not ideal
-   - Manual lift only as last resort
+Always use tools/equipment first
+Asking for help acceptable but not ideal
+Manual lift only as last resort
 
 4. MOBILITY & STRENGTH TOGETHER
-   - Don't just lift heavy without stretching
-   - Don't just stretch without strength
-   - Both required for injury prevention
+Don't just lift heavy without stretching
+Don't just stretch without strength
+Both required for injury prevention
 
 5. LISTEN TO YOUR BODY EARLY
-   - Minor pain = warning sign
-   - Change behavior immediately
-   - Don't ignore until serious
+Minor pain = warning sign
+Change behavior immediately
+Don't ignore until serious
 
 6. LONG-TERM THINKING
-   - Want to be active at 70? Act accordingly at 30, 40, 50
-   - Health at 70 = direct consequence of choices at 40, 50
-   - Prevention now = freedom later
+Want to be active at 70? Act accordingly at 30, 40, 50
+Health at 70 = direct consequence of choices at 40, 50
+Prevention now = freedom later
 
 7. PROFESSIONAL HELP WHEN NEEDED
-   - Physiotherapist, chiropractor, massage therapist
-   - Costs 60€ minimum, worth it
-- Better than years of pain and surgery
+Physiotherapist, chiropractor, massage therapist
+Costs 60€ minimum, worth it
+Better than years of pain and surgery
 
 ====================================================================
 END OF MANUAL HANDLING & ERGONOMICS THEORY
@@ -650,3 +620,4 @@ For questions or clarifications, refer to health and safety officer
 or supervisor in your workplace.
 Remember: Your health is your responsibility.
 Only you can protect yourself from injury.
+

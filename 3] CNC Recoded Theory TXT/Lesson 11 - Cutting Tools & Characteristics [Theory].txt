@@ -5,118 +5,112 @@ Shank, flutes, lengths, coatings and selection rules
 
 1. TOOL ANATOMY
 ENGLISH:
-- **Shank** (non‑cutting portion): held by collet/collet holder. Two common
+**Shank** (non‑cutting portion): held by collet/collet holder. Two common
   styles:
   * Weldon (flat) – simple clamping, must match collet size.
   * Threaded – screws into holder.
-- **Cutting diameter** is the width of the flutes. Modern tools usually have
+**Cutting diameter** is the width of the flutes. Modern tools usually have
   shank = cutting diameter, but some have reduced shank or larger shank.
-- **Overall length (OAL)** = distance from tool tip to top of shank.
-- **Flute/cutting length** = portion of tool that has helical grooves.
-- **Helix angle** (typically 45° or 60°) is the spiral of flutes; affects chip
+**Overall length (OAL)** = distance from tool tip to top of shank.
+**Flute/cutting length** = portion of tool that has helical grooves.
+**Helix angle** (typically 45° or 60°) is the spiral of flutes; affects chip
   evacuation and plunge capability.
-- **Tool length categories:** short, medium, long. Longer tools are less rigid
+**Tool length categories:** short, medium, long. Longer tools are less rigid
   (cantilever effect) and should only be used if cutting length requires it.
 
 РУССКИЙ:
-- **Хвостовик** (нерезающая часть): зажимается в патрон/цангу. Два распространённых
+**Хвостовик** (нерезающая часть): зажимается в патрон/цангу. Два распространённых
   типа:
   * Weldon (плоский) – простой зажим, диаметр должен точно совпадать с цангой.
   * Резьбовой – вкручивается в держатель.
-- **Диаметр фрезы** – ширина режущих канавок. У большинства современных фрез
+**Диаметр фрезы** – ширина режущих канавок. У большинства современных фрез
   диаметр фрезы = диаметр хвостовика, но бывают разные.
-- **Общая длина (OAL)** = расстояние от вершины до конца хвостовика.
-- **Длина канавки/режущая длина** = участок фрезы с винтовыми канавками.
-- **Угол спирали** (обычно 45 или 60°) определяет наклон канавок; влияет на
+**Общая длина (OAL)** = расстояние от вершины до конца хвостовика.
+**Длина канавки/режущая длина** = участок фрезы с винтовыми канавками.
+**Угол спирали** (обычно 45 или 60°) определяет наклон канавок; влияет на
   эвакуацию стружки и врезание.
-- **Категории длины:** короткие, средние, длинные. Более длинные – менее жёсткие
+**Категории длины:** короткие, средние, длинные. Более длинные – менее жёсткие
   (эффект консоли) и используются только при необходимости.
-
----
 
 2. FLUTE COUNT & FEED RATE
 ENGLISH:
-- Feed rate formula: **F = N × Z × FPT** (RPM × number of flutes × feed per
+Feed rate formula: **F = N × Z × FPT** (RPM × number of flutes × feed per
   tooth).
-- Increasing flutes (Z) allows higher feed for same FPT, but reduces chip space.
-- Selection guidance:
+Increasing flutes (Z) allows higher feed for same FPT, but reduces chip space.
+Selection guidance:
   * 2‑flute – best for plunging, good chip clearance, lower feed rate.
   * 3‑flute – balanced choice, can handle side milling and limited plunging.
   * 4‑flute – high feed rate, fine finish; not suited for plunging unless using
     helical/ramping moves with CAM software.
-- For beginners, use 2‑flute for all operations; later try 3‑ or 4‑flute to
+For beginners, use 2‑flute for all operations; later try 3‑ or 4‑flute to
   increase metal removal rate.
 
 РУССКИЙ:
-- Формула подачи: **F = N × Z × FPT** (об/мин × число канавок × подача на зуб).
-- Увеличение числа канавок (Z) позволяет большую подачу при том же FPT, но
+Формула подачи: **F = N × Z × FPT** (об/мин × число канавок × подача на зуб).
+Увеличение числа канавок (Z) позволяет большую подачу при том же FPT, но
   уменьшает пространство для стружки.
-- Практическое руководство:
+Практическое руководство:
   * 2 канавки – лучше всего для врезания, много места для стружки, меньшая
     подача.
   * 3 канавки – универсальный выбор, может работать и при боковой обработке,
     и при ограниченном врезании.
   * 4 канавки – высокая подача, гладкая отделка; не подходит для врезания, если
     не использовать спиральные/рапид‑движения с CAM.
-- Для начинающих: используйте 2 канавки везде, позже попробуйте 3 или 4 для
+Для начинающих: используйте 2 канавки везде, позже попробуйте 3 или 4 для
   большей производительности.
-
----
 
 3. TOOL TYPES & APPLICATIONS
 ENGLISH:
-- **End mill (general)** – multi‑purpose for milling.
-- **Spot drill** – marks centre for subsequent drilling; prevents drill wander.
-- **Ball nose** – rounded tip for 3‑D contours and fillets.
-- **Chamfer mill** – produces chamfers and countersinks; also used for engraving.
-- **Drill bit** – for hole creation; usually followed by reaming for finish.
-- **Reamer** – precision finishing of holes, removes only small amount of material
+**End mill (general)** – multi‑purpose for milling.
+**Spot drill** – marks centre for subsequent drilling; prevents drill wander.
+**Ball nose** – rounded tip for 3‑D contours and fillets.
+**Chamfer mill** – produces chamfers and countersinks; also used for engraving.
+**Drill bit** – for hole creation; usually followed by reaming for finish.
+**Reamer** – precision finishing of holes, removes only small amount of material
   (0.1‑0.2 mm) for bearing fits.
-- **Countersink/counterbore** – for seating fastener heads or nut clearance.
-- **Tap** – cuts internal threads; drill pilot 0.2‑0.3 mm undersize first
+**Countersink/counterbore** – for seating fastener heads or nut clearance.
+**Tap** – cuts internal threads; drill pilot 0.2‑0.3 mm undersize first
   (e.g. 8.8 mm hole for M10 thread).
-- **Roughing vs finishing tools**: roughing tools remove material quickly, leave
+**Roughing vs finishing tools**: roughing tools remove material quickly, leave
   poor surface; finishing tools (smaller diameter, more flutes) cut last pass for
   good finish.
 
 РУССКИЙ:
-- **Концевая фреза (общая)** – универсальная для фрезерования.
-- **Центровочная фреза** – намечает центр перед сверлением, чтобы избежать
+**Концевая фреза (общая)** – универсальная для фрезерования.
+**Центровочная фреза** – намечает центр перед сверлением, чтобы избежать
   «плавания» сверла.
-- **Шаровая фреза** – закруглённый кончик для 3‑D поверхностей и радиусов.
-- **Фасочная фреза** – делает фаски и зенковки; также используется для
+**Шаровая фреза** – закруглённый кончик для 3‑D поверхностей и радиусов.
+**Фасочная фреза** – делает фаски и зенковки; также используется для
   гравировки.
-- **Сверло** – для создания отверстий; обычно после сверления делается
+**Сверло** – для создания отверстий; обычно после сверления делается
   развертка для отделки.
-- **Развертка** – точная отделка отверстий, снимает очень маленький слой
+**Развертка** – точная отделка отверстий, снимает очень маленький слой
   (0.1‑0.2 мм) для посадок под подшипники.
-- **Зенкер/зенковка** – для утопления головок крепёжных деталей или посадки
+**Зенкер/зенковка** – для утопления головок крепёжных деталей или посадки
   гаек.
-- **Метчик** – нарезает внутреннюю резьбу; сначала просверлите отверстие на
+**Метчик** – нарезает внутреннюю резьбу; сначала просверлите отверстие на
   0.2‑0.3 мм меньше (например, 8.8 мм для М10).
-- **Черновые и доводочные фрезы**: черновые быстро снимают металл, оставляют
+**Черновые и доводочные фрезы**: черновые быстро снимают металл, оставляют
   грубую поверхность; доводочные (меньший диаметр, больше канавок)
   выполняют последний проход для чистоты.
 
----
-
 4. OTHER NOTES
 ENGLISH:
-- Tool length (H value) compensation must be measured when tool is mounted.
-- Stability decreases with longer tools – avoid excessive overhang.
-- Choose tool length to exceed required axial depth; otherwise perform multiple
+Tool length (H value) compensation must be measured when tool is mounted.
+Stability decreases with longer tools – avoid excessive overhang.
+Choose tool length to exceed required axial depth; otherwise perform multiple
   passes.
-- Coatings such as TiN, TiAlN and Cobalt improve speed and tool life, but
+Coatings such as TiN, TiAlN and Cobalt improve speed and tool life, but
   coolant use can often suffice.
 
 РУССКИЙ:
-- Смещение по длине инструмента (H‑значение) измеряется после установки в
+Смещение по длине инструмента (H‑значение) измеряется после установки в
   шпиндель.
-- Стабильность падает с увеличением длины инструмента – избегайте большого
+Стабильность падает с увеличением длины инструмента – избегайте большого
   выступа.
-- Выбирайте длину инструмента, превышающую требуемую глубину резания;
+Выбирайте длину инструмента, превышающую требуемую глубину резания;
   иначе выполняйте несколько проходов.
-- Покрытия TiN, TiAlN, кобальт повышают скорость и срок службы инструмента,
+Покрытия TiN, TiAlN, кобальт повышают скорость и срок службы инструмента,
   но использование охлаждения часто достаточно.
 
 ====================================================================

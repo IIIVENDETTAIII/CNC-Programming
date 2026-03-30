@@ -9,46 +9,46 @@ PART 1: GEOGRAPHICAL BUSINESS OPERATIONS / ГЕОГРАФИЧЕСКИЕ ОПЕР
 1. LOCAL OPERATIONS / МЕСТНЫЕ ОПЕРАЦИИ
 ─────────────────────────────────────────
 ENGLISH:
-- Operations confined within a specific locality (city, town, region)
-- Serve local community needs and concerns
-- Examples: Local farmers' markets, city waste management, neighborhood watch
-- Limited geographical scope
+Operations confined within a specific locality (city, town, region)
+Serve local community needs and concerns
+Examples: Local farmers' markets, city waste management, neighborhood watch
+Limited geographical scope
 
 РУССКИЙ:
-- Операции ограничены конкретной местностью (город, поселок, регион)
-- Обслуживают нужды и проблемы местного сообщества
-- Примеры: Местные фермерские рынки, управление отходами города, соседская охрана
-- Ограниченный географический охват
+Операции ограничены конкретной местностью (город, поселок, регион)
+Обслуживают нужды и проблемы местного сообщества
+Примеры: Местные фермерские рынки, управление отходами города, соседская охрана
+Ограниченный географический охват
 
 
 2. NATIONAL OPERATIONS / НАЦИОНАЛЬНЫЕ ОПЕРАЦИИ
 ─────────────────────────────────────────────────
 ENGLISH:
-- Activities that occur within a specific country's boundaries
-- Cover nationwide government policies and business operations
-- Examples: National healthcare systems, national elections, transportation networks
-- Broader scope than local operations
+Activities that occur within a specific country's boundaries
+Cover nationwide government policies and business operations
+Examples: National healthcare systems, national elections, transportation networks
+Broader scope than local operations
 
 РУССКИЙ:
-- Деятельность, которая происходит в границах определенной страны
-- Охватывают государственную политику и деловую деятельность на национальном уровне
-- Примеры: Национальные системы здравоохранения, национальные выборы, сети транспорта
-- Более широкий охват, чем местные операции
+Деятельность, которая происходит в границах определенной страны
+Охватывают государственную политику и деловую деятельность на национальном уровне
+Примеры: Национальные системы здравоохранения, национальные выборы, сети транспорта
+Более широкий охват, чем местные операции
 
 
 3. INTERNATIONAL OPERATIONS / МЕЖДУНАРОДНЫЕ ОПЕРАЦИИ
 ──────────────────────────────────────────────────────
 ENGLISH:
-- Activities that transcend national boundaries
-- Involve multiple countries or regions
-- Examples: Multinational corporations (Apple, Toyota, Coca-Cola), global trade, treaties
-- Widest geographical scope
+Activities that transcend national boundaries
+Involve multiple countries or regions
+Examples: Multinational corporations (Apple, Toyota, Coca-Cola), global trade, treaties
+Widest geographical scope
 
 РУССКИЙ:
-- Деятельность, которая выходит за границы одной страны
-- Включает несколько стран или регионов
-- Примеры: Многонациональные корпорации (Apple, Toyota, Coca-Cola), глобальная торговля, договоры
-- Самый широкий географический охват
+Деятельность, которая выходит за границы одной страны
+Включает несколько стран или регионов
+Примеры: Многонациональные корпорации (Apple, Toyota, Coca-Cola), глобальная торговля, договоры
+Самый широкий географический охват
 
 
 ═════════════════════════════════════════════════════════════════════════════════
@@ -59,125 +59,125 @@ PART 2: FUNCTIONAL AREAS & JOB ROLES / ФУНКЦИОНАЛЬНЫЕ ОБЛАСТ
 ────────────────────────────────
 ENGLISH:
 Characteristics:
-- Customer-centric (focuses on customer needs and concerns)
-- Problem-solving abilities
-- Strong communication skills
+Customer-centric (focuses on customer needs and concerns)
+Problem-solving abilities
+Strong communication skills
 
 Job Roles:
-- Customer Support Representative - Assists via phone, email, chat
-- Technical Support Specialist - Helps with technical problems
-- Help Desk Analyst - Supports internal users with IT issues
+Customer Support Representative - Assists via phone, email, chat
+Technical Support Specialist - Helps with technical problems
+Help Desk Analyst - Supports internal users with IT issues
 
 РУССКИЙ:
 Характеристики:
-- Ориентирована на клиента (сосредотачивается на потребностях клиентов)
-- Способности решения проблем
-- Сильные коммуникационные навыки
+Ориентирована на клиента (сосредотачивается на потребностях клиентов)
+Способности решения проблем
+Сильные коммуникационные навыки
 
 Должности:
-- Представитель поддержки клиентов - Помощь по телефону, электронной почте, чату
-- Специалист техподдержки - Помощь с техническими проблемами
-- Аналитик Help Desk - Поддержка внутренних пользователей с ИТ-проблемами
+Представитель поддержки клиентов - Помощь по телефону, электронной почте, чату
+Специалист техподдержки - Помощь с техническими проблемами
+Аналитик Help Desk - Поддержка внутренних пользователей с ИТ-проблемами
 
 
 2. SALES AND MARKETING / ПРОДАЖИ И МАРКЕТИНГ
 ───────────────────────────────────────────────
 ENGLISH:
 Characteristics:
-- Market-oriented (understand consumer needs and trends)
-- Relationship-building abilities
-- Creativity and innovation
+Market-oriented (understand consumer needs and trends)
+Relationship-building abilities
+Creativity and innovation
 
 Job Roles:
-- Sales Representative - Sells products/services to customers
-- Marketing Manager - Plans and executes marketing campaigns
-- Digital Marketing Specialist - Uses online channels (social media, SEO) for promotion
+Sales Representative - Sells products/services to customers
+Marketing Manager - Plans and executes marketing campaigns
+Digital Marketing Specialist - Uses online channels (social media, SEO) for promotion
 
 РУССКИЙ:
 Характеристики:
-- Ориентирована на рынок (понимает потребности и тренды потребителей)
-- Способности создания отношений
-- Творчество и инновация
+Ориентирована на рынок (понимает потребности и тренды потребителей)
+Способности создания отношений
+Творчество и инновация
 
 Должности:
-- Торговый представитель - Продает товары/услуги клиентам
-- Менеджер маркетинга - Планирует и выполняет маркетинговые кампании
-- Специалист цифрового маркетинга - Использует онлайн-каналы для продвижения
+Торговый представитель - Продает товары/услуги клиентам
+Менеджер маркетинга - Планирует и выполняет маркетинговые кампании
+Специалист цифрового маркетинга - Использует онлайн-каналы для продвижения
 
 
 3. ENGINEERING / ИНЖЕНЕРИЯ
 ──────────────────────────
 ENGLISH:
 Characteristics:
-- Problem-solving and analytical skills
-- Innovation-driven
-- Requires technical expertise
+Problem-solving and analytical skills
+Innovation-driven
+Requires technical expertise
 
 Job Roles:
-- Mechanical Engineer - Designs mechanical systems or products
-- Software Engineer - Creates and maintains software applications
-- Civil Engineer - Plans and oversees infrastructure projects
+Mechanical Engineer - Designs mechanical systems or products
+Software Engineer - Creates and maintains software applications
+Civil Engineer - Plans and oversees infrastructure projects
 
 РУССКИЙ:
 Характеристики:
-- Умение решать проблемы и анализировать
-- Ориентирована на инновации
-- Требует технической экспертизы
+Умение решать проблемы и анализировать
+Ориентирована на инновации
+Требует технической экспертизы
 
 Должности:
-- Инженер-механик - Проектирует механические системы или изделия
-- Инженер-программист - Создает и维持 программные приложения
-- Инженер-строитель - Планирует и контролирует инфраструктурные проекты
+Инженер-механик - Проектирует механические системы или изделия
+Инженер-программист - Создает и维持 программные приложения
+Инженер-строитель - Планирует и контролирует инфраструктурные проекты
 
 
 4. MANUFACTURING / ПРОИЗВОДСТВО
 ──────────────────────────────────
 ENGLISH:
 Characteristics:
-- Focuses on optimizing production processes
-- Quality control importance
-- Operational expertise required
+Focuses on optimizing production processes
+Quality control importance
+Operational expertise required
 
 Job Roles:
-- Production Manager - Oversees manufacturing process
-- Assembly Line Worker - Performs assembly tasks
-- Quality Assurance Inspector - Checks product quality
+Production Manager - Oversees manufacturing process
+Assembly Line Worker - Performs assembly tasks
+Quality Assurance Inspector - Checks product quality
 
 РУССКИЙ:
 Характеристики:
-- Сосредотачивает на оптимизации производственных процессов
-- Важность контроля качества
-- Требуется операционная экспертиза
+Сосредотачивает на оптимизации производственных процессов
+Важность контроля качества
+Требуется операционная экспертиза
 
 Должности:
-- Менеджер производства - Контролирует производственный процесс
-- Рабочий сборочной линии - Выполняет задачи сборки
-- Инспектор контроля качества - Проверяет качество продукции
+Менеджер производства - Контролирует производственный процесс
+Рабочий сборочной линии - Выполняет задачи сборки
+Инспектор контроля качества - Проверяет качество продукции
 
 
 5. QUALITY / КАЧЕСТВО
 ───────────────────────
 ENGLISH:
 Characteristics:
-- Attention to detail
-- Process improvement focus
-- Compliance and standards adherence
+Attention to detail
+Process improvement focus
+Compliance and standards adherence
 
 Job Roles:
-- Quality Control Analyst - Tests and inspects products
-- Quality Assurance Manager - Develops quality policies
-- Compliance Officer - Ensures regulatory adherence
+Quality Control Analyst - Tests and inspects products
+Quality Assurance Manager - Develops quality policies
+Compliance Officer - Ensures regulatory adherence
 
 РУССКИЙ:
 Характеристики:
-- Внимание к деталям
-- Сосредотачивается на совершенствовании процессов
-- Соблюдение стандартов и требований
+Внимание к деталям
+Сосредотачивается на совершенствовании процессов
+Соблюдение стандартов и требований
 
 Должности:
-- Аналитик контроля качества - Тестирует и проверяет продукцию
-- Менеджер качества - Разрабатывает политики качества
-- Инспектор соответствия - Обеспечивает соответствие нормам
+Аналитик контроля качества - Тестирует и проверяет продукцию
+Менеджер качества - Разрабатывает политики качества
+Инспектор соответствия - Обеспечивает соответствие нормам
 
 
 ═════════════════════════════════════════════════════════════════════════════════
@@ -189,105 +189,105 @@ DIFFERENT TYPES OF STAKEHOLDERS:
 1. EXISTING CLIENTS/USERS / СУЩЕСТВУЮЩИЕ КЛИЕНТЫ
 ────────────────────────────────────────────────────
 ENGLISH:
-- Expect consistent quality in products/services
-- Seek continuation of good service standards
-- Want responsive customer support
-- Expect ongoing value for their investment
-- Look for positive and reliable experience
+Expect consistent quality in products/services
+Seek continuation of good service standards
+Want responsive customer support
+Expect ongoing value for their investment
+Look for positive and reliable experience
 
 РУССКИЙ:
-- Ожидают постоянного качества в товарах/услугах
-- Ищут продолжение хороших стандартов обслуживания
-- Хотят оперативную поддержку клиентов
-- Ожидают постоянную ценность от своих инвестиций
-- Ищут положительный и надежный опыт
+Ожидают постоянного качества в товарах/услугах
+Ищут продолжение хороших стандартов обслуживания
+Хотят оперативную поддержку клиентов
+Ожидают постоянную ценность от своих инвестиций
+Ищут положительный и надежный опыт
 
 
 2. POTENTIAL CLIENTS/USERS / ПОТЕНЦИАЛЬНЫЕ КЛИЕНТЫ
 ─────────────────────────────────────────────────────
 ENGLISH:
-- Seek information about products/services and benefits
-- Expect transparency in business offers
-- Want trials or demonstrations
-- Need detailed information to evaluate suitability
-- Look for value proposition clarity
+Seek information about products/services and benefits
+Expect transparency in business offers
+Want trials or demonstrations
+Need detailed information to evaluate suitability
+Look for value proposition clarity
 
 РУССКИЙ:
-- Ищут информацию о товаре/услугах и преимуществах
-- Ожидают прозрачность в предложениях бизнеса
-- Хотят испытания или демонстрации
-- Нуждаются в подробной информации для оценки пригодности
-- Ищут ясность в предложении ценности
+Ищут информацию о товаре/услугах и преимуществах
+Ожидают прозрачность в предложениях бизнеса
+Хотят испытания или демонстрации
+Нуждаются в подробной информации для оценки пригодности
+Ищут ясность в предложении ценности
 
 
 3. BOARD OF DIRECTORS / СОВЕТ ДИРЕКТОРОВ
 ───────────────────────────────────────────
 ENGLISH:
-- Focus on long-term strategy and vision
-- Prioritize risk management
-- Expect high ethical standards
-- Seek alignment with company objectives
-- Concerned with sustainable growth
+Focus on long-term strategy and vision
+Prioritize risk management
+Expect high ethical standards
+Seek alignment with company objectives
+Concerned with sustainable growth
 
 РУССКИЙ:
-- Сосредотачиваются на долгосрочной стратегии и видении
-- Приоритариуются управление рисками
-- Ожидают высокие этические стандарты
-- Ищут выравнивание с целями компании
-- Обеспокоены устойчивым ростом
+Сосредотачиваются на долгосрочной стратегии и видении
+Приоритариуются управление рисками
+Ожидают высокие этические стандарты
+Ищут выравнивание с целями компании
+Обеспокоены устойчивым ростом
 
 
 4. EXTERNAL SHAREHOLDERS / ВНЕШНИЕ АКЦИОНЕРЫ
 ─────────────────────────────────────────────
 ENGLISH:
-- Expect returns on investment (ROI)
-- Focused on short-term gains
-- Seek dividends and stock appreciation
-- Want transparent financial communication
-- Prioritize quick profit returns
+Expect returns on investment (ROI)
+Focused on short-term gains
+Seek dividends and stock appreciation
+Want transparent financial communication
+Prioritize quick profit returns
 
 РУССКИЙ:
-- Ожидают возврата инвестиций (ROI)
-- Сосредотачиваются на краткосрочной прибыли
-- Ищут дивиденды и рост стоимости акций
-- Хотят прозрачное финансовое сообщение
-- Приоритизируют быструю прибыль
+Ожидают возврата инвестиций (ROI)
+Сосредотачиваются на краткосрочной прибыли
+Ищут дивиденды и рост стоимости акций
+Хотят прозрачное финансовое сообщение
+Приоритизируют быструю прибыль
 
 
 5. STANDARDS BODIES / ОРГАНЫ СТАНДАРТИЗАЦИИ
 ──────────────────────────────────────────────
 ENGLISH:
-- Expect adherence to industry-specific quality and safety standards
-- Look for compliance and certification
-- May require specific standards (ISO, etc.)
-- Focused on ensuring product safety and quality
-- Want businesses to contribute to standard development
+Expect adherence to industry-specific quality and safety standards
+Look for compliance and certification
+May require specific standards (ISO, etc.)
+Focused on ensuring product safety and quality
+Want businesses to contribute to standard development
 
 РУССКИЙ:
-- Ожидают соблюдения отраслевых стандартов качества и безопасности
-- Ищут соответствие и сертификацию
-- Могут требовать определенные стандарты (ISO и т.д.)
-- Сосредотачиваются на обеспечении безопасности и качества продукции
-- Хотят, чтобы компании способствовали разработке стандартов
+Ожидают соблюдения отраслевых стандартов качества и безопасности
+Ищут соответствие и сертификацию
+Могут требовать определенные стандарты (ISO и т.д.)
+Сосредотачиваются на обеспечении безопасности и качества продукции
+Хотят, чтобы компании способствовали разработке стандартов
 
 
 6. REGULATORS / ОРГАНЫ РЕГУЛИРОВАНИЯ
 ──────────────────────────────────────
 ENGLISH:
-- Expect legal compliance with laws and regulations
-- Emphasize ethical and responsible business practices
-- Concerned with consumer protection
-- Look for fair competition
-- Want transparent reporting
-- Focus on public safety and environmental protection
+Expect legal compliance with laws and regulations
+Emphasize ethical and responsible business practices
+Concerned with consumer protection
+Look for fair competition
+Want transparent reporting
+Focus on public safety and environmental protection
 
 РУССКИЙ:
-- Ожидают соблюдения законов и нормативных актов
-- Подчеркивают этичную и ответственную деловую практику
-- Обеспокоены защитой прав потребителей
-- Ищут справедливую конкуренцию
-- Хотят прозрачную отчетность
-- Сосредотачиваются на безопасности публики и защите окружающей среды
+Ожидают соблюдения законов и нормативных актов
+Подчеркивают этичную и ответственную деловую практику
+Обеспокоены защитой прав потребителей
+Ищут справедливую конкуренцию
+Хотят прозрачную отчетность
+Сосредотачиваются на безопасности публики и защите окружающей среды
 
 
 ═════════════════════════════════════════════════════════════════════════════════
@@ -300,73 +300,73 @@ INTERNAL FACTORS / ВНУТРЕННИЕ ФАКТОРЫ
 1. FINANCE / ФИНАНСЫ
 ─────────────────────
 ENGLISH:
-- Capital availability affects expansion and R&D investment
-- Budget constraints drive resource allocation changes
-- Financial planning influences strategic decisions
-- Profitability impacts business sustainability
-- Cost management determines pricing strategy
+Capital availability affects expansion and R&D investment
+Budget constraints drive resource allocation changes
+Financial planning influences strategic decisions
+Profitability impacts business sustainability
+Cost management determines pricing strategy
 
 РУССКИЙ:
-- Доступность капитала влияет на расширение и инвестиции в НИОКР
-- Бюджетные ограничения определяют изменения в распределении ресурсов
-- Финансовое планирование влияет на стратегические решения
-- Прибыльность влияет на устойчивость бизнеса
-- Управление затратами определяет ценовую стратегию
+Доступность капитала влияет на расширение и инвестиции в НИОКР
+Бюджетные ограничения определяют изменения в распределении ресурсов
+Финансовое планирование влияет на стратегические решения
+Прибыльность влияет на устойчивость бизнеса
+Управление затратами определяет ценовую стратегию
 
 
 2. EFFICIENCY / ЭФФЕКТИВНОСТЬ
 ────────────────────────────────
 ENGLISH:
-- Process optimization reduces costs and increases productivity
-- Lean manufacturing principles minimize waste
-- Automation improves output and reduces cycle time
-- Workflow improvements enhance overall performance
-- Resource utilization directly affects profitability
+Process optimization reduces costs and increases productivity
+Lean manufacturing principles minimize waste
+Automation improves output and reduces cycle time
+Workflow improvements enhance overall performance
+Resource utilization directly affects profitability
 
 РУССКИЙ:
-- Оптимизация процессов снижает затраты и повышает производительность
-- Принципы бережливого производства минимизируют отходы
-- Автоматизация повышает выпуск и сокращает время цикла
-- Улучшение рабочих процессов повышает общую производительность
-- Использование ресурсов напрямую влияет на прибыльность
+Оптимизация процессов снижает затраты и повышает производительность
+Принципы бережливого производства минимизируют отходы
+Автоматизация повышает выпуск и сокращает время цикла
+Улучшение рабочих процессов повышает общую производительность
+Использование ресурсов напрямую влияет на прибыльность
 
 
 3. QUALITY / КАЧЕСТВО
 ──────────────────────
 ENGLISH:
-- Continuous improvement maintains competitive advantage
-- Customer feedback drives process modifications
-- Quality standards affect market position
-- Defects impact brand reputation
-- Quality control prevents product failures
-- Higher quality justifies premium pricing
+Continuous improvement maintains competitive advantage
+Customer feedback drives process modifications
+Quality standards affect market position
+Defects impact brand reputation
+Quality control prevents product failures
+Higher quality justifies premium pricing
 
 РУССКИЙ:
-- Непрерывное совершенствование поддерживает конкурентное преимущество
-- Обратная связь клиентов определяет модификации процессов
-- Стандарты качества влияют на рыночную позицию
-- Дефекты влияют на репутацию бренда
-- Контроль качества предотвращает отказы продукции
-- Более высокое качество оправдывает премиум цена
+Непрерывное совершенствование поддерживает конкурентное преимущество
+Обратная связь клиентов определяет модификации процессов
+Стандарты качества влияют на рыночную позицию
+Дефекты влияют на репутацию бренда
+Контроль качества предотвращает отказы продукции
+Более высокое качество оправдывает премиум цена
 
 
 4. SKILLS / НАВЫКИ
 ────────────────────
 ENGLISH:
-- Technological advancements require workforce reskilling
-- Training programs enable employee adaptation
-- Skill gaps threaten competitiveness
-- Hiring strategies address skill shortages
-- Continuous learning maintains expertise
-- Performance depends on skilled workforce
+Technological advancements require workforce reskilling
+Training programs enable employee adaptation
+Skill gaps threaten competitiveness
+Hiring strategies address skill shortages
+Continuous learning maintains expertise
+Performance depends on skilled workforce
 
 РУССКИЙ:
-- Технологические достижения требуют переобучения рабочей силы
-- Программы обучения позволяют работникам адаптироваться
-- Дефицит навыков угрожает конкурентоспособности
-- Стратегии найма решают проблемы нехватки навыков
-- Непрерывное обучение поддерживает экспертизу
-- Производительность зависит от квалифицированной рабочей силы
+Технологические достижения требуют переобучения рабочей силы
+Программы обучения позволяют работникам адаптироваться
+Дефицит навыков угрожает конкурентоспособности
+Стратегии найма решают проблемы нехватки навыков
+Непрерывное обучение поддерживает экспертизу
+Производительность зависит от квалифицированной рабочей силы
 
 
 EXTERNAL FACTORS / ВНЕШНИЕ ФАКТОРЫ
@@ -374,58 +374,58 @@ EXTERNAL FACTORS / ВНЕШНИЕ ФАКТОРЫ
 1. LEGISLATION / ЗАКОНОДАТЕЛЬСТВО
 ───────────────────────────────────
 ENGLISH:
-- New regulations require design and process modifications
-- Compliance costs affect operational budgets
-- Legal requirements force operational changes
-- Environmental standards impact manufacturing
-- Safety regulations increase operational requirements
-- Non-compliance results in penalties and legal issues
+New regulations require design and process modifications
+Compliance costs affect operational budgets
+Legal requirements force operational changes
+Environmental standards impact manufacturing
+Safety regulations increase operational requirements
+Non-compliance results in penalties and legal issues
 
 РУССКИЙ:
-- Новые нормативные акты требуют модификации дизайна и процессов
-- Затраты на соответствие влияют на операционные бюджеты
-- Юридические требования вынуждают операционные изменения
-- Стандарты окружающей среды влияют на производство
-- Нормы безопасности увеличивают операционные требования
-- Несоответствие приводит к штрафам и юридическим проблемам
+Новые нормативные акты требуют модификации дизайна и процессов
+Затраты на соответствие влияют на операционные бюджеты
+Юридические требования вынуждают операционные изменения
+Стандарты окружающей среды влияют на производство
+Нормы безопасности увеличивают операционные требования
+Несоответствие приводит к штрафам и юридическим проблемам
 
 
 2. TECHNOLOGY / ТЕХНОЛОГИЯ
 ────────────────────────────
 ENGLISH:
-- Rapid advancements disrupt industries
-- Automation and digitalization require investment
-- New tools enable improved efficiency
-- Technology adoption drives competitive advantage
-- Industry 4.0 concepts reshape manufacturing
-- Failure to adopt leads to market loss
+Rapid advancements disrupt industries
+Automation and digitalization require investment
+New tools enable improved efficiency
+Technology adoption drives competitive advantage
+Industry 4.0 concepts reshape manufacturing
+Failure to adopt leads to market loss
 
 РУССКИЙ:
-- Быстрые достижения нарушают отрасли
-- Автоматизация и цифровизация требуют инвестиций
-- Новые инструменты повышают эффективность
-- Внедрение технологии создает конкурентное преимущество
-- Концепции Industry 4.0 переформатируют производство
-- Неспособность адаптироваться приводит к потере рынка
+Быстрые достижения нарушают отрасли
+Автоматизация и цифровизация требуют инвестиций
+Новые инструменты повышают эффективность
+Внедрение технологии создает конкурентное преимущество
+Концепции Industry 4.0 переформатируют производство
+Неспособность адаптироваться приводит к потере рынка
 
 
 3. MARKET FORCES / РЫНОЧНЫЕ СИЛЫ
 ──────────────────────────────────
 ENGLISH:
-- Consumer demand shifts require product modifications
-- Competitive landscape changes alter strategies
-- New competitors disrupt market positions
-- Market trends determine product viability
-- Customer preferences influence design decisions
-- Market saturation forces diversification
+Consumer demand shifts require product modifications
+Competitive landscape changes alter strategies
+New competitors disrupt market positions
+Market trends determine product viability
+Customer preferences influence design decisions
+Market saturation forces diversification
 
 РУССКИЙ:
-- Изменения спроса потребителей требуют модификации продукции
-- Изменения конкурентного ландшафта изменяют стратегии
-- Новые конкуренты нарушают рыночные позиции
-- Тренды рынка определяют жизнеспособность продукции
-- Предпочтения потребителей влияют на решения дизайна
-- Насыщение рынка вынуждает диверсификацию
+Изменения спроса потребителей требуют модификации продукции
+Изменения конкурентного ландшафта изменяют стратегии
+Новые конкуренты нарушают рыночные позиции
+Тренды рынка определяют жизнеспособность продукции
+Предпочтения потребителей влияют на решения дизайна
+Насыщение рынка вынуждает диверсификацию
 
 
 ═════════════════════════════════════════════════════════════════════════════════
@@ -435,20 +435,20 @@ PART 5: COMMUNICATION PRINCIPLES / ПРИНЦИПЫ КОММУНИКАЦИИ
 1. TWO-WAY PROCESS / ДВУСТОРОННИЙ ПРОЦЕСС
 ────────────────────────────────────────────
 ENGLISH:
-- Communication involves both sending AND receiving information
-- Not just transmitting messages - must actively listen
-- Feedback is essential for effective communication
-- Understanding responses is crucial
-- Two-way flow ensures clarity and prevents misunderstandings
-- Dialogue is more effective than monologue
+Communication involves both sending AND receiving information
+Not just transmitting messages - must actively listen
+Feedback is essential for effective communication
+Understanding responses is crucial
+Two-way flow ensures clarity and prevents misunderstandings
+Dialogue is more effective than monologue
 
 РУССКИЙ:
-- Коммуникация требует отправки И получения информации
-- Это не просто передача сообщений - нужно активно слушать
-- Обратная связь важна для эффективной коммуникации
-- Понимание ответов критично
-- Двусторонний поток обеспечивает ясность и предотвращает неправильные понимания
-- Диалог эффективнее монолога
+Коммуникация требует отправки И получения информации
+Это не просто передача сообщений - нужно активно слушать
+Обратная связь важна для эффективной коммуникации
+Понимание ответов критично
+Двусторонний поток обеспечивает ясность и предотвращает неправильные понимания
+Диалог эффективнее монолога
 
 
 2. TYPES OF COMMUNICATION / ТИПЫ КОММУНИКАЦИИ
@@ -457,58 +457,58 @@ ENGLISH:
 A. ORAL COMMUNICATION / УСТНАЯ КОММУНИКАЦИЯ
 ─────────────────────────────────────────────
 ENGLISH:
-- Spoken words, conversations, presentations, speeches
-- Requires clear pronunciation and language
-- Immediate feedback possible
-- Can convey emotion and nuance through tone
-- Disadvantage: No permanent record unless recorded
-- Best for: Quick discussions, clarifications, emergency situations
+Spoken words, conversations, presentations, speeches
+Requires clear pronunciation and language
+Immediate feedback possible
+Can convey emotion and nuance through tone
+Disadvantage: No permanent record unless recorded
+Best for: Quick discussions, clarifications, emergency situations
 
 РУССКИЙ:
-- Устные слова, разговоры, презентации, речи
-- Требует четкого произношения и языка
-- Возможна немедленная обратная связь
-- Может передать эмоции и оттенки через тон
-- Недостаток: Нет постоянной записи без записи
-- Лучше всего для: Быстрых обсуждений, уточнений, критических ситуаций
+Устные слова, разговоры, презентации, речи
+Требует четкого произношения и языка
+Возможна немедленная обратная связь
+Может передать эмоции и оттенки через тон
+Недостаток: Нет постоянной записи без записи
+Лучше всего для: Быстрых обсуждений, уточнений, критических ситуаций
 
 
 B. WRITTEN COMMUNICATION / ПИСЬМЕННАЯ КОММУНИКАЦИЯ
 ────────────────────────────────────────────────────
 ENGLISH:
-- Conveyed through written words (emails, letters, reports, memos)
-- Creates permanent record
-- Allows careful composition and revision
-- Slower feedback response
-- More formal and documented
-- Best for: Important information, official records, contracts, detailed instructions
+Conveyed through written words (emails, letters, reports, memos)
+Creates permanent record
+Allows careful composition and revision
+Slower feedback response
+More formal and documented
+Best for: Important information, official records, contracts, detailed instructions
 
 РУССКИЙ:
-- Передается письменными словами (письма, отчеты, служебные записки)
-- Создает постоянную запись
-- Позволяет внимательно составить и изменить
-- Более медленный ответ обратной связи
-- Более формальное и задокументированное
-- Лучше всего для: Важная информация, официальные записи, контракты, подробные инструкции
+Передается письменными словами (письма, отчеты, служебные записки)
+Создает постоянную запись
+Позволяет внимательно составить и изменить
+Более медленный ответ обратной связи
+Более формальное и задокументированное
+Лучше всего для: Важная информация, официальные записи, контракты, подробные инструкции
 
 
 C. NON-VERBAL COMMUNICATION / НЕВЕРБАЛЬНАЯ КОММУНИКАЦИЯ
 ─────────────────────────────────────────────────────────
 ENGLISH:
-- Body language, facial expressions, gestures, tone of voice, eye contact
-- Often more powerful than words
-- Carries up to 93% of communication impact (studies show)
-- Can reinforce or contradict verbal messages
-- Cultural differences in non-verbal cues
-- Does NOT require speaking but complements oral communication
+Body language, facial expressions, gestures, tone of voice, eye contact
+Often more powerful than words
+Carries up to 93% of communication impact (studies show)
+Can reinforce or contradict verbal messages
+Cultural differences in non-verbal cues
+Does NOT require speaking but complements oral communication
 
 РУССКИЙ:
-- Язык тела, выражение лица, жесты, тон голоса, зрительный контакт
-- Часто мощнее слов
-- Несет до 93% влияния коммуникации (исследования показывают)
-- Может подкрепить или противоречить устным сообщениям
-- Культурные различия в невербальных сигналах
-- НЕ требует речи, но дополняет устную коммуникацию
+Язык тела, выражение лица, жесты, тон голоса, зрительный контакт
+Часто мощнее слов
+Несет до 93% влияния коммуникации (исследования показывают)
+Может подкрепить или противоречить устным сообщениям
+Культурные различия в невербальных сигналах
+НЕ требует речи, но дополняет устную коммуникацию
 
 
 3. FORMAL VS INFORMAL COMMUNICATION / ФОРМАЛЬНАЯ VS НЕФОРМАЛЬНАЯ КОММУНИКАЦИЯ
@@ -517,43 +517,43 @@ ENGLISH:
 FORMAL COMMUNICATION / ФОРМАЛЬНАЯ КОММУНИКАЦИЯ
 ───────────────────────────────────────────────
 ENGLISH:
-- Follows predefined channels and structures
-- Adheres to established protocols
-- Examples: Official meetings, formal reports, formal letters
-- Systematic and documented
-- Uses professional language and terminology
-- Appropriate for: Official announcements, policy changes, contracts
-- More structured and binding
+Follows predefined channels and structures
+Adheres to established protocols
+Examples: Official meetings, formal reports, formal letters
+Systematic and documented
+Uses professional language and terminology
+Appropriate for: Official announcements, policy changes, contracts
+More structured and binding
 
 РУССКИЙ:
-- Следует предопределенным каналам и структурам
-- Придерживается установленных протоколов
-- Примеры: Официальные встречи, формальные отчеты, официальные письма
-- Систематическая и задокументированная
-- Использует профессиональный язык и терминологию
-- Подходит для: Официальные объявления, изменения политики, контракты
-- Более структурированная и обязывающая
+Следует предопределенным каналам и структурам
+Придерживается установленных протоколов
+Примеры: Официальные встречи, формальные отчеты, официальные письма
+Систематическая и задокументированная
+Использует профессиональный язык и терминологию
+Подходит для: Официальные объявления, изменения политики, контракты
+Более структурированная и обязывающая
 
 
 INFORMAL COMMUNICATION / НЕФОРМАЛЬНАЯ КОММУНИКАЦИЯ
 ───────────────────────────────────────────────────
 ENGLISH:
-- Occurs spontaneously without structured rules
-- Includes casual conversations and chats with colleagues
-- Faster information spread through social networks
-- More relaxed and personal approach
-- Uses everyday language and slang
-- Appropriate for: Casual discussions, team bonding, quick updates
-- Less documented but often more effective for understanding
+Occurs spontaneously without structured rules
+Includes casual conversations and chats with colleagues
+Faster information spread through social networks
+More relaxed and personal approach
+Uses everyday language and slang
+Appropriate for: Casual discussions, team bonding, quick updates
+Less documented but often more effective for understanding
 
 РУССКИЙ:
-- Происходит спонтанно без структурированных правил
-- Включает случайные разговоры и чаты с коллегами
-- Более быстрое распространение информации через социальные сети
-- Более расслабленный и личный подход
-- Использует повседневный язык и сленг
-- Подходит для: Случайные обсуждения, сплочение команды, быстрые обновления
-- Менее задокументировано, но часто более эффективно для понимания
+Происходит спонтанно без структурированных правил
+Включает случайные разговоры и чаты с коллегами
+Более быстрое распространение информации через социальные сети
+Более расслабленный и личный подход
+Использует повседневный язык и сленг
+Подходит для: Случайные обсуждения, сплочение команды, быстрые обновления
+Менее задокументировано, но часто более эффективно для понимания
 
 
 ═════════════════════════════════════════════════════════════════════════════════
@@ -564,181 +564,181 @@ PART 6: BUSINESS DOCUMENTATION / ДЕЛОВАЯ ДОКУМЕНТАЦИЯ
 ───────────────────────────────────
 ENGLISH:
 Purpose:
-- Visual project management tools
-- Schedule and organize tasks over specific timeframes
-- Track project progress
-- Illustrate dependencies between tasks
-- Show milestones and critical paths
+Visual project management tools
+Schedule and organize tasks over specific timeframes
+Track project progress
+Illustrate dependencies between tasks
+Show milestones and critical paths
 
 Conventions:
-- Tasks listed on vertical axis
-- Timeline on horizontal axis
-- Bars represent tasks with start and end dates
-- Different colors/patterns show task status
-- Indicates dependencies and critical path
+Tasks listed on vertical axis
+Timeline on horizontal axis
+Bars represent tasks with start and end dates
+Different colors/patterns show task status
+Indicates dependencies and critical path
 
 РУССКИЙ:
 Цель:
-- Визуальные инструменты управления проектами
-- Планирование и организация задач во времени
-- Отслеживание хода выполнения проекта
-- Показать зависимости между задачами
-- Показать вехи и критические пути
+Визуальные инструменты управления проектами
+Планирование и организация задач во времени
+Отслеживание хода выполнения проекта
+Показать зависимости между задачами
+Показать вехи и критические пути
 
 Соглашения:
-- Задачи указаны на вертикальной оси
-- Временная шкала на горизонтальной оси
-- Полосы представляют задачи с датами начала и окончания
-- Разные цвета/паттерны показывают статус задачи
-- Указывает зависимости и критический путь
+Задачи указаны на вертикальной оси
+Временная шкала на горизонтальной оси
+Полосы представляют задачи с датами начала и окончания
+Разные цвета/паттерны показывают статус задачи
+Указывает зависимости и критический путь
 
 
 2. BILL OF MATERIALS (BOM) / СПЕЦИФИКАЦИЯ МАТЕРИАЛОВ
 ──────────────────────────────────────────────────────
 ENGLISH:
 Purpose:
-- Comprehensive list of all materials and components needed to manufacture a product
-- Details quantities, descriptions, and costs
-- Used for procurement and production planning
-- Prevents material shortages during production
-- Enables accurate cost estimation
+Comprehensive list of all materials and components needed to manufacture a product
+Details quantities, descriptions, and costs
+Used for procurement and production planning
+Prevents material shortages during production
+Enables accurate cost estimation
 
 Conventions:
-- Structured format with item numbers
-- Clear descriptions and part names
-- Units of measure specified
-- Quantities needed listed
-- Sometimes includes supplier information
-- Should be clear and easy to understand
-- Facilitates material traceability
+Structured format with item numbers
+Clear descriptions and part names
+Units of measure specified
+Quantities needed listed
+Sometimes includes supplier information
+Should be clear and easy to understand
+Facilitates material traceability
 
 РУССКИЙ:
 Цель:
-- Полный список всех материалов и компонентов, необходимых для производства продукции
-- Указывает количества, описания и затраты
-- Используется для закупок и планирования производства
-- Предотвращает нехватку материалов во время производства
-- Обеспечивает точную оценку затрат
+Полный список всех материалов и компонентов, необходимых для производства продукции
+Указывает количества, описания и затраты
+Используется для закупок и планирования производства
+Предотвращает нехватку материалов во время производства
+Обеспечивает точную оценку затрат
 
 Соглашения:
-- Структурированный формат с номерами позиций
-- Четкие описания и названия деталей
-- Указаны единицы измерения
-- Перечислены необходимые количества
-- Иногда включает контактную информацию поставщика
-- Должна быть четкой и понятной
-- Облегчает отслеживание материалов
+Структурированный формат с номерами позиций
+Четкие описания и названия деталей
+Указаны единицы измерения
+Перечислены необходимые количества
+Иногда включает контактную информацию поставщика
+Должна быть четкой и понятной
+Облегчает отслеживание материалов
 
 
 3. TECHNICAL REPORTS / ТЕХНИЧЕСКИЕ ОТЧЕТЫ
 ─────────────────────────────────────────────
 ENGLISH:
 Purpose:
-- Document technical data and specifications of projects
-- Record testing results and performance data
-- Provide information about materials and processes
-- Record failures and lessons learned
-- Guide future improvements and modifications
-- Serve as reference for similar projects
+Document technical data and specifications of projects
+Record testing results and performance data
+Provide information about materials and processes
+Record failures and lessons learned
+Guide future improvements and modifications
+Serve as reference for similar projects
 
 Content typically includes:
-- Material specifications
-- Process details and parameters
-- Test results and measurements
-- Drawings and diagrams
-- Design calculations
-- Failure analysis
-- Recommendations for improvements
+Material specifications
+Process details and parameters
+Test results and measurements
+Drawings and diagrams
+Design calculations
+Failure analysis
+Recommendations for improvements
 
 РУССКИЙ:
 Цель:
-- Документировать технические данные и спецификации проектов
-- Записывать результаты тестирования и данные производительности
-- Предоставить информацию о материалах и процессах
-- Записать отказы и извлеченные уроки
-- Направить будущие улучшения и модификации
-- Служить справочником для аналогичных проектов
+Документировать технические данные и спецификации проектов
+Записывать результаты тестирования и данные производительности
+Предоставить информацию о материалах и процессах
+Записать отказы и извлеченные уроки
+Направить будущие улучшения и модификации
+Служить справочником для аналогичных проектов
 
 Содержание обычно включает:
-- Технические характеристики материалов
-- Детали процесса и параметры
-- Результаты тестирования и измерения
-- Чертежи и диаграммы
-- Расчеты дизайна
-- Анализ отказов
-- Рекомендации по улучшениям
+Технические характеристики материалов
+Детали процесса и параметры
+Результаты тестирования и измерения
+Чертежи и диаграммы
+Расчеты дизайна
+Анализ отказов
+Рекомендации по улучшениям
 
 
 4. JOB CARDS / КАРТОЧКИ РАБОТЫ
 ─────────────────────────────────
 ENGLISH:
 Purpose:
-- Detailed instructions for manufacturing a specific component
-- Guide operators through production sequence
-- Include all necessary parameters and specifications
-- Track time and resources for each operation
-- Enable quality control and verification
+Detailed instructions for manufacturing a specific component
+Guide operators through production sequence
+Include all necessary parameters and specifications
+Track time and resources for each operation
+Enable quality control and verification
 
 Typical content:
-- Operation sequence and steps
-- Machine settings (speed, feed, depth)
-- Tool specifications
-- Quality check points
-- Time estimates
-- Safety precautions
+Operation sequence and steps
+Machine settings (speed, feed, depth)
+Tool specifications
+Quality check points
+Time estimates
+Safety precautions
 
 РУССКИЙ:
 Цель:
-- Подробные инструкции по производству конкретного компонента
-- Направлять операторов через последовательность производства
-- Включить все необходимые параметры и спецификации
-- Отслеживать время и ресурсы для каждой операции
-- Включить контроль качества и проверку
+Подробные инструкции по производству конкретного компонента
+Направлять операторов через последовательность производства
+Включить все необходимые параметры и спецификации
+Отслеживать время и ресурсы для каждой операции
+Включить контроль качества и проверку
 
 Типичное содержание:
-- Последовательность и этапы операции
-- Параметры машины (скорость, подача, глубина)
-- Технические характеристики инструмента
-- Точки контроля качества
-- Оценки времени
-- Меры предосторожности
+Последовательность и этапы операции
+Параметры машины (скорость, подача, глубина)
+Технические характеристики инструмента
+Точки контроля качества
+Оценки времени
+Меры предосторожности
 
 
 5. EMAILS / ЭЛЕКТРОННЫЕ ПИСЬМА
 ──────────────────────────────────
 ENGLISH:
 Purpose:
-- Convey information formally or semi-formally
-- Create written record of communication
-- Reach multiple recipients simultaneously
-- Professional business communication
-- Document decisions and instructions
+Convey information formally or semi-formally
+Create written record of communication
+Reach multiple recipients simultaneously
+Professional business communication
+Document decisions and instructions
 
 Best practices:
-- Clear subject line
-- Professional greeting
-- Concise and organized body
-- Specific requests or information
-- Professional closing
-- Spell check and proofread
-- Appropriate tone and language
+Clear subject line
+Professional greeting
+Concise and organized body
+Specific requests or information
+Professional closing
+Spell check and proofread
+Appropriate tone and language
 
 РУССКИЙ:
 Цель:
-- Передать информацию официально или полуформально
-- Создать письменную запись коммуникации
-- Достигнуть нескольких получателей одновременно
-- Профессиональная деловая коммуникация
-- Документировать решения и инструкции
+Передать информацию официально или полуформально
+Создать письменную запись коммуникации
+Достигнуть нескольких получателей одновременно
+Профессиональная деловая коммуникация
+Документировать решения и инструкции
 
 Лучшие практики:
-- Четкая тема письма
-- Профессиональное приветствие
-- Краткая и организованная основная часть
-- Конкретные запросы или информация
-- Профессиональное завершение
-- Проверка орфографии
-- Подходящий тон и язык
+Четкая тема письма
+Профессиональное приветствие
+Краткая и организованная основная часть
+Конкретные запросы или информация
+Профессиональное завершение
+Проверка орфографии
+Подходящий тон и язык
 
 
 ═════════════════════════════════════════════════════════════════════════════════
@@ -757,3 +757,4 @@ KEY TAKEAWAYS / КЛЮЧЕВЫЕ МОМЕНТЫ
 10. Professional communication builds credibility and trust
 
 ═════════════════════════════════════════════════════════════════════════════════
+

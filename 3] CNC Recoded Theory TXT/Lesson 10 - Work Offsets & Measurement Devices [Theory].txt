@@ -5,93 +5,87 @@ Finding X/Y/Z, part zero, and machine datum
 
 1. MACHINE & WORK COORDINATE SYSTEMS
 ENGLISH:
-- Machine coordinate system (MCS) is fixed by the manufacturer; work
+Machine coordinate system (MCS) is fixed by the manufacturer; work
   coordinate system (WCS) is set by the operator for each job.
-- Offsets record the difference: WCS = MCS + stored values.
-- Use `G54 X0 Y0` (or G55, G56 etc.) to move the cutter to the part origin.
-- The offset table stores distances between MCS and WCS; the operator rarely
+Offsets record the difference: WCS = MCS + stored values.
+Use `G54 X0 Y0` (or G55, G56 etc.) to move the cutter to the part origin.
+The offset table stores distances between MCS and WCS; the operator rarely
   needs to know the numbers themselves once set.
 
 РУССКИЙ:
-- Система координат станка (MCS) фиксирована производителем; рабочая
+Система координат станка (MCS) фиксирована производителем; рабочая
   система (WCS) устанавливается оператором для каждой заготовки.
-- Смещения отражают разницу: WCS = MCS + сохранённые значения.
-- Команда `G54 X0 Y0` (G55, G56 и т.д.) перемещает инструмент к началу части.
-- Таблица смещений хранит расстояния между MCS и WCS; оператор редко
+Смещения отражают разницу: WCS = MCS + сохранённые значения.
+Команда `G54 X0 Y0` (G55, G56 и т.д.) перемещает инструмент к началу части.
+Таблица смещений хранит расстояния между MCS и WCS; оператор редко
   обращается к самим числам после настройки.
-
----
 
 2. EDGE FINDER & DIAL TEST INDICATOR
 ENGLISH:
-- **Edge finder** (6 mm): spin at ~500 RPM; as it touches an edge the floating
+**Edge finder** (6 mm): spin at ~500 RPM; as it touches an edge the floating
   tip centres. Touch X‑edge, record X; touch Y‑edge, record Y. Subtract half
   the diameter (3 mm) from both readings before storing.
-- **Dial test indicator (DTI)**: use for curved/cylindrical surfaces or when
+**Dial test indicator (DTI)**: use for curved/cylindrical surfaces or when
   edges are not accessible. The indicator swings until it centres; gives X/Y
   with no diameter compensation.
-- For Z you can manually jog the head until it contacts the surface or use a
+For Z you can manually jog the head until it contacts the surface or use a
   height probe (zero setter) set 50 mm high; subtract 50 mm after touching.
 
 РУССКИЙ:
-- **Край‑указатель** (6 мм): вращать ~500 об/мин; при касании кромки подвижный
+**Край‑указатель** (6 мм): вращать ~500 об/мин; при касании кромки подвижный
   наконечник выравнивается. Прикоснитесь к X‑кромке, зафиксируйте X; к Y‑
   кромке – зафиксируйте Y. Вычтите половину диаметра (3 мм) и только потом
   сохраняйте.
-- **Индикатор (DTI)**: используется для криволинейных поверхностей или если
+**Индикатор (DTI)**: используется для криволинейных поверхностей или если
   кромки недоступны. Индикатор уравновешивается сам; показывает X/Y без
   компенсации диаметра.
-- Для Z используйте ручной джог до касания поверхности или пробную оправку
+Для Z используйте ручной джог до касания поверхности или пробную оправку
   (zero setter) высотой 50 мм; после касания вычтите 50 мм.
-
----
 
 3. OPERATING THE SIMULATOR (SSCNC)
 ENGLISH:
-- Launch SSCNC, choose VM (vertical machining centre) and soft‑doc encryption.
-- Two windows appear: left = virtual machine, right = control panel.
-- Power on, clear previous NC code (`EMPTY`), reset alarms.
-- Define stock size under Workpiece menu (X, Y, Z) and WCS (keep G50/G54).
-- Load tools in Tool Management: edit diameter, mount to spindle, and
+Launch SSCNC, choose VM (vertical machining centre) and soft‑doc encryption.
+Two windows appear: left = virtual machine, right = control panel.
+Power on, clear previous NC code (`EMPTY`), reset alarms.
+Define stock size under Workpiece menu (X, Y, Z) and WCS (keep G50/G54).
+Load tools in Tool Management: edit diameter, mount to spindle, and
   jog Z‑axis to safe height before measuring offsets.
-- Measure tool length offset with `Tool Offset Measure`; set diameter in
+Measure tool length offset with `Tool Offset Measure`; set diameter in
   table and return tool to safe Z.
-- To change workpiece zero in simulator, simply alter stock X/Y values to 0
+To change workpiece zero in simulator, simply alter stock X/Y values to 0
   and 0. In real life use edge finder or DTI.
-- Delete old programs carefully: choose number not already in memory.
+Delete old programs carefully: choose number not already in memory.
 
 РУССКИЙ:
-- Запустите SSCNC, выберите VM (вертикальный ФС) и soft‑doc encryption.
-- Откроется два окна: слева – виртуальный станок, справа – панель управления.
-- Включите питание, очистите предыдущий NC‑код (`EMPTY`), сбросьте тревоги.
-- Под меню Workpiece задайте размеры заготовки (X, Y, Z) и WCS (оставьте
+Запустите SSCNC, выберите VM (вертикальный ФС) и soft‑doc encryption.
+Откроется два окна: слева – виртуальный станок, справа – панель управления.
+Включите питание, очистите предыдущий NC‑код (`EMPTY`), сбросьте тревоги.
+Под меню Workpiece задайте размеры заготовки (X, Y, Z) и WCS (оставьте
   G50/G54).
-- Загрузите инструменты в Tool Management: измените диаметр, поместите в
+Загрузите инструменты в Tool Management: измените диаметр, поместите в
   шпиндель и поднимите до безопасной высоты перед измерением смещений.
-- Измерьте длину инструмента кнопкой `Tool Offset Measure`; установите диаметр
+Измерьте длину инструмента кнопкой `Tool Offset Measure`; установите диаметр
   в таблице и верните фрезу на безопасную высоту.
-- В симуляторе изменить ноль по X/Y просто – установите размеры заготовки
+В симуляторе изменить ноль по X/Y просто – установите размеры заготовки
   в 0 и 0. На реальном станке нужно использовать край‑указатель или DTI.
-- Удаляйте старые программы аккуратно: выберите номер, которого ещё нет в
+Удаляйте старые программы аккуратно: выберите номер, которого ещё нет в
   памяти.
-
----
 
 4. PRACTICAL NOTES
 ENGLISH:
-- Safe clearance above stock usually 50 mm (height of zero setter). Use this in
+Safe clearance above stock usually 50 mm (height of zero setter). Use this in
   Z‑moves before rapid travel to avoid crashes.
-- You can define multiple WCS (G54–G59) for different vices/fixtures; stick
+You can define multiple WCS (G54–G59) for different vices/fixtures; stick
   to G54 for simplicity if only one is needed.
-- Always check tool and work offsets in simulator before running on real
+Always check tool and work offsets in simulator before running on real
   machine.
 
 РУССКИЙ:
-- Безопасный зазор над заготовкой обычно 50 мм (высота zero setter). Используйте
+Безопасный зазор над заготовкой обычно 50 мм (высота zero setter). Используйте
   его в Z‑ходах перед быстрым перемещением, чтобы не столкнуться с заготовкой.
-- Можно определить несколько WCS (G54–G59) для разных тисков; если нужен
+Можно определить несколько WCS (G54–G59) для разных тисков; если нужен
   только один, проще использовать G54.
-- Всегда проверяйте смещения инструмента и детали в симуляторе перед запуском
+Всегда проверяйте смещения инструмента и детали в симуляторе перед запуском
   на реальном станке.
 
 ====================================================================

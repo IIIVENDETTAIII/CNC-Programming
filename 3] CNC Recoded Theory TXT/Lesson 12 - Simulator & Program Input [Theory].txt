@@ -5,102 +5,94 @@ Software workflow and memory management
 
 1. SSCNC SIMULATOR BASICS
 ENGLISH:
-- Launch SSCNC, double‑click the icon, choose **VM** (Vertical Machining
+Launch SSCNC, double‑click the icon, choose **VM** (Vertical Machining
   Centre) and **Soft‑doc encryption**.
-- Two windows appear:
+Two windows appear:
     * Left = 3‑D machine view
     * Right = control panel mimic
-- Power on the virtual machine, clear any pre‑loaded NC code (`EMPTY`), and
+Power on the virtual machine, clear any pre‑loaded NC code (`EMPTY`), and
   press **RESET** to clear alarms.
 
 РУССКИЙ:
-- Запустите SSCNC, дважды щёлкните и выберите **VM** (вертикальный ФС) и
+Запустите SSCNC, дважды щёлкните и выберите **VM** (вертикальный ФС) и
   **Soft‑doc encryption**.
-- Откроются два окна:
+Откроются два окна:
     * Слева – 3‑D вид станка
     * Справа – имитация панели управления
-- Включите виртуальный станок, очистите любой загруженный NC‑код (`EMPTY`) и
+Включите виртуальный станок, очистите любой загруженный NC‑код (`EMPTY`) и
   нажмите **RESET** для сброса тревог.
-
----
 
 2. SETTING STOCK & WCS
 ENGLISH:
-- Under **Workpiece → Stock**, enter X/Y/Z dimensions of the raw material.
-- Ensure the displayed WCS is **G50 or G54** (default). If you choose another
+Under **Workpiece → Stock**, enter X/Y/Z dimensions of the raw material.
+Ensure the displayed WCS is **G50 or G54** (default). If you choose another
   offset (G55, G56…), use that same code in your program.
-- Use **Locate Up/Down** to set the available Z machining height; leave ~5 mm
+Use **Locate Up/Down** to set the available Z machining height; leave ~5 mm
   for vice clamping and use the rest for cutting.
 
 РУССКИЙ:
-- В меню **Workpiece → Stock** введите размеры заготовки по X/Y/Z.
-- Убедитесь, что отображаемая WCS – **G50 или G54** (по умолчанию). Если
+В меню **Workpiece → Stock** введите размеры заготовки по X/Y/Z.
+Убедитесь, что отображаемая WCS – **G50 или G54** (по умолчанию). Если
   выбрали другое смещение (G55, G56…), используйте тот же код в программе.
-- Кнопкой **Locate Up/Down** задайте доступную высоту Z для обработки; оставьте
+Кнопкой **Locate Up/Down** задайте доступную высоту Z для обработки; оставьте
   ~5 мм для зажима в тисках, остальное – для резания.
-
----
 
 3. TOOL MANAGEMENT & OFFSETS
 ENGLISH:
-- Open **Machine → Tool Management** to view tool list (holders 1–12).
-- Edit tool diameter then **Add to magazine** and **Mount** it to the spindle.
-- After mounting, raise Z to a safe height (e.g. 100 mm) before measuring.
-- With spindle rotating at low RPM, use **Tool Offset Measure** to record H‑val.
-- Enter tool diameter in the offset table and zero any existing offset if
+Open **Machine → Tool Management** to view tool list (holders 1–12).
+Edit tool diameter then **Add to magazine** and **Mount** it to the spindle.
+After mounting, raise Z to a safe height (e.g. 100 mm) before measuring.
+With spindle rotating at low RPM, use **Tool Offset Measure** to record H‑val.
+Enter tool diameter in the offset table and zero any existing offset if
   replacing a tool.
 
 РУССКИЙ:
-- Откройте **Machine → Tool Management** для просмотра списка инструментов
+Откройте **Machine → Tool Management** для просмотра списка инструментов
   (позиции 1–12).
-- Измените диаметр инструмента, а затем **Add to magazine** и **Mount** для
+Измените диаметр инструмента, а затем **Add to magazine** и **Mount** для
   установки в шпиндель.
-- После установки поднимите Z на безопасную высоту (например, 100 мм) перед
+После установки поднимите Z на безопасную высоту (например, 100 мм) перед
   измерением.
-- При вращении шпинделя на низких оборотах нажмите **Tool Offset Measure**
+При вращении шпинделя на низких оборотах нажмите **Tool Offset Measure**
   для записи H‑значения.
-- Введите диаметр в таблицу смещений и сбросьте существующее смещение, если
+Введите диаметр в таблицу смещений и сбросьте существующее смещение, если
   инструмент заменяется.
-
----
 
 4. PROGRAM MEMORY & USB
 ENGLISH:
-- Use **List Program** to see stored programs; select and **Edit** to modify a
+Use **List Program** to see stored programs; select and **Edit** to modify a
   program.
-- To input a new program, choose an unused program number (O0001…O99999) and
+To input a new program, choose an unused program number (O0001…O99999) and
   type or paste code in MDI. `Select Program` makes it active.
-- Deleting: highlight a program and press **Delete**; confirm which programs you
+Deleting: highlight a program and press **Delete**; confirm which programs you
   wish to remove.
-- Copying from USB: insert stick, open **Files**, navigate to `NC` folder,
+Copying from USB: insert stick, open **Files**, navigate to `NC` folder,
   select program and choose **Copy to Memory**. Beware of overwriting existing
   program numbers – the machine will ask to replace or use a different number.
 
 РУССКИЙ:
-- Используйте **List Program** для просмотра сохранённых программ;
+Используйте **List Program** для просмотра сохранённых программ;
   выберите и нажмите **Edit** для изменения.
-- Чтобы добавить новую программу, выберите свободный номер (O0001…O99999) и
+Чтобы добавить новую программу, выберите свободный номер (O0001…O99999) и
   введите код в MDI. Кнопка **Select Program** активирует программу.
-- Для удаления: выделите программу и нажмите **Delete**; подтвердите удаление.
-- Копирование с USB: вставьте флешку, в меню **Files** перейдите в папку `NC`,
+Для удаления: выделите программу и нажмите **Delete**; подтвердите удаление.
+Копирование с USB: вставьте флешку, в меню **Files** перейдите в папку `NC`,
   выберите файл и нажмите **Copy to Memory**. Будьте внимательны, чтобы не
   перезаписать существующую программу – система спросит.
 
----
-
 5. SIMULATOR PRACTICE
 ENGLISH:
-- Run programs in graphics mode to verify toolpaths and check for overtravels.
-- Use single‑block mode and low feed overrides during initial tests.
-- Modify stock and WCS values in simulator instead of touching work offsets –
+Run programs in graphics mode to verify toolpaths and check for overtravels.
+Use single‑block mode and low feed overrides during initial tests.
+Modify stock and WCS values in simulator instead of touching work offsets –
   saves time during classroom exercises.
 
 РУССКИЙ:
-- Запускайте программы в графическом режиме для проверки траекторий и ошибок
+Запускайте программы в графическом режиме для проверки траекторий и ошибок
   выхода за пределы.
-- Во время первых прогонов используйте режим **single‑block** и низкие
+Во время первых прогонов используйте режим **single‑block** и низкие
   скорости подачи.
-- Изменяйте размеры заготовки и WCS в симуляторе вместо реальных смещений –
+Изменяйте размеры заготовки и WCS в симуляторе вместо реальных смещений –
   так проще на занятиях.
 
 ====================================================================

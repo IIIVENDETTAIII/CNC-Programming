@@ -36,8 +36,6 @@ This structure protects the machine, tool, and workpiece by ensuring the machine
 
 Эта структура защищает станок, инструмент и заготовку, обеспечивая надлежащюю подготовку станка перед резкой и безопасный возврат в известное состояние после завершения.
 
----
-
 2. PROGRAM IDENTIFICATION & DOCUMENTATION
 ENGLISH:
 The first line of a program starts with "O" (the letter O, not zero) followed by a 4-5 digit program number:
@@ -71,8 +69,6 @@ O00001 или O0001
 
 Эта документация обеспечивает отслеживаемость, помогает управлению программой и помогает в поиске и устранении неисправностей.
 
----
-
 3. SAFETY STARTUP CODES - CRITICAL FOR EVERY PROGRAM
 ENGLISH:
 Every program should start with safety codes that set the machine to a known, safe state:
@@ -88,10 +84,10 @@ Example startup block:
 G17 G20 G40 G49 G80 G90
 
 These codes ensure:
-- The machine interprets your program correctly
-- No unexpected compensation is active
-- Positioning is absolute (not incremental)
-- Dangerous canned cycles are canceled
+The machine interprets your program correctly
+No unexpected compensation is active
+Positioning is absolute (not incremental)
+Dangerous canned cycles are canceled
 
 RUSSISK:
 Каждая программа должна начинаться с кодов безопасности, которые устанавливают станок в известное, безопасное состояние:
@@ -107,12 +103,10 @@ G90 - выбрать режим абсолютного позициониров�
 G17 G20 G40 G49 G80 G90
 
 Эти коды обеспечивают:
-- станок правильно интерпретирует вашу программу
-- никакая неожиданная компенсация не активна
-- позиционирование является абсолютным (не дополнительным)
-- опасные запрограммированные циклы отменяются
-
----
+станок правильно интерпретирует вашу программу
+никакая неожиданная компенсация не активна
+позиционирование является абсолютным (не дополнительным)
+опасные запрограммированные циклы отменяются
 
 4. TOOL & OFFSET SELECTION
 ENGLISH:
@@ -167,8 +161,6 @@ H01 G43 (применить компенсацию высоты инструме
 
 Без этих выборов станок не знает, какой инструмент используется или где измерять.
 
----
-
 5. MAIN G-CODES - MOVEMENT COMMANDS
 ENGLISH:
 G00 - RAPID MOVEMENT: Moves the tool as fast as possible. Used for non-cutting moves only. Example: G00 X10 Y20 Z30
@@ -191,8 +183,6 @@ G02 - КРУГОВАЯ ИНТЕРПОЛЯЦИЯ ПО ЧАСОВОЙ СТРЕЛК
 G03 - КРУГОВАЯ ИНТЕРПОЛЯЦИЯ ПРОТИВ ЧАСОВОЙ СТРЕЛКИ: Режет круговую дугу в направлении против часовой стрелки. Пример: G03 X20 Y20 R10
 
 Это наиболее важные коды. Каждая программа резки использует их повторно для разных позиций и движений.
-
----
 
 6. SPINDLE & COOLANT CONTROL CODES
 ENGLISH:
@@ -227,8 +217,6 @@ M05 (остановить шпиндель)
 
 Всегда включайте шпиндель ПЕРЕД началом любой операции резания. Всегда выключайте охладитель и шпиндель после окончания работы.
 
----
-
 7. WORK COORDINATE SYSTEMS (G54-G59)
 ENGLISH:
 G54 is the default and most commonly used work offset. However, a single workpiece can have multiple offsets:
@@ -238,9 +226,9 @@ G55 X0 Y0 - Move to origin of second offset area
 G56 X0 Y0 - Move to origin of third offset area
 
 This allows:
-- Cutting different features at different locations on the same workpiece
-- Using different tools for different features without re-offsetting
-- Programming multiple operations that are done in sequence
+Cutting different features at different locations on the same workpiece
+Using different tools for different features without re-offsetting
+Programming multiple operations that are done in sequence
 
 Example:
 ... cuts feature 1 using G54 ...
@@ -258,9 +246,9 @@ G55 X0 Y0 - Переместиться к источнику второй обл
 G56 X0 Y0 - Переместиться к источнику третьей области смещения
 
 Это позволяет:
-- Вырезание различных функций в разных местах на одной заготовке
-- Использование различных инструментов для различных функций без переоффсета
-- Программирование нескольких операций, выполняемых последовательно
+Вырезание различных функций в разных местах на одной заготовке
+Использование различных инструментов для различных функций без переоффсета
+Программирование нескольких операций, выполняемых последовательно
 
 Пример:
 ... вырезает функцию 1, используя G54 ...
@@ -270,18 +258,16 @@ G55 (переключить на второе смещение)
 
 Этот подход экономит время установки и повышает производительность.
 
----
-
 8. PROGRAM END
 ENGLISH:
 Every program must end with:
 M30 - PROGRAM END and RESET
 
 This code:
-- Stops spindle rotation
-- Turns off coolant
-- Resets all offsets and modes
-- Positions control for next program
+Stops spindle rotation
+Turns off coolant
+Resets all offsets and modes
+Positions control for next program
 
 M30 is always the last line of a program. Some machines also use:
 M02 - Alternate program end (less common in modern machines)
@@ -302,10 +288,10 @@ Proper program ending ensures clean shutdown and readiness for next job.
 M30 - КОНЕЦ ПРОГРАММЫ И СБРОС
 
 Этот код:
-- Останавливает вращение шпинделя
-- Выключает охладитель
-- Сбрасывает все смещения и режимы
-- Позиция управления для следующей программы
+Останавливает вращение шпинделя
+Выключает охладитель
+Сбрасывает все смещения и режимы
+Позиция управления для следующей программы
 
 M30 - это всегда последняя строка программы. Некоторые машины также используют:
 M02 - Альтернативный конец программы (менее распространено на современных станках)
@@ -324,3 +310,4 @@ M30 (конец программы)
 ====================================================================
 END OF LESSON 7 THEORY
 ====================================================================
+

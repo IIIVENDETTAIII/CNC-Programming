@@ -20,140 +20,139 @@ Part A - What the instructor said (key points)
 6) EN: First try answering from memory, then check notes only if needed.
    RU: Сначала попробуйте ответить по памяти, а заметки открывайте только при необходимости.
 
---------------------------------------------------------------------
 Part B - Answers to the 15 questions
 
 1) State the types of geographical Business and give its characteristics.
    EN Answer:
-   - Local business: operates in one town/city/region; serves local customers; limited market area.
-   - National business: operates across one country; wider customer base; follows national policies and standards.
-   - International business: operates across multiple countries; global supply chains; must manage different laws/cultures.
+Local business: operates in one town/city/region; serves local customers; limited market area.
+National business: operates across one country; wider customer base; follows national policies and standards.
+International business: operates across multiple countries; global supply chains; must manage different laws/cultures.
    RU Перевод:
-   - Локальный бизнес: работает в одном городе/регионе; обслуживает местных клиентов; ограниченный рынок.
-   - Национальный бизнес: работает по всей стране; более широкая клиентская база; следует национальным нормам.
-   - Международный бизнес: работает в нескольких странах; глобальные цепочки поставок; учитывает разные законы и культуры.
+Локальный бизнес: работает в одном городе/регионе; обслуживает местных клиентов; ограниченный рынок.
+Национальный бизнес: работает по всей стране; более широкая клиентская база; следует национальным нормам.
+Международный бизнес: работает в нескольких странах; глобальные цепочки поставок; учитывает разные законы и культуры.
 
 2) State the characteristics of the following functional areas: i) Sales and Marketing ii) Quality iii) Engineering iv) Manufacturing.
    EN Answer:
-   - Sales and Marketing: customer-focused, market-aware, strong communication, relationship building, promotion of products/services.
-   - Quality: attention to detail, compliance with standards, inspection/testing, defect prevention, continuous improvement.
-   - Engineering: technical problem-solving, design and analysis, innovation, process optimization.
-   - Manufacturing: efficient production, machine/process control, safety, productivity, consistent output.
+Sales and Marketing: customer-focused, market-aware, strong communication, relationship building, promotion of products/services.
+Quality: attention to detail, compliance with standards, inspection/testing, defect prevention, continuous improvement.
+Engineering: technical problem-solving, design and analysis, innovation, process optimization.
+Manufacturing: efficient production, machine/process control, safety, productivity, consistent output.
    RU Перевод:
-   - Продажи и маркетинг: ориентация на клиента, понимание рынка, сильная коммуникация, построение отношений, продвижение продукции/услуг.
-   - Качество: внимание к деталям, соответствие стандартам, проверки/тесты, предотвращение дефектов, непрерывное улучшение.
-   - Инженерия: техническое решение проблем, проектирование и анализ, инновации, оптимизация процессов.
-   - Производство: эффективный выпуск, контроль станков/процессов, безопасность, производительность, стабильный результат.
+Продажи и маркетинг: ориентация на клиента, понимание рынка, сильная коммуникация, построение отношений, продвижение продукции/услуг.
+Качество: внимание к деталям, соответствие стандартам, проверки/тесты, предотвращение дефектов, непрерывное улучшение.
+Инженерия: техническое решение проблем, проектирование и анализ, инновации, оптимизация процессов.
+Производство: эффективный выпуск, контроль станков/процессов, безопасность, производительность, стабильный результат.
 
 3) Explain how the expectations of existing customers and regulators will differ when it comes to profit of a company.
    EN Answer:
-   - Existing customers mainly expect value for money: good quality, fair price, reliability, and service.
-   - Regulators expect legal and ethical compliance: safe products, correct reporting, environmental and labor law compliance.
-   - Difference: customers focus on value and experience; regulators focus on lawful and responsible profit-making.
+Existing customers mainly expect value for money: good quality, fair price, reliability, and service.
+Regulators expect legal and ethical compliance: safe products, correct reporting, environmental and labor law compliance.
+Difference: customers focus on value and experience; regulators focus on lawful and responsible profit-making.
    RU Перевод:
-   - Существующие клиенты в основном ожидают ценность за деньги: качество, справедливая цена, надежность и сервис.
-   - Регуляторы ожидают соблюдение законов и этики: безопасная продукция, корректная отчетность, соблюдение экологии и трудовых норм.
-   - Разница: клиенты фокусируются на ценности и опыте, регуляторы - на законной и ответственной прибыли.
+Существующие клиенты в основном ожидают ценность за деньги: качество, справедливая цена, надежность и сервис.
+Регуляторы ожидают соблюдение законов и этики: безопасная продукция, корректная отчетность, соблюдение экологии и трудовых норм.
+Разница: клиенты фокусируются на ценности и опыте, регуляторы - на законной и ответственной прибыли.
 
 4) State any two internal factors that cause change in engineering business with examples.
    EN Answer:
-   - Finance: budget cuts may delay machine upgrades; investment can introduce new CNC equipment.
-   - Skills/workforce capability: new software may require staff retraining (example: CAD/CAM upskilling).
+Finance: budget cuts may delay machine upgrades; investment can introduce new CNC equipment.
+Skills/workforce capability: new software may require staff retraining (example: CAD/CAM upskilling).
    RU Перевод:
-   - Финансы: сокращение бюджета может отложить обновление станков; инвестиции позволяют внедрить новое оборудование ЧПУ.
-   - Навыки/квалификация персонала: новое ПО требует переобучения сотрудников (пример: повышение навыков CAD/CAM).
+Финансы: сокращение бюджета может отложить обновление станков; инвестиции позволяют внедрить новое оборудование ЧПУ.
+Навыки/квалификация персонала: новое ПО требует переобучения сотрудников (пример: повышение навыков CAD/CAM).
 
 5) State any two external factors that cause change in engineering business. Explain in which way it affects the employees of a business.
    EN Answer:
-   - Legislation/regulations: new safety or environmental laws.
+Legislation/regulations: new safety or environmental laws.
      Effect on employees: new procedures, extra training, stricter audits, PPE requirements.
-   - Technology change: automation/Industry 4.0 tools.
+Technology change: automation/Industry 4.0 tools.
      Effect on employees: role changes, need for digital skills, possible redeployment to higher-skill tasks.
    RU Перевод:
-   - Законодательство/нормы: новые требования по безопасности или экологии.
+Законодательство/нормы: новые требования по безопасности или экологии.
      Влияние на сотрудников: новые процедуры, доп. обучение, более строгие проверки, требования по СИЗ.
-   - Технологические изменения: автоматизация/инструменты Industry 4.0.
+Технологические изменения: автоматизация/инструменты Industry 4.0.
      Влияние на сотрудников: изменение ролей, потребность в цифровых навыках, возможный переход на более квалифицированные задачи.
 
 6) Explain two uses of CAD and CAM in engineering.
    EN Answer:
-   - CAD use 1: create accurate 2D/3D part designs with dimensions and tolerances.
-   - CAD use 2: quickly modify designs and validate fit before production.
-   - CAM use 1: generate CNC toolpaths and NC code from the CAD model.
-   - CAM use 2: simulate machining to reduce collisions, scrap, and setup errors.
+CAD use 1: create accurate 2D/3D part designs with dimensions and tolerances.
+CAD use 2: quickly modify designs and validate fit before production.
+CAM use 1: generate CNC toolpaths and NC code from the CAD model.
+CAM use 2: simulate machining to reduce collisions, scrap, and setup errors.
    RU Перевод:
-   - CAD применение 1: создание точных 2D/3D моделей с размерами и допусками.
-   - CAD применение 2: быстрое изменение конструкции и проверка сопряжения до производства.
-   - CAM применение 1: генерация траекторий инструмента и NC-кода из CAD-модели.
-   - CAM применение 2: симуляция обработки для снижения столкновений, брака и ошибок наладки.
+CAD применение 1: создание точных 2D/3D моделей с размерами и допусками.
+CAD применение 2: быстрое изменение конструкции и проверка сопряжения до производства.
+CAM применение 1: генерация траекторий инструмента и NC-кода из CAD-модели.
+CAM применение 2: симуляция обработки для снижения столкновений, брака и ошибок наладки.
 
 7) Explain any 4 types of waste in an engineering business.
    EN Answer (TIMWOOD examples):
-   - Transportation: unnecessary movement of parts/material between areas.
-   - Inventory: excess raw material/WIP/finished goods tying up cash and space.
-   - Waiting: machine, operator, or material idle time.
-   - Defects: rework/scrap due to errors, causing extra cost and delay.
+Transportation: unnecessary movement of parts/material between areas.
+Inventory: excess raw material/WIP/finished goods tying up cash and space.
+Waiting: machine, operator, or material idle time.
+Defects: rework/scrap due to errors, causing extra cost and delay.
    RU Перевод:
-   - Транспортировка: лишние перемещения деталей/материалов между участками.
-   - Запасы: избыточные материалы/незавершенка/готовая продукция, которые "замораживают" деньги и место.
-   - Ожидание: простой станка, оператора или материала.
-   - Дефекты: переделка/брак из-за ошибок, что дает дополнительные затраты и задержки.
+Транспортировка: лишние перемещения деталей/материалов между участками.
+Запасы: избыточные материалы/незавершенка/готовая продукция, которые "замораживают" деньги и место.
+Ожидание: простой станка, оператора или материала.
+Дефекты: переделка/брак из-за ошибок, что дает дополнительные затраты и задержки.
 
 8) State the three types of communication.
    EN Answer:
-   - Oral communication
-   - Written communication
-   - Non-verbal communication
+Oral communication
+Written communication
+Non-verbal communication
    RU Перевод:
-   - Устная коммуникация
-   - Письменная коммуникация
-   - Невербальная коммуникация
+Устная коммуникация
+Письменная коммуникация
+Невербальная коммуникация
 
 9) Describe two purposes of a BoM and Drawing in an engineering business.
    EN Answer:
-   - BoM purpose: lists all parts/materials and quantities for purchasing, planning, and cost control.
-   - Drawing purpose: provides exact dimensions, tolerances, notes, and specifications for correct manufacture/inspection.
+BoM purpose: lists all parts/materials and quantities for purchasing, planning, and cost control.
+Drawing purpose: provides exact dimensions, tolerances, notes, and specifications for correct manufacture/inspection.
    RU Перевод:
-   - Назначение BoM: список всех деталей/материалов и количеств для закупки, планирования и контроля стоимости.
-   - Назначение чертежа: точные размеры, допуски, примечания и требования для правильного изготовления/контроля.
+Назначение BoM: список всех деталей/материалов и количеств для закупки, планирования и контроля стоимости.
+Назначение чертежа: точные размеры, допуски, примечания и требования для правильного изготовления/контроля.
 
 10) Explain what is meant by Value added, non-value added and Waste in terms of continuous improvement.
    EN Answer:
-   - Value-added (VA): activity that changes the product in a way the customer is willing to pay for.
-   - Non-value-added (NVA): activity that does not add customer value but may currently be required (for example compliance checks).
-   - Waste: pure loss (no customer value, no business necessity) and should be eliminated.
+Value-added (VA): activity that changes the product in a way the customer is willing to pay for.
+Non-value-added (NVA): activity that does not add customer value but may currently be required (for example compliance checks).
+Waste: pure loss (no customer value, no business necessity) and should be eliminated.
    RU Перевод:
-   - Добавляющее ценность (VA): операция, которая изменяет продукт так, что клиент готов за это платить.
-   - Не добавляющее ценность (NVA): операция, не создающая ценность для клиента, но иногда пока необходимая (например, обязательные проверки).
-   - Потери (Waste): чистые потери (нет ценности клиенту и нет необходимости для бизнеса), которые нужно устранять.
+Добавляющее ценность (VA): операция, которая изменяет продукт так, что клиент готов за это платить.
+Не добавляющее ценность (NVA): операция, не создающая ценность для клиента, но иногда пока необходимая (например, обязательные проверки).
+Потери (Waste): чистые потери (нет ценности клиенту и нет необходимости для бизнеса), которые нужно устранять.
 
 11) Explain one effect of continuous improvement on the growth and efficiency of an engineering business.
    EN Answer:
-   - Continuous improvement reduces defects and cycle time, which lowers cost per part and improves delivery performance; this increases customer trust, repeat orders, and business growth.
+Continuous improvement reduces defects and cycle time, which lowers cost per part and improves delivery performance; this increases customer trust, repeat orders, and business growth.
    RU Перевод:
-   - Непрерывное улучшение снижает дефекты и время цикла, что уменьшает себестоимость детали и улучшает сроки поставки; это повышает доверие клиентов, повторные заказы и рост бизнеса.
+Непрерывное улучшение снижает дефекты и время цикла, что уменьшает себестоимость детали и улучшает сроки поставки; это повышает доверие клиентов, повторные заказы и рост бизнеса.
 
 12) Describe any two 6S methods.
    EN Answer:
-   - Sort: remove unnecessary items from the workplace so only needed tools/materials remain.
-   - Safety: identify hazards and control risks (guards, PPE, safe layout, clear walkways).
+Sort: remove unnecessary items from the workplace so only needed tools/materials remain.
+Safety: identify hazards and control risks (guards, PPE, safe layout, clear walkways).
    RU Перевод:
-   - Sort (Сортировка): убрать лишние предметы с рабочего места, оставить только нужные инструменты/материалы.
-   - Safety (Безопасность): выявить опасности и снизить риски (ограждения, СИЗ, безопасная планировка, свободные проходы).
+Sort (Сортировка): убрать лишние предметы с рабочего места, оставить только нужные инструменты/материалы.
+Safety (Безопасность): выявить опасности и снизить риски (ограждения, СИЗ, безопасная планировка, свободные проходы).
 
 13) How visual management can be used to improve processes in an engineering business, explain in detail.
    EN Answer:
-   - Visual management makes process status obvious at a glance.
-   - Examples: color coding, shadow boards, floor markings, KPI/production boards, Andon lights, standard work visuals.
-   - Benefits:
+Visual management makes process status obvious at a glance.
+Examples: color coding, shadow boards, floor markings, KPI/production boards, Andon lights, standard work visuals.
+Benefits:
      1. Faster detection of abnormalities (delays, defects, missing tools).
      2. Better communication across shifts and teams.
      3. Reduced searching/waiting time and safer movement.
      4. Higher process discipline and consistent work methods.
    RU Перевод:
-   - Визуальное управление делает состояние процесса понятным "с одного взгляда".
-   - Примеры: цветовая маркировка, теневые панели инструмента, разметка пола, доски KPI/выпуска, сигналы Andon, визуальные стандарты работы.
-   - Преимущества:
+Визуальное управление делает состояние процесса понятным "с одного взгляда".
+Примеры: цветовая маркировка, теневые панели инструмента, разметка пола, доски KPI/выпуска, сигналы Andon, визуальные стандарты работы.
+Преимущества:
      1. Быстрее выявляются отклонения (задержки, дефекты, отсутствующий инструмент).
      2. Улучшается коммуникация между сменами и командами.
      3. Снижается время поиска/ожидания и повышается безопасность перемещений.
@@ -161,20 +160,21 @@ Part B - Answers to the 15 questions
 
 14) Describe any two tools that could be used to verify the root cause of a problem.
    EN Answer:
-   - 5 Whys: repeatedly ask "Why?" until the underlying cause is identified.
-   - Fishbone (Ishikawa) diagram: categorize possible causes (Man, Machine, Method, Material, Measurement, Environment) and test which cause is true.
+5 Whys: repeatedly ask "Why?" until the underlying cause is identified.
+Fishbone (Ishikawa) diagram: categorize possible causes (Man, Machine, Method, Material, Measurement, Environment) and test which cause is true.
    RU Перевод:
-   - 5 Why (Пять Почему): многократно задавать вопрос "Почему?", пока не будет выявлена первопричина.
-   - Диаграмма Исикавы (Fishbone): разложить возможные причины по категориям (человек, машина, метод, материал, измерение, среда) и проверить, какая причина реальная.
+5 Why (Пять Почему): многократно задавать вопрос "Почему?", пока не будет выявлена первопричина.
+Диаграмма Исикавы (Fishbone): разложить возможные причины по категориям (человек, машина, метод, материал, измерение, среда) и проверить, какая причина реальная.
 
 15) State the four characteristics of the Deming Cycle.
    EN Answer:
-   - Plan
-   - Do
-   - Check
-   - Act
+Plan
+Do
+Check
+Act
    RU Перевод:
-   - Plan (Планируй)
-   - Do (Делай)
-   - Check (Проверяй)
-   - Act (Действуй/внедряй улучшение)
+Plan (Планируй)
+Do (Делай)
+Check (Проверяй)
+Act (Действуй/внедряй улучшение)
+

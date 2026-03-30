@@ -5,71 +5,67 @@ Center drills, peck drilling, boring bars
 
 1. DRILL TYPES & USES
 ENGLISH:
-- **Center drill** (spot drill): short, rigid, used to create a precise starting
+**Center drill** (spot drill): short, rigid, used to create a precise starting
   point for twist drills; prevents walking. Always run at 50–100 % feed of
   subsequent drill.
-- **Twist drill**: general‑purpose; axial load only; supplied with cutting edges
+**Twist drill**: general‑purpose; axial load only; supplied with cutting edges
   and flutes to remove chips.
-- **Peck drilling**: program `G83` with retract cycle to break chips on deep
+**Peck drilling**: program `G83` with retract cycle to break chips on deep
   holes (>3×D) or tough materials. Example:
     `G83 X... Y... Z-20 R2 Q2 F120` where Q is incremental depth.
-- **Gun drill & deep‑hole drills** not covered; use coolant through the tool for
+**Gun drill & deep‑hole drills** not covered; use coolant through the tool for
   high length‑to‑diameter ratios.
 
 РУССКИЙ:
-- **Центровочное сверло**: короткое, жёсткое, используется для точной точки
+**Центровочное сверло**: короткое, жёсткое, используется для точной точки
   начала для спирального сверла; предотвращает смещение. Всегда работайте
   с подачей 50–100 % от последующего сверла.
-- **Спиральное сверло**: универсальное; только осевая нагрузка; имеет режущие
+**Спиральное сверло**: универсальное; только осевая нагрузка; имеет режущие
   кромки и канавки для удаления стружки.
-- **Вынимающее сверление**: `G83` с циклом вытягивания для удаления стружки в
+**Вынимающее сверление**: `G83` с циклом вытягивания для удаления стружки в
   глубоких отверстиях (>3×D) или твёрдых материалах. Пример:
     `G83 X... Y... Z-20 R2 Q2 F120`, где Q – глубина за проход.
-- **Пистолетное сверло и глубокие отверстия** не рассматриваются; для
+**Пистолетное сверло и глубокие отверстия** не рассматриваются; для
   больших соотношений длины к диаметру используется СО через инструмент.
-
----
 
 2. BORES & BORING BARS
 ENGLISH:
-- **Boring** enlarges existing holes with a single‑point tool mounted in a
+**Boring** enlarges existing holes with a single‑point tool mounted in a
   boring bar or head.
-- Use `G76` boring cycle on many controls: specify diameter, final depth, feed,
+Use `G76` boring cycle on many controls: specify diameter, final depth, feed,
   finish allowance.
-- Ensure bar is as short and rigid as possible; offset deflection by reducing
+Ensure bar is as short and rigid as possible; offset deflection by reducing
   cutting depth and using light cuts.
-- When boring, use centerline of spindle (X=0 for concentric operations) and
+When boring, use centerline of spindle (X=0 for concentric operations) and
   set boring bar offset in tool table.
 
 РУССКИЙ:
-- **Растачивание** увеличивает имеющиеся отверстия одним резцом, установленным
+**Растачивание** увеличивает имеющиеся отверстия одним резцом, установленным
   в расточном оправке или головке.
-- На многих управляемых станках используется цикл `G76` для растачивания:
+На многих управляемых станках используется цикл `G76` для растачивания:
   указать диаметр, конечную глубину, подачу, припуск на чистовую обработку.
-- Оправка должна быть как можно короче и жёстче; компенсируйте отклонение
+Оправка должна быть как можно короче и жёстче; компенсируйте отклонение
   уменьшением глубины резания и лёгкими проходами.
-- При растачивании используйте ось шпинделя как линию центра (X=0 для
+При растачивании используйте ось шпинделя как линию центра (X=0 для
   концентричных операций) и задайте смещение расточного резца в таблице
   инструментов.
 
----
-
 3. COOLANT & CHIP CONTROL
 ENGLISH:
-- Always supply ample coolant during drilling/boring to flush chips; use flood
+Always supply ample coolant during drilling/boring to flush chips; use flood
   when possible.
-- Use canned cycles (`G81` simple drill, `G83`, `G85` boring, etc.) to automate
+Use canned cycles (`G81` simple drill, `G83`, `G85` boring, etc.) to automate
   retracts; ensure `M08` coolant on before cycle and `M09` off after.
-- For through‑holes, use peck cycles to prevent chip packing. For blind holes,
+For through‑holes, use peck cycles to prevent chip packing. For blind holes,
   use air blast or chip breakers on drill.
 
 РУССКИЙ:
-- Всегда подавайте достаточное количество СО при сверлении/растачивании для
+Всегда подавайте достаточное количество СО при сверлении/растачивании для
   вымыва стружки; по возможности используйте полный поток.
-- Используйте стандартные циклы (`G81` простой, `G83`, `G85` для растачивания и
+Используйте стандартные циклы (`G81` простой, `G83`, `G85` для растачивания и
   т.д.) для автоматизации возвратов; убедитесь, что `M08` включено перед циклом,
   а `M09` после.
-- Для сквозных отверстий используйте вынимающий цикл, чтобы избежать уплотнения
+Для сквозных отверстий используйте вынимающий цикл, чтобы избежать уплотнения
   стружки. Для глухих отверстий используйте продувку воздухом или стружколомы на
   сверле.
 

@@ -5,101 +5,93 @@ The logical sequence before programming
 
 1. CHECK THE DRAWING FIRST
 ENGLISH:
-- Treat every drawing as a "map" of your part. Identify:
+Treat every drawing as a "map" of your part. Identify:
   * Dimensions and tolerances (± values)
   * Feature locations (holes, slots, pockets)
   * Material specification (often written on drawing)
-- If no material is specified, **ask** the designer/supervisor before choosing.
-- Drawings use standard views (front, top, side) with projection symbols;
+If no material is specified, **ask** the designer/supervisor before choosing.
+Drawings use standard views (front, top, side) with projection symbols;
   practice reading them until you can visualise the 3‑D shape.
 
 РУССКИЙ:
-- Рассматривайте чертёж как «карту» детали. Определите:
+Рассматривайте чертёж как «карту» детали. Определите:
   * Размеры и допуски (±).
   * Расположение отверстий, пазов, карманов.
   * Указание материала (обычно на чертеже).
-- Если материал не указан, **спросите** конструктора/куратора до выбора
+Если материал не указан, **спросите** конструктора/куратора до выбора
   инструмента.
-- Чертёж использует стандартные виды (фронтальный, вид сверху, сбоку) с
+Чертёж использует стандартные виды (фронтальный, вид сверху, сбоку) с
   символами проекций; тренируйтесь, пока не сможете представить 3‑D форму.
-
----
 
 2. RAW MATERIAL CHOICE
 ENGLISH:
-- Material governs cutting speed and tool type: aluminium is fast, steels are slow.
-- Consider the part’s end use (aerospace, medical, structural) – some require
+Material governs cutting speed and tool type: aluminium is fast, steels are slow.
+Consider the part’s end use (aerospace, medical, structural) – some require
   specific alloys or surface treatments.
-- Suppliers label alloys (e.g. 6061‑T6 aluminum, 4140 steel); cross‑check with
+Suppliers label alloys (e.g. 6061‑T6 aluminum, 4140 steel); cross‑check with
   drawing.
 
 РУССКИЙ:
-- Материал определяет скорость резания и тип инструмента: алюминий быстро
+Материал определяет скорость резания и тип инструмента: алюминий быстро
   обрабатывается, сталь медленно.
-- Учтите назначение детали (авиация, медицина, конструкция) – могут быть
+Учтите назначение детали (авиация, медицина, конструкция) – могут быть
   специальные сплавы или обработки поверхности.
-- Поставщики маркируют сплавы (например, алюминий 6061‑T6, сталь 4140);
+Поставщики маркируют сплавы (например, алюминий 6061‑T6, сталь 4140);
   сверяйте с чертежом.
-
----
 
 3. SELECTING TOOLS BASED ON MATERIAL & FEATURE
 ENGLISH:
-- Choose tool **diameter** smaller than the smallest feature (slot, pocket).
-- Flute rules:
+Choose tool **diameter** smaller than the smallest feature (slot, pocket).
+Flute rules:
   * 2‑flute = best for plunge cuts/slots due to large chip space.
   * 3‑flute = compromise (can plunge with care, better feed rate).
   * 4‑flute = high feed, good finish, not for plunge.
-- Match tool coating to material (TiN/TiAlN for steels, uncoated HSS for aluminium).
-- For deep pockets use long‑reach tools; for stability use shortest possible tool.
+Match tool coating to material (TiN/TiAlN for steels, uncoated HSS for aluminium).
+For deep pockets use long‑reach tools; for stability use shortest possible tool.
 
 РУССКИЙ:
-- Диаметр инструмента должен быть меньше самой маленькой функции (паза,
+Диаметр инструмента должен быть меньше самой маленькой функции (паза,
   кармана).
-- Правила выбора числа канавок:
+Правила выбора числа канавок:
   * 2 канавки – лучше всего для врезания/пазов за счёт большого пространства
     для стружки.
   * 3 канавки – компромисс (можно врезаться осторожно, больше подача).
   * 4 канавки – высокая подача, хорошая отделка, не для врезания.
-- Соответствуйте покрытие материалу (TiN/TiAlN для сталей, без покрытия для
+Соответствуйте покрытие материалу (TiN/TiAlN для сталей, без покрытия для
   алюминия).
-- Для глубоких карманов используйте длинные инструменты; для устойчивости
-  – как можно короткие.
-
----
+Для глубоких карманов используйте длинные инструменты; для устойчивости
+как можно короткие.
 
 4. WORK HOLDING & WCS ALIGNMENT
 ENGLISH:
-- Identify which vice/fixture holds the part and assign it a WCS (G54–G59).
-- Example: the left vise = G54, right vise = G55. Program uses the same codes.
-- You can rename offsets arbitrarily; the machine only cares about the number.
-- Centre‑clamping keeps all X/Y positive; corner‑clamping may require negative
+Identify which vice/fixture holds the part and assign it a WCS (G54–G59).
+Example: the left vise = G54, right vise = G55. Program uses the same codes.
+You can rename offsets arbitrarily; the machine only cares about the number.
+Centre‑clamping keeps all X/Y positive; corner‑clamping may require negative
   coordinates.
 
 РУССКИЙ:
-- Определите, в каких тисках или приспособлении держится заготовка, и присвойте
+Определите, в каких тисках или приспособлении держится заготовка, и присвойте
   им WCS (G54–G59).
-- Пример: левый тиск = G54, правый = G55. Программа использует те же коды.
-- Переименовывать смещения можно произвольно; станку важен лишь номер.
-- Зажим по центру даёт положительные X/Y; зажим по углу может требовать
+Пример: левый тиск = G54, правый = G55. Программа использует те же коды.
+Переименовывать смещения можно произвольно; станку важен лишь номер.
+Зажим по центру даёт положительные X/Y; зажим по углу может требовать
   отрицательных координат.
-
----
 
 5. OFFSET PROCEDURES (SUMMARY)
 ENGLISH:
-- Edge finder (6 mm diameter): touch edge, back off 3 mm, press "Part Zero Set"
+Edge finder (6 mm diameter): touch edge, back off 3 mm, press "Part Zero Set"
   to store offset.
-- DTI useful for curved edges and centre finding; no diameter compensation.
-- For multiple offsets on one part, set each work offset separately (G54 X0 Y0,
+DTI useful for curved edges and centre finding; no diameter compensation.
+For multiple offsets on one part, set each work offset separately (G54 X0 Y0,
   G55 X0 Y0, …) and call them in program as needed.
 
 РУССКИЙ:
-- Край‑указатель (диаметр 6 мм): коснитесь кромки, отступите на 3 мм, нажмите
+Край‑указатель (диаметр 6 мм): коснитесь кромки, отступите на 3 мм, нажмите
   «Part Zero Set» для сохранения смещения.
-- Для криволинейных кромок и поиска центра используйте DTI; компенсация
+Для криволинейных кромок и поиска центра используйте DTI; компенсация
   диаметра не нужна.
-- Для нескольких смещений на одной заготовке устанавливайте каждое отдельно
+Для нескольких смещений на одной заготовке устанавливайте каждое отдельно
   (G54 X0 Y0, G55 X0 Y0 …) и вызовите их в программе по необходимости.
 
 ====================================================================
