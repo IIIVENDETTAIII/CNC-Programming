@@ -171,7 +171,7 @@ Fishbone (Ishikawa) diagram: categorize possible causes (Man, Machine, Method, M
 Plan
 Do
 Check
-Act
+Actx
    RU Перевод:
 Plan (Планируй)
 Do (Делай)
