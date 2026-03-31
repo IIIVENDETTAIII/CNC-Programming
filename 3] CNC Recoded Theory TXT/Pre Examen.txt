@@ -1,0 +1,202 @@
+Pre Examen
+Дата подготовки: 31.03.2026
+
+Русская часть
+Вопросы и ответы для подготовки
+
+1. Назовите типы географического бизнеса и их характеристики.
+Ответ:
+Локальный бизнес работает в пределах одного города или региона и ориентирован на местных клиентов.
+Национальный бизнес работает в масштабе всей страны, имеет широкую клиентскую базу и следует национальным правилам.
+Международный бизнес работает в нескольких странах, учитывает разные законы и культуры, использует глобальные цепочки поставок.
+
+2. Назовите характеристики функциональных областей: продажи и маркетинг, качество, инженерия, производство.
+Ответ:
+Продажи и маркетинг: ориентация на клиента, знание рынка, коммуникация, продвижение продукции.
+Качество: внимание к деталям, контроль стандартов, проверки и предотвращение дефектов.
+Инженерия: техническое решение проблем, проектирование, анализ, улучшение процессов.
+Производство: эффективный выпуск, контроль операций, безопасность, стабильность результата.
+
+3. Объясните, чем отличаются ожидания существующих клиентов и регуляторов по отношению к прибыли компании.
+Ответ:
+Существующие клиенты ожидают качество, надежность, хороший сервис и справедливую цену.
+Регуляторы ожидают законность и ответственность: безопасность продукции, соблюдение норм и прозрачную отчетность.
+Клиенты больше смотрят на ценность и опыт, регуляторы на соответствие законам и стандартам.
+
+4. Назовите любые два внутренних фактора, вызывающих изменения в инженерном бизнесе, с примерами.
+Ответ:
+Финансы: недостаток бюджета может задержать модернизацию оборудования; инвестиции ускоряют внедрение новых станков.
+Навыки персонала: внедрение нового ПО требует обучения сотрудников, например по CAD CAM.
+
+5. Назовите любые два внешних фактора, вызывающих изменения в инженерном бизнесе, и как это влияет на сотрудников.
+Ответ:
+Законодательство: новые требования по безопасности и экологии меняют процедуры, усиливают контроль и обучение.
+Технологии: автоматизация и цифровизация меняют роли, требуют новых навыков и переназначения задач.
+
+6. Объясните два применения CAD и CAM в инженерии.
+Ответ:
+CAD используется для создания точных 2D и 3D моделей с размерами и допусками, а также для быстрой корректировки конструкции.
+CAM используется для генерации траекторий инструмента и NC кода, а также для симуляции обработки и снижения ошибок.
+
+7. Объясните любые четыре вида потерь в инженерном бизнесе.
+Ответ:
+Транспортировка: лишние перемещения материалов и деталей.
+Запасы: избыточные материалы и незавершенное производство.
+Ожидание: простой людей, станков или материалов.
+Дефекты: брак и переделка, приводящие к дополнительным затратам.
+
+8. Назовите три типа коммуникации.
+Ответ:
+Устная коммуникация.
+Письменная коммуникация.
+Невербальная коммуникация.
+
+9. Опишите две цели BoM и чертежа в инженерном бизнесе.
+Ответ:
+BoM содержит полный перечень материалов и количеств для закупок, планирования и контроля стоимости.
+Чертеж задает размеры, допуски и технические требования для правильного изготовления и контроля.
+
+10. Объясните значения Value Added, Non Value Added и Waste в непрерывном улучшении.
+Ответ:
+Value Added это операция, за результат которой клиент готов платить.
+Non Value Added это операция, не добавляющая ценность клиенту, но иногда необходимая по процессу или требованиям.
+Waste это чистые потери без ценности и необходимости, их нужно устранять.
+
+11. Объясните одно влияние непрерывного улучшения на рост и эффективность инженерного бизнеса.
+Ответ:
+Непрерывное улучшение снижает дефекты и время цикла, уменьшает себестоимость, повышает стабильность поставок, увеличивает доверие клиентов и рост повторных заказов.
+
+12. Опишите любые два метода 6S.
+Ответ:
+Sort: убрать лишние предметы и оставить только необходимые.
+Safety: выявить риски и снизить их через СИЗ, безопасную разметку и порядок на рабочем месте.
+
+13. Как визуальное управление помогает улучшать процессы в инженерном бизнесе.
+Ответ:
+Визуальное управление показывает состояние процесса сразу и без долгих объяснений.
+Примеры: цветовая маркировка, теневые панели инструмента, разметка пола, доски KPI, сигналы Andon.
+Эффект: быстрее видно отклонения, лучше коммуникация между сменами, меньше потерь времени, выше безопасность и дисциплина процесса.
+
+14. Опишите любые два инструмента для подтверждения корневой причины проблемы.
+Ответ:
+5 Why: последовательные вопросы почему, чтобы дойти до первопричины.
+Диаграмма Исикавы: разложение возможных причин по категориям с последующей проверкой фактической причины.
+
+15. Назовите четыре этапа цикла Деминга.
+Ответ:
+Plan.
+Do.
+Check.
+Act.
+
+16. Какие темы по словам преподавателя самые вероятные на экзамене.
+Ответ:
+Типы бизнеса и их характеристики.
+Функциональные области и job roles.
+Ожидания стейкхолдеров.
+Внутренние и внешние факторы изменений.
+Типы коммуникации.
+Назначение документации BoM, job card, drawings, technical reports.
+ICT инструменты word processing, spreadsheets, databases, presentations, CAD, CAM.
+Value Added, Non Value Added, Waste.
+Потери TIMWOOD, 6S, визуальное управление, root cause analysis, цикл Deming.
+
+English part
+Questions and answers for exam practice
+
+1. State the types of geographical business and their characteristics.
+Answer:
+Local business operates within one city or region and serves local customers.
+National business operates across one country, has a wider customer base, and follows national rules.
+International business operates across multiple countries, manages different laws and cultures, and uses global supply chains.
+
+2. State the characteristics of the functional areas: sales and marketing, quality, engineering, manufacturing.
+Answer:
+Sales and marketing: customer focus, market awareness, communication, and promotion.
+Quality: attention to detail, standards compliance, inspection, and defect prevention.
+Engineering: technical problem solving, design, analysis, and process improvement.
+Manufacturing: efficient output, operation control, safety, and consistency.
+
+3. Explain how expectations of existing customers and regulators differ regarding company profit.
+Answer:
+Existing customers expect quality, reliability, good service, and fair price.
+Regulators expect legal and responsible operation: safe products, compliance, and transparent reporting.
+Customers focus on value and experience while regulators focus on law and standards.
+
+4. State any two internal factors that cause change in engineering business with examples.
+Answer:
+Finance: budget limits can delay machine upgrades, while investment can speed up new equipment adoption.
+Workforce skills: new software requires retraining, for example in CAD CAM.
+
+5. State any two external factors that cause change in engineering business and explain the effect on employees.
+Answer:
+Legislation: new safety or environmental rules change procedures and increase training and audits.
+Technology: automation and digital tools change job roles and require new skills.
+
+6. Explain two uses of CAD and CAM in engineering.
+Answer:
+CAD is used to create accurate 2D and 3D designs with dimensions and tolerances and to modify designs quickly.
+CAM is used to generate toolpaths and NC code and to simulate machining to reduce errors.
+
+7. Explain any four types of waste in engineering business.
+Answer:
+Transportation: unnecessary movement of materials and parts.
+Inventory: excess raw material and work in progress.
+Waiting: idle time of people, machines, or materials.
+Defects: rework and scrap that increase cost.
+
+8. State the three types of communication.
+Answer:
+Oral communication.
+Written communication.
+Non verbal communication.
+
+9. Describe two purposes of BoM and drawing in engineering business.
+Answer:
+BoM lists all materials and quantities for purchasing, planning, and cost control.
+Drawing gives dimensions, tolerances, and technical requirements for correct manufacturing and inspection.
+
+10. Explain Value Added, Non Value Added, and Waste in continuous improvement.
+Answer:
+Value Added is work the customer is willing to pay for.
+Non Value Added does not add customer value but may be currently required by process or compliance.
+Waste is pure loss with no customer value and no business necessity and should be eliminated.
+
+11. Explain one effect of continuous improvement on growth and efficiency.
+Answer:
+Continuous improvement reduces defects and cycle time, lowers unit cost, improves delivery consistency, increases customer trust, and supports repeat orders and growth.
+
+12. Describe any two 6S methods.
+Answer:
+Sort: remove unnecessary items and keep only needed ones.
+Safety: identify hazards and reduce risk through PPE, safe layout, and workplace discipline.
+
+13. Explain how visual management improves processes in engineering business.
+Answer:
+Visual management makes process status clear at a glance.
+Examples include color coding, shadow boards, floor markings, KPI boards, and Andon signals.
+It helps detect abnormalities faster, improves communication, reduces search and waiting time, and increases safety and process discipline.
+
+14. Describe any two tools used to verify root cause.
+Answer:
+5 Whys: ask why repeatedly to reach the underlying cause.
+Fishbone diagram: classify possible causes and verify the real cause using evidence.
+
+15. State the four stages of the Deming Cycle.
+Answer:
+Plan.
+Do.
+Check.
+Act.
+
+16. Which topics are most likely according to the lecturer.
+Answer:
+Business types and characteristics.
+Functional areas and job roles.
+Stakeholder expectations.
+Internal and external factors of change.
+Communication types.
+Business documentation: BoM, job card, drawings, technical reports.
+ICT tools: word processing, spreadsheets, databases, presentations, CAD, CAM.
+Value Added, Non Value Added, Waste.
+TIMWOOD waste, 6S, visual management, root cause analysis, Deming cycle.
