@@ -1,0 +1,1290 @@
+════════════════════════════════════════════════════════════════════
+                    CNC ENGINEERING EXAM - FINAL ANSWERS
+                            Preparation: 01.04.2026
+════════════════════════════════════════════════════════════════════
+
+
+═══════════════════════════════════════════════════════════════════════
+1] STATE THE TYPES OF GEOGRAPHICAL BUSINESS AND GIVE ITS CHARACTERISTICS
+═══════════════════════════════════════════════════════════════════════
+
+QUESTION (Русский):
+Назовите типы географического бизнеса и их характеристики.
+
+ANSWER (English):
+There are three types of geographical business:
+
+Local Business - A business that works in one city or small area only. 
+It sells to people and companies near it. It follows local laws and rules.
+
+National Business - A business that works across the whole country. 
+It has many customers in different cities. It follows the country's laws.
+
+International Business - A business that works in many countries. 
+It sells to customers in different places. It must follow different laws 
+in each country. It uses delivery chains from different countries.
+
+ANSWER (Русский):
+Есть три типа географического бизнеса:
+
+Локальный бизнес - это компания, которая работает только в одном 
+городе или небольском районе. Она продает товары местным людям и фирмам. 
+Она следует местным правилам.
+
+Национальный бизнес - это компания, которая работает по всей стране. 
+У неё много клиентов в разных городах. Она следует законам страны.
+
+Международный бизнес - это компания, которая работает во многих странах. 
+Она продает товары клиентам в разных странах. Она должна следовать 
+разным законам в каждой стране. Она использует доставку из разных стран.
+
+
+═══════════════════════════════════════════════════════════════════════
+2] STATE THE CHARACTERISTICS OF THE FOLLOWING FUNCTIONAL AREAS:
+   SALES AND MARKETING, QUALITY, ENGINEERING, MANUFACTURING
+═══════════════════════════════════════════════════════════════════════
+
+QUESTION (Русский):
+Перечислите характеристики следующих функциональных областей: 
+продажи и маркетинг, качество, инженерия, производство.
+
+ANSWER (English):
+
+SALES AND MARKETING - This area focuses on finding customers and selling 
+products. They know the market well. They talk to customers and explain 
+products. They help people buy things.
+
+QUALITY - This area checks that products are good. They watch for problems 
+and mistakes. They test products before they leave the factory. They make 
+sure everything follows the rules.
+
+ENGINEERING - This area solves technical problems. They design products 
+and machines. They plan how to make things. They improve processes and 
+systems.
+
+MANUFACTURING - This area makes the products. They run machines. They work 
+safely and fast. They make sure everything is standard and reliable.
+
+ANSWER (Русский):
+
+ПРОДАЖИ И МАРКЕТИНГ - Это отделение ищет новых клиентов и продает товары. 
+Они хорошо знают рынок. Они разговаривают с клиентами и объясняют товары. 
+Они помогают людям купить вещи.
+
+КАЧЕСТВО - Это отделение проверяет, что товары хорошие. Они ищут проблемы 
+и ошибки. Они проверяют товары перед отправкой. Они наблюдают, что всё 
+следует правилам.
+
+ИНЖЕНЕРИЯ - Это отделение решает технические проблемы. Они проектируют 
+товары и машины. Они планируют как делать вещи. Они улучшают процессы 
+и системы.
+
+ПРОИЗВОДСТВО - Это отделение делает товары. Они управляют машинами. 
+Они работают безопасно и быстро. Они наблюдают, что всё стандартное 
+и надёжное.
+
+
+═══════════════════════════════════════════════════════════════════════
+3] EXPLAIN HOW THE EXPECTATIONS OF EXISTING CUSTOMERS AND REGULATORS 
+   WILL DIFFER WHEN IT COMES TO PROFIT OF A COMPANY
+═══════════════════════════════════════════════════════════════════════
+
+QUESTION (Русский):
+Объясните, чем отличаются ожидания существующих клиентов и регуляторов 
+по отношению к прибыли компании.
+
+ANSWER (English):
+
+CUSTOMERS - They want good products and good service. They want fair prices. 
+They care about value for their money. They want the company to stay in 
+business because they like using it.
+
+REGULATORS - They want the company to follow all laws and rules. They care 
+about worker safety and the environment. They check that the company acts 
+honestly. They want to see clear reports about money and business.
+
+DIFFERENCE - Customers think about value. Regulators think about following 
+rules. Customers care about price and quality. Regulators care about safety 
+and honesty.
+
+ANSWER (Русский):
+
+КЛИЕНТЫ - Они хотят хорошие товары и хороший сервис. Они хотят честные цены. 
+Им важна ценность за свои деньги. Они хотят, чтобы компания оставалась в деле, 
+потому что им нравится ей пользоваться.
+
+РЕГУЛЯТОРЫ - Они хотят, чтобы компания следовала всем законам и правилам. 
+Им важна безопасность рабочих и природа. Они проверяют, что компания действует 
+честно. Они хотят видеть ясные отчеты о деньгах и бизнесе.
+
+РАЗНИЦА - Клиентам нужна ценность. Регуляторам нужны правила. Клиентам нужны 
+цена и качество. Регуляторам нужны безопасность и честность.
+
+
+═══════════════════════════════════════════════════════════════════════
+4] STATE ANY TWO INTERNAL FACTORS THAT CAUSE CHANGE IN ENGINEERING BUSINESS 
+   WITH EXAMPLES
+═══════════════════════════════════════════════════════════════════════
+
+QUESTION (Русский):
+Назовите любые два внутренних фактора, которые вызывают изменения 
+в инженерном бизнесе, с примерами.
+
+ANSWER (English):
+
+FACTOR 1 - MONEY AND BUDGET
+When a company has no money, it cannot buy new machines. When a company 
+has enough money, it can buy modern machines and new tools. This makes 
+work faster and better quality.
+
+EXAMPLE: Company X had no money in 2020. Now it has money and bought 
+new CNC machines. The work is now faster and better.
+
+FACTOR 2 - WORKER SKILLS AND TRAINING
+When workers learn new things, the company can do new work. When workers 
+know how to use new software like CAD, they can design faster. When workers 
+learn to use CNC machines, they make fewer mistakes.
+
+EXAMPLE: Workers learned to use CAM software. Now they can make G-code 
+without mistakes. Production is faster.
+
+ANSWER (Русский):
+
+ФАКТОР 1 - ДЕНЬГИ И БЮДЖЕТ
+Когда компании нет денег, она не может купить новые машины. Когда 
+компании есть деньги, она может купить современные машины и новые инструменты. 
+Это делает работу быстрее и лучше качеством.
+
+ПРИМЕР: Компания X не имела денег в 2020. Сейчас у неё есть деньги и она 
+купила новые CNC машины. Работа теперь быстрее и лучше.
+
+ФАКТОР 2 - НАВЫКИ И ОБУЧЕНИЕ РАБОЧИХ
+Когда рабочие учатся новому, компания может делать новую работу. Когда рабочие 
+знают новое программное обеспечение как CAD, они могут проектировать быстрее. 
+Когда рабочие учатся использовать CNC машины, они делают меньше ошибок.
+
+ПРИМЕР: Рабочие учились использовать CAM программное обеспечение. Теперь они 
+могут делать G-code без ошибок. Производство быстрее.
+
+
+═══════════════════════════════════════════════════════════════════════
+5] STATE ANY TWO EXTERNAL FACTORS THAT CAUSE CHANGE IN ENGINEERING BUSINESS. 
+   EXPLAIN HOW IT AFFECTS THE EMPLOYEES
+═══════════════════════════════════════════════════════════════════════
+
+QUESTION (Русский):
+Назовите любые два внешних фактора, которые вызывают изменения в инженерном 
+бизнесе. Объясните, как это влияет на рабочих.
+
+ANSWER (English):
+
+FACTOR 1 - LAWS AND RULES (GOVERNMENT)
+New safety rules tell companies what to do. New rules about environment 
+and pollution. Companies must follow all new rules or get punished.
+
+HOW IT AFFECTS WORKERS: Workers must learn new rules. They must follow 
+new safety steps. Some jobs change. Workers need more training. Work becomes 
+more careful and slower sometimes.
+
+EXAMPLE: New safety rule says: wear protective clothes. Workers must wear 
+masks and gloves. Some workers do not like this but must do it.
+
+FACTOR 2 - NEW TECHNOLOGY
+New machines and software make work different. Robots and computers do some 
+work that people did before. Companies use automation to work faster.
+
+HOW IT AFFECTS WORKERS: Some workers lose their jobs because robots do the 
+work. Other workers learn to use new machines. New jobs go to people who 
+know technology. Old jobs disappear. Workers must learn new skills or change 
+their work.
+
+EXAMPLE: Old machines needed 5 workers. New CNC machine needs 1 worker and 
+1 programmer. 3 workers lost their jobs. 1 worker learned to program the 
+machine.
+
+ANSWER (Русский):
+
+ФАКТОР 1 - ЗАКОНЫ И ПРАВИЛА (ГОСУДАРСТВО)
+Новые правила безопасности говорят компаниям что делать. Новые правила 
+об окружающей среде и загрязнении. Компании должны следовать новым 
+правилам или будут наказаны.
+
+КАК ЭТО ВЛИЯЕТ НА РАБОЧИХ: Рабочие должны учить новые правила. Они должны 
+следовать новым шагам безопасности. Некоторые работы меняются. Рабочим нужно 
+больше обучения. Работа становится более осторожной и иногда медленнее.
+
+ПРИМЕР: Новое правило безопасности говорит: нось защитную одежду. Рабочие 
+должны носить маски и перчатки. Некоторым рабочим это не нравится но они 
+должны это делать.
+
+ФАКТОР 2 - НОВАЯ ТЕХНОЛОГИЯ
+Новые машины и программное обеспечение делают работу другой. Роботы и компьютеры 
+делают работу которую раньше делали люди. Компании используют автоматизацию 
+чтобы работать быстрее.
+
+КАК ЭТО ВЛИЯЕТ НА РАБОЧИХ: Некоторые рабочие теряют работу потому что роботы 
+делают работу. Другие рабочие учатся использовать новые машины. Новые работы 
+для людей которые знают технологию. Старые работы исчезают. Рабочим нужно 
+учиться новым навыкам или менять свою работу.
+
+ПРИМЕР: Старая машина нужна 5 рабочих. Новая CNC машина нужна 1 рабочий 
+и 1 программист. 3 рабочих потеряли работу. 1 рабочий научился 
+программировать машину.
+
+
+═══════════════════════════════════════════════════════════════════════
+6] EXPLAIN TWO USES OF COMPUTER AIDED DESIGN (CAD) AND COMPUTER AIDED 
+   MANUFACTURING (CAM) IN ENGINEERING
+═══════════════════════════════════════════════════════════════════════
+
+QUESTION (Русский):
+Объясните два применения Computer Aided Design (CAD) и Computer Aided 
+Manufacturing (CAM) в инженерии.
+
+ANSWER (English):
+
+CAD (COMPUTER AIDED DESIGN):
+
+USE 1 - MAKE 2D AND 3D DRAWINGS
+CAD is a software that help engineers draw products and machines. They can 
+draw in 2D (flat) or 3D (with height, width, depth). CAD shows exact sizes 
+and measurements. Engineers can change designs quickly on the computer 
+without drawing on paper many times.
+
+BENEFIT: Fast and accurate. No mistakes from hand drawing.
+
+USE 2 - SHOW HOW PARTS FIT TOGETHER
+Engineers draw all parts of a machine in CAD. They can see how everything 
+fits. They can see if parts hit each other. They can fix problems before 
+they build the machine.
+
+BENEFIT: Saves time and money. Avoids building wrong machines.
+
+CAM (COMPUTER AIDED MANUFACTURING):
+
+USE 1 - MAKE THE PROGRAM FOR CNC MACHINES
+CAM takes the CAD drawing and makes a program (G-code) for the CNC machine. 
+The program tells the machine to move left, right, up, down, fast, slow. 
+CAM creates the correct path for the cutting tool.
+
+BENEFIT: Machine works exactly right. No scrap material.
+
+USE 2 - CHECK THE WORK BEFORE MAKING IT
+CAM has a simulation. Before the machine starts, engineers can watch a 
+computer picture of the machine working. They can see if something is wrong. 
+They can fix the program. This stops mistakes and bad parts.
+
+BENEFIT: No waste. Perfect parts every time.
+
+ANSWER (Русский):
+
+CAD (КОМПЬЮТЕРНОЕ ПРОЕКТИРОВАНИЕ):
+
+ПРИМЕНЕНИЕ 1 - ДЕЛАТЬ 2D И 3D РИСУНКИ
+CAD это программное обеспечение которое помогает инженерам рисовать 
+товары и машины. Они могут рисовать в 2D (плоско) или 3D (с высотой, 
+шириной, глубиной). CAD показывает точные размеры. Инженеры могут менять 
+проекты быстро в компьютере без рисования на бумаге много раз.
+
+ПРЕИМУЩЕСТВО: Быстро и точно. Нет ошибок от ручного рисования.
+
+ПРИМЕНЕНИЕ 2 - ПОКАЗАТЬ КАК ЧАСТИ ПОДХОДЯТ ДРУГ К ДРУГУ
+Инженеры рисуют все части машины в CAD. Они видят как всё подходит. 
+Они видят если части сталкиваются. Они могут исправить проблемы до 
+того как построить машину.
+
+ПРЕИМУЩЕСТВО: Экономит время и деньги. Не нужно строить неправильные машины.
+
+CAM (КОМПЬЮТЕРНОЕ ПРОИЗВОДСТВО):
+
+ПРИМЕНЕНИЕ 1 - ДЕЛАТЬ ПРОГРАММУ ДЛЯ CNC МАШИН
+CAM берет CAD рисунок и делает программу (G-code) для CNC машины. 
+Программа говорит машине двигаться влево, вправо, вверх, вниз, быстро, 
+медленно. CAM создает правильный путь для режущего инструмента.
+
+ПРЕИМУЩЕСТВО: Машина работает точно правильно. Нет отходов материала.
+
+ПРИМЕНЕНИЕ 2 - ПРОВЕРИТЬ РАБОТУ ДО ТОГО КАК ДЕЛАТЬ ЕЁ
+CAM имеет симуляцию. Перед тем как машина начнёт, инженеры могут смотреть 
+картинку компьютера машины работающей. Они видят если что-то неправильно. 
+Они могут исправить программу. Это останавливает ошибки и плохие части.
+
+ПРЕИМУЩЕСТВО: Нет отходов. Идеальные части каждый раз.
+
+
+═══════════════════════════════════════════════════════════════════════
+7] EXPLAIN ANY 4 TYPES OF WASTE IN AN ENGINEERING BUSINESS
+═══════════════════════════════════════════════════════════════════════
+
+QUESTION (Русский):
+Объясните любые 4 типа потерь в инженерном бизнесе.
+
+ANSWER (English):
+
+WASTE TYPE 1 - TRANSPORTATION WASTE
+Moving things from one place to another costs time and money. Moving parts 
+and materials many times is waste. Moving machines from room to room is waste. 
+Too many movements = lost time.
+
+EXAMPLE: Workers move parts 10 times before the final machine. Each move 
+takes time and money.
+
+WASTE TYPE 2 - INVENTORY WASTE (STORAGE)
+Having too much material sitting in the warehouse is waste. Parts that sit 
+and sit and not used are waste. They cost money to store. They take space. 
+They can get old and broken.
+
+EXAMPLE: Company buys 1000 parts but only needs 100. The extra 900 parts 
+sit for months. Money is lost.
+
+WASTE TYPE 3 - WAITING TIME
+When workers wait for materials, it is waste. When machines are not working 
+because there is no part ready, it is waste. When people stop working and 
+do nothing, time is lost.
+
+EXAMPLE: Worker finishes part A. He waits for part B to start working on it. 
+He waits 2 hours. Those 2 hours are waste.
+
+WASTE TYPE 4 - DEFECTS (BAD PARTS)
+Making bad parts is waste. Bad parts must be thrown away or fixed. Time and 
+material are lost. Workers must fix them which takes more time.
+
+EXAMPLE: Machine makes 100 parts but 10 are wrong. Those 10 parts are waste. 
+Worker must fix them or throw away.
+
+ANSWER (Русский):
+
+ТИП ПОТЕРЬ 1 - ТРАНСПОРТИРОВКА
+Перемещение вещей из одного места в другое стоит время и деньги. Перемещение 
+частей и материалов много раз это потеря. Перемещение машин из комнаты в комнату 
+это потеря. Много движений = потерянное время.
+
+ПРИМЕР: Рабочие перемещают части 10 раз до финальной машины. Каждое перемещение 
+стоит время и деньги.
+
+ТИП ПОТЕРЬ 2 - ЗАПАСЫ (СКЛАД)
+Иметь много материала сидящего на складе это потеря. Части которые сидят 
+и не используются это потеря. Они стоят деньги для хранения. Они занимают 
+место. Они могут сломаться.
+
+ПРИМЕР: Компания покупает 1000 частей но нужна только 100. Лишние 900 
+частей лежат месяцами. Деньги потеряны.
+
+ТИП ПОТЕРЬ 3 - ОЖИДАНИЕ
+Когда рабочие ждут материалы это потеря. Когда машины не работают потому 
+что нет готовой части это потеря. Когда люди останавливаются и ничего не 
+делают время потеряно.
+
+ПРИМЕР: Рабочий заканчивает часть A. Он ждет часть B чтобы начать работу 
+с ней. Он ждет 2 часа. Эти 2 часа это потеря.
+
+ТИП ПОТЕРЬ 4 - ДЕФЕКТЫ (ПЛОХИЕ ЧАСТИ)
+Делание плохих частей это потеря. Плохие части должны быть выброшены или 
+исправлены. Время и материал потеряны. Рабочие должны их исправить что 
+стоит больше времени.
+
+ПРИМЕР: Машина делает 100 частей но 10 неправильные. Эти 10 частей потеря. 
+Рабочий должен их исправить или выбросить.
+
+
+═══════════════════════════════════════════════════════════════════════
+8] STATE THE THREE TYPES OF COMMUNICATION
+═══════════════════════════════════════════════════════════════════════
+
+QUESTION (Русский):
+Назовите три типа коммуникации.
+
+ANSWER (English):
+
+TYPE 1 - VERBAL COMMUNICATION (TALKING)
+This means talking by mouth. Face to face talks, phone calls, meetings, 
+presentations. One person talks, other person listens. It is direct and 
+quick. You can hear tone of voice.
+
+EXAMPLE: Boss talks to worker about safety rules. They talk face to face.
+
+TYPE 2 - WRITTEN COMMUNICATION (WRITING)
+This means writing words. Email, letters, notes, reports, manuals, signs. 
+You write and the other person reads. There is a record you can keep. You 
+can check it again later.
+
+EXAMPLE: Manager sends email about new project deadline. Worker reads 
+and understands.
+
+TYPE 3 - NON-VERBAL COMMUNICATION (BODY AND SIGNS)
+This means talking without words. Hand signs, body movement, pictures, 
+drawings, facial expressions. Thumbs up means good. Red sign means stop. 
+Blue sign means cold.
+
+EXAMPLE: Supervisor points to show worker where to go. Worker sees and 
+goes there.
+
+ANSWER (Русский):
+
+ТИП 1 - УСТНАЯ КОММУНИКАЦИЯ (РАЗГОВОР)
+Это значит разговаривать ртом. Личные разговоры, звонки по телефону, 
+встречи, презентации. Один человек разговаривает, другой слушает. Это 
+прямое и быстрое. Вы слышите тон голоса.
+
+ПРИМЕР: Начальник разговаривает с рабочим о правилах безопасности. 
+Они разговаривают лично.
+
+ТИП 2 - ПИСЬМЕННАЯ КОММУНИКАЦИЯ (ПИСЬМО)
+Это значит писать слова. Электронная почта, письма, записки, отчеты, 
+руководства, знаки. Вы пишете и другой человек читает. Есть запись 
+которую вы можете хранить. Вы можете проверить это позже.
+
+ПРИМЕР: Менеджер отправляет письмо о новом сроке проекта. Рабочий 
+читает и понимает.
+
+ТИП 3 - НЕВЕРБАЛЬНАЯ КОММУНИКАЦИЯ (ТЕЛО И ЗНАКИ)
+Это значит разговаривать без слов. Жесты рук, движения тела, картинки, 
+рисунки, выражения лица. Палец вверх означает хорошо. Красный знак 
+означает стоп. Синий знак означает холодно.
+
+ПРИМЕР: Начальник показывает жестом куда должен идти рабочий. Рабочий 
+видит и идет туда.
+
+
+═══════════════════════════════════════════════════════════════════════
+9] DESCRIBE TWO PURPOSES OF A BOM AND DRAWING IN AN ENGINEERING BUSINESS
+═══════════════════════════════════════════════════════════════════════
+
+QUESTION (Русский):
+Опишите два назначения BoM (Спецификация) и Рисунка в инженерном бизнесе.
+
+ANSWER (English):
+
+BOM (BILL OF MATERIALS):
+
+PURPOSE 1 - SHOW WHAT PARTS ARE NEEDED
+BOM is a list of all parts in a machine or product. It shows how many of 
+each part. It shows the name and size of each part. When workers build the 
+machine, they look at BOM to know what parts to get.
+
+BENEFIT: Workers don't get wrong parts. Work is fast. No mistakes.
+
+PURPOSE 2 - COUNT THE COST OF THE PRODUCT
+BOM shows the price of each part. When you add all prices, you know how much 
+the product costs. Manager can see if the price is good or expensive. 
+Manager can decide if to make the product.
+
+BENEFIT: Manager knows the cost before making. No surprises about money.
+
+DRAWING (TECHNICAL DRAWING):
+
+PURPOSE 1 - SHOW HOW TO MAKE THE PART
+The drawing shows the shape and size of the part. It shows all measurements. 
+It shows holes, edges, and special details. Workers can look at the drawing 
+and make the part correct.
+
+BENEFIT: Part is made perfect. Right size, right shape. No mistakes.
+
+PURPOSE 2 - SHOW HOW PARTS FIT TOGETHER
+Assembly drawing shows how all parts connect. It shows in what order to put 
+parts together. It shows which screw goes where. When assembling, workers 
+follow the drawing.
+
+BENEFIT: Machine is built right. Nothing is wrong or upside down.
+
+ANSWER (Русский):
+
+BOM (СПЕЦИФИКАЦИЯ МАТЕРИАЛОВ):
+
+НАЗНАЧЕНИЕ 1 - ПОКАЗАТЬ КАКИЕ ЧАСТИ НУЖНЫ
+BOM это список всех частей в машине или товаре. Он показывает сколько 
+каждой части. Он показывает имя и размер каждой части. Когда рабочие 
+строят машину, они смотрят на BOM чтобы знать какие части получить.
+
+ПРЕИМУЩЕСТВО: Рабочие не получают неправильные части. Работа быстрая. 
+Нет ошибок.
+
+НАЗНАЧЕНИЕ 2 - СЧИТАТЬ СТОИМОСТЬ ТОВАРА
+BOM показывает цену каждой части. Когда вы складываете все цены, вы 
+знаете сколько стоит товар. Менеджер может видеть если цена хорошая 
+или дорогая. Менеджер может решить производить товар или нет.
+
+ПРЕИМУЩЕСТВО: Менеджер знает стоимость до начала производства. Нет 
+неожиданностей о деньгах.
+
+РИСУНОК (ТЕХНИЧЕСКИЙ РИСУНОК):
+
+НАЗНАЧЕНИЕ 1 - ПОКАЗАТЬ КАК ДЕЛАТЬ ЧАСТЬ
+Рисунок показывает форму и размер части. Он показывает все измерения. 
+Он показывает отверстия, края и специальные детали. Рабочие могут 
+смотреть на рисунок и делать часть правильно.
+
+ПРЕИМУЩЕСТВО: Часть делается идеально. Правильный размер, правильная форма. 
+Нет ошибок.
+
+НАЗНАЧЕНИЕ 2 - ПОКАЗАТЬ КАК ЧАСТИ ПОДХОДЯТ ВМЕСТЕ
+Рисунок сборки показывает как все части соединяются. Он показывает в 
+каком порядке собирать части. Он показывает какой болт куда идет. 
+При сборке рабочие следуют рисунку.
+
+ПРЕИМУЩЕСТВО: Машина построена правильно. Ничего неправильного или 
+перевёрнутого.
+
+
+═══════════════════════════════════════════════════════════════════════
+10] EXPLAIN WHAT IS MEANT BY VALUE ADDED, NON-VALUE ADDED AND WASTE 
+    IN TERMS OF CONTINUOUS IMPROVEMENT
+═══════════════════════════════════════════════════════════════════════
+
+QUESTION (Русский):
+Объясните что значит Value Added (Добавленная стоимость), Non-Value Added 
+(Без добавленной стоимости) и Waste (Отходы) в терминах непрерывного 
+улучшения.
+
+ANSWER (English):
+
+VALUE ADDED:
+This is work that makes the product better or different. The customer pays 
+more money for this. Example: cutting the part, welding, painting. These 
+make the product what the customer wants. This work is important and useful.
+
+BENEFIT: Customer gets better product. Money is earned.
+
+NON-VALUE ADDED:
+This is work that doesn't make the product better. But we must do it because 
+of rules or safety. Example: checking if part is correct, cleaning after work, 
+safety training. These don't improve the product but protect workers or follow 
+rules.
+
+BENEFIT: Workers are safe. Company follows laws.
+
+WASTE:
+This is work or activity that is not needed and doesn't help. Customer doesn't 
+pay for this. Money is lost. Example: moving parts too many times, waiting, 
+bad parts, too much storage. This is pure loss.
+
+BENEFIT: Remove waste = save money = company is better.
+
+ANSWER (Русский):
+
+ДОБАВЛЕННАЯ СТОИМОСТЬ:
+Это работа которая делает товар лучше или другим. Клиент платит больше 
+денег за это. Пример: резка части, сварка, окраска. Это делает товар 
+таким каким его хочет клиент. Эта работа важна и полезна.
+
+ПРЕИМУЩЕСТВО: Клиент получает лучший товар. Деньги заработаны.
+
+БЕЗ ДОБАВЛЕННОЙ СТОИМОСТИ:
+Это работа которая не делает товар лучше. Но мы должны это делать 
+потому что требуют правила или безопасность. Пример: проверка правильна 
+ли часть, чистка после работы, обучение безопасности. Это не улучшает 
+товар но защищает рабочих или следует правилам.
+
+ПРЕИМУЩЕСТВО: Рабочие в безопасности. Компания следует законам.
+
+ОТХОДЫ:
+Это работа или деятельность которая не нужна и не помогает. Клиент не 
+платит за это. Деньги потеряны. Пример: перемещение частей много раз, 
+ожидание, плохие части, много хранилища. Это чистая потеря.
+
+ПРЕИМУЩЕСТВО: Удалить отходы = сэкономить деньги = компания лучше.
+
+
+═══════════════════════════════════════════════════════════════════════
+11] EXPLAIN ONE EFFECT OF CONTINUOUS IMPROVEMENT ON THE GROWTH 
+    AND EFFICIENCY OF AN ENGINEERING BUSINESS
+═══════════════════════════════════════════════════════════════════════
+
+QUESTION (Русский):
+Объясните один эффект непрерывного улучшения на рост и эффективность 
+инженерного бизнеса.
+
+ANSWER (English):
+
+Continuous improvement is when a company always tries to work better and better. 
+They look for problems and fix them. They find waste and remove it. 
+They do this every day, every week, every month.
+
+EFFECT ON EFFICIENCY:
+When a company removes waste, workers work faster. Machines work faster. 
+Production is quicker. Less time = less money cost. Company makes more 
+products with the same workers. Quality is better because mistakes are found 
+and removed.
+
+EXAMPLE: Factory makes 100 parts per day. They find that workers move parts 
+10 times. This is waste. They change the layout. Now workers move parts 2 times. 
+They make 130 parts per day with same workers. Better and faster.
+
+EFFECT ON GROWTH:
+When company is more efficient, it can make more products. More products = 
+more sales = more money. With more money, company can buy new machines and 
+hire new workers. Company becomes bigger and stronger. Customers see that 
+company is good and want to buy more.
+
+EXAMPLE: Company makes more good parts. Customers get them fast. Customers 
+like it and recommend to other people. More customers come. Company grows.
+
+ANSWER (Русский):
+
+Непрерывное улучшение это когда компания всегда старается работать лучше. 
+Они ищут проблемы и исправляют их. Они находят потери и удаляют их. 
+Они делают это каждый день, каждую неделю, каждый месяц.
+
+ЭФФЕКТ НА ЭФФЕКТИВНОСТЬ:
+Когда компания удаляет потери, рабочие работают быстрее. Машины работают 
+быстрее. Производство быстрее. Меньше времени = меньше денег. Компания 
+делает больше товаров с теми же рабочими. Качество лучше потому что 
+ошибки находятся и удаляются.
+
+ПРИМЕР: Фабрика делает 100 частей в день. Они находят что рабочие 
+перемещают части 10 раз. Это потеря. Они меняют расположение. Теперь 
+рабочие перемещают части 2 раза. Они делают 130 частей в день с теми же 
+рабочими. Лучше и быстрее.
+
+ЭФФЕКТ НА РОСТ:
+Когда компания более эффективна, она может делать больше товаров. 
+Больше товаров = больше продаж = больше денег. С большим количеством 
+денег, компания может купить новые машины и нанять новых рабочих. 
+Компания становится больше и сильнее. Клиенты видят что компания хорошая 
+и хотят купить больше.
+
+ПРИМЕР: Компания делает больше хороших частей. Клиенты получают их быстро. 
+Клиентам нравится и они рекомендуют другим людям. Больше клиентов приходит. 
+Компания растет.
+
+
+═══════════════════════════════════════════════════════════════════════
+12] DESCRIBE ANY TWO 6S METHODS
+═══════════════════════════════════════════════════════════════════════
+
+QUESTION (Русский):
+Опишите любые два метода 6S.
+
+ANSWER (English):
+
+6S are six methods to make a workplace clean, safe, and organized. 
+All methods begin with "S".
+
+METHOD 1 - SORT (SEIRI in Japanese)
+This means look at everything in the workplace. Keep only the things you use. 
+Throw away things you don't need. Things that are broken, unused, or old - 
+throw away or sell. Keep space clean and open.
+
+HOW: Look at your workspace. Do you use this tool? No? Throw it away. 
+Do you need 5 boxes of paper? You only use 1? Remove 4 boxes.
+
+BENEFIT: Less clutter. Easy to find things. Space for work.
+
+METHOD 2 - SHINE (SEISO in Japanese)
+This means clean everything. Clean the floor. Clean the machines. 
+Clean the desk. Everything must be clean and bright.
+
+HOW: Every morning, clean your workspace. Wipe machines with cloth. 
+Sweep the floor. Make everything look new.
+
+BENEFIT: Better safety. Tools work better. People feel good working 
+in clean space. Easy to find problems.
+
+METHOD 3 - STRAIGHTEN (SEITON in Japanese)
+This means organize everything in the right place. Each tool has a place. 
+Each part has a place. Mark where each thing goes.
+
+BENEFIT: Find things fast. Save time. Less mistakes.
+
+METHOD 4 - STANDARDIZE (SEIKETSU in Japanese)
+This means make rules and keep them same every day. Everyone does the same. 
+Everyone knows where things are. Everyone knows what to do.
+
+BENEFIT: Same quality always. New workers learn fast.
+
+METHOD 5 - SUSTAIN (SHITSUKE in Japanese)
+This means keep doing the 4 above methods every day. Don't stop. Keep going. 
+Make it a habit.
+
+BENEFIT: Workplace stays good. People don't go back to old ways.
+
+METHOD 6 - SAFETY (Sometimes added after the first 5)
+This means keep safety first. Use protection. Follow rules. Don't take risks.
+
+BENEFIT: No accidents. Workers go home safe.
+
+ANSWER (Русский):
+
+6S это шесть методов чтобы сделать рабочее место чистым, безопасным 
+и организованным. Все методы начинаются с "S".
+
+МЕТОД 1 - СОРТИРОВКА (SEIRI на японском)
+Это значит смотреть на всё в рабочем месте. Держи только вещи которые 
+ты используешь. Выбросьте вещи которые вам не нужны. Вещи которые сломаны, 
+неиспользуемые или старые - выбросьте или продайте. Держи место чистым 
+и открытым.
+
+КАК: Смотри на своё рабочее место. Ты используешь этот инструмент? Нет? 
+Выбросьте. Тебе нужно 5 коробок бумаги? Ты используешь только 1? Удалите 
+4 коробки.
+
+ПРЕИМУЩЕСТВО: Меньше беспорядка. Легко найти вещи. Место для работы.
+
+МЕТОД 2 - УБОРКА (SEISO на японском)
+Это значит очищать всё. Очищай пол. Очищай машины. Очищай стол. 
+Всё должно быть чистым и яркое.
+
+КАК: Каждое утро очищай своё рабочее место. Протирай машины тряпкой. 
+Подметай пол. Сделай всё выглядящим новым.
+
+ПРЕИМУЩЕСТВО: Лучше безопасность. Инструменты работают лучше. Люди 
+чувствуют себя хорошо работая в чистом месте. Легко найти проблемы.
+
+МЕТОД 3 - ОРГАНИЗАЦИЯ (SEITON на японском)
+Это значит организовать всё в правильное место. Каждый инструмент имеет место. 
+Каждая часть имеет место. Отметь где идет каждая вещь.
+
+ПРЕИМУЩЕСТВО: Находи вещи быстро. Экономь время. Меньше ошибок.
+
+МЕТОД 4 - СТАНДАРТИЗАЦИЯ (SEIKETSU на японском)
+Это значит делать правила и держать их одинаковым каждый день. Все делают одно. 
+Все знают где вещи. Все знают что делать.
+
+ПРЕИМУЩЕСТВО: Одно качество всегда. Новых рабочих учат быстро.
+
+МЕТОД 5 - ПОДДЕРЖАНИЕ (SHITSUKE на японском)
+Это значит продолжать делать методы 1-4 каждый день. Не останавливайся. 
+Продолжай идти. Сделай это привычкой.
+
+ПРЕИМУЩЕСТВО: Рабочее место остаётся хорошим. Люди не возвращаются 
+к старым способам.
+
+МЕТОД 6 - БЕЗОПАСНОСТЬ (Иногда добавляют после первых 5)
+Это значит держи безопасность первой. Используй защиту. Следуй правилам. 
+Не рискуй.
+
+ПРЕИМУЩЕСТВО: Нет аварий. Рабочие идут домой безопасно.
+
+
+═══════════════════════════════════════════════════════════════════════
+13] HOW VISUAL MANAGEMENT CAN BE USED TO IMPROVE PROCESSES 
+    IN AN ENGINEERING BUSINESS - EXPLAIN IN DETAIL
+═══════════════════════════════════════════════════════════════════════
+
+QUESTION (Русский):
+Как визуальное управление может использоваться для улучшения процессов 
+в инженерном бизнесе - объясните подробно.
+
+ANSWER (English):
+
+Visual management means using pictures, colors, signs, and sketches to explain 
+information. People understand pictures faster than words. Visual management 
+makes work safer, faster, and clearer.
+
+METHOD 1 - COLOR CODING
+Use different colors to show different things.
+
+RED = DANGER or STOP
+- Red tape on floor shows unsafe area
+- Red light means machine break
+- Red box means waste material
+
+GREEN = GOOD or GO
+- Green light means machine works fine
+- Green box means safe
+- Green mark means part is perfect
+
+YELLOW = WARNING or CAUTION
+- Yellow tape means watch out
+- Yellow sign means slippery floor
+- Yellow mark means attention needed
+
+BENEFIT: Everyone sees the message fast. No need to read text. Quick understanding.
+
+METHOD 2 - SIGNS AND BOARDS
+Put signs everywhere to show information.
+
+- "WEAR SAFETY GLASSES HERE" sign with picture
+- "CLEAN YOUR MACHINE EVERY DAY" board on machine
+- "PRODUCTION TODAY: 150 PARTS" on white board
+- "QUALITY PROBLEM: 5 DEFECTS" on information board
+
+BENEFIT: People remember rules. Everyone knows what to do. Clear information.
+
+METHOD 3 - SHADOW BOARDS FOR TOOLS
+Draw the shape of each tool on a board. When tool is not there, you see 
+the empty shadow. You know the tool is missing.
+
+HOW: Tool box has board. Each tool has shadow shape. If wrench is missing, 
+you see empty space.
+
+BENEFIT: Know quickly if tool is lost. Easier to find things. Each tool has place.
+
+METHOD 4 - STANDARD LAYOUT DIAGRAMS
+Draw pictures showing how machines and stations should be arranged. 
+Everyone follows same layout.
+
+BENEFIT: Efficient flow. Less movement. Fast work.
+
+METHOD 5 - CHARTS AND GRAPHS
+Put charts on wall showing:
+- Production numbers
+- Quality defects
+- Safety accidents
+- Delivery times
+
+BENEFIT: Everyone sees how company is doing. People try to improve numbers.
+
+METHOD 6 - ANDON BOARD
+Big light board that shows machine status.
+
+- GREEN LIGHT = Machine working normal
+- RED LIGHT = Problem, stop work
+- YELLOW LIGHT = Need help soon
+
+Workers press button when problem. Light turns red. Everyone helps fix.
+
+BENEFIT: Fast response to problems. Quick help.
+
+METHOD 7 - KANBAN CARDS
+Cards that show how many parts should be made.
+
+Card shows:
+- Part name
+- How many to make
+- Where to put it
+
+BENEFIT: No overproduction. Right amount always. No waste.
+
+REAL EXAMPLE OF VISUAL MANAGEMENT:
+
+A CNC machine workshop:
+1. Color tape on floor shows safe walking paths (yellow)
+2. Tools on shadow board - missing wrench shows empty space (red area)
+3. Production board shows "GOAL: 200 parts TODAY: 150"
+4. Red line on machine shows "STOP HERE"
+5. Green sticker on perfect parts, red on bad parts
+6. Safety poster showing accident statistics
+7. Andon light system - green (OK), yellow (help), red (stop)
+
+Result: Everyone knows rules. Work is organized. Problems are found fast. 
+Quality improves. Safety improves.
+
+ANSWER (Русский):
+
+Визуальное управление означает использование картинок, цветов, знаков 
+и эскизов для объяснения информации. Люди понимают картинки быстрее чем 
+слова. Визуальное управление делает работу безопаснее, быстрее и понятнее.
+
+МЕТОД 1 - ЦВЕТОВОЕ КОДИРОВАНИЕ
+Используй разные цвета чтобы показать разные вещи.
+
+КРАСНЫЙ = ОПАСНОСТЬ или СТОП
+- Красная лента на полу показывает опасную зону
+- Красный свет значит машина сломалась
+- Красная коробка значит отходы материала
+
+ЗЕЛЁНЫЙ = ХОРОШО или ИДТИ
+- Зелёный свет значит машина работает нормально
+- Зелёная коробка значит безопасно
+- Зелёная отметка значит часть идеальна
+
+ЖЁЛТЫЙ = ПРЕДУПРЕЖДЕНИЕ или ОСТОРОЖНО
+- Жёлтая лента значит будь осторожен
+- Жёлтый знак значит скользкий пол
+- Жёлтая отметка значит нужно внимание
+
+ПРЕИМУЩЕСТВО: Все видят сообщение быстро. Не нужно читать текст. Быстрое понимание.
+
+МЕТОД 2 - ЗНАКИ И ДОСКИ
+Ставь знаки везде чтобы показать информацию.
+
+- "НОСИ ЗАЩИТНЫЕ ОЧКИ ЗДЕСЬ" знак с картинкой
+- "ЧИСТИ СВОЮ МАШИНУ КАЖДЫЙ ДЕНЬ" доска на машине
+- "ПРОИЗВОДСТВО СЕГОДНЯ: 150 ЧАСТЕЙ" на доске
+- "ПРОБЛЕМА КАЧЕСТВА: 5 ДЕФЕКТОВ" на доске информации
+
+ПРЕИМУЩЕСТВО: Люди помнят правила. Все знают что делать. Ясная информация.
+
+МЕТОД 3 - ТЕНЕВЫЕ ДОСКИ ДЛЯ ИНСТРУМЕНТОВ
+Нарисуй форму каждого инструмента на доске. Когда инструмента нет, ты видишь 
+пустую тень. Ты знаешь что инструмент потерян.
+
+КАК: Ящик инструментов имеет доску. Каждый инструмент имеет теневую форму. 
+Если ключ потеряется, ты видишь пустое место.
+
+ПРЕИМУЩЕСТВО: Знай быстро если инструмент потерян. Легче найти вещи. 
+Каждый инструмент имеет место.
+
+МЕТОД 4 - ДИАГРАММЫ СТАНДАРТНОГО РАСПРЕДЕЛЕНИЯ
+Нарисуй картинки показывающие как машины и станции должны быть расположены. 
+Все следуют одному распределению.
+
+ПРЕИМУЩЕСТВО: Эффективный поток. Меньше движений. Быстрая работа.
+
+МЕТОД 5 - ДИАГРАММЫ И ГРАФИКИ
+Ставь графики на стене показывающие:
+- Числа производства
+- Дефекты качества
+- Аварии безопасности
+- Время доставки
+
+ПРЕИМУЩЕСТВО: Все видят как компания делает. Люди стараются улучшить числа.
+
+МЕТОД 6 - ANDON ДОСКА
+Большая доска со светом показывающая статус машины.
+
+- ЗЕЛЁНЫЙ СВЕТ = Машина работает нормально
+- КРАСНЫЙ СВЕТ = Проблема, остановить работу
+- ЖЁЛТЫЙ СВЕТ = Нужна помощь скоро
+
+Рабочие нажимают кнопку когда проблема. Свет красный. Все помогают исправить.
+
+ПРЕИМУЩЕСТВО: Быстрый ответ на проблемы. Быстрая помощь.
+
+МЕТОД 7 - KANBAN КАРТОЧКИ
+Карточки которые показывают сколько частей нужно делать.
+
+Карточка показывает:
+- Имя части
+- Сколько делать
+- Где поставить
+
+ПРЕИМУЩЕСТВО: Нет перепроизводства. Правильное количество всегда. Нет потерь.
+
+РЕАЛЬНЫЙ ПРИМЕР ВИЗУАЛЬНОГО УПРАВЛЕНИЯ:
+
+Мастерская CNC машин:
+1. Цветная лента на полу показывает безопасные пути (жёлтая)
+2. Инструменты на теневой доске - потеряный ключ показывает пустое место (красная область)
+3. Доска производства показывает "ЦЕЛЬ: 200 частей СЕГОДНЯ: 150"
+4. Красная линия на машине показывает "СТОП ЗДЕСЬ"
+5. Зелёная наклейка на идеальных частях, красная на плохих
+6. Постер безопасности показывающий статистику аварий
+7. Andon система светов - зелёный (OK), жёлтый (помощь), красный (стоп)
+
+Результат: Все знают правила. Работа организована. Проблемы найдены быстро. 
+Качество улучшается. Безопасность улучшается.
+
+
+═══════════════════════════════════════════════════════════════════════
+14] DESCRIBE ANY TWO TOOLS THAT COULD BE USED TO VERIFY THE ROOT CAUSE 
+    OF A PROBLEM
+═══════════════════════════════════════════════════════════════════════
+
+QUESTION (Русский):
+Опишите любые два инструмента которые могут использоваться чтобы проверить 
+основную причину проблемы.
+
+ANSWER (English):
+
+TOOL 1 - 5 WHYS (FIVE QUESTIONS)
+
+This is a simple method. Ask "WHY?" five times.
+
+HOW IT WORKS:
+You have a problem: "The CNC machine breaks"
+
+WHY 1: Why does the machine break?
+Answer: Because the cutting tool is dull.
+
+WHY 2: Why is the cutting tool dull?
+Answer: Because we don't change it often enough.
+
+WHY 3: Why don't we change it often enough?
+Answer: Because we don't have a schedule.
+
+WHY 4: Why don't we have a schedule?
+Answer: Because nobody knows when to change.
+
+WHY 5: Why does nobody know when to change?
+Answer: Because there is no training and no rule.
+
+ROOT CAUSE: No training, no rule about tool change.
+
+SOLUTION: Make a rule. Train workers when to change tool. Make a schedule 
+on the machine.
+
+BENEFIT: Simple method. Fast. Finds real problem, not just the symptom. 
+Easy for everyone to understand.
+
+TOOL 2 - FISHBONE DIAGRAM (ISHIKAWA DIAGRAM)
+
+This looks like a fish skeleton. It helps organize causes of a problem.
+
+HOW IT WORKS:
+
+The head of the fish = THE PROBLEM
+Example: "Bad parts from CNC machine"
+
+The bones of the fish = CAUSES
+
+The big bones are categories:
+1. PEOPLE - Worker mistakes, no experience, tired worker
+2. MACHINE - Machine broken, calibration wrong, tool dull
+3. METHOD - Process wrong, procedure unclear, no standard
+4. MATERIAL - Wrong material, bad quality, damaged
+5. ENVIRONMENT - Too hot, too cold, humidity, light bad
+6. MEASUREMENT - Gauge wrong, tool worn, measure incorrect
+
+EXAMPLE OF FISHBONE:
+
+Problem: "10 parts are bad this week"
+
+PEOPLE CAUSES:
+- Worker not trained on new machine
+- Operator was tired
+
+MACHINE CAUSES:
+- Calibration is wrong
+- Tool was not changed
+
+METHOD CAUSES:
+- Process procedure unclear
+- No quality check
+
+RESULT: Now we see many possible causes. We can check each one. We find 
+real reason - "Tool was not changed" + "Worker not trained" = 10 bad parts.
+
+BENEFIT: See all possible causes. Visual picture. Easy to understand. 
+Do not miss any causes. Find real problems.
+
+ANSWER (Русский):
+
+ИНСТРУМЕНТ 1 - 5 ПОЧЕМУ (ПЯТЬ ВОПРОСОВ)
+
+Это простой метод. Задавай "ПОЧЕМУ?" пять раз.
+
+КАК ЭТО РАБОТАЕТ:
+У тебя проблема: "CNC машина ломается"
+
+ПОЧЕМУ 1: Почему машина ломается?
+Ответ: Потому что режущий инструмент тупой.
+
+ПОЧЕМУ 2: Почему режущий инструмент тупой?
+Ответ: Потому что мы не меняем его часто достаточно.
+
+ПОЧЕМУ 3: Почему мы не меняем его часто?
+Ответ: Потому что нет расписания.
+
+ПОЧЕМУ 4: Почему нет расписания?
+Ответ: Потому что никто не знает когда менять.
+
+ПОЧЕМУ 5: Почему никто не знает когда менять?
+Ответ: Потому что нет обучения и нет правила.
+
+ОСНОВНАЯ ПРИЧИНА: Нет обучения, нет правила о смене инструмента.
+
+РЕШЕНИЕ: Сделай правило. Обучи рабочих когда менять инструмент. 
+Сделай расписание на машине.
+
+ПРЕИМУЩЕСТВО: Простой метод. Быстро. Находит настоящую проблему, 
+не только симптом. Легко для всех понять.
+
+ИНСТРУМЕНТ 2 - ДИАГРАММА РЫБА (ISHIKAWA ДИАГРАММА)
+
+Это выглядит как скелет рыбы. Он помогает организовать причины проблемы.
+
+КАК ЭТО РАБОТАЕТ:
+
+Голова рыбы = ПРОБЛЕМА
+Пример: "Плохие части из CNC машины"
+
+Кости рыбы = ПРИЧИНЫ
+
+Большие кости это категории:
+1. ЛЮДИ - Ошибки рабочего, нет опыта, уставший рабочий
+2. МАШИНА - Машина сломана, калибровка неправильная, инструмент тупой
+3. МЕТОД - Процесс неправильный, процедура неясная, нет стандарта
+4. МАТЕРИАЛ - Неправильный материал, плохое качество, повреждено
+5. СРЕДА - Слишком жарко, слишком холодно, влажность, свет плохой
+6. ИЗМЕРЕНИЕ - Калибр неправильный, инструмент изношен, измерение неправильное
+
+ПРИМЕР РЫБЫ:
+
+Проблема: "10 частей плохие на этой неделе"
+
+ПРИЧИНЫ ЛЮДИ:
+- Рабочий не обучен на новой машине
+- Оператор был уставший
+
+ПРИЧИНЫ МАШИНА:
+- Калибровка неправильная
+- Инструмент не был изменён
+
+ПРИЧИНЫ МЕТОД:
+- Процедура процесса неясная
+- Нет проверки качества
+
+РЕЗУЛЬТАТ: Теперь видим много возможных причин. Мы можем проверить каждую. 
+Находим настоящую причину - "Инструмент не был изменён" + "Рабочий не обучен" 
+= 10 плохих частей.
+
+ПРЕИМУЩЕСТВО: Видишь все возможные причины. Визуальная картинка. 
+Легко понять. Не пропустишь причины. Находишь настоящие проблемы.
+
+
+═══════════════════════════════════════════════════════════════════════
+15] STATE THE FOUR CHARACTERISTICS OF THE DEMING CYCLE
+═══════════════════════════════════════════════════════════════════════
+
+QUESTION (Русский):
+Назовите четыре характеристики цикла Деминга.
+
+ANSWER (English):
+
+The Deming Cycle is called PDCA. It is a method to improve work. It has 
+four steps. Do them again and again every day.
+
+STEP 1 - PLAN (PLAN)
+This is the first step. Plan what you want to do. Think about a problem 
+or a goal. What do you want to improve?
+
+EXAMPLE: "Machine makes 100 parts per day but we want 150 per day"
+
+GOAL: Make 150 parts per day
+
+HOW TO PLAN:
+- Understand the problem
+- Think of solutions
+- Choose one solution to test
+- Write down the plan
+- Say how you measure success
+
+WHAT IT MEANS: Before you start, think. Have a clear goal.
+
+STEP 2 - DO (DO)
+This is the second step. Do the plan. Try the new idea. But do it small test 
+first, not on the whole factory.
+
+EXAMPLE: Change machine speed and calibration. Try on 5 parts.
+
+HOW TO DO:
+- Follow the plan you made
+- Write down what you do
+- Watch and measure the results
+- Keep records
+
+WHAT IT MEANS: Try the idea. See what happens.
+
+STEP 3 - CHECK (CHECK)
+This is the third step. Check the results. Did it work? Did you reach your 
+goal?
+
+EXAMPLE: Test 5 parts. All 5 are good. Production test: 160 parts made 
+(goal was 150).
+
+HOW TO CHECK:
+- Compare plan with results
+- Did we reach the goal?
+- What was good?
+- What was bad?
+- Write down findings
+
+WHAT IT MEANS: Look at the facts. Measure and analyze.
+
+STEP 4 - ACT (ACT)
+This is the fourth step. Make changes. If the test worked, use it everywhere. 
+If it didn't work, try something else.
+
+EXAMPLE: Test worked! Now use new speed on all machines. Change the procedure.
+
+HOW TO ACT:
+- If test was good: use it for all workers
+- If test was bad: try another solution
+- Train all workers on new way
+- Make new rule
+- Start again with PLAN
+
+WHAT IT MEANS: Use what you learned. Make permanent change.
+
+THE CYCLE NEVER STOPS:
+After you use the new method, you PLAN again. Maybe you want to make 200 parts 
+now. Do the PDCA cycle again. And again. And again. This is continuous improvement.
+
+THE FOUR CHARACTERISTICS ARE:
+1. PLAN - Clear goal and plan
+2. DO - Try the idea
+3. CHECK - Look at results
+4. ACT - Make permanent change OR try new solution
+
+ANSWER (Русский):
+
+Цикл Деминга называется PDCA. Это метод улучшать работу. Он имеет четыре шага. 
+Делай их снова и снова каждый день.
+
+ШАГ 1 - ПЛАН (PLAN)
+Это первый шаг. План что ты хочешь делать. Думай о проблеме или цели. 
+Что ты хочешь улучшить?
+
+ПРИМЕР: "Машина делает 100 частей в день но мы хотим 150 в день"
+
+ЦЕЛЬ: Делать 150 частей в день
+
+КАК ПЛАНИРОВАТЬ:
+- Поймите проблему
+- Думайте о решениях
+- Выберите одно решение для теста
+- Напишите план
+- Скажите как вы измеряете успех
+
+ЧТО ЭТО ЗНАЧИТ: Перед тем как начать, думай. Имей ясную цель.
+
+ШАГ 2 - ДЕЛАЙ (DO)
+Это второй шаг. Делай план. Пробуй новую идею. Но сначала делай маленький 
+тест, не на всей фабрике.
+
+ПРИМЕР: Измени скорость машины и калибровку. Пробуй на 5 частях.
+
+КАК ДЕЛАТЬ:
+- Следуй плану который сделал
+- Напиши что ты делаешь
+- Смотри и измеряй результаты
+- Храни записи
+
+ЧТО ЭТО ЗНАЧИТ: Пробуй идею. Смотри что происходит.
+
+ШАГ 3 - ПРОВЕРЯЙ (CHECK)
+Это третий шаг. Проверь результаты. Это работает? Ты достиг цели?
+
+ПРИМЕР: Тест 5 частей. Все 5 хорошие. Тест производства: 160 частей 
+(цель была 150).
+
+КАК ПРОВЕРЯТЬ:
+- Сравни план с результатами
+- Мы достигли цели?
+- Что было хорошим?
+- Что было плохим?
+- Напиши выводы
+
+ЧТО ЭТО ЗНАЧИТ: Смотри факты. Измеряй и анализируй.
+
+ШАГ 4 - ДЕЙСТВУЙ (ACT)
+Это четвёртый шаг. Делай изменения. Если тест работал, используй везде. 
+Если не работал, пробуй что-то другое.
+
+ПРИМЕР: Тест работал! Теперь используй новую скорость на всех машинах. 
+Измени процедуру.
+
+КАК ДЕЙСТВОВАТЬ:
+- Если тест был хорошим: используй для всех рабочих
+- Если тест был плохам: пробуй другое решение
+- Обучи всех рабочих на новом способе
+- Сделай новое правило
+- Начни снова с ПЛАНА
+
+ЧТО ЭТО ЗНАЧИТ: Используй что ты научился. Сделай постоянное изменение.
+
+ЦИКЛ НИКОГДА НЕ ОСТАНАВЛИВАЕТСЯ:
+После того как ты используешь новый метод, ты ПЛАНируешь снова. Может быть 
+ты хочешь делать 200 частей теперь. Делай PDCA цикл снова. И снова. И снова. 
+Это непрерывное улучшение.
+
+ЧЕТЫРЕ ХАРАКТЕРИСТИКИ:
+1. ПЛАН - Ясная цель и план
+2. ДЕЛАЙ - Пробуй идею
+3. ПРОВЕРЯЙ - Смотри результаты
+4. ДЕЙСТВУЙ - Сделай постоянное изменение ИЛИ пробуй новое решение
+
+
+════════════════════════════════════════════════════════════════════════
+                            END OF EXAM ANSWERS
+════════════════════════════════════════════════════════════════════════
+
+Created: 01.04.2026
+Format: English - русский перевод
+Language Level: Simple and Easy to Understand
+
+Good luck with your exam! 🎓
+
+════════════════════════════════════════════════════════════════════════
