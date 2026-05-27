@@ -1,3 +1,7 @@
+Рекомендация:
+------------------------------
+Чертеж детали лучше располагать с левой стороны от центра XYZ, например, X = -100, Y = 50. Это удобно, так как обычно с левой стороны установлены лазерные сенсоры для поиска нуля и контроля положения заготовки.
+
 ==============================
 Шпаргалка по настройке Mastercam 2021 для генерации G-кода (Face Mill)
 ==============================
@@ -15,23 +19,41 @@
 		 - Output machine name to NC
 7. Вкладка Tool Settings:
 	 - Spindle speed: 3000.0
-	 - Feed rate, Retract rate, Plunge rate — см. ниже
-	 - Поставить галочки:
-		 - Assign tool numbers sequentially
-		 - Warn of duplicate tool numbers
-		 - Use tool’s step, peck, coolant
+	 - Feed rate: 300.0
+	 - Retract rate: 300.0
+	 - Plunge rate: 100.0
+	 - Галочка: Adjust feed on arc move (Автоматическая корректировка подачи на дугах)
+	 - Minimum arc feed: 125.0 (Минимальная подача на дуге)
+
+	 Раздел Toolpath Configuration:
+		 - Assign tool numbers sequentially (Назначать номера инструментов по порядку)
+		 - Warn of duplicate tool numbers (Предупреждать о повторяющихся номерах инструментов)
+		 - Use tool’s step, peck, coolant (Использовать параметры шага, прерывистой подачи, охлаждения из инструмента)
+
+	 Раздел Advanced options:
+		 - Override defaults with modal values (Переопределять значения по умолчанию модальными значениями)
+		 - Clearance height (Высота зоны безопасности)
+		 - Retract height (Высота отвода)
+		 - Feed plane (Плоскость подачи)
+
+	 Раздел Sequence number:
+		 - Start: 1.0 (Начальный номер строки)
+		 - Increment: 1.0 (Шаг увеличения номера строки)
+
+	 Все эти параметры выставлены согласно скриншоту для обработки алюминия (ALUMINUM mm - 2024).
 8. Вкладка Stock Setup:
 	 - Shape: Rectangular
-	 - Bounding box: Origin по центру
+	 - Bounding box: Origin по центру или с левого угла (например, X = -100, Y = 0)
 	 - Size: X = 103, Y = 51, Z = 25.7
+		 Если Origin с левого нижнего угла (по Y = 0), то X = -100, Y = 0 — удобно для установки нуля и работы с лазерными сенсорами.
 	 - (Пояснения по размерам — см. ниже)
 9. Выбрать операцию Face Mill:
 	 - Tool: Face Mill, диаметр 63
 	 - Cut Parameters:
 		 - Style: One pass
 		 - Stock to leave on floors: 0.0
-		 - Approach distance: 20.0
-		 - Exit distance: 20.0
+		 - Approach distance: 20.0 (Можно оставить 50) - Узнать разницу
+		 - Exit distance: 20.0 (Можно оставить 50) - Узнать разницу
 	 - Depth Cuts:
 		 - Max rough step: 1.0
 		 - Finish cuts: 1
