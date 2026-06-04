@@ -80,6 +80,9 @@
 	 - Toolpath Group1 > Parameters > Tool:
 		 - Tool: Flat End Mill
 		 - Diameter: 20 mm
+		 - Feed rate: 150
+		 - Spindle speed: 1200
+		 - Галочка: Force tool change
 	 - Toolpath Group1 > Parameters > Cut Parameters:
 		 - Contour type: 2D
 		 - Compensation type: Computer
@@ -178,9 +181,21 @@
 	- Max rough step: 0.0
 	- # Finish cuts: 0
 	- Finish step: 0.0
+- Depth Cuts можно не включать, если по глубине срезается вся плоскость/стенка сразу,
+	а не делается поэтапное углубление до заданной глубины.
 - Lead In/Out: без изменений.
 - Break Through: выключен.
-- Multi Passes: выключен.
+- Multi Passes: включать, если нужно делить боковой съем на несколько проходов.
+	- Rough Number: количество проходов.
+	- Rough Spacing: шаг между проходами.
+	- Если Rough Spacing = 0.0, проходы могут повторять полный съем до финальной цепочки
+	  (например, полный съем 0.85 несколько раз).
+	- Проверенный вариант в твоем случае (съем 0.85 в 3 прохода):
+	  Rough Number = 3, Rough Spacing = 0.2, Finish Number = 0, Finish Spacing = 0.0.
+	- Если Finish passes не используются (Finish Number = 0), галочку Apply to all finish passes
+	  можно снять.
+	- Раздельные значения Feed rate и Spindle speed для чистовых проходов имеют смысл,
+	  когда Finish passes включены.
 - Tabs: выключен.
 - Linking Parameters:
 	- Все значения Absolute.
@@ -194,6 +209,8 @@
 
 10. Как задать боковую глубину через Wireframe > Offset
 ------------------------------------------------------
+- Перед всеми настройками боковой обработки сначала выбрать операцию Mastercam Contour.
+- Порядок: Contour -> выбор геометрии (Chain) -> Tool -> Cut Parameters -> Linking Parameters.
 - Сначала перейти в Wireframe > Offset.
 - Взять верхний вид сверху и сместить линию влево на нужную величину съема.
 - Эта новая смещенная линия будет показывать, сколько материала нужно снять по боку.
