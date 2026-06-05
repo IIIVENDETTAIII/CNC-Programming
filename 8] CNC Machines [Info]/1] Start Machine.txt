@@ -1,0 +1,114 @@
+HAAS Start and Setup Checklist (EN + RU)
+Date: 2026-06-05
+
+Important safety note
+EN: Always wear PPE, keep door closed during spindle motion, run new code in Graphics and Single Block first, and follow your teacher/workshop rules.
+RU: Всегда используй СИЗ, держи дверь закрытой при вращении шпинделя, сначала прогоняй новый код в Graphics и Single Block, и соблюдай правила преподавателя/мастерской.
+
+Quick manual tool change (before run)
+EN: Press MDI -> type M06 T01 -> press Cycle Start. Repeat with needed tool number (M06 T04, M06 T07, etc.).
+RU: Нажми MDI -> введи M06 T01 -> нажми Cycle Start. Повтори с нужным номером инструмента (M06 T04, M06 T07 и т.д.).
+
+Code order note
+EN: Use only M06 first (class method): M06 Txx.
+RU: Используй только M06 в начале (метод с занятий): M06 Txx.
+
+1. Pre-start machine and area check
+EN: Check emergency stop state, air pressure, coolant level, chip area, vise condition, and that the work area is clean.
+RU: Проверь аварийную кнопку, давление воздуха, уровень СОЖ, зону стружки, состояние тисков и чистоту рабочей зоны.
+
+2. Check workpiece dimensions
+EN: Measure workpiece size (X/Y/Z), compare with drawing and stock allowance.
+RU: Измерь размеры заготовки (X/Y/Z), сравни с чертежом и припуском.
+
+3. Mount workpiece and USB flash drive
+EN: Clamp workpiece safely in vise/fixture and insert USB flash drive with program.
+RU: Надежно закрепи заготовку в тисках/приспособлении и вставь USB-флешку с программой.
+
+4. Power up and reset
+EN: Close door, press Power On, then Power Up/Restart, then Reset if needed.
+RU: Закрой дверь, нажми Power On, затем Power Up/Restart, затем при необходимости Reset.
+
+5. Home the machine axes
+EN: Press Zero Return, then All, so machine references X/Y/Z safely.
+RU: Нажми Zero Return, затем All, чтобы станок сделал референс по X/Y/Z.
+
+6. Enter Handle Jog mode
+EN: Press Handle Jog. Use axis keys (X, Y, Z) and jog handle with safe increment.
+RU: Нажми Handle Jog. Используй клавиши осей (X, Y, Z) и ручку импульсов с безопасным шагом.
+
+7. Check and load tools in turret
+EN: Verify each tool number matches setup sheet. If needed, call tool change using MDI: Txx M06, then Cycle Start.
+RU: Проверь, что номер каждого инструмента совпадает с картой наладки. При необходимости вызови смену инструмента через MDI: Txx M06, затем Cycle Start.
+
+8. Open Offsets page
+EN: Press Offset. Go to Tool Length Offset page.
+RU: Нажми Offset. Перейди на страницу Tool Length Offset.
+
+9. Set tool length offset for each tool
+EN: Call tool, jog down to your 50.0 mm setter (or known gauge), then press Tool Offset Measure for that tool.
+RU: Вызови инструмент, подведи его к твоему измерителю 50.0 мм (или известному эталону), затем нажми Tool Offset Measure для этого инструмента.
+
+10. Apply 50.0 mm correction method
+EN: If your method uses a 50.0 mm setter, subtract 50.0 from measured value as your class method requires.
+RU: Если по твоей методике используется измеритель 50.0 мм, вычти 50.0 из измеренного значения согласно методике занятия.
+
+11. Repeat offsets for all used tools
+EN: Repeat Step 9-10 for every tool used in program, verify no tool is missed.
+RU: Повтори шаги 9-10 для каждого инструмента из программы, проверь, что ничего не пропущено.
+
+12. Set work offset (G54 or required)
+EN: Move to part zero position. On Work Offset page, set X/Y/Z using Part Zero Set or manual entry per school method.
+RU: Подведи инструмент к нулю детали. На странице Work Offset выставь X/Y/Z через Part Zero Set или вручную по методике учебы.
+
+13. Verify Z zero logic
+EN: Confirm that tool length offsets and G54 Z are consistent with your 50 mm setup method before running.
+RU: Убедись, что длины инструментов и G54 Z согласованы с твоим методом через 50 мм перед запуском.
+
+14. Load program from USB
+EN: Press List Prog, open USB tab, highlight your file, then press Select Program (or F4 as configured).
+RU: Нажми List Prog, открой вкладку USB, выбери свой файл, затем нажми Select Program (или F4, как настроено).
+
+15. Copy program to memory if required
+EN: If control requires local copy, copy from USB to Memory and open it.
+RU: Если стойке нужна локальная копия, скопируй программу с USB в Memory и открой ее.
+
+16. Program safety review in Edit
+EN: Press Edit and check tool calls, spindle direction, coolant commands, safe heights, and first approach move.
+RU: Нажми Edit и проверь вызовы инструментов, направление шпинделя, команды СОЖ, безопасные высоты и первый подвод.
+
+17. Dry run in Graphics
+EN: Press Memory, enable Graphics, optionally set Single Block and reduced Rapid/Feed override.
+RU: Нажми Memory, включи Graphics, при необходимости включи Single Block и уменьши Rapid/Feed override.
+
+18. First run with control
+EN: Keep door closed when required, press Cycle Start, monitor each block, use Feed Hold if anything looks wrong.
+RU: Держи дверь закрытой, когда это требуется, нажми Cycle Start, контролируй каждый блок, при подозрении сразу жми Feed Hold.
+
+19. Optional code correction
+EN: If needed, stop safely, go to Edit, correct code section, save, then restart from safe line.
+RU: При необходимости безопасно остановись, перейди в Edit, исправь участок кода, сохрани и перезапусти с безопасной строки.
+
+20. Continue to production mode
+EN: After successful dry/first pass, disable Single Block, set normal overrides, and run cycle.
+RU: После успешного сухого/первого прохода выключи Single Block, верни нормальные overrides и запускай цикл.
+
+21. During machining checks
+EN: Watch tool wear, chip evacuation, coolant flow, unusual vibration/noise, and part holding force.
+RU: Контролируй износ инструмента, выход стружки, подачу СОЖ, необычную вибрацию/шум и надежность зажима.
+
+22. End of operation
+EN: Stop spindle, return machine to safe position, remove part, deburr, measure critical dimensions.
+RU: Останови шпиндель, отведи станок в безопасную позицию, сними деталь, убери заусенцы, проверь критические размеры.
+
+23. Save and backup program
+EN: Save final edited version and backup to USB with clear revision name.
+RU: Сохрани финальную отредактированную версию и сделай резервную копию на USB с понятным именем ревизии.
+
+24. Shutdown basic routine (if required by class)
+EN: Clean machine, remove chips safely, return tools as instructed, then power down by workshop procedure.
+RU: Почисти станок, безопасно убери стружку, верни инструменты по инструкции, затем выключи станок по процедуре мастерской.
+
+Quick button sequence from your notes (standardized)
+EN: Workpiece check -> Insert USB + clamp part -> Power Up/Restart + Reset -> Handle Jog + tool check -> Tool Offset Measure each tool -> subtract 50.0 by your method -> List Prog USB Select Program -> Memory + Single Block + Graphics -> Cycle Start with supervision.
+RU: Проверка заготовки -> Вставить USB + зажать деталь -> Power Up/Restart + Reset -> Handle Jog + проверка инструментов -> Tool Offset Measure для каждого инструмента -> вычесть 50.0 по твоему методу -> List Prog USB Select Program -> Memory + Single Block + Graphics -> Cycle Start под контролем.

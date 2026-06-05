@@ -1,0 +1,142 @@
+HAAS Mini - G и M коды + как пользоваться станком
+Источник: таблички на станке (фото) + учебная практика.
+Дата обновления: 2026-06-05
+
+1) Как читать табличку
+Modal = код действует, пока не отменишь другим кодом из той же группы.
+Non-Modal = код действует только на один блок.
+Optional = зависит от комплектации станка.
+
+2) Самые нужные G-коды для работы
+G00 - быстрое перемещение.
+G01 - линейная подача.
+G02 - дуга по часовой.
+G03 - дуга против часовой.
+G04 - выдержка времени (пауза, P в секундах).
+G17 - плоскость XY.
+G18 - плоскость ZX.
+G19 - плоскость YZ.
+G20 - дюймы.
+G21 - миллиметры.
+G28 - возврат в машинный ноль через промежуточную точку.
+G40 - отмена коррекции радиуса.
+G41 - коррекция радиуса слева.
+G42 - коррекция радиуса справа.
+G43 - компенсация длины инструмента плюс (обычно с H).
+G44 - компенсация длины инструмента минус.
+G49 - отмена G43/G44/G143.
+G53 - перемещение в машинной системе координат.
+G54-G59 - рабочие системы координат.
+G61 - точная остановка.
+G64 - отмена G61.
+G68 - поворот координат.
+G69 - отмена G68.
+G73 - high speed peck drilling cycle.
+G74 - reverse tapping cycle.
+G80 - отмена сверлильных циклов.
+G81 - сверление.
+G82 - spot drill / counter bore.
+G83 - deep drill (peck).
+G84 - tapping.
+G85 - bore in, bore out.
+G86 - bore in, stop, rapid out.
+G89 - bore in, dwell, bore out.
+G90 - абсолютные координаты.
+G91 - относительные (инкрементальные) координаты.
+G92 - сдвиг рабочей системы координат.
+G93 - inverse time feed mode on.
+G94 - inverse time feed mode off.
+G95 - feed per rev.
+G98 - возврат в начальную точку цикла.
+G99 - возврат в R-плоскость.
+
+3) Дополнительные G-коды с таблички
+G09, G10, G12, G13, G29, G31, G35, G36, G37, G47, G50, G51, G52, G60, G65, G70, G71, G72, G76, G77, G92 (Haas Local Shift),
+G100, G101, G103, G107, G110-G129, G136, G141, G143, G150, G154, G174, G184, G187, G253, G268.
+Примечание: часть кодов зависит от опций станка и версии ПО.
+
+4) Самые нужные M-коды для работы
+M00 - стоп программы.
+M01 - optional stop.
+M02 - конец программы.
+M03 - шпиндель CW.
+M04 - шпиндель CCW.
+M05 - стоп шпинделя.
+M06 - смена инструмента.
+M07 - shower coolant (если есть опция).
+M08 - СОЖ вкл.
+M09 - СОЖ выкл.
+M10 - зажать тормоз 4-й оси.
+M11 - отпустить тормоз 4-й оси.
+M12 - зажать тормоз 5-й оси.
+M13 - отпустить тормоз 5-й оси.
+M16 - смена инструмента (то же, что M06).
+M19 - ориентация шпинделя.
+M30 - конец и сброс программы.
+M31 - chip auger/conveyor вперед.
+M33 - chip auger/conveyor стоп.
+M34 - coolant spigot down.
+M35 - coolant spigot up.
+M39 - rotate tool turret.
+M41 - low gear override.
+M42 - high gear override.
+M48 - check validity of current program.
+M50 - execute pallet change.
+M73 - tool air blast on.
+M74 - tool air blast off.
+M75 - set G35 or G136 ref point.
+M78 - alarm if skip signal found.
+M79 - alarm if skip signal not found.
+M80 - open automatic door.
+M81 - close automatic door.
+M82 - tool unclamp.
+M83 - auto air gun on.
+M84 - auto air gun off.
+M86 - tool clamp.
+M88 - thru spindle coolant on.
+M89 - thru spindle coolant off.
+M95 - sleep mode.
+M96 - jump if no signal.
+M97 - local subprogram call.
+M98 - subprogram call.
+M99 - subprogram return or loop.
+M104 - extend probe arm.
+M105 - retract probe arm.
+M109 - interactive user input.
+M130 - launch media player.
+M131 - clear media player.
+M138 - SSV on.
+M139 - SSV off.
+M150 - unload heavy tool.
+M151 - load heavy tool.
+M199 - pallet load or program end.
+
+5) Как пользоваться станком по шагам (кратко)
+Шаг 1. Проверка: заготовка, тиски, СОЖ, воздух, чистота рабочей зоны.
+Шаг 2. Включение: Power On -> Power Up/Restart -> Reset -> Zero Return All.
+Шаг 3. Загрузка программы: List Prog -> USB -> выбрать файл -> Select Program.
+Шаг 4. Смена инструмента вручную: MDI -> M06 T01 -> Cycle Start (дальше M06 T02 и т.д.).
+Шаг 5. Длины инструментов: Offset -> Tool Offset Measure для каждого инструмента.
+Шаг 6. Ноль детали: выставить G54 (X/Y/Z) по методике занятия.
+Шаг 7. Пробный прогон: Memory -> Graphics + Single Block, маленькие Override.
+Шаг 8. Первый реальный запуск: Cycle Start, контроль каждого движения, при риске Feed Hold.
+
+6) Мини-шаблон безопасного начала программы
+%
+O0001
+G21 G17 G40 G49 G80 G90
+G54
+M06 T01
+S2000 M03
+G00 G43 H01 Z100.
+M08
+( machining blocks )
+M09
+G53 G00 Z0.
+M05
+M30
+%
+
+7) Важное замечание
+Конкретные функции некоторых кодов могут отличаться по опциям и версии стойки.
+Для учебной работы всегда приоритет: правила преподавателя и инструкции именно вашего станка.
