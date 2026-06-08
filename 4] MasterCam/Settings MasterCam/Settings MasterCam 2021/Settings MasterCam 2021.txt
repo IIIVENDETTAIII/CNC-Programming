@@ -10,7 +10,7 @@
 2. Включить колонку Toolpaths через меню View
 3. Выбрать станок: Machine > Mill > GENERIC HAAS 3 - AXIS VMC MM
 4. Построить геометрию детали (размеры, отверстия и т.д.)
-5. Открыть Properties станка (Properties GENERIC HAAS 3 - AXIS VMC MM)
+5. Открыть Properties станка (Machine Group Properties)
 	 - Перейти по вкладкам: Files / Tool Settings / Stock Setup
 6. Вкладка Files:
 	 - Выбрать модель станка (HAAS)
