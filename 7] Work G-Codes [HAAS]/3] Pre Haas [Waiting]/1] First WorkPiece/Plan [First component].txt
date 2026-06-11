@@ -5,3 +5,15 @@ First component
 2] Y = 49.15
 
 3] Z = 24.65
+
+
+========================= START EX N4 =========================
+
+2 Holes deep 23.65
+
+Midle deep 15.0
+
+Corners 10mm
+
+
+
