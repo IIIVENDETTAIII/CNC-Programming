@@ -9,11 +9,12 @@ First component
 
 ========================= START EX N4 =========================
 
-2 Holes deep 23.65
+Делать под размеры: X -100 / Y 48.5 / Z 24
 
-Midle deep 15.0
+4 Holes Diameter: 10 > Deep: 23.65
+Midle deep: 23.65
 
-Corners 10mm
+Corners deep 12.325
 
 
 
