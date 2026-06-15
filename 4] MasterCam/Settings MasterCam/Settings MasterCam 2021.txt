@@ -135,6 +135,7 @@ Linking Parameters
 3. В настройках Parameters > Tool: Выбрать диаметр для первой резки с остатком запаса. На пример: 10.
 4. Parameters > Stock: Пока не указывать для первой резки.
 5. Parameters > Cut Parameters: Stock to leave on walls и Stock to leave on floors выставить по 0.5 для остатка запаса.
+(Если не нужно оставлять запас глубины Stock to leave on walls выставить: 0.0)
 6. Parameters > Cut Parameters > Stepover: Выставить нужное значение для срезки боковой глубины за проход.
 (По дефолту 25.0 > я выставил 15.0)
 7. Parameters > Depth Cuts: Выставить половину от полного среза. На пример: 5.
