@@ -124,7 +124,35 @@ Linking Parameters
 	(Rough Number: 4 с Spacing 0.2 - Будет 4 черновых прохода и Finish Number: 1 с Spacing 0.2 для 1 Финишного прохода )
 - Tabs выключить, если они не нужны.
 
-4. Пояснения к ключевым настройкам
+4. Резка по углам с учетом радиуса
+----------------------------------
+Если срезать с большим диаметром Tool и оставить запас для дальнейшей обработки с меньшим Tool до конца:
+
+[ПЕРВЫЙ ПРОХОД БОЛЬШИМ ДИАМЕТРОМ]
+1. Выбрать способ резки Dynamic Mill и в Machining regions strategy выбрать: From outside > Далее выбрать углы в Machining regions > Mode: Wireframe > Chain и нажать на обрезаемую область и Enter.
+2. Не закрывая Chain Options нажать на курсор мыши в Avoidance region > Mode: Solids / 3D / Loop / Face и выбрать область, которую не нужно обрезать.
+Для предосмотра нажать: Preview chains.
+3. В настройках Parameters > Tool: Выбрать диаметр для первой резки с остатком запаса. На пример: 10.
+4. Parameters > Stock: Пока не указывать для первой резки.
+5. Parameters > Cut Parameters: Stock to leave on walls и Stock to leave on floors выставить по 0.5 для остатка запаса.
+6. Parameters > Cut Parameters > Stepover: Выставить нужное значение для срезки боковой глубины за проход.
+(По дефолту 25.0 > я выставил 15.0)
+7. Parameters > Depth Cuts: Выставить половину от полного среза. На пример: 5.
+(Чтобы срезал в глубину по 5.0 в несколько проходов)
+8. Parameters > Entry Motion > Z clearence: 3.0 и Plungle angle: 1.8.
+9. Linking Parameters: выставить все Absolute с галочкой Use clearance only at the start and end of operation.
+10. Linking Parameters > Depth: Выставить максимальный срез в глубину в формате -10.
+
+[ВТОРОЙ ПРОХОД МЕНЬШИМ ДИАМЕТРОМ]
+1. Выбрать способ резки Dynamic Mill и в Machining regions strategy выбрать: From outside > Далее выбрать углы в Machining regions > Mode: Wireframe > Chain и нажать на обрезаемую область и Enter.
+2. Не закрывая Chain Options нажать на курсор мыши в Avoidance region > Mode: Solids / 3D / Loop / Face и выбрать область, которую не нужно обрезать.
+3. В настройках Parameters > Tool: Выбрать диаметр для финишной резки. На пример: 6 (выбрав Feed / Speed).
+4. Parameters > Stock: Нажать галочку Rest material и One other operation и выбрать уже созданную операцию, которую нужно продолжить (Rest material - продолжение резки и предотвращение холостого среза по второму кругу).
+5. Parameters > Cut Parameters: Выбрать нужную боковую глубину резки Stepover и на финишную резку Stock to leave on walls и Stock to leave on floors выставить по 0.0.
+6. Parameters > Depth Cuts: Выключить, если глубина была срезана первым проходом.
+7. Перепроверить значения: Depth Cuts / Entry Motion / Linking Parameters (выставить такой же Depth).
+
+5. Пояснения к ключевым настройкам
 ----------------------------------
 Machine
 - Выбор модели станка, например GENERIC HAAS 3 - AXIS VMC MM.
@@ -151,7 +179,7 @@ Compensation
 - Tip comp удобен для 2D контура и боковой обработки.
 - Left или Right выбираются по тому, с какой стороны должен идти инструмент.
 
-5. Короткий чек-лист перед постпроцессингом
+6. Короткий чек-лист перед постпроцессингом
 -------------------------------------------
 - Размеры заготовки больше размеров детали.
 - Ноль и Origin выбраны осознанно.
