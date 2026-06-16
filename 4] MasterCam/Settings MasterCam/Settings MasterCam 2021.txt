@@ -25,10 +25,10 @@ Files
 - Включить Output operation comments to NC.
 - Включить Output machine name to NC.
 
-Tool Settings
-- Spindle speed: 3000.0
-- Feed rate: 300.0
-- Retract rate: 300.0
+Tool Settings (Дефолтные значения - которые будут задаваться автоматически для Tools)
+- Spindle speed: 1200.0
+- Feed rate: 140.0
+- Retract rate: 150.0
 - Plunge rate: 100.0
 - Включить Adjust feed on arc move.
 - Minimum arc feed: 125.0
