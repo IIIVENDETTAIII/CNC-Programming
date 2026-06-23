@@ -1,0 +1,8 @@
+1] 
+
+2] 
+
+	Middle Depth: 23.7mm
+	Corners: 12.3mm
+
+Process: Middle Cut 23.15mm
