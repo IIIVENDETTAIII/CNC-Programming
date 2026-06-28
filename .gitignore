@@ -104,6 +104,13 @@ $RECYCLE.BIN/
 *Personal*
 *personal*
 
+# ===== 3D Printer Files (large binaries) =====
+*.stl
+*.amf
+*.3mf
+*.gcode
+CNC_Simulator.zip
+
 # ===== Large Binary Files =====
 # Videos (if any)
 *.mp4

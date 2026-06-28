@@ -1,0 +1,27 @@
+1] Ultimaker S5
+2] Ultimaker Cura
+3] Ultimaker PLA Polylactic acid (Print temperature 195-200) - (Build plate Temperature 60)
+
+
+Prompt: Есть скачанный и готовый STL файл, точнее 5 файлов которые нужно напечатать чтобы после соединить в 1.
+Как все правильно сделать имея информацию выше. Я импортирую STL в Ultimaker Cura, далее какие настройки выставить
+Как выбрать нужные цвета, если у меня на одной машине зеленый и белый, на второй машине черный и розовый.
+Также чтобы и плотно было какие настройки выставлять. Расписать все настройки с программы:
+
+Strange
+Infill Density
+Infill Pattern
+Shell Thickness
+Support
+Support Structure
+Print with (1/2)
+Placement Everywhere
+Adhesion (On/Off)
+
+Также предложи варианты если я буду делать:
+1) Кейс для GoPro
+2) Держатели для GoPro mount на грудь
+3) Apple Watch Stand, чтобы вставить зарядку и заряжался
+
+На пример кейс хочу чтобы был красивый и нормальный
+
