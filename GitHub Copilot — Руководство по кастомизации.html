@@ -1,0 +1,1059 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub Copilot — Руководство по кастомизации</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap");
+
+      :root {
+        --blue: #0969da;
+        --green: #1a7f37;
+        --purple: #8250df;
+        --orange: #bc4c00;
+        --red: #cf222e;
+        --teal: #0a7b6c;
+        --bg: #ffffff;
+        --surface: #f6f8fa;
+        --border: #d0d7de;
+        --text: #1f2328;
+        --muted: #656d76;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family:
+          "Inter",
+          -apple-system,
+          sans-serif;
+        font-size: 14px;
+        line-height: 1.6;
+        color: var(--text);
+        background: var(--bg);
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 48px 32px;
+      }
+
+      /* ── COVER ─────────────────────────────────────────── */
+      .cover {
+        text-align: center;
+        padding: 56px 32px 48px;
+        background: linear-gradient(135deg, #0969da 0%, #8250df 100%);
+        border-radius: 16px;
+        color: white;
+        margin-bottom: 48px;
+      }
+      .cover .logo {
+        font-size: 48px;
+        margin-bottom: 12px;
+      }
+      .cover h1 {
+        font-size: 32px;
+        font-weight: 700;
+        letter-spacing: -0.5px;
+        margin-bottom: 8px;
+      }
+      .cover p {
+        font-size: 16px;
+        opacity: 0.85;
+        margin-bottom: 20px;
+      }
+      .cover .meta {
+        display: inline-flex;
+        gap: 24px;
+        background: rgba(255, 255, 255, 0.15);
+        border-radius: 8px;
+        padding: 10px 24px;
+        font-size: 13px;
+      }
+
+      /* ── TYPOGRAPHY ─────────────────────────────────────── */
+      h2 {
+        font-size: 22px;
+        font-weight: 700;
+        color: var(--text);
+        margin: 40px 0 16px;
+        padding-bottom: 8px;
+        border-bottom: 2px solid var(--border);
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      h2 .num {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background: var(--blue);
+        color: white;
+        font-size: 14px;
+        font-weight: 700;
+        flex-shrink: 0;
+      }
+      h3 {
+        font-size: 15px;
+        font-weight: 600;
+        color: var(--text);
+        margin: 20px 0 8px;
+      }
+      p {
+        margin-bottom: 10px;
+        color: var(--text);
+      }
+
+      /* ── CARDS ──────────────────────────────────────────── */
+      .card {
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 20px 24px;
+        margin-bottom: 16px;
+        background: var(--bg);
+      }
+      .card-header {
+        display: flex;
+        align-items: flex-start;
+        gap: 14px;
+        margin-bottom: 12px;
+      }
+      .card-icon {
+        font-size: 28px;
+        flex-shrink: 0;
+        margin-top: 2px;
+      }
+      .card-title {
+        font-size: 17px;
+        font-weight: 700;
+      }
+      .card-sub {
+        font-size: 12px;
+        color: var(--muted);
+        font-family: "JetBrains Mono", monospace;
+      }
+      .card-desc {
+        font-size: 13px;
+        color: var(--muted);
+        margin-top: 2px;
+      }
+
+      .badge {
+        display: inline-block;
+        font-size: 11px;
+        font-weight: 600;
+        padding: 2px 8px;
+        border-radius: 20px;
+        margin-right: 4px;
+      }
+      .badge-blue {
+        background: #ddf4ff;
+        color: #0550ae;
+      }
+      .badge-green {
+        background: #dafbe1;
+        color: #116329;
+      }
+      .badge-purple {
+        background: #fbefff;
+        color: #6639ba;
+      }
+      .badge-orange {
+        background: #fff1e5;
+        color: #953800;
+      }
+
+      /* ── CODE ───────────────────────────────────────────── */
+      pre {
+        background: #0d1117;
+        color: #e6edf3;
+        border-radius: 8px;
+        padding: 16px 20px;
+        font-family: "JetBrains Mono", monospace;
+        font-size: 12.5px;
+        line-height: 1.7;
+        overflow-x: auto;
+        margin: 12px 0;
+      }
+      .kw {
+        color: #ff7b72;
+      } /* keyword  */
+      .str {
+        color: #a5d6ff;
+      } /* string   */
+      .cm {
+        color: #8b949e;
+      } /* comment  */
+      .val {
+        color: #79c0ff;
+      } /* value    */
+      .key {
+        color: #7ee787;
+      } /* yaml key */
+
+      code {
+        font-family: "JetBrains Mono", monospace;
+        font-size: 12px;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 4px;
+        padding: 1px 6px;
+        color: var(--red);
+      }
+
+      /* ── TABLE ──────────────────────────────────────────── */
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 14px 0;
+        font-size: 13px;
+      }
+      thead tr {
+        background: var(--surface);
+      }
+      th {
+        text-align: left;
+        padding: 9px 14px;
+        font-weight: 600;
+        border: 1px solid var(--border);
+        color: var(--muted);
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.3px;
+      }
+      td {
+        padding: 9px 14px;
+        border: 1px solid var(--border);
+        vertical-align: top;
+      }
+      tr:hover td {
+        background: #f0f6ff;
+      }
+
+      /* ── CALLOUTS ───────────────────────────────────────── */
+      .callout {
+        border-radius: 8px;
+        padding: 14px 18px;
+        margin: 16px 0;
+        display: flex;
+        gap: 12px;
+        font-size: 13px;
+      }
+      .callout-icon {
+        font-size: 18px;
+        flex-shrink: 0;
+      }
+      .callout.tip {
+        background: #dafbe1;
+        border-left: 4px solid var(--green);
+      }
+      .callout.warn {
+        background: #fff8c5;
+        border-left: 4px solid #9a6700;
+      }
+      .callout.info {
+        background: #ddf4ff;
+        border-left: 4px solid var(--blue);
+      }
+
+      /* ── GRID ───────────────────────────────────────────── */
+      .grid2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+      }
+
+      /* ── STRUCTURE TREE ─────────────────────────────────── */
+      .tree {
+        background: #0d1117;
+        color: #e6edf3;
+        border-radius: 8px;
+        padding: 16px 20px;
+        font-family: "JetBrains Mono", monospace;
+        font-size: 12.5px;
+        line-height: 1.9;
+      }
+      .tree .dir {
+        color: #79c0ff;
+      }
+      .tree .file {
+        color: #a5d6ff;
+      }
+      .tree .note {
+        color: #8b949e;
+      }
+
+      /* ── STEPS ──────────────────────────────────────────── */
+      .steps {
+        counter-reset: step;
+      }
+      .step {
+        display: flex;
+        gap: 14px;
+        margin-bottom: 12px;
+        align-items: flex-start;
+      }
+      .step-num {
+        counter-increment: step;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background: var(--blue);
+        color: white;
+        font-size: 13px;
+        font-weight: 700;
+        flex-shrink: 0;
+      }
+      .step-num::before {
+        content: counter(step);
+      }
+
+      /* ── COMMANDS GRID ──────────────────────────────────── */
+      .cmd-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 12px;
+        margin: 16px 0;
+      }
+      .cmd-card {
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        padding: 16px;
+        text-align: center;
+        transition: box-shadow 0.15s;
+      }
+      .cmd-card:hover {
+        box-shadow: 0 2px 12px rgba(9, 105, 218, 0.15);
+      }
+      .cmd-card .slash {
+        font-family: "JetBrains Mono", monospace;
+        font-size: 16px;
+        font-weight: 700;
+        color: var(--blue);
+        margin-bottom: 6px;
+      }
+      .cmd-card p {
+        font-size: 12px;
+        color: var(--muted);
+        margin: 0;
+      }
+
+      /* ── FOOTER ─────────────────────────────────────────── */
+      footer {
+        margin-top: 56px;
+        padding-top: 24px;
+        border-top: 1px solid var(--border);
+        text-align: center;
+        color: var(--muted);
+        font-size: 12px;
+      }
+
+      /* ── PRINT ──────────────────────────────────────────── */
+      @media print {
+        body {
+          padding: 24px 20px;
+          max-width: 100%;
+        }
+        .cover {
+          border-radius: 8px;
+        }
+        pre,
+        .tree {
+          break-inside: avoid;
+        }
+        h2 {
+          break-before: page;
+        }
+        h2:first-of-type {
+          break-before: avoid;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ═══════════════════════════════════════════════════════ COVER -->
+    <div class="cover">
+      <div class="logo">🤖</div>
+      <h1>GitHub Copilot<br />Руководство по кастомизации</h1>
+      <p>Все примитивы, команды и шаблоны для профессиональной настройки</p>
+      <div class="meta">
+        <span>📅 Июнь 2026</span>
+        <span>🏭 CNC Final Project</span>
+        <span>⚡ VS Code + Copilot</span>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════════ SLASH COMMANDS -->
+    <h2><span class="num">★</span> Slash-команды в чате</h2>
+
+    <p>
+      Набери <code>/</code> в чате Copilot — появится список доступных команд:
+    </p>
+
+    <div class="cmd-grid">
+      <div class="cmd-card">
+        <div class="slash">/create-instructions</div>
+        <p>Создать файл инструкций для конкретных задач или типов файлов</p>
+      </div>
+      <div class="cmd-card">
+        <div class="slash">/create-prompt</div>
+        <p>Создать шаблон задачи с параметрами (тоже вызывается через /)</p>
+      </div>
+      <div class="cmd-card">
+        <div class="slash">/create-skill</div>
+        <p>Создать многошаговый workflow с файлами-ресурсами</p>
+      </div>
+      <div class="cmd-card">
+        <div class="slash">/create-agent</div>
+        <p>Создать специализированного агента с ограниченными инструментами</p>
+      </div>
+      <div class="cmd-card">
+        <div class="slash">/create-hook</div>
+        <p>Создать автоматические действия в жизненном цикле агента</p>
+      </div>
+      <div class="cmd-card">
+        <div class="slash">/plan</div>
+        <p>Составить план задачи перед выполнением (режим планирования)</p>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════════ OVERVIEW TABLE -->
+    <h2><span class="num">1</span> Обзор: что и когда использовать</h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Примитив</th>
+          <th>Файл</th>
+          <th>Папка</th>
+          <th>Когда применять</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Agent Instructions</strong></td>
+          <td><code>copilot-instructions.md</code></td>
+          <td><code>.github/</code></td>
+          <td>Глобальные правила — применяются к КАЖДОМУ запросу</td>
+        </tr>
+        <tr>
+          <td><strong>File Instructions</strong></td>
+          <td><code>*.instructions.md</code></td>
+          <td><code>.github/instructions/</code></td>
+          <td>Правила для конкретных файлов или типов задач</td>
+        </tr>
+        <tr>
+          <td><strong>Prompts</strong></td>
+          <td><code>*.prompt.md</code></td>
+          <td><code>.github/prompts/</code></td>
+          <td>Шаблоны задач — вызов через <code>/имя</code> в чате</td>
+        </tr>
+        <tr>
+          <td><strong>Skills</strong></td>
+          <td><code>SKILL.md</code></td>
+          <td><code>.github/skills/&lt;name&gt;/</code></td>
+          <td>Многошаговые workflow с дополнительными файлами</td>
+        </tr>
+        <tr>
+          <td><strong>Custom Agents</strong></td>
+          <td><code>*.agent.md</code></td>
+          <td><code>.github/agents/</code></td>
+          <td>
+            Специализированный агент с ролью и ограниченными инструментами
+          </td>
+        </tr>
+        <tr>
+          <td><strong>Hooks</strong></td>
+          <td><code>*.json</code></td>
+          <td><code>.github/hooks/</code></td>
+          <td>Автоматические команды при событиях (PreToolUse, Stop и др.)</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="callout info">
+      <div class="callout-icon">💡</div>
+      <div>
+        <strong>Область видимости:</strong> Все файлы в <code>.github/</code> —
+        для всей команды (workspace). Пользовательские файлы (только для тебя)
+        кладутся в
+        <code>C:\Users\ramaz\AppData\Roaming\Code\User\prompts\</code>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════════ 1. AGENT INSTRUCTIONS -->
+    <h2><span class="num">2</span> Agent Instructions — глобальные правила</h2>
+
+    <div class="card">
+      <div class="card-header">
+        <div class="card-icon">📋</div>
+        <div>
+          <div class="card-title">copilot-instructions.md</div>
+          <div class="card-sub">.github/copilot-instructions.md</div>
+          <div class="card-desc">
+            Применяется к каждому запросу автоматически. Используй только один
+            файл: либо этот, либо AGENTS.md — не оба.
+          </div>
+        </div>
+      </div>
+
+      <pre><span class="cm"># Project Guidelines</span>
+
+<span class="cm">## Code Style</span>
+<span class="str">Язык комментариев в G-коде — английский.</span>
+<span class="str">N-номера блоков кратны 5 (N5, N10, N15...).</span>
+
+<span class="cm">## Architecture</span>
+<span class="str">Основные папки: 7] Work G-Codes [HAAS], 1] SSCNC Simulator</span>
+
+<span class="cm">## Build and Test</span>
+<span class="str">Проверка G-кода: открыть в SSCNC Simulator</span>
+
+<span class="cm">## Conventions</span>
+<span class="str">Всегда указывать скорость подачи F и обороты S.</span></pre>
+
+      <div class="callout warn">
+        <div class="callout-icon">⚠️</div>
+        <div>
+          Держи файл <strong>кратким</strong>. Он загружается при каждом запросе
+          — длинный файл занимает контекст модели.
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════════ 2. FILE INSTRUCTIONS -->
+    <h2>
+      <span class="num">3</span> File Instructions — правила для задач/файлов
+    </h2>
+
+    <div class="card">
+      <div class="card-header">
+        <div class="card-icon">📌</div>
+        <div>
+          <div class="card-title">*.instructions.md</div>
+          <div class="card-sub">.github/instructions/gcode.instructions.md</div>
+          <div class="card-desc">
+            Загружается только когда нужно — по ключевым словам (description)
+            или типу файла (applyTo).
+          </div>
+        </div>
+      </div>
+
+      <h3>Frontmatter (YAML-шапка) — обязательные поля:</h3>
+
+      <pre><span class="key">---</span>
+<span class="key">description:</span> <span class="str">"Use when writing or editing G-code, CNC programs, HAAS macros,</span>
+<span class="str">             toolpaths. Covers code style and safety requirements."</span>
+<span class="key">applyTo:</span> <span class="str">"**/*.nc"</span>     <span class="cm"># авто-загрузка для файлов .nc</span>
+<span class="key">name:</span> <span class="str">"G-Code Standards"</span>  <span class="cm"># необязательно, по умолч. = имя файла</span>
+<span class="key">---</span>
+
+<span class="cm"># G-Code Style Guide</span>
+
+- Каждый блок начинается с N-номера
+- Обязателен комментарий к инструменту: (TOOL 1 - D6 ENDMILL)
+- M06 T_ перед каждой сменой инструмента
+- Программа заканчивается M30</pre>
+
+      <h3>Два режима обнаружения:</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Режим</th>
+            <th>Как работает</th>
+            <th>Когда использовать</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>On-demand</strong> (description)</td>
+            <td>Агент сам решает загружать ли по ключевым словам</td>
+            <td>Для типов задач: "когда делаю миграции", "когда пишу G-код"</td>
+          </tr>
+          <tr>
+            <td><strong>Explicit</strong> (applyTo)</td>
+            <td>Загружается при работе с подходящими файлами</td>
+            <td>Для типов файлов: <code>**/*.py</code>, <code>src/**</code></td>
+          </tr>
+          <tr>
+            <td><strong>Manual</strong></td>
+            <td>Пользователь добавляет через "Add Context → Instructions"</td>
+            <td>Ad-hoc</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="callout warn">
+        <div class="callout-icon">⚠️</div>
+        <div>
+          <code>applyTo: "**"</code> загружает инструкцию при КАЖДОМ запросе к
+          любому файлу. Используй осторожно.
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════════ 3. PROMPTS -->
+    <h2><span class="num">4</span> Prompts — шаблоны задач</h2>
+
+    <div class="card">
+      <div class="card-header">
+        <div class="card-icon">⚡</div>
+        <div>
+          <div class="card-title">*.prompt.md</div>
+          <div class="card-sub">.github/prompts/generate-gcode.prompt.md</div>
+          <div class="card-desc">
+            Вызывается командой /generate-gcode в чате. Одна задача — один
+            промпт.
+          </div>
+        </div>
+      </div>
+
+      <h3>Frontmatter — все поля:</h3>
+
+      <pre><span class="key">---</span>
+<span class="key">description:</span> <span class="str">"Generate G-code program for HAAS CNC mill"</span>  <span class="cm"># рекомендуется</span>
+<span class="key">name:</span> <span class="str">"Generate G-Code"</span>               <span class="cm"># необязательно</span>
+<span class="key">argument-hint:</span> <span class="str">"Describe the part..."</span>  <span class="cm"># подсказка в поле ввода</span>
+<span class="key">agent:</span> <span class="str">"agent"</span>    <span class="cm"># ask | agent | plan | имя_кастомного_агента</span>
+<span class="key">model:</span> <span class="str">"Claude Sonnet 4.5 (copilot)"</span>   <span class="cm"># необязательно</span>
+<span class="key">tools:</span> <span class="val">[read, edit, search]</span>           <span class="cm"># инструменты</span>
+<span class="key">---</span>
+
+Generate a complete HAAS G-code program for: $input
+
+Requirements:
+- Include G54 work coordinate offset
+- Tool change with M06 T_
+- Correct feeds (F) and speeds (S)
+- End with M30</pre>
+
+      <h3>Доступные алиасы tools:</h3>
+      <div class="grid2">
+        <table>
+          <thead>
+            <tr>
+              <th>Алиас</th>
+              <th>Что даёт</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>read</code></td>
+              <td>Чтение файлов</td>
+            </tr>
+            <tr>
+              <td><code>edit</code></td>
+              <td>Редактирование файлов</td>
+            </tr>
+            <tr>
+              <td><code>search</code></td>
+              <td>Поиск по файлам</td>
+            </tr>
+          </tbody>
+        </table>
+        <table>
+          <thead>
+            <tr>
+              <th>Алиас</th>
+              <th>Что даёт</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>execute</code></td>
+              <td>Запуск команд в терминале</td>
+            </tr>
+            <tr>
+              <td><code>web</code></td>
+              <td>Поиск в интернете</td>
+            </tr>
+            <tr>
+              <td><code>agent</code></td>
+              <td>Вызов субагентов</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="callout tip">
+        <div class="callout-icon">✅</div>
+        <div>
+          Промпты и Skills <strong>оба</strong> появляются после
+          <code>/</code> в чате. Разница: Skills — многошаговый workflow с
+          файлами; Prompts — одна чёткая задача с параметрами.
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════════ 4. SKILLS -->
+    <h2><span class="num">5</span> Skills — многошаговые workflow</h2>
+
+    <div class="card">
+      <div class="card-header">
+        <div class="card-icon">🎯</div>
+        <div>
+          <div class="card-title">SKILL.md</div>
+          <div class="card-sub">.github/skills/cnc-review/SKILL.md</div>
+          <div class="card-desc">
+            Папка со скриптами, шаблонами, справочниками. Имя SKILL.md = имя
+            папки.
+          </div>
+        </div>
+      </div>
+
+      <h3>Структура папки:</h3>
+      <div class="tree">
+        <span class="dir">.github/skills/cnc-review/</span><br />
+        ├── <span class="file">SKILL.md</span>
+        <span class="note"># обязателен, имя совпадает с папкой</span><br />
+        ├── <span class="dir">scripts/</span><br />
+        │ └── <span class="file">validate.ps1</span>
+        <span class="note"># исполняемые скрипты</span><br />
+        ├── <span class="dir">references/</span><br />
+        │ └── <span class="file">haas-codes.md</span>
+        <span class="note"># справочные материалы</span><br />
+        └── <span class="dir">assets/</span><br />
+        └── <span class="file">template.nc</span>
+        <span class="note"># шаблоны файлов</span>
+      </div>
+
+      <h3>SKILL.md frontmatter:</h3>
+      <pre><span class="key">---</span>
+<span class="key">name:</span> <span class="str">cnc-review</span>           <span class="cm"># обязательно, совпадает с именем папки</span>
+<span class="key">description:</span> <span class="str">'Review and validate G-code for HAAS machines.</span>
+<span class="str">              Use when checking CNC programs for errors, missing codes,</span>
+<span class="str">              safety issues, tool changes.'</span>
+<span class="key">argument-hint:</span> <span class="str">"Path to G-code file..."</span>
+<span class="key">user-invocable:</span> <span class="val">true</span>        <span class="cm"># показывать как / команду</span>
+<span class="key">disable-model-invocation:</span> <span class="val">false</span>  <span class="cm"># разрешить авто-загрузку</span>
+<span class="key">---</span>
+
+<span class="cm"># CNC Code Review Workflow</span>
+
+## When to Use
+- Checking G-code before sending to machine
+- Validating required codes (G54, M06, M30)
+
+## Procedure
+1. Read the G-code file
+2. Check for required mandatory codes
+3. Run [validation script](./scripts/validate.ps1)
+4. Report issues with line numbers</pre>
+
+      <h3>Поведение slash-команды:</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Настройка</th>
+            <th>Появляется в /</th>
+            <th>Авто-загрузка</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>По умолчанию (оба не указаны)</td>
+            <td>✅ Да</td>
+            <td>✅ Да</td>
+          </tr>
+          <tr>
+            <td><code>user-invocable: false</code></td>
+            <td>❌ Нет</td>
+            <td>✅ Да</td>
+          </tr>
+          <tr>
+            <td><code>disable-model-invocation: true</code></td>
+            <td>✅ Да</td>
+            <td>❌ Нет</td>
+          </tr>
+          <tr>
+            <td>Оба <code>false / true</code></td>
+            <td>❌ Нет</td>
+            <td>❌ Нет</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════════ 5. CUSTOM AGENTS -->
+    <h2>
+      <span class="num">6</span> Custom Agents — специализированные агенты
+    </h2>
+
+    <div class="card">
+      <div class="card-header">
+        <div class="card-icon">🤖</div>
+        <div>
+          <div class="card-title">*.agent.md</div>
+          <div class="card-sub">.github/agents/cnc-expert.agent.md</div>
+          <div class="card-desc">
+            Агент с конкретной ролью, ограниченным набором инструментов и
+            чёткими границами.
+          </div>
+        </div>
+      </div>
+
+      <pre><span class="key">---</span>
+<span class="key">description:</span> <span class="str">"CNC programming specialist for HAAS machines. Use for G-code</span>
+<span class="str">              generation, toolpath analysis, cutting parameters, cycles."</span>
+<span class="key">name:</span> <span class="str">"CNC Expert"</span>
+<span class="key">tools:</span> <span class="val">[read, edit, search]</span>     <span class="cm"># NO execute — нет терминала</span>
+<span class="key">model:</span> <span class="str">"Claude Sonnet 4.5 (copilot)"</span>
+<span class="key">argument-hint:</span> <span class="str">"Describe CNC task..."</span>
+<span class="key">user-invocable:</span> <span class="val">true</span>
+<span class="key">---</span>
+
+Ты эксперт по CNC программированию HAAS.
+Знаешь G-код, M-коды, циклы G81/G83/G71/G76.
+
+<span class="cm">## Ограничения</span>
+- НЕ работай с файлами за пределами проекта
+- ТОЛЬКО анализ и генерация G-кода
+
+<span class="cm">## Процесс</span>
+1. Уточни геометрию детали
+2. Определи инструменты и режимы резания
+3. Сгенерируй программу с комментариями
+4. Проверь обязательные M-коды</pre>
+
+      <div class="callout tip">
+        <div class="callout-icon">✅</div>
+        <div>
+          <strong>Правило минимальных инструментов:</strong> давай агенту только
+          те инструменты, которые нужны для его роли. Лишние инструменты снижают
+          фокус.
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════════ 6. HOOKS -->
+    <h2><span class="num">7</span> Hooks — автоматические действия</h2>
+
+    <div class="card">
+      <div class="card-header">
+        <div class="card-icon">🔗</div>
+        <div>
+          <div class="card-title">*.json</div>
+          <div class="card-sub">.github/hooks/validate.json</div>
+          <div class="card-desc">
+            Детерминированные команды, выполняющиеся при событиях агента. Могут
+            блокировать операции.
+          </div>
+        </div>
+      </div>
+
+      <h3>События:</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Событие</th>
+            <th>Когда срабатывает</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>SessionStart</code></td>
+            <td>Начало новой сессии агента</td>
+          </tr>
+          <tr>
+            <td><code>UserPromptSubmit</code></td>
+            <td>Пользователь отправил сообщение</td>
+          </tr>
+          <tr>
+            <td><code>PreToolUse</code></td>
+            <td>До вызова инструмента (может заблокировать)</td>
+          </tr>
+          <tr>
+            <td><code>PostToolUse</code></td>
+            <td>После успешного вызова инструмента</td>
+          </tr>
+          <tr>
+            <td><code>Stop</code></td>
+            <td>Конец сессии агента</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <pre><span class="val">{</span>
+  <span class="key">"hooks"</span>: <span class="val">{</span>
+    <span class="key">"PreToolUse"</span>: <span class="val">[</span>
+      <span class="val">{</span>
+        <span class="key">"type"</span>: <span class="str">"command"</span>,
+        <span class="key">"command"</span>: <span class="str">"./scripts/validate.sh"</span>,
+        <span class="key">"windows"</span>: <span class="str">"powershell ./scripts/validate.ps1"</span>,  <span class="cm">// Windows-версия</span>
+        <span class="key">"timeout"</span>: <span class="val">15</span>
+      <span class="val">}</span>
+    <span class="val">]</span>
+  <span class="val">}</span>
+<span class="val">}</span></pre>
+
+      <div class="callout info">
+        <div class="callout-icon">ℹ️</div>
+        <div>
+          Хуки отличаются от инструкций: инструкции <em>направляют</em> (не
+          детерминированы), хуки <em>принудительно выполняют</em> команды на
+          каждое событие.
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════════ RECOMMENDED STRUCTURE -->
+    <h2><span class="num">8</span> Рекомендуемая структура для CNC проекта</h2>
+
+    <div class="tree">
+      <span class="dir">CNC-Programming/</span><br />
+      └── <span class="dir">.github/</span><br />
+      &nbsp;&nbsp;&nbsp;&nbsp;├──
+      <span class="file">copilot-instructions.md</span>
+      <span class="note"># глобальные правила проекта</span><br />
+      &nbsp;&nbsp;&nbsp;&nbsp;├── <span class="dir">instructions/</span><br />
+      &nbsp;&nbsp;&nbsp;&nbsp;│ ├──
+      <span class="file">gcode.instructions.md</span>
+      <span class="note"># applyTo: **/*.nc — правила G-кода</span><br />
+      &nbsp;&nbsp;&nbsp;&nbsp;│ └──
+      <span class="file">mastercam.instructions.md</span>
+      <span class="note"># правила MasterCam файлов</span><br />
+      &nbsp;&nbsp;&nbsp;&nbsp;├── <span class="dir">prompts/</span><br />
+      &nbsp;&nbsp;&nbsp;&nbsp;│ ├──
+      <span class="file">generate-gcode.prompt.md</span>
+      <span class="note"># /generate-gcode в чате</span><br />
+      &nbsp;&nbsp;&nbsp;&nbsp;│ ├──
+      <span class="file">review-program.prompt.md</span>
+      <span class="note"># /review-program в чате</span><br />
+      &nbsp;&nbsp;&nbsp;&nbsp;│ └──
+      <span class="file">explain-cycle.prompt.md</span>
+      <span class="note"># /explain-cycle в чате</span><br />
+      &nbsp;&nbsp;&nbsp;&nbsp;├── <span class="dir">agents/</span><br />
+      &nbsp;&nbsp;&nbsp;&nbsp;│ └──
+      <span class="file">cnc-expert.agent.md</span>
+      <span class="note"># агент-эксперт по CNC</span><br />
+      &nbsp;&nbsp;&nbsp;&nbsp;└── <span class="dir">skills/</span><br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└──
+      <span class="dir">cnc-review/</span><br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├──
+      <span class="file">SKILL.md</span>
+      <span class="note"># /cnc-review в чате</span><br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├──
+      <span class="dir">scripts/</span><br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│
+      └── <span class="file">validate.ps1</span><br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└──
+      <span class="dir">references/</span><br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└──
+      <span class="file">haas-codes.md</span>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════════ KEY RULES -->
+    <h2><span class="num">9</span> Ключевые правила и частые ошибки</h2>
+
+    <div class="grid2">
+      <div>
+        <div class="callout tip">
+          <div class="callout-icon">✅</div>
+          <div>
+            <strong>Description — это поиск.</strong><br />
+            Пиши ключевые слова, по которым ты задаёшь вопросы. "Use when:
+            writing G-code, editing CNC programs, HAAS macros."
+          </div>
+        </div>
+        <div class="callout tip">
+          <div class="callout-icon">✅</div>
+          <div>
+            <strong>Один файл — одна задача.</strong><br />
+            Не смешивай правила G-кода и MasterCam в одном instructions файле.
+          </div>
+        </div>
+        <div class="callout tip">
+          <div class="callout-icon">✅</div>
+          <div>
+            <strong>Экранируй двоеточия в YAML.</strong><br />
+            Строки с <code>:</code> обязательно в кавычках:
+            <code>description: "Use when: ..."</code>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="callout warn">
+          <div class="callout-icon">⚠️</div>
+          <div>
+            <strong>applyTo: "**" — опасно.</strong><br />
+            Загружается при КАЖДОМ запросе к любому файлу, занимает контекст.
+          </div>
+        </div>
+        <div class="callout warn">
+          <div class="callout-icon">⚠️</div>
+          <div>
+            <strong>Имя папки Skills = name в SKILL.md.</strong><br />
+            Папка <code>cnc-review/</code> → <code>name: cnc-review</code>.
+            Несовпадение = тихая ошибка.
+          </div>
+        </div>
+        <div class="callout warn">
+          <div class="callout-icon">⚠️</div>
+          <div>
+            <strong>Не используй оба файла глобальных правил.</strong><br />
+            Либо <code>copilot-instructions.md</code>, либо
+            <code>AGENTS.md</code> — не оба.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════════ HOW TO SAVE AS PDF -->
+    <h2><span class="num">10</span> Как сохранить этот файл как PDF</h2>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-num"></div>
+        <div>
+          Открой этот HTML-файл в браузере (двойной клик или перетащи в
+          Chrome/Edge)
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num"></div>
+        <div>Нажми <strong>Ctrl + P</strong> (печать)</div>
+      </div>
+      <div class="step">
+        <div class="step-num"></div>
+        <div>
+          В поле «Принтер» выбери
+          <strong>«Сохранить как PDF»</strong> (Microsoft Print to PDF или Save
+          as PDF в Chrome)
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num"></div>
+        <div>Нажми <strong>«Сохранить»</strong> и выбери папку</div>
+      </div>
+    </div>
+
+    <div class="callout tip" style="margin-top: 16px">
+      <div class="callout-icon">💡</div>
+      <div>
+        В Chrome перед печатью можно включить
+        <strong>«Фоновая графика»</strong> в настройках — тогда цветные блоки
+        сохранятся в PDF.
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════════ FOOTER -->
+    <footer>
+      <p>
+        GitHub Copilot Customization Reference &nbsp;·&nbsp; CNC Final Project
+        &nbsp;·&nbsp; Ramazan Huseinov &nbsp;·&nbsp; 2026
+      </p>
+      <p style="margin-top: 6px; font-size: 11px; opacity: 0.7">
+        VS Code + GitHub Copilot &nbsp;·&nbsp; Claude Sonnet 4.6
+      </p>
+    </footer>
+  </body>
+</html>
